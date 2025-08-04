@@ -1,0 +1,125 @@
+  0%|                                                                                                                                   | 0/684 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+Unsloth: Will smartly offload gradients to save VRAM!
+  0%|▏                                                                                                                        | 1/684 [00:38<7:23:01, 38.92s/it]Unsloth: Not an error, but Gemma3ForConditionalGeneration does not accept `num_items_in_batch`.
+{'loss': 0.8961, 'grad_norm': 1.1225643157958984, 'learning_rate': 0.0, 'epoch': 0.0}
+Using gradient accumulation will be very slightly less accurate.
+Read more on gradient accumulation issues here: https://unsloth.ai/blog/gradient
+  0%|▎                                                                                                                      | 2/684 [03:40<23:18:27, 123.03s/it]Traceback (most recent call last):
+  File "/home/duckq1u/Documents/obsidian_aio/Notebook/Dự án/OCR anh hiếu/fine-tunning/fine-tunning.py", line 183, in <module>   | 38/51 [01:52<00:40,  3.14s/it]
+{'eval_loss': 1.1910121440887451, 'eval_runtime': 164.1143, 'eval_samples_per_second': 1.231, 'eval_steps_per_second': 0.311, 'epoch': 0.0}
+{'loss': 1.264, 'grad_norm': 1.606381893157959, 'learning_rate': 4e-05, 'epoch': 0.01}
+    trainer_stats = trainer.train()
+                    ^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 382, in _fast_inner_training_loop
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/trainer.py", line 3095, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/trainer.py", line 3044, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/trainer.py", line 4173, in evaluate
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/trainer.py", line 4368, in evaluation_loop
+    losses, logits, labels = self.prediction_step(model, inputs, prediction_loss_only, ignore_keys=ignore_keys)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/trainer.py", line 4584, in prediction_step
+    loss, outputs = self.compute_loss(model, inputs, return_outputs=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/Documents/obsidian_aio/Notebook/Dự án/OCR anh hiếu/fine-tunning/unsloth_compiled_cache/UnslothSFTTrainer.py", line 881, in compute_loss
+    outputs = super().compute_loss(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/unsloth/models/_utils.py", line 1098, in _unsloth_pre_compute_loss
+    outputs = self._old_compute_loss(model, inputs, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/trainer.py", line 3810, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/accelerate/utils/operations.py", line 818, in forward
+    return model_forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/accelerate/utils/operations.py", line 806, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/peft/peft_model.py", line 1845, in forward
+    return self.base_model(
+           ^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/peft/tuners/tuners_utils.py", line 216, in forward
+    return self.model.forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/Documents/obsidian_aio/Notebook/Dự án/OCR anh hiếu/fine-tunning/unsloth_compiled_cache/unsloth_compiled_module_gemma3.py", line 986, in forward
+    return Gemma3ForConditionalGeneration_forward(self, input_ids, pixel_values, attention_mask, position_ids, past_key_values, token_type_ids, cache_position, inputs_embeds, labels, use_cache, output_attentions, output_hidden_states, return_dict, logits_to_keep, **lm_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/Documents/obsidian_aio/Notebook/Dự án/OCR anh hiếu/fine-tunning/unsloth_compiled_cache/unsloth_compiled_module_gemma3.py", line 820, in Gemma3ForConditionalGeneration_forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/utils/generic.py", line 969, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 1208, in forward
+    outputs = self.language_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/utils/generic.py", line 969, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 654, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/models/gemma3/modeling_gemma3.py", line 463, in forward
+    hidden_states, self_attn_weights = self.self_attn(
+                                       ^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/Documents/obsidian_aio/Notebook/Dự án/OCR anh hiếu/fine-tunning/unsloth_compiled_cache/unsloth_compiled_module_gemma3.py", line 426, in forward
+    return Gemma3Attention_forward(self, hidden_states, position_embeddings, attention_mask, past_key_value, cache_position, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/Documents/obsidian_aio/Notebook/Dự án/OCR anh hiếu/fine-tunning/unsloth_compiled_cache/unsloth_compiled_module_gemma3.py", line 349, in Gemma3Attention_forward
+    key_states, value_states = past_key_value.update(key_states, value_states, self.layer_idx, cache_kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/duckq1u/miniconda3/envs/OCR3/lib/python3.11/site-packages/transformers/cache_utils.py", line 1804, in update
+    self.key_cache[layer_idx] = self.key_cache[layer_idx].to(key_states.device)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

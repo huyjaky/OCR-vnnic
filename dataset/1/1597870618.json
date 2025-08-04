@@ -1,0 +1,56 @@
+[
+  {
+    "output": {
+      "MaHoSo": "000.02.18.G15-250710-0802",
+      "SoDon": "1597870618",
+      "SoDangKyLanDau": "1597870618",
+      "LoaiDonID": 1,
+      "LoaiDonName": "Đăng ký lần đầu",
+      "LoaiDonCode": null,
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10T15:28:00",
+      "SoHopDong": "13000",
+      "NgayCoHieuLucHopDong": "2025-07-10",
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": "2025-07-10T15:28:00",
+      "ThoiDiemDKLanDau": "2025-07-10T15:28:00",
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": "Xe ô tô con mang biển soát 36A – 316.77 Nhãn hiệu: TOYOTA Số Loại : VIOS",
+      "BenGiao": [
+        {
+          "LoaiChuTheID": 1,
+          "ThongTinChuThe": {
+            "HoTen": "Nguyễn Thị Tuyến",
+            "CCCD": "038169023268",
+            "DiaChi": "Số nhà 314 Đường Lê Thái Tổ , Phố Tô Vĩnh Diện , Xã Triệu Sơn, tỉnh Thanh Hóa, Việt Nam"
+          }
+        }
+      ],
+      "BenNhan": [
+        {
+          "Ten": "Quỹ Tín dụng nhân dân Thị Trấn Triệu Sơn",
+          "QuocGia": "Việt Nam",
+          "Tinh": "Thanh Hóa",
+          "DiaChi": "Số nhà 788 Lê Thái Tổ, Phố Giắt, Xã Triệu Sơn, tỉnh Thanh Hóa, Việt Nam"
+        }
+      ],
+      "TaiSan": [
+        {
+          "LoaiTaiSan": "TaiSan_CoSoKhung",
+          "PhuongTien": "Ô tô",
+          "NhanHieuMauSon": "TOYOTA màu: Nâu vàng",
+          "SoKhung": "9F38J5039515",
+          "SoMay": "2NRX314345",
+          "BienSo": "36A–316.77",
+          "CanCuThayDoi": 1
+        }
+      ]
+    }
+  }
+]

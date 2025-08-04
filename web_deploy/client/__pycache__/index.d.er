@@ -1,0 +1,90 @@
+##[pylyzer] failed /mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR anh hiếu/web_deploy/client/index.py 1754211540 7209
+.st: Never
+
+.requests = pyimport "requests"
+
+.___v_desugar_1 = pyimport "table"
+.table = pyimport "table"
+.render_vertical_table: (kv_pairs: global::Iterable(global::Indexable(Obj, Never))) -> NoneType
+.render_horizontal_table: (headers: Obj, rows: global::Iterable(Never)) -> NoneType
+.title: (title: Obj) -> NoneType
+.title_small: (title: Obj) -> NoneType
+.format_time: (time: Obj) -> {None}
+.group_by_type: |K: Type|(array: global::Iterable(global::Indexable(K, Never)), type_name: K) -> Never
+.get_url: (url: Obj) -> {None}
+.uploaded_file: Never
+
+
+
+.response: Never
+
+
+
+
+.form_schema: Never
+
+.lable_map_bengiao: global::Dict!({{"3"}: {"Người nước ngoài"}, {"1"}: {"Công dân Việt Nam"}, {"2"}: {"Tổ chức có đăng ký kinh doanh trong nước"}, {"6"}: {"Người không quốc tịch cư trú tại Việt Nam"}, {"5"}: {"Tổ chức khác"}, {"4"}: {"Nhà đầu tư nước ngoài"}})
+.lable_map_taisan: global::Dict!({{"TaiSan_KhongCoSoKhung"}: {"Tài sản không có số khung"}, {"TaiSan_HangHoaLuanChuyen"}: {"Hàng hóa luân chuyển"}, {"TaiSan_QuyenTaiSan"}: {"Quyền tài sản"}, {"TaiSan_CoSoKhung"}: {"Tài sản có số khung"}})
+.label_map_value: global::Dict!({{"TenChuPhuongTien"}: {"Tên chủ phương tiện"}, {"SoMay"}: {"Số máy"}, {"Ten"}: {"Tên"}, {"QuocGiaCap"}: {"Quốc gia lập"}, {"TenQuyen"}: {"Tên quyền"}, {"HoTen"}: {"Họ tên"}, {"SoKhung"}: {"Số khung"}, {"QuocGia"}: {"Quốc gia"}, {"CCCD"}: {"Căng cước công dân"}, {"SoHoChieu"}: {"Số hộ chiếu"}, {"SoDangKyCoQuanCC"}: {"Sô đăng ký cơ quan cc"}, {"NhanHieuMauSon"}: {"Nhãn hiệu màu sơn"}, {"TenPhuongTienNhanHieu"}: {"Tên phương tiện, nhãn hiệu"}, {"CanCuPhatSinhQuyen"}: {"Căn cứ phát sinh quyền"}, {"GiaTri_TenLoai_HangHoa"}: {"Giá trị, tên loại hàng hóa"}, {"CapPhuongTien"}: {"Cấp phương tiện"}, {"Tinh"}: {"Tỉnh"}, {"BienSo"}: {"Biển số"}, {"LoaiKhoHang"}: {"Loại kho hàng"}, {"CanCuThayDoi"}: {"Căn cứ thay đổi"}, {"TheCuTru"}: {"Thẻ cư trú"}, {"TenToChuc"}: {"Tên tổ chức"}, {"DiaChi"}: {"Địa chỉ"}, {"DiaChiKhoHang"}: {"Địa chỉ kho hàng"}, {"SoHieuKhoHang"}: {"Số hiệu kho hàng"}, {"PhuongTien"}: {"Phương tiện"}, {"MaSoThue"}: {"Mã số thuế"}})
+
+
+
+
+
+
+
+
+.bengiao: Never
+
+.danh_sach: Never
+
+
+.i: Nat
+.obj: global::Indexable(Obj, Never)
+.chu_the: Never
+.rows: Never
+.rows: Never
+
+
+
+
+
+
+.bennhan: Never
+
+
+.exclude_taisan_keys: global::List!({"CanCuThayDoi", "LoaiTaiSan"}, 2)
+.taisan: Never
+
+
+
+
+.i: Nat
+.obj: Never
+
+
+
+
+
+
+
+
+
+
+
+
+
+j: Never
+
+
+
+
+
+
+
+
+
+
+
+
+

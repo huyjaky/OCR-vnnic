@@ -1,0 +1,37 @@
+[
+  {
+    "output": {
+      "MaHoSo": null,
+      "SoDon": "1597870317",
+      "SoDangKyLanDau": null,
+      "LoaiDonID": null,
+      "LoaiDonName": null,
+      "LoaiDonCode": null,
+      "LoaiHinhGDID": null,
+      "LoaiHinhGDName": null,
+      "LoaiBienPhapID": null,
+      "LoaiBienPhapName": null,
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+      "SoHopDong": null,
+      "NgayCoHieuLucHopDong": null,
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": null,
+      "ThoiDiemDKLanDau": null,
+      "NoiDungThayDoi": "Hồ sơ đăng ký bị từ chối theo điểm b, e khoản 1 Điều 15 Nghị định 99/2022/NĐ-CP ngày 30/11/2022 do quý ngân hàng kê khai \"Người yêu cầu đăng ký là Bên bảo đảm\" không đúng với thông tin tài khoản đăng ký trực tuyến được sử dụng.",
+      "MoTaChungTaiSan": null,
+      "BenGiao": [],
+      "BenNhan": [
+        {
+          "Ten": "Ngân Hàng Nông Nghiệp Và Phát Triển Nông Thôn Việt Nam Chi Nhánh Tỉnh Đăk Lăk",
+          "QuocGia": "Việt Nam",
+          "Tinh": "Đắk Lắk",
+          "DiaChi": "51 Nguyễn Tất Thành, Phường Tân An, Tỉnh Đắk Lắk"
+        }
+      ],
+      "TaiSan": []
+    }
+  }
+]

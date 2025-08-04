@@ -1,0 +1,56 @@
+[
+  {
+    "output": {
+      "MaHoSo": "000.02.18.G15-250710-0806",
+      "SoDon": "1597870844",
+      "SoDangKyLanDau": "1597870844",
+      "LoaiDonID": 1,
+      "LoaiDonName": "Đăng ký lần đầu",
+      "LoaiDonCode": null,
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10T15:29:00",
+      "SoHopDong": "202507072554078",
+      "NgayCoHieuLucHopDong": "2025-07-10",
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": null,
+      "ThoiDiemDKLanDau": "2025-07-10T15:29:00",
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": "Xe đầu kéo Chenglong số loại LZ4255H7DB, màu bạc, năm sản xuất 2025, xuất xứ Trung Quốc",
+      "BenGiao": [
+        {
+          "LoaiChuTheID": 2,
+          "ThongTinChuThe": {
+            "TenToChuc": "CÔNG TY TNHH TIẾN LẬP THÀNH",
+            "MaSoThue": "3901339611",
+            "DiaChi": "Tổ 16, Ấp Tân Tiến, Xã Tân Lập, tỉnh Tây Ninh, Việt Nam"
+          }
+        }
+      ],
+      "BenNhan": [
+        {
+          "Ten": "NGÂN HÀNG TMCP SÀI GÒN THƯƠNG TÍN CHI NHÁNH TÂY NINH PHÒNG GIAO DỊCH TÂN BIÊN",
+          "QuocGia": "Việt Nam",
+          "Tinh": "Tây Ninh",
+          "DiaChi": "Đường Nguyễn Văn Linh, Khu Phố 2 Xã Tân Biên, tỉnh Tây Ninh, Việt Nam"
+        }
+      ],
+      "TaiSan": [
+        {
+          "LoaiTaiSan": "TaiSan_CoSoKhung",
+          "PhuongTien": "Ô tô",
+          "NhanHieuMauSon": "Bạc",
+          "SoKhung": "LNXDBL0G8SL203212",
+          "SoMay": "YC6MK42050MX1L6S50220",
+          "BienSo": "70H-075.00",
+          "CanCuThayDoi": 1
+        }
+      ]
+    }
+  }
+]

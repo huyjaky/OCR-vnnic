@@ -1,0 +1,24 @@
+##[pylyzer] failed /mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR anh hiếu/web_deploy/api/load_models/marker_model.py 1754128862 1187
+.___v_desugar_1: Never
+.PdfConverter: Never
+.___v_desugar_2: Never
+.create_model_dict: Never
+.___v_desugar_3: Never
+.ConfigParser: Never
+.___v_desugar_4: Never
+.text_from_rendered: Never
+.os: Never
+
+.torch: Never
+
+.___v_desugar_5 = pyimport "__init__"
+.__init__ = pyimport "__init__"
+.load_dotenv: (dotenv_path: Obj := Obj, stream: Obj := Obj, verbose: Bool := Bool, override: Bool := Bool, interpolate: Bool := Bool, encoding: NoneType or Str := NoneType or Str) -> Bool
+
+
+
+.config: global::Dict!({{"use_llm"}: {False}, {"output_format"}: {"markdown"}})
+.config_parser: Never
+.load_marker_model: () -> Never
+.path: Never
+.get_text_from_pdf: (converter: (Obj) -> Never) -> global::Dict!({Obj: Obj})

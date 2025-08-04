@@ -1,0 +1,52 @@
+[
+  {
+    "output": {
+      "MaHoSo": "000.02.18.G15-250710-1162",
+      "SoDon": "1597920613",
+      "SoDangKyLanDau": "1597920613",
+      "LoaiDonID": 1,
+      "LoaiDonName": "Đăng ký lần đầu",
+      "LoaiDonCode": null,
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10T20:21:00",
+      "SoHopDong": "LN2506175836490",
+      "NgayCoHieuLucHopDong": "2025-07-01",
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": "2025-07-10T20:21:00",
+      "ThoiDiemDKLanDau": "2025-07-10T20:21:00",
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": "Tài sản bảo đảm là quyền tài sản hoặc một phần quyền tài sản",
+      "BenGiao": [
+        {
+          "LoaiChuTheID": 1,
+          "ThongTinChuThe": {
+            "HoTen": "PHẠM TRÍ HIẾU",
+            "CCCD": "001089000464",
+            "DiaChi": "34A B1 TT Đại học Y Hà Nội, Phường Kim Liên, thành phố Hà Nội, Việt Nam"
+          }
+        }
+      ],
+      "BenNhan": [
+        {
+          "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Sở Giao Dịch",
+          "QuocGia": "Việt Nam",
+          "Tinh": "Hà Nội",
+          "DiaChi": "Tầng 1 và tầng 3, tòa nhà số 34, phố Hai Bà Trưng, Phường Tràng Tiền, Quận Hoàn Kiếm, thành phố Hà Nội, Việt Nam"
+        }
+      ],
+      "TaiSan": [
+        {
+          "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+          "TenQuyen": "Toàn bộ Quyền tài sản",
+          "CanCuPhatSinhQuyen": "- Hợp đồng mua bán nhà ở; số (nếu có): M1.3919/HĐMB/ML; Thời điểm có hiệu lực: ngày 18/06/2025\n- Các bên tham gia xác lập hợp đồng:\n+ Ông PHẠM TRÍ HIẾU\n+ CÔNG TY CỔ PHẦN ĐẦU TƯ MAI LINH"
+        }
+      ]
+    }
+  }
+]

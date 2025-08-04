@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1061",
+            "SoDon": "2080010067",
+            "SoDangKyLanDau": "1506462258",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2023-08-07T09:06:00",
+            "SoHopDong": "0088/2023-HĐTC/OCEANBANK.PGDMAOKHE",
+            "NgayCoHieuLucHopDong": "2023-08-07",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "THÔNG TIN THAY ĐỔI:ĐỔI TÊN NGÂN HÀNG TỪ:NGÂN HÀNG TM TNHH MTV ĐẠI DƯƠNG- CN QUẢNG NINH- PGD MẠO KHÊ THÀNH:Ngân hàng TNHH Một thành viên Việt Nam Hiện Đại Chi Nhánh Quảng Ninh Phòng Giao Dịch Mạo Khê. MỌI THÔNG TIN KHÁC KHÔNG THAY ĐỔI",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VŨ VĂN THUỶ",
+                        "CCCD": "022064001719",
+                        "DiaChi": "Tổ 2, Khu Công Nông, Mạo Khê, tỉnh Quảng Ninh, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ CHỨC",
+                        "CCCD": "030174003593",
+                        "DiaChi": "Tổ 2, Khu Công Nông, Mạo Khê, tỉnh Quảng Ninh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TNHH Một thành viên Việt Nam Hiện Đại Chi Nhánh Quảng Ninh Phòng Giao Dịch Mạo Khê",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ninh",
+                    "DiaChi": "46-48 Vĩnh Thông, Mạo Khê, tỉnh Quảng Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": []
+        }
+    }
+]

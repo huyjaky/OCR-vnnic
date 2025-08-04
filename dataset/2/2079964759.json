@@ -1,0 +1,56 @@
+[
+  {
+    "output": {
+      "MaHoSo": "000.02.18.G15-250710-0174",
+      "SoDon": "2079964759",
+      "SoDangKyLanDau": "1524631733",
+      "LoaiDonID": 2,
+      "LoaiDonName": "Đăng ký thay đổi",
+      "LoaiDonCode": null,
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10T09:39:00",
+      "SoHopDong": "050124-7531266-01-SME/TC",
+      "NgayCoHieuLucHopDong": "2024-01-09",
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": null,
+      "ThoiDiemDKLanDau": "2024-01-10T10:48:00",
+      "NoiDungThayDoi": "RÚT BỚT TÀI SẢN BẢO ĐẢM LÀ 01 XE SỐ KHUNG MMBJLLB10SH042151",
+      "MoTaChungTaiSan": null,
+      "BenGiao": [
+        {
+          "LoaiChuTheID": 2,
+          "ThongTinChuThe": {
+            "TenToChuc": "CÔNG TY CỔ PHẦN Ô TÔ HÀ NỘI",
+            "MaSoThue": "0101771055",
+            "DiaChi": "Tổ 15, Phường Phúc Diễn, thành phố Hà Nội, Việt Nam"
+          }
+        }
+      ],
+      "BenNhan": [
+        {
+          "Ten": "(4)NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG - CHI NHÁNH THĂNG LONG – PGD TRUNG KÍNH",
+          "QuocGia": "Việt Nam",
+          "Tinh": "Hà Nội",
+          "DiaChi": "(4)Một phần Tầng 1 tháp A và một ph0ần Tầng 3 Tháp A và B, Tòa nhà Central Point, số 219 Phố Trung Kính, Phường Cầu Giấy, thành phố Hà Nội, Việt Nam"
+        }
+      ],
+      "TaiSan": [
+        {
+          "LoaiTaiSan": "TaiSan_CoSoKhung",
+          "PhuongTien": "Ô tô",
+          "NhanHieuMauSon": "MITSUBISHI",
+          "SoKhung": "MMBJLLB10SH042151",
+          "SoMay": null,
+          "BienSo": null,
+          "CanCuThayDoi": 2
+        }
+      ]
+    }
+  }
+]

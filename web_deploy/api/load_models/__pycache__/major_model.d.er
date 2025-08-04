@@ -1,0 +1,25 @@
+##[pylyzer] failed /mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR anh hiếu/web_deploy/api/load_models/major_model.py 1754131905 2300
+.___v_desugar_1: Never
+.FastModel: Never
+.___v_desugar_2: Never
+.get_chat_template: Never
+.___v_desugar_3: Never
+.TextStreamer: Never
+.os: Never
+
+.___v_desugar_4: Never
+.get_prompt: Never
+.___v_desugar_5 = pyimport "__init__"
+.__init__ = pyimport "__init__"
+.load_dotenv: (dotenv_path: Obj := Obj, stream: Obj := Obj, verbose: Bool := Bool, override: Bool := Bool, interpolate: Bool := Bool, encoding: NoneType or Str := NoneType or Str) -> Bool
+.___v_desugar_6: Never
+.json_repair: Never
+.torch: Never
+
+
+.MAX_SEQ_LENGTH: Never
+.MODEL_PATH: Never
+.CACHE_PATH: Never
+.load_model_and_tokenizer: () -> global::Tuple([Never, Never])
+.read_txt: (file_path: Str) -> Str
+.gen_json: |Type_49340: Type, Type_48231 <: Structural({.generate = (self: Obj, max_new_tokens := ?49339, temperature := ?49340, top_p := ?49341, top_k := ?49342, num_beams := ?49343, do_sample := ?49344, streamer := ?49345) -> ?49346}), Type_49344: Type, Type_49345: Type, Type_49342: Type, Type_49346: Type, Type_49343: Type, Type_49339: Type, Type_49341: Type|(model: Type_48231, tokenizer: Obj) -> Never

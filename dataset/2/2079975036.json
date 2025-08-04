@@ -1,0 +1,38 @@
+[
+  {
+    "output": {
+      "MaHoSo": "2079975036",
+      "SoDon": "2079975036",
+      "SoDangKyLanDau": null,
+      "LoaiDonID": 2,
+      "LoaiDonName": "Đăng ký thay đổi",
+      "LoaiDonCode": null,
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": null,
+      "LoaiBienPhapName": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+      "SoHopDong": null,
+      "NgayCoHieuLucHopDong": null,
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": null,
+      "ThoiDiemDKLanDau": null,
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": null,
+      "BenGiao": [
+        {
+          "LoaiChuTheID": 2,
+          "ThongTinChuThe": {
+            "TenToChuc": "Ngân hàng Tmcp Quân Đội Chi nhánh Vũng Tàu",
+            "MaSoThue": null,
+            "DiaChi": "81 Nguyễn Thái Học, phường Tam Thắng, thành phố Hồ Chí Minh, Việt Nam"
+          }
+        }
+      ],
+      "BenNhan": [],
+      "TaiSan": []
+    }
+  }
+]
