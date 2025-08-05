@@ -9,6 +9,7 @@ from table import (
 import pandas as pd
 
 
+
 load_json = pd.read_json("../Phúc/2_41_done/2080000207.json")
 form_schema = load_json["output"][0]
 
