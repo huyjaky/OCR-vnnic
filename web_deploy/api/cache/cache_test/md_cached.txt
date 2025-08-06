@@ -1,4 +1,4 @@
-Mã hồ sơ TTHC 000.02.18.G15-250505-0025
+Mã hồ sơ TTHC 000.02.18.G15-250505-0168
 
  CỤC ĐĂNG KÝ GIAO DỊCH BẢO ĐẢM VÀ BỒI THƯỜNG NHÀ NƯỚC **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG**
 
@@ -6,72 +6,114 @@ Mã hồ sơ TTHC 000.02.18.G15-250505-0025
 
 *Đà Nẵng, ngày 05 tháng 05 năm 2025*
 
-# **VĂN BẢN CHỨNG NHẬN ĐĂNG KÝ BIỆN PHÁP BẢO ĐẢM, THÔNG BÁO XỬ LÝ TÀI SẢN BẢO ĐẢM**
+### **VĂN BẢN CHỨNG NHẬN ĐĂNG KÝ BIỆN PHÁP BẢO ĐẢM, THÔNG BÁO XỬ LÝ TÀI SẢN BẢO ĐẢM**
 
-## **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG CHỨNG NHẬN**
+### **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG CHỨNG NHẬN**
 
-**1.** Nội dung của Phiếu yêu cầu đăng ký đã được cập nhật vào Cơ sở dữ liệu tại thời điểm 08 giờ 23 phút, ngày 05 tháng 05 năm 2025, số đăng ký **1587366867**
+**1.** Nội dung của Phiếu yêu cầu đăng ký đã được cập nhật vào Cơ sở dữ liệu tại thời điểm 09 giờ 48 phút, ngày 05 tháng 05 năm 2025, số đăng ký **1587389065**
 
 **1.1.** Bên nhận thế chấp
 
-### **Ngân Hàng TMCP Đại Chúng Việt Nam Chi Nhánh Đà Nẵng**
+ **NGÂN HÀNG TNHH MỘT THÀNH VIÊN PUBLIC VIỆT NAM CHI NHÁNH ĐÀ NẴNG**
 
- Địa chỉ: Số 02 đường 30 tháng 4, Phường Hòa Cường Bắc, Hải Châu, Đà Nẵng, Việt Nam **1.2.** Bên thế chấp
+ Địa chỉ: 92-94 Nguyễn Văn Linh, Phường Phước Ninh, Hải Châu, Đà Nẵng, Việt Nam **1.2.** Bên thế chấp
 
-### **BÙI QUANG TUẤN**
+ **NGUYỄN THỊ TỐ UYÊN**
 
-Số CMND/Căn cước công dân: : **046070009095** 
+Số CMND/Căn cước công dân: : **045198003537** 
 
 **1.3.** Mã PIN:
 
-### *(Người yêu cầu đăng ký hoàn toàn chịu trách nhiệm về việc bảo mật thông tin liên quan đến Mã PIN do cơ quan đăng ký cấp)*
+#### *(Người yêu cầu đăng ký hoàn toàn chịu trách nhiệm về việc bảo mật thông tin liên quan đến Mã PIN do cơ quan đăng ký cấp)*
 
 **2.** Phiếu yêu cầu đăng ký *(đối với trường hợp yêu cầu đăng ký bằng văn bản giấy),* chi tiết thông tin thể hiện trên giao diện đăng ký trực tuyến *(đối với trường hợp yêu cầu đăng ký qua hệ thống đăng ký trực tuyến)* kèm theo Văn bản chứng nhận này là một phần không thể tách rời của Văn bản chứng nhận.
 
 ![](_page_0_Picture_16.jpeg)
 
-## **NGƯỜI CÓ THẨM QUYỀN CỦA TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN** *(Ký, ghi rõ họ và tên, chức danh, đóng dấu)*
+## **NGƯỜI CÓ THẨM QUYỀN CỦA TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN**
 
-![](_page_0_Picture_18.jpeg)
+ *(Ký, ghi rõ họ và tên, chức danh, đóng dấu)*
 
-# **CHI TIẾT THÔNG TIN ĐĂNG KÝ**
+![](_page_0_Picture_19.jpeg)
 
-Số đăng ký lần đầu: 1587366867 Thời điểm đăng ký: 05-05-2025 08:23 Loại hình giao dịch: Biện pháp bảo đảm Loại biện pháp: Thế chấp
+## **CHI TIẾT THÔNG TIN ĐĂNG KÝ**
+
+Số đăng ký lần đầu: 1587389065 Thời điểm đăng ký: 05-05-2025 09:48 Loại hình giao dịch: Biện pháp bảo đảm Loại biện pháp: Thế chấp
 
 # **ĐĂNG KÝ LẦN ĐẦU**
 
-Số hợp đồng: 49/2025/HĐTD/PVB-DNG Ngày có hiệu lực của hợp đồng : 28/04/2025
+Số hợp đồng: DNG/000125/25
 
-| Số đơn đăng ký | Thời điểm đăng ký |  |
-|----------------|-------------------|--|
-| 1587366867     | 05-05-2025 08:23  |  |
+Ngày có hiệu lực của hợp đồng : 29/04/2025
 
-## **Bên thế chấp**
+| Số đơn đăng ký | Thời điểm đăng ký |
+|----------------|-------------------|
+| 1587389065     | 05-05-2025 09:48  |
 
-| Loại chủ thể      | Số giấy tờ chứng<br>minh tư cách pháp<br>lý   | Tên               | Địa chỉ                                                 |
-|-------------------|-----------------------------------------------|-------------------|---------------------------------------------------------|
-| Công dân Việt Nam | Số CMND/Căn<br>cước công dân:<br>046070009095 | BÙI QUANG<br>TUẤN | K98/1/2 Châu Thượng Văn, Hải<br>Châu, Đà Nẵng, Việt Nam |
+### **Bên thế chấp**
+
+| Loại chủ thể      | Số giấy tờ chứng<br>minh tư cách pháp<br>lý   | Tên                   | Địa chỉ                                                            |
+|-------------------|-----------------------------------------------|-----------------------|--------------------------------------------------------------------|
+| Công dân Việt Nam | Số CMND/Căn<br>cước công dân:<br>045198003537 | NGUYỄN THỊ<br>TỐ UYÊN | Khóm An Hà, Thị trấn Lao Bảo,<br>Hướng Hóa, Quảng Trị, Việt<br>Nam |
 
 ### **Bên nhận thế chấp**
 
-| Tên                                                       | Địa chỉ                                                                      |
-|-----------------------------------------------------------|------------------------------------------------------------------------------|
-| Ngân Hàng TMCP Đại<br>Chúng Việt Nam Chi Nhánh<br>Đà Nẵng | Số 02 đường 30 tháng 4, Phường Hòa Cường Bắc, Hải Châu, Đà<br>Nẵng, Việt Nam |
+| Tên                                                                      | Địa chỉ                                                                  |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| NGÂN HÀNG TNHH<br>MỘT THÀNH VIÊN<br>PUBLIC VIỆT NAM CHI<br>NHÁNH ĐÀ NẴNG | 92-94 Nguyễn Văn Linh, Phường Phước Ninh, Hải Châu, Đà Nẵng,<br>Việt Nam |
 
 ### **Mô tả tài sản:**
 
-Tài sản bảo đảm là toàn bộ cổ phần của Bên Bảo Đảm tại Công ty Cổ phần thủy điện Đạt Phương Sơn Trà:
+Tên quyền tài sản được dùng để bảo đảm :
 
-- Tổng giá trị Cổ phần: 19.883.000.000 VNĐ (Bằng chữ: Mười chín tỷ tám trăm tám mươi ba triệu đồng)
+Toàn bộ quyền tài sản
 
-- Số lượng Cổ phần: 1.286.000
+(i) Quyền tài sản phát sinh từ hợp đồng
 
-Thông tin tổ chức phát hành:
+- Hợp đồng mua bán căn hộ chung cư Dự án Tòa nhà chung cư FPT Plaza 3 số
 
-- Tên Công ty: Công ty Cổ phần thủy điện Đạt Phương Sơn Trà
+W-06.12B/2024/HĐMBCH-FCT.
 
-- Giấy chứng nhận đăng ký doanh nghiệp số: 4300506732, đăng ký lần đầu ngày 24 tháng 3 năm 2010 và đăng ký thay đổi lần thứ mười ngày 09 tháng 5 năm 2022 do Sở kế hoạch và đầu tư tỉnh Quảng Ngãi cấp
+Thời điểm có hiệu lực: ngày 06/11/2024
 
-- Địa chỉ: Thôn Mang Trẫy, xã Sơn Lập, huyện Sơn Tây, tỉnh Quảng Ngãi, Việt Nam (Toàn bộ tài sản bảo đảm này không phải là chứng khoán đã được đăng ký tập trung tại Tổng Công ty lưu ký và bù trừ chứng khoán Việt Nam)
+Các bên tham gia xác lập hợp đồng: Công ty Cổ phần đô thị FPT Đà Nẵng và Ông Trần Anh Khoa.
 
----------------------------------------
+- Hợp đồng chuyển nhượng Hợp đồng mua bán Căn hộ chung cư số công chứng 000687 Thời điểm có hiệu lực: ngày 08/04/2025.
+
+Các bên tham gia xác lập hợp đồng: Bên chuyển nhượng là Ông Trần Anh Khoa và Bên nhận chuyển nhượng là Ông Đinh Võ Thành Bảo & Bà Nguyễn Thị Thu Hiền
+
+- Hợp đồng chuyển nhượng Hợp đồng mua bán Căn hộ chung cư số công chứng 000860.
+
+Thời điểm có hiệu lực: ngày 24/04/2025.
+
+Các bên tham gia xác lập hợp đồng: Bên chuyển nhượng là Ông Đinh Võ Thành Bảo & Bà Nguyễn Thị Thu Hiền và Bên nhận chuyển nhượng là Bà Nguyễn Thị Tố Uyên.
+
+- Văn bản xác nhận về việc Chuyển nhượng Hợp đồng mua bán căn hộ W-06.12B tòa nhà FPT Plaza 3.
+
+Thời điểm có hiệu lực: ngày 26/04/2025.
+
+### **Tài sản bảo đảm là quyền tài sản hoặc một phần quyền tài sản Tên quyền**:
+
+Toàn bộ quyền tài sản
+
+**Căn cứ phát sinh quyền**:
+
+- Hợp đồng mua bán căn hộ chung cư Dự án Tòa nhà chung cư FPT Plaza 3 số W-06.12B/2024/HĐMBCH-FCT.
+
+Thời điểm có hiệu lực: ngày 06/11/2024
+
+Các bên tham gia xác lập hợp đồng: Công ty Cổ phần đô thị FPT Đà Nẵng và Ông Trần Anh Khoa.
+
+- Hợp đồng chuyển nhượng Hợp đồng mua bán Căn hộ chung cư số công chứng 000687 Thời điểm có hiệu lực: ngày 08/04/2025.
+
+Các bên tham gia xác lập hợp đồng: Bên chuyển nhượng là Ông Trần Anh Khoa và Bên nhận chuyển nhượng là Ông Đinh Võ Thành Bảo & Bà Nguyễn Thị Thu Hiền
+
+- Hợp đồng chuyển nhượng Hợp đồng mua bán Căn hộ chung cư số công chứng 000860. Thời điểm có hiệu lực: ngày 24/04/2025.
+
+Các bên tham gia xác lập hợp đồng: Bên chuyển nhượng là Ông Đinh Võ Thành Bảo & Bà Nguyễn Thị Thu Hiền và Bên nhận chuyển nhượng là Bà Nguyễn Thị Tố Uyên.
+
+- Văn bản xác nhận về việc Chuyển nhượng Hợp đồng mua bán căn hộ W-06.12B tòa nhà FPT Plaza 3.
+
+Thời điểm có hiệu lực: ngày 26/04/2025.
+
+ **--------------------------------------------------------------------**

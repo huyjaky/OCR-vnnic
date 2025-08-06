@@ -49,7 +49,7 @@ def take_file_from_cache(
                 processer_bar.update()
 
         else:
-            print("No new files found in the remote folder. Retrying in 5 minutes...")
+            print("\nNo new files found in the remote folder. Retrying in 5 minutes...")
 
             # print("Waiting for new files to be added to the cache server...")
 

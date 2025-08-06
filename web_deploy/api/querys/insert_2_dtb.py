@@ -1,5 +1,9 @@
 import pyodbc
 import uuid
+from dotenv import load_dotenv
+from querys.preprocessing import preprocessing_ben_giao, preprocessing_ben_nhan, preprocessing_ho_so
+load_dotenv()
+import os
 
 
 def connect_to_db():
@@ -9,10 +13,10 @@ def connect_to_db():
     try:
         conn = pyodbc.connect(
             "DRIVER={ODBC Driver 17 for SQL Server};"
-            "SERVER=103.82.23.137;"
-            "DATABASE=NGA_DKBD;"
-            "UID=tmphoso;"
-            "PWD=Hs@@13579",  # Replace with your actual password
+            f"SERVER={str(os.getenv('DTB_SERVER'))};"
+            f"DATABASE={str(os.getenv('DTB_NAME'))};"
+            f"UID={str(os.getenv('DTB_UID'))};"
+            f"PWD={str(os.getenv('DTB_PWD'))};",
             autocommit=True,
         )
         print("Connection successful")
