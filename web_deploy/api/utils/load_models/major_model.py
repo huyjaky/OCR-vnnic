@@ -14,17 +14,12 @@ load_dotenv()
 # torch.set_num_threads(3)
 # torch.set_num_interop_threads(3)
 
-# construct variables
-MAX_SEQ_LENGTH = int(os.getenv("MAX_SEQ_LENGTH"))
-MODEL_PATH = str(os.getenv("MODEL_PATH"))
-CACHE_PATH = str(os.getenv("CACHE_PATH"))
 
-
-def load_model_and_tokenizer():
+def load_model_and_tokenizer(model_path, max_seq_length):
     # load model and tokenizer
     model, tokenizer = FastModel.from_pretrained(
-        model_name=MODEL_PATH,
-        max_seq_length=MAX_SEQ_LENGTH,
+        model_name=model_path,
+        max_seq_length=max_seq_length,
         load_in_8bit=True,
         load_in_4bit=False,
     )
@@ -38,9 +33,11 @@ def read_txt(file_path: str) -> str:
         return file.read()
 
 
-def gen_json(model, tokenizer):
+def gen_json(
+    model, tokenizer, folder_local_path: str, max_seq_length: int = 2048
+) -> dict:
     """Generate JSON from Markdown content using the model and tokenizer."""
-    markdown_text = read_txt(os.path.join(CACHE_PATH, "md_cached.txt"))
+    markdown_text = read_txt(os.path.join(folder_local_path, "md_cached.txt"))
     messages = [
         {"role": "system", "content": get_prompt()},
         {"role": "user", "content": f"\n**TÀI LIỆU MARKDOWN**:\n{markdown_text}"},
@@ -59,7 +56,7 @@ def gen_json(model, tokenizer):
 
     outputs = model.generate(
         **tokenizer([prompt], return_tensors="pt").to("cuda"),
-        max_new_tokens=MAX_SEQ_LENGTH,
+        max_new_tokens=max_seq_length,
         temperature=0.2,
         top_p=0.95,
         top_k=64,

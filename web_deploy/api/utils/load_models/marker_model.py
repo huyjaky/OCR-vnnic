@@ -19,6 +19,7 @@ config = {
 
 config_parser = ConfigParser(config)
 
+
 def load_marker_model():
     converter = PdfConverter(
         config=config_parser.generate_config_dict(),
@@ -29,15 +30,16 @@ def load_marker_model():
     )
     return converter
 
+
 path = str(os.getenv("CACHE_PATH"))
 
 
-def get_text_from_pdf(converter, file_path) -> dict:
+def get_text_from_pdf(converter, folder_local_path: str, file_name: str) -> dict:
     """Convert PDF to Markdown and save the text content."""
-    rendered = converter(file_path)
+    rendered = converter(str(os.path.join(folder_local_path, file_name)))
     text, _, images = text_from_rendered(rendered)
     with open(
-        os.path.join(path, "md_cached.txt"),
+        os.path.join(folder_local_path, "md_cached.txt"),
         "w",
         encoding="utf-8",
     ) as f:
