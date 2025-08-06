@@ -1,4 +1,4 @@
-Mã hồ sơ TTHC 000.02.18.G15-250505-0168
+Mã hồ sơ TTHC 000.02.18.G15-250505-0049
 
  CỤC ĐĂNG KÝ GIAO DỊCH BẢO ĐẢM VÀ BỒI THƯỜNG NHÀ NƯỚC **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG**
 
@@ -6,114 +6,79 @@ Mã hồ sơ TTHC 000.02.18.G15-250505-0168
 
 *Đà Nẵng, ngày 05 tháng 05 năm 2025*
 
-### **VĂN BẢN CHỨNG NHẬN ĐĂNG KÝ BIỆN PHÁP BẢO ĐẢM, THÔNG BÁO XỬ LÝ TÀI SẢN BẢO ĐẢM**
+## **VĂN BẢN CHỨNG NHẬN ĐĂNG KÝ BIỆN PHÁP BẢO ĐẢM, THÔNG BÁO XỬ LÝ TÀI SẢN BẢO ĐẢM**
 
-### **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG CHỨNG NHẬN**
+## **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG CHỨNG NHẬN**
 
-**1.** Nội dung của Phiếu yêu cầu đăng ký đã được cập nhật vào Cơ sở dữ liệu tại thời điểm 09 giờ 48 phút, ngày 05 tháng 05 năm 2025, số đăng ký **1587389065**
+**1.** Nội dung của Phiếu yêu cầu đăng ký đã được cập nhật vào Cơ sở dữ liệu tại thời điểm 08 giờ 48 phút, ngày 05 tháng 05 năm 2025, số đăng ký **1587372025**
 
 **1.1.** Bên nhận thế chấp
 
- **NGÂN HÀNG TNHH MỘT THÀNH VIÊN PUBLIC VIỆT NAM CHI NHÁNH ĐÀ NẴNG**
+ **NGÂN HÀNG NÔNG NGHIỆP VÀ PHÁT TRIỂN NÔNG THÔN VIỆT NAM - CHI NHÁNH HUYỆN HƯỚNG HÓA QUẢNG TRỊ**
 
- Địa chỉ: 92-94 Nguyễn Văn Linh, Phường Phước Ninh, Hải Châu, Đà Nẵng, Việt Nam **1.2.** Bên thế chấp
+ Địa chỉ: Km 63, Quốc lộ 9, thị trấn Khe Sanh, Hướng Hóa, Quảng Trị, Việt Nam **1.2.** Bên thế chấp  **LÊ ĐỨC TOÀN** Số CMND/Căn cước công dân: : **045074000852 LÊ THỊ THỤC LÂM**
 
- **NGUYỄN THỊ TỐ UYÊN**
-
-Số CMND/Căn cước công dân: : **045198003537** 
+Số CMND/Căn cước công dân: : **045176004536** 
 
 **1.3.** Mã PIN:
 
-#### *(Người yêu cầu đăng ký hoàn toàn chịu trách nhiệm về việc bảo mật thông tin liên quan đến Mã PIN do cơ quan đăng ký cấp)*
+*(Người yêu cầu đăng ký hoàn toàn chịu trách nhiệm về việc bảo mật thông tin liên quan đến Mã PIN do cơ quan đăng ký cấp)*
 
 **2.** Phiếu yêu cầu đăng ký *(đối với trường hợp yêu cầu đăng ký bằng văn bản giấy),* chi tiết thông tin thể hiện trên giao diện đăng ký trực tuyến *(đối với trường hợp yêu cầu đăng ký qua hệ thống đăng ký trực tuyến)* kèm theo Văn bản chứng nhận này là một phần không thể tách rời của Văn bản chứng nhận.
 
-![](_page_0_Picture_16.jpeg)
+![](_page_0_Picture_15.jpeg)
 
 ## **NGƯỜI CÓ THẨM QUYỀN CỦA TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN**
 
  *(Ký, ghi rõ họ và tên, chức danh, đóng dấu)*
 
-![](_page_0_Picture_19.jpeg)
+![](_page_0_Picture_18.jpeg)
 
-## **CHI TIẾT THÔNG TIN ĐĂNG KÝ**
+# **CHI TIẾT THÔNG TIN ĐĂNG KÝ**
 
-Số đăng ký lần đầu: 1587389065 Thời điểm đăng ký: 05-05-2025 09:48 Loại hình giao dịch: Biện pháp bảo đảm Loại biện pháp: Thế chấp
+Số đăng ký lần đầu: 1587372025 Thời điểm đăng ký: 05-05-2025 08:48 Loại hình giao dịch: Biện pháp bảo đảm Loại biện pháp: Thế chấp
 
 # **ĐĂNG KÝ LẦN ĐẦU**
 
-Số hợp đồng: DNG/000125/25
+#### Số hợp đồng: 01/HĐTC
 
-Ngày có hiệu lực của hợp đồng : 29/04/2025
+Ngày có hiệu lực của hợp đồng : 25/04/2025
 
-| Số đơn đăng ký | Thời điểm đăng ký |
-|----------------|-------------------|
-| 1587389065     | 05-05-2025 09:48  |
+| Số đơn đăng ký | Thời điểm đăng ký |  |
+|----------------|-------------------|--|
+| 1587372025     | 05-05-2025 08:48  |  |
 
 ### **Bên thế chấp**
 
-| Loại chủ thể      | Số giấy tờ chứng<br>minh tư cách pháp<br>lý   | Tên                   | Địa chỉ                                                            |
-|-------------------|-----------------------------------------------|-----------------------|--------------------------------------------------------------------|
-| Công dân Việt Nam | Số CMND/Căn<br>cước công dân:<br>045198003537 | NGUYỄN THỊ<br>TỐ UYÊN | Khóm An Hà, Thị trấn Lao Bảo,<br>Hướng Hóa, Quảng Trị, Việt<br>Nam |
+| Loại chủ thể      | Số giấy tờ chứng<br>minh tư cách pháp<br>lý   | Tên                | Địa chỉ                                                 |
+|-------------------|-----------------------------------------------|--------------------|---------------------------------------------------------|
+| Công dân Việt Nam | Số CMND/Căn<br>cước công dân:<br>045074000852 | LÊ ĐỨC TOÀN        | Khối 3A, TT Khe Sanh, Hướng<br>Hóa, Quảng Trị, Việt Nam |
+| Công dân Việt Nam | Số CMND/Căn<br>cước công dân:<br>045176004536 | LÊ THỊ THỤC<br>LÂM | Khối 3A, TT Khe Sanh, Hướng<br>Hóa, Quảng Trị, Việt Nam |
 
 ### **Bên nhận thế chấp**
 
-| Tên                                                                      | Địa chỉ                                                                  |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| NGÂN HÀNG TNHH<br>MỘT THÀNH VIÊN<br>PUBLIC VIỆT NAM CHI<br>NHÁNH ĐÀ NẴNG | 92-94 Nguyễn Văn Linh, Phường Phước Ninh, Hải Châu, Đà Nẵng,<br>Việt Nam |
+| Tên                                                                                                  | Địa chỉ                                                                |  |  |
+|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|--|--|
+|                                                                                                      |                                                                        |  |  |
+| NGÂN HÀNG NÔNG<br>NGHIỆP VÀ PHÁT TRIỂN<br>NÔNG THÔN VIỆT NAM<br>- CHI NHÁNH HUYỆN<br>HƯỚNG HÓA QUẢNG | Km 63, Quốc lộ 9, thị trấn Khe Sanh, Hướng Hóa, Quảng Trị, Việt<br>Nam |  |  |
+| TRỊ                                                                                                  |                                                                        |  |  |
 
-### **Mô tả tài sản:**
+#### **Mô tả tài sản:**
 
-Tên quyền tài sản được dùng để bảo đảm :
+Xe ô tô tải PICKUP cabin kép, nhãn hiệu: FORD RANGER TRABCH2P0C3CXEL1, Màu sơn: Trắng
 
-Toàn bộ quyền tài sản
+#### **Số khung**
 
-(i) Quyền tài sản phát sinh từ hợp đồng
+|    | Tên phương tiện | Nhãn hiệu, màu | Số khung | Số máy | Biển số |
+|----|-----------------|----------------|----------|--------|---------|
+| ST |                 | sơn            |          |        |         |
+| T  |                 |                |          |        |         |
+|    |                 |                |          |        |         |
 
-- Hợp đồng mua bán căn hộ chung cư Dự án Tòa nhà chung cư FPT Plaza 3 số
-
-W-06.12B/2024/HĐMBCH-FCT.
-
-Thời điểm có hiệu lực: ngày 06/11/2024
-
-Các bên tham gia xác lập hợp đồng: Công ty Cổ phần đô thị FPT Đà Nẵng và Ông Trần Anh Khoa.
-
-- Hợp đồng chuyển nhượng Hợp đồng mua bán Căn hộ chung cư số công chứng 000687 Thời điểm có hiệu lực: ngày 08/04/2025.
-
-Các bên tham gia xác lập hợp đồng: Bên chuyển nhượng là Ông Trần Anh Khoa và Bên nhận chuyển nhượng là Ông Đinh Võ Thành Bảo & Bà Nguyễn Thị Thu Hiền
-
-- Hợp đồng chuyển nhượng Hợp đồng mua bán Căn hộ chung cư số công chứng 000860.
-
-Thời điểm có hiệu lực: ngày 24/04/2025.
-
-Các bên tham gia xác lập hợp đồng: Bên chuyển nhượng là Ông Đinh Võ Thành Bảo & Bà Nguyễn Thị Thu Hiền và Bên nhận chuyển nhượng là Bà Nguyễn Thị Tố Uyên.
-
-- Văn bản xác nhận về việc Chuyển nhượng Hợp đồng mua bán căn hộ W-06.12B tòa nhà FPT Plaza 3.
-
-Thời điểm có hiệu lực: ngày 26/04/2025.
-
-### **Tài sản bảo đảm là quyền tài sản hoặc một phần quyền tài sản Tên quyền**:
-
-Toàn bộ quyền tài sản
-
-**Căn cứ phát sinh quyền**:
-
-- Hợp đồng mua bán căn hộ chung cư Dự án Tòa nhà chung cư FPT Plaza 3 số W-06.12B/2024/HĐMBCH-FCT.
-
-Thời điểm có hiệu lực: ngày 06/11/2024
-
-Các bên tham gia xác lập hợp đồng: Công ty Cổ phần đô thị FPT Đà Nẵng và Ông Trần Anh Khoa.
-
-- Hợp đồng chuyển nhượng Hợp đồng mua bán Căn hộ chung cư số công chứng 000687 Thời điểm có hiệu lực: ngày 08/04/2025.
-
-Các bên tham gia xác lập hợp đồng: Bên chuyển nhượng là Ông Trần Anh Khoa và Bên nhận chuyển nhượng là Ông Đinh Võ Thành Bảo & Bà Nguyễn Thị Thu Hiền
-
-- Hợp đồng chuyển nhượng Hợp đồng mua bán Căn hộ chung cư số công chứng 000860. Thời điểm có hiệu lực: ngày 24/04/2025.
-
-Các bên tham gia xác lập hợp đồng: Bên chuyển nhượng là Ông Đinh Võ Thành Bảo & Bà Nguyễn Thị Thu Hiền và Bên nhận chuyển nhượng là Bà Nguyễn Thị Tố Uyên.
-
-- Văn bản xác nhận về việc Chuyển nhượng Hợp đồng mua bán căn hộ W-06.12B tòa nhà FPT Plaza 3.
-
-Thời điểm có hiệu lực: ngày 26/04/2025.
+| 1 | Ô tô | Nhãn hiệu: FORD  | RL2UMFC30SPR | 74A-062.75 |
+|---|------|------------------|--------------|------------|
+|   |      | RANGER TRAB      | 12005        |            |
+|   |      | CH2P0C3CXEL1     |              |            |
+|   |      | , Màu sơn: Trắng |              |            |
 
  **--------------------------------------------------------------------**

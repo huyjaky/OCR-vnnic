@@ -68,7 +68,10 @@ def preprocessing_ben_nhan(ben_nhan: list[dict], ho_so_id: str) -> list[dict]:
             "Ten": item["Ten"],
             "QuocGia": item.get("QuocGia", None),
             "Tinh": item.get("Tinh", None),
-            "DiaChi": item.get("DiaChi", None),
+            "DiaChi": str(item.get("DiaChi", None))
+            .replace(f"{item.get('QuocGia', None)}", "")
+            .replace(f"{item.get('Tinh', None)},", "")
+            .strip(),
             "HoSoTempId": ho_so_id,
         }
         list_ben_nhan.append(cache)
@@ -92,8 +95,8 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id: str) -> dict:
         "LoaiDonCode": ho_so.get("LoaiDonCode", None),
         "LoaiHinhGDID": ho_so.get("LoaiHinhGDID", None),
         "LoaiHinhGDName": ho_so.get("LoaiHinhGDName", None),
-        "LoaBienPhapID": ho_so.get("LoaiBienPhapID", None),
-        "LoaBienPhapName": ho_so.get("LoaiBienPhapName", None),
+        "LoaiBienPhapID": ho_so.get("LoaiBienPhapID", None),
+        "LoaiBienPhapName": ho_so.get("LoaiBienPhapName", None),
         "LoaiHopDongID": ho_so.get("LoaiHopDongID", None),
         "LoaiHopDongName": ho_so.get("LoaiHopDongName", None),
         "ThoiDiemDangKy": ho_so.get("ThoiDiemDangKy", None),

@@ -80,5 +80,4 @@ def gen_json(
 
     if "mô tả" and "tài sản" in markdown_text.lower():
         json_output["MoTaChungTaiSan"] = None
-
     return json_output

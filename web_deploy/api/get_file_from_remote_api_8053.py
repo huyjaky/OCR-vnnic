@@ -27,6 +27,6 @@ async def get_file_from_remote():
     take_file_from_cache(
         folder_remote_path=folder_remote_path,
         folder_local_path=folder_local_path,
-        account=account,
+        account=account
     )  # Timeout in minutes
     return {"message": "File retrieval initiated."}

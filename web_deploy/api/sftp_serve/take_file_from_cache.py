@@ -1,5 +1,6 @@
 import paramiko
 import os
+import time
 from tqdm import tqdm
 from types_ocr.sftp_account import sftp_account
 
@@ -28,6 +29,8 @@ def take_file_from_cache(
         file_list = sftp_client.listdir(folder_remote_path)
 
         print("Starting get file from cache serve---")
+        # NOTE: checking the folder have a new file after 5 minutes
+        # set timer right here
         file_list = sftp_client.listdir(folder_remote_path)
 
         # prevent complile new progress bar when no new file
@@ -49,16 +52,10 @@ def take_file_from_cache(
                 processer_bar.update()
 
         else:
-            print("\nNo new files found in the remote folder. Retrying in 5 minutes...")
+            print(
+                "No new files found in the remote folder. Retrying in 5 minutes..."
+            )
 
-            # print("Waiting for new files to be added to the cache server...")
-
-            # timeout_bar = tqdm(
-            #     range(timeout * 60), desc="Waiting for new files", unit="seconds"
-            # )
-            # for _ in range(timeout * 60):
-            #     timeout_bar.update(1)
-            #     time.sleep(1)  # Sleep for 1 second in each iteration
 
         print("Successfull")
 

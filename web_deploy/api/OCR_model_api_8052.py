@@ -62,10 +62,13 @@ def convert_to_json(file_name: str):
             max_seq_length=max_seq_length,
         )  # Generate JSON from Markdown
 
+        # ThoiDiemDangKy
         push_file_to_remote(
             account=account,
             file_path=str(os.path.join(folder_local_path, file_name)),
-            remote_path=str(os.path.join(folder_remote_save_path, file_name)),
+            remote_path=folder_remote_save_path,
+            file_name=file_name,
+            datetime_folder=str(generated_output["ThoiDiemDangKy"]),
         )
 
         # NOTE: remove file from cache after processing

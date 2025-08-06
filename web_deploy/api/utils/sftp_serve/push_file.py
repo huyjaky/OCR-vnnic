@@ -1,24 +1,30 @@
 import paramiko
 from types_ocr.sftp_account import sftp_account  # pyright: ignore
-
-# load_dotenv()
-
-# hostname = str(
-#     os.getenv("HOSTNAME_SSH", "103.82.23.137")
-# )  # Default to localhost if not set
-# port = int(os.getenv("PORT_SSH", "22"))  # Default port is 22 if not set
-# username = str(os.getenv("USERNAME_SSH", "sshlogin"))  # Default username if not set
-# password = str(
-#     os.getenv("PASSWORD_SSH", "SSH@#server@123")
-# )  # Default password if not set
+from datetime import datetime
+import os
 
 
-# remote_path = (
-#     "C:/Nga/PHAN-MEM/DKBaoDam/" + file_path.split("/")[-1]
-# )  # Remote path where the file will be uploaded
+def ensure_remote_dir_exists(sftp_client, list_dir: list[str], remote_directory: str):
+    """
+    Ensure that a remote directory exists on the SFTP server.
+    """
+    current_path = remote_directory
+    for dir_name in list_dir:
+        current_path = os.path.join(current_path, dir_name)
+        try:
+            sftp_client.stat(current_path)  # kiểm tra xem thư mục có tồn tại không
+        except FileNotFoundError:
+            sftp_client.mkdir(current_path)
+    return current_path
 
 
-def push_file_to_remote(file_path: str, remote_path: str, account: sftp_account):
+def push_file_to_remote(
+    file_path: str,
+    remote_path: str,
+    account: sftp_account,
+    datetime_folder: str,
+    file_name: str,
+):
     """
     Function to upload a file to a remote server using SFTP.
     # Path to the file to be uploaded
@@ -33,7 +39,22 @@ def push_file_to_remote(file_path: str, remote_path: str, account: sftp_account)
         )
         sftp_client = ssh_client.open_sftp()
         print("Connected to the server successfully.")
-        sftp_client.put(file_path, remote_path)
+
+
+        # NOTE: Ensure the file_path is absolute and save as datetime levels
+        dt = datetime.fromisoformat(
+            datetime_folder
+        )  # Convert string to datetime object
+
+        list_dir = [str(dt.year), str(dt.month), str(dt.day)]
+
+        remote_save_path = ensure_remote_dir_exists(
+            sftp_client, list_dir, remote_path
+        )  # Ensure the remote directory exists
+        remote_path = os.path.join(remote_save_path, file_name)
+
+
+        sftp_client.put(file_path, remote_path)  # Upload the file
         print("File uploaded successfully.")
 
     except paramiko.AuthenticationException:
