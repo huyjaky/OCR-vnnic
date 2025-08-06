@@ -1,6 +1,5 @@
 import paramiko
 import os
-import time
 from tqdm import tqdm
 from types_ocr.sftp_account import sftp_account
 
@@ -9,7 +8,6 @@ def take_file_from_cache(
     folder_remote_path: str,
     folder_local_path: str,
     account: sftp_account,
-    timeout: int,
 ) -> bool:
     """
     Function to take a file from server using SFTP after taking it from cache
@@ -30,42 +28,37 @@ def take_file_from_cache(
         file_list = sftp_client.listdir(folder_remote_path)
 
         print("Starting get file from cache serve---")
-        # NOTE: checking the folder have a new file after 5 minutes
-        while True:
-            # set timer right here
-            file_list = sftp_client.listdir(folder_remote_path)
+        file_list = sftp_client.listdir(folder_remote_path)
 
-            # prevent complile new progress bar when no new file
-            processer_bar = tqdm(file_list, desc="Downloading files", position=0)
+        # prevent complile new progress bar when no new file
+        processer_bar = tqdm(file_list, desc="Downloading files", position=0)
 
-            if len(file_list) != 0:
-                for file_name in file_list:
-                    processer_bar.set_description(f"Downloading {file_name}")
+        if len(file_list) != 0:
+            for file_name in file_list:
+                processer_bar.set_description(f"Downloading {file_name}")
 
-                    remote_file_path = os.path.join(folder_remote_path, file_name)
-                    local_file_path = os.path.join(folder_local_path, file_name)
+                remote_file_path = os.path.join(folder_remote_path, file_name)
+                local_file_path = os.path.join(folder_local_path, file_name)
 
-                    # Download the file from the remote server to the local path
-                    sftp_client.get(remote_file_path, local_file_path)
+                # Download the file from the remote server to the local path
+                sftp_client.get(remote_file_path, local_file_path)
 
-                    # Remove the file from the remote server after downloading
-                    sftp_client.remove(remote_file_path)
+                # Remove the file from the remote server after downloading
+                sftp_client.remove(remote_file_path)
 
-                    processer_bar.update()
+                processer_bar.update()
 
-            else:
-                print(
-                    "No new files found in the remote folder. Retrying in 5 minutes..."
-                )
+        else:
+            print("No new files found in the remote folder. Retrying in 5 minutes...")
 
-            print("Waiting for new files to be added to the cache server...")
+            # print("Waiting for new files to be added to the cache server...")
 
-            timeout_bar = tqdm(
-                range(timeout * 60), desc="Waiting for new files", unit="seconds"
-            )
-            for _ in range(timeout * 60):
-                timeout_bar.update(1)
-                time.sleep(1)  # Sleep for 1 second in each iteration
+            # timeout_bar = tqdm(
+            #     range(timeout * 60), desc="Waiting for new files", unit="seconds"
+            # )
+            # for _ in range(timeout * 60):
+            #     timeout_bar.update(1)
+            #     time.sleep(1)  # Sleep for 1 second in each iteration
 
         print("Successfull")
 
@@ -104,5 +97,4 @@ if __name__ == "__main__":
         folder_remote_path=folder_remote_path,
         folder_local_path=folder_local_path,
         account=account,
-        timeout=timeout,  # Timeout in minutes
     )
