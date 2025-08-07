@@ -1,8 +1,8 @@
 import paramiko
 import os
-import time
 from tqdm import tqdm
 from types_ocr.sftp_account import sftp_account
+import pypdf
 
 
 def take_file_from_cache(
@@ -38,26 +38,29 @@ def take_file_from_cache(
 
         if len(file_list) != 0:
             for file_name in file_list:
-                processer_bar.set_description(f"Downloading {file_name}")
+                if file_name.endswith(".pdf"):
+                    processer_bar.set_description(f"Downloading {file_name}")
 
-                remote_file_path = os.path.join(folder_remote_path, file_name)
-                local_file_path = os.path.join(folder_local_path, file_name)
+                    remote_file_path = os.path.join(folder_remote_path, file_name)
+                    local_file_path = os.path.join(folder_local_path, file_name)
 
-                # Download the file from the remote server to the local path
-                sftp_client.get(remote_file_path, local_file_path)
+                    # Download the file from the remote server to the local path
+                    sftp_client.get(remote_file_path, local_file_path)
+                    
+                    # Check if the file has more than 7 pages
+                    reader = pypdf.PdfReader(local_file_path)
+                    if len(reader.pages) > 7:
+                        print(
+                            f"File {file_name} has more than 7 pages, removing from cache."
+                        )
+                        os.remove(local_file_path)
+                    processer_bar.update()
 
-                # Remove the file from the remote server after downloading
-                sftp_client.remove(remote_file_path)
-
-                processer_bar.update()
-
-        else:
-            print(
-                "No new files found in the remote folder. Retrying in 5 minutes..."
-            )
-
-
-        print("Successfull")
+                else:
+                    print(
+                        "No new files found in the remote folder. Retrying in 5 minutes..."
+                    )
+            print("Successfull")
 
     except paramiko.AuthenticationException:
         print("Authentication failed. Check your username and password or keys.")

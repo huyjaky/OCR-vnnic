@@ -6,15 +6,15 @@ columns = [
     # "LoaiChuTheName", done
     # "BenGiaoTempId", done
     # "HoSoTempId", done
+    # "QuocGia", done
+    # "Tinh", done
     "HoTen",
     "CCCD",
     "TenToChuc",
     "MaSoThue",
     "SoHoChieu",
     "TheCuTru",
-    "QuocGia",
     "QuocGiaCap",
-    "Tinh",
     "DiaChi",
 ]
 
@@ -38,11 +38,18 @@ def preprocessing_ben_giao(ben_giao: list[dict], ho_so_id: str) -> list[dict]:
     """
     list_ben_giao = []
     for item in ben_giao:
+        quoc_gia = str(item["ThongTinChuThe"]["DiaChi"]).split(",")[-1].strip()
+        tinh = str(item["ThongTinChuThe"]["DiaChi"]).split(",")[-2].strip()
+
+        print(quoc_gia, tinh)
+
         cache = {
             "LoaiChuTheID": item["LoaiChuTheID"],
             "LoaiChuTheName": loai_chu_the[int(item["LoaiChuTheID"])],
             "BenGiaoTempId": uuid.uuid4(),
             "HoSoTempId": ho_so_id,
+            "QuocGia": quoc_gia,
+            "Tinh": tinh,
         }
         for key in columns:  # Skip the first column which is 'LoaiChuTheID'
             if key in list(item["ThongTinChuThe"].keys()):
@@ -69,8 +76,8 @@ def preprocessing_ben_nhan(ben_nhan: list[dict], ho_so_id: str) -> list[dict]:
             "QuocGia": item.get("QuocGia", None),
             "Tinh": item.get("Tinh", None),
             "DiaChi": str(item.get("DiaChi", None))
-            .replace(f"{item.get('QuocGia', None)}", "")
-            .replace(f"{item.get('Tinh', None)},", "")
+            .replace(f"{item.get('QuocGia')}", "")
+            .replace(f"{item.get('Tinh')},", "")
             .strip(),
             "HoSoTempId": ho_so_id,
         }

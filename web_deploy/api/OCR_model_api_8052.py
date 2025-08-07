@@ -41,15 +41,21 @@ class Item(BaseModel):
 
 app = FastAPI()
 
-model, tokenizer = load_model_and_tokenizer(
+model_1, tokenizer = load_model_and_tokenizer(
+    model_path=model_path, max_seq_length=max_seq_length
+)  # Llama 3.1 model for generating JSON from Markdown
+
+
+model_2, tokenizer = load_model_and_tokenizer(
     model_path=model_path, max_seq_length=max_seq_length
 )  # Llama 3.1 model for generating JSON from Markdown
 
 converter = load_marker_model()  # Marker model for converting PDF to Markdown
 
-
-def convert_to_json(file_name: str):
+def convert_to_json(file_name: str, model):
     # NOTE: Convert PDF to JSON
+    
+
     print("Generating JSON from Markdown...")
     if get_text_from_pdf(
         converter, folder_local_path=folder_local_path, file_name=file_name
@@ -65,10 +71,11 @@ def convert_to_json(file_name: str):
         # ThoiDiemDangKy
         push_file_to_remote(
             account=account,
-            file_path=str(os.path.join(folder_local_path, file_name)),
-            remote_path=folder_remote_save_path,
             file_name=file_name,
-            datetime_folder=str(generated_output["ThoiDiemDangKy"]),
+            remote_get_path=folder_remote_path,
+            remote_save_path=folder_remote_save_path,
+            local_save_path=folder_local_path,
+            datetime_folder=str(generated_output["ThoiDiemDangKy"]),  # Assuming the file name is in the
         )
 
         # NOTE: remove file from cache after processing
@@ -83,18 +90,25 @@ def convert_to_json(file_name: str):
         print("Failed to convert PDF to Markdown.")
         return {"response": False}
 
-
-@app.post("/convert-json-from-local", response_model=dict)
-def convert_json(file: Item):
+@app.post("/convert-json-from-local-model-1", response_model=dict)
+def convert_json_model_1(file: Item):
     """
     Endpoint to convert a PDF file to JSON format.
     :param file: PDF file name to be converted.
     """
     if file.file_name.endswith(".pdf") is False:
         return {"response": "File must be a PDF."}
+    return convert_to_json(file.file_name, model=model_1)
 
-    return convert_to_json(file.file_name)
-
+@app.post("/convert-json-from-local-model-2", response_model=dict)
+def convert_json_model_2(file: Item):
+    """
+    Endpoint to convert a PDF file to JSON format.
+    :param file: PDF file name to be converted.
+    """
+    if file.file_name.endswith(".pdf") is False:
+        return {"response": "File must be a PDF."}
+    return convert_to_json(file.file_name, model=model_2)
 
 @app.post("/convert-to-json-from-upload", response_model=dict)
 async def testing_function(file: UploadFile = File(...)):
@@ -112,7 +126,6 @@ async def testing_function(file: UploadFile = File(...)):
         with open(file_path, "wb") as f:
             f.write(contents)
 
-        return convert_to_json(file_name=str(file.filename))
-
+        return convert_to_json(file_name=str(file.filename), model=model_1)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing PDF: {str(e)}")

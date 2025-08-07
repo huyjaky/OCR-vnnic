@@ -32,7 +32,7 @@ try:
             "/mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR/fine-tunning/Testing-space/testset/"
         )
     ):
-        if list(pdf_file.strip())[0] != "1":
+        if list(pdf_file.strip())[0] != "2":
             continue
 
         if pdf_file.endswith(".pdf"):

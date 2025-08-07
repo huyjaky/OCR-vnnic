@@ -19,8 +19,9 @@ def ensure_remote_dir_exists(sftp_client, list_dir: list[str], remote_directory:
 
 
 def push_file_to_remote(
-    file_path: str,
-    remote_path: str,
+    local_save_path: str,
+    remote_get_path: str,
+    remote_save_path: str,
     account: sftp_account,
     datetime_folder: str,
     file_name: str,
@@ -40,7 +41,6 @@ def push_file_to_remote(
         sftp_client = ssh_client.open_sftp()
         print("Connected to the server successfully.")
 
-
         # NOTE: Ensure the file_path is absolute and save as datetime levels
         dt = datetime.fromisoformat(
             datetime_folder
@@ -49,12 +49,17 @@ def push_file_to_remote(
         list_dir = [str(dt.year), str(dt.month), str(dt.day)]
 
         remote_save_path = ensure_remote_dir_exists(
-            sftp_client, list_dir, remote_path
+            sftp_client, list_dir, remote_save_path
         )  # Ensure the remote directory exists
-        remote_path = os.path.join(remote_save_path, file_name)
 
+        sftp_client.put(
+            localpath=os.path.join(local_save_path, file_name),
+            remotepath=os.path.join(remote_save_path, file_name),
+        )  # Upload the file
 
-        sftp_client.put(file_path, remote_path)  # Upload the file
+        sftp_client.remove(
+            os.path.join(remote_get_path, file_name)
+        )  # Remove the file from the remote server after uploading
         print("File uploaded successfully.")
 
     except paramiko.AuthenticationException:

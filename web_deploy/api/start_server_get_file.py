@@ -6,7 +6,7 @@ import os
 import time
 import requests
 
-timeout = int(os.getenv("TIMEOUT", "5"))  # Default to 5 minutes if not set
+timeout = int(os.getenv("TIMEOUT_SFTP", "5"))  # Default to 5 minutes if not set
 while True:
     get_file = requests.get("http://localhost:8053/get-file-from-remote")
     timeout_bar = tqdm(

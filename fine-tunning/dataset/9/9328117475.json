@@ -1,0 +1,47 @@
+[
+  {
+    "output": {
+      "MaHoSo": null,
+      "SoDon": "9328117475/TB-TT3",
+      "SoDangKyLanDau": null,
+      "LoaiDonID": 4,
+      "LoaiDonName": "Xóa đơn đăng ký",
+      "LoaiDonCode": "XOÁ",
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10T00:00:00",
+      "SoHopDong": null,
+      "NgayCoHieuLucHopDong": null,
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": null,
+      "ThoiDiemDKLanDau": null,
+      "NoiDungThayDoi": "Xóa đăng ký phương tiện",
+      "MoTaChungTaiSan": "Ô tô xe ô tô VINFAST có số khung: RPXCA2FACLV003523; thông tin khác (số máy: LV7200930053, biển số: 34A-386.35)",
+      "BenGiao": [],
+      "BenNhan": [
+        {
+          "Ten": "Ngân Hàng Tmcp Kỹ Thương Việt Nam Chi Nhánh Hải Dương",
+          "QuocGia": "Việt Nam",
+          "Tinh": "Hải Dương",
+          "DiaChi": "Số 82-84, phố Phạm Ngũ Lão, phường Phạm Ngũ Lão, Hải Dương, Việt Nam"
+        }
+      ],
+      "TaiSan": [
+        {
+          "LoaiTaiSan": "TaiSan_CoSoKhung",
+          "PhuongTien": "Ô tô xe ô tô VINFAST",
+          "NhanHieuMauSon": "VINFAST",
+          "SoKhung": "RPXCA2FACLV003523",
+          "SoMay": "LV7200930053",
+          "BienSo": "34A-386.35",
+          "CanCuThayDoi": 2
+        }
+      ]
+    }
+  }
+]

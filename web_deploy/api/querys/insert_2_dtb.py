@@ -1,7 +1,12 @@
 import pyodbc
 import uuid
 from dotenv import load_dotenv
-from querys.preprocessing import preprocessing_ben_giao, preprocessing_ben_nhan, preprocessing_ho_so
+from querys.preprocessing import (
+    preprocessing_ben_giao,
+    preprocessing_ben_nhan,
+    preprocessing_ho_so,
+)
+
 load_dotenv()
 import os
 
