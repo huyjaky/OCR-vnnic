@@ -1,6 +1,5 @@
 from unsloth import FastModel
 from unsloth.chat_templates import get_chat_template
-from transformers import TextStreamer
 import os
 from utils.prompt_cached import get_prompt
 from dotenv import load_dotenv
@@ -15,13 +14,14 @@ load_dotenv()
 # torch.set_num_interop_threads(3)
 
 
-def load_model_and_tokenizer(model_path, max_seq_length):
+def load_model_and_tokenizer(model_path, max_seq_length, cuda_index: int = 0):
     # load model and tokenizer
     model, tokenizer = FastModel.from_pretrained(
         model_name=model_path,
         max_seq_length=max_seq_length,
         load_in_8bit=True,
         load_in_4bit=False,
+        device_map=f"cuda:{cuda_index}",
     )
     torch.compile(model)
     return model, tokenizer
@@ -34,10 +34,14 @@ def read_txt(file_path: str) -> str:
 
 
 def gen_json(
-    model, tokenizer, folder_local_path: str, max_seq_length: int = 2048
+    model,
+    tokenizer,
+    file_local_path: str,
+    max_seq_length: int = 2048,
+    cuda_index: int = 0,
 ) -> dict:
     """Generate JSON from Markdown content using the model and tokenizer."""
-    markdown_text = read_txt(os.path.join(folder_local_path, "md_cached.txt"))
+    markdown_text = read_txt(os.path.join(file_local_path))
     messages = [
         {"role": "system", "content": get_prompt()},
         {"role": "user", "content": f"\n**TÀI LIỆU MARKDOWN**:\n{markdown_text}"},
@@ -55,14 +59,14 @@ def gen_json(
     )
 
     outputs = model.generate(
-        **tokenizer([prompt], return_tensors="pt").to("cuda"),
+        **tokenizer([prompt], return_tensors="pt").to(cuda_index),
         max_new_tokens=max_seq_length,
         temperature=0.2,
         top_p=0.95,
         top_k=64,
         num_beams=1,
         do_sample=True,
-        streamer=TextStreamer(tokenizer, skip_prompt=True),
+        # streamer=TextStreamer(tokenizer, skip_prompt=True),
     )
     generated_output = tokenizer.batch_decode(outputs)[0]
 

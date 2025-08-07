@@ -46,8 +46,8 @@ def take_file_from_cache(
 
                     # Download the file from the remote server to the local path
                     sftp_client.get(remote_file_path, local_file_path)
-                    
-                    # Check if the file has more than 7 pages
+
+                    # WARNING: Check if the file has more than 7 pages
                     reader = pypdf.PdfReader(local_file_path)
                     if len(reader.pages) > 7:
                         print(

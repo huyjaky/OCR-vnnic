@@ -34,12 +34,14 @@ def load_marker_model():
 path = str(os.getenv("CACHE_PATH"))
 
 
-def get_text_from_pdf(converter, folder_local_path: str, file_name: str) -> dict:
+def get_text_from_pdf(
+    converter, file_local_get_path: str, file_local_save_path: str, file_name: str
+) -> dict:
     """Convert PDF to Markdown and save the text content."""
-    rendered = converter(str(os.path.join(folder_local_path, file_name)))
+    rendered = converter(str(os.path.join(file_local_get_path, file_name)))
     text, _, images = text_from_rendered(rendered)
     with open(
-        os.path.join(folder_local_path, "md_cached.txt"),
+        os.path.join(file_local_save_path, file_name),
         "w",
         encoding="utf-8",
     ) as f:

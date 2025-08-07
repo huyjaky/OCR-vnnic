@@ -29,15 +29,15 @@ try:
     # /mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR/fine-tunning
     for pdf_file in tqdm(
         os.listdir(
-            "/mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR/fine-tunning/Testing-space/testset/"
+            "/home/duckq1u/Downloads/FIL/"
         )
     ):
-        if list(pdf_file.strip())[0] != "2":
+        if list(pdf_file.strip())[0] != "1":
             continue
 
         if pdf_file.endswith(".pdf"):
             file_path = os.path.join(
-                "/mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR/fine-tunning/Testing-space/testset/",
+                "/home/duckq1u/Downloads/FIL/",
                 pdf_file,
             )
             remote_path = os.path.join("C:/Nga/PHAN-MEM/DKBaoDam/", pdf_file)

@@ -53,12 +53,12 @@ def push_file_to_remote(
         )  # Ensure the remote directory exists
 
         sftp_client.put(
-            localpath=os.path.join(local_save_path, file_name),
-            remotepath=os.path.join(remote_save_path, file_name),
+            localpath=os.path.join(local_save_path, file_name.replace(".txt", ".pdf")),
+            remotepath=os.path.join(remote_save_path, file_name.replace(".txt", ".pdf")),
         )  # Upload the file
 
         sftp_client.remove(
-            os.path.join(remote_get_path, file_name)
+            os.path.join(remote_get_path, file_name.replace(".txt", ".pdf"))
         )  # Remove the file from the remote server after uploading
         print("File uploaded successfully.")
 
