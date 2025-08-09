@@ -81,16 +81,8 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
 
         print("-" * 50, "END", "-" * 50)
         insert_records_from_json(json_input=generated_output)
+
         print("JSON generated and inserted into the database successfully.")
-
-        # NOTE: remove file from cache after processing
-        # file_name = <file_name>.txt
-        os.remove(str(os.path.join(md_cached_path, file_name)))
-        os.remove(
-            str(os.path.join(folder_local_path, file_name.replace(".txt", ".pdf")))
-        )
-
-        return generated_output
 
     except Exception as e:
         print(f"Error generating JSON: {e}")
@@ -101,13 +93,12 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             folder_remote_save_path=folder_remote_path,
         )
 
-        # NOTE: remove file from cache after processing
-        # file_name = <file_name>.txt
-        os.remove(str(os.path.join(md_cached_path, file_name)))
-        os.remove(
-            str(os.path.join(folder_local_path, file_name.replace(".txt", ".pdf")))
-        )
-        return {"response": f"Error generating JSON: {str(e)}"}
+    # NOTE: remove file from cache after processing
+    # file_name = <file_name>.txt
+    os.remove(str(os.path.join(md_cached_path, file_name)))
+    os.remove(str(os.path.join(folder_local_path, file_name.replace(".txt", ".pdf"))))
+
+    return {"response": True}
 
 
 @app.post("/convert-json-from-local-model-1", response_model=dict)

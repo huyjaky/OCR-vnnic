@@ -188,7 +188,6 @@ def main():
             pdf_process.join()
 
 
-
 # Signal handler for graceful shutdown
 def signal_handler(sig, frame):
     print("Graceful shutdown initiated...")

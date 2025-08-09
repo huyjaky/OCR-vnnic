@@ -96,6 +96,29 @@ def preprocessing_ben_nhan(ben_nhan: list[dict], ho_so_id: str) -> list[dict]:
     return list_ben_nhan
 
 
+loai_don_dict = {
+    1: "Đăng ký lần đầu (LĐ)",
+    2: "Đăng ký thay đổi (TĐ)",
+    3: "Sửa chữa sai sót (SC)",
+    4: "Xoá đơn đăng ký (XOA)",
+    6: "Xoá đăng ký bởi cơ quan có thẩm quyền (XCQ)",
+    8: "Cung cấp bản sao (BS)",
+    9: "Yêu cầu cấp bản sao kèm thông báo CA (TBCA)",
+    10: "Cung cấp thông tin (CCTT)",
+}
+
+loai_don_code = {
+    1: "LD",
+    2: "TD",
+    3: "SC",
+    4: "XOA",
+    6: "XCQ",
+    8: "BS",
+    9: "TBCA",
+    10: "CCTT",
+}
+
+
 def preprocessing_ho_so(ho_so: dict, ho_so_id: str) -> dict:
     """
     Preprocess the 'HoSo' data to extract necessary fields.
@@ -103,13 +126,23 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id: str) -> dict:
     :param ho_so_id: Unique identifier for the 'HoSo'.
     :return: Dictionary with preprocessed data.
     """
+    LoaiDonID = int(ho_so.get("LoaiDonID"))  # pyright:ignore
+
+    if "/TB-TT3" in str(ho_so.get("MaHoSo", None)):
+        LoaiDonID = 10  # CCTT
+    else:
+        LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])
+
+    LoaiDonName = loai_don_dict[LoaiDonID]
+    LoaiDonCode = loai_don_code[LoaiDonID]  # CCTT
+
     return {
         "MaHoSo": ho_so.get("MaHoSo", None),
         "SoDon": ho_so.get("SoDon", None),
         "SoDangKyLanDau": ho_so.get("SoDangKyLanDau", None),
-        "LoaiDonID": ho_so.get("LoaiDonID", None),
-        "LoaiDonName": ho_so.get("LoaiDonName", None),
-        "LoaiDonCode": ho_so.get("LoaiDonCode", None),
+        "LoaiDonID": LoaiDonID,
+        "LoaiDonName": LoaiDonName,
+        "LoaiDonCode": LoaiDonCode,
         "LoaiHinhGDID": ho_so.get("LoaiHinhGDID", None),
         "LoaiHinhGDName": ho_so.get("LoaiHinhGDName", None),
         "LoaiBienPhapID": ho_so.get("LoaiBienPhapID", None),

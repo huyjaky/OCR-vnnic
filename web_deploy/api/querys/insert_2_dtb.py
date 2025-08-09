@@ -10,24 +10,25 @@ from querys.preprocessing import (
 load_dotenv()
 import os
 
+
 def connect_to_db():
     """
     Connect to the SQL Server database and return the connection object.
     """
-    try:
-        conn = pyodbc.connect(
-            "DRIVER={ODBC Driver 17 for SQL Server};"
-            f"SERVER={str(os.getenv('DTB_SERVER'))};"
-            f"DATABASE={str(os.getenv('DTB_NAME'))};"
-            f"UID={str(os.getenv('DTB_UID'))};"
-            f"PWD={str(os.getenv('DTB_PWD'))};",
-            autocommit=True,
-        )
-        print("Connection successful")
-        return conn
-    except Exception as e:
-        print(f"Error connecting to database: {e}")
-        return None
+    # try:
+    conn = pyodbc.connect(
+        "DRIVER={ODBC Driver 17 for SQL Server};"
+        f"SERVER={str(os.getenv('DTB_SERVER'))};"
+        f"DATABASE={str(os.getenv('DTB_NAME'))};"
+        f"UID={str(os.getenv('DTB_UID'))};"
+        f"PWD={str(os.getenv('DTB_PWD'))};",
+        autocommit=True,
+    )
+    print("Connection successful")
+    return conn
+    # except Exception as e:
+    #     print(f"Error connecting to database: {e}")
+    #     return None
 
 
 def insert_multiple_records(conn, table_name: str, data_list: list[dict]):
@@ -39,19 +40,21 @@ def insert_multiple_records(conn, table_name: str, data_list: list[dict]):
     :param columns: List of column names corresponding to the records.
     """
     cursor = conn.cursor()
-    try:
-        columns = ", ".join(data_list[0].keys())  # pyright:ignore
-        placeholders = ", ".join(["?" for _ in data_list[0]])
+    # try:
 
-        sql = f"INSERT INTO {table_name} ({columns}) VALUES ({placeholders})"
+    columns = ", ".join(data_list[0].keys())  # pyright:ignore
+    placeholders = ", ".join(["?" for _ in data_list[0]])
 
-        cursor.executemany(sql, [tuple(record.values()) for record in data_list])
+    sql = f"INSERT INTO {table_name} ({columns}) VALUES ({placeholders})"
 
-        print(f"{cursor.rowcount} records inserted successfully.")
-    except Exception as e:
-        print(f"Error inserting records: {e}")
-    finally:
-        cursor.close()
+    cursor.executemany(sql, [tuple(record.values()) for record in data_list])
+
+    print(f"{cursor.rowcount} records inserted successfully.")
+
+    # except Exception as e:
+    #     print(f"Error inserting records: {e}")
+    # finally:
+    cursor.close()
 
 
 def insert_single_record(conn, table_name: str, data: dict):
@@ -62,21 +65,21 @@ def insert_single_record(conn, table_name: str, data: dict):
     :param table_name: Name of the table to insert the record into.
     """
     cursor = conn.cursor()
-    try:
-        columns = ", ".join(data.keys())
-        placeholders = ", ".join(["?" for _ in data])
-        values = list(data.values())
+    # try:
+    columns = ", ".join(data.keys())
+    placeholders = ", ".join(["?" for _ in data])
+    values = list(data.values())
 
-        sql = f"INSERT INTO {table_name} ({columns}) VALUES ({placeholders})"
+    sql = f"INSERT INTO {table_name} ({columns}) VALUES ({placeholders})"
 
-        cursor.execute(sql, values)
-        conn.commit()
+    cursor.execute(sql, values)
+    conn.commit()
 
-        print("Record inserted successfully.")
-    except Exception as e:
-        print(f"Error inserting record: {e}")
-    finally:
-        cursor.close()
+    print("Record inserted successfully.")
+    # except Exception as e:
+    #     print(f"Error inserting record: {e}")
+    # finally:
+    cursor.close()
 
 
 def insert_records_from_json(json_input):

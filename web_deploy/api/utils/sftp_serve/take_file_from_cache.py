@@ -49,7 +49,8 @@ def take_file_from_cache(
                     # Download the file from the remote server to the local path
                     sftp_client.get(remote_file_path, local_file_path)
 
-                    # WARNING: Check if the file has more than 7 pages
+                    # WARNING: Remove the PDF file if it has more than 7 pages
+                    # as well as checking the file PDF file is not corrupted
                     reader = pypdf.PdfReader(local_file_path)
                     if len(reader.pages) > 7:
                         print(
@@ -68,6 +69,8 @@ def take_file_from_cache(
                     )
             print("Successfull")
 
+    except pypdf.errors.PdfReadError:
+        os.remove(local_file_path)
     except paramiko.AuthenticationException:
         print("Authentication failed. Check your username and password or keys.")
     except paramiko.SSHException as e:
