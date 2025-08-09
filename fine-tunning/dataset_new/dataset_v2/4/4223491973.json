@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1090",
+            "SoDon": "4223491973",
+            "SoDangKyLanDau": "1450893181",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10 17:48:00",
+            "SoHopDong": "LN2203245435985",
+            "NgayCoHieuLucHopDong": "2022-03-28",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2022-03-29 09:59:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "MAI TUẤN ANH",
+                        "CCCD": "038082025098",
+                        "DiaChi": "Phố 1, Phường Long Anh, Thành phố Thanh Hóa, Thanh Hóa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - CHI NHÁNH THANH HÓA - ĐỊA ĐIỂM KINH DOANH PHÒNG GIAO DỊCH LAM SƠN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Số 253 đường Trần Phú, Phường Ba Đình, Thành phố Thanh Hóa, Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": []
+        }
+    }
+]

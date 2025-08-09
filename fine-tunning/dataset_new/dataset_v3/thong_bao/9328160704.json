@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328160704/TB-TT3",
+            "SoDon": "9328160704",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu BMW, Màu sơn Trắng có số khung: RN215DS09RYZ04874; thông tin khác (số máy: 10837579B48B20A, biển số: 98A-966.68)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Bắc Giang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Số 303 đường Lê Lợi, phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "BMW, Màu sơn Trắng",
+                    "SoKhung": "RN215DS09RYZ04874",
+                    "SoMay": "10837579B48B20A",
+                    "BienSo": "98A-966.68",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

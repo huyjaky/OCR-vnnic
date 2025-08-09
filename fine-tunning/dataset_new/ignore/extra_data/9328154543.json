@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328154543/TB-TT3",
+            "SoDon": "9328154543",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 Xe \u00f4 t\u00f4 con 5 ch\u1ed7 m\u1edbi 100%, nh\u00e3n hi\u1ec7u KIA, s\u1ed1 lo\u1ea1i SONET QY 1.5 CVT FH5, m\u00e0u Tr\u1eafng c\u00f3 s\u1ed1 khung: RNYXE54C0RC321067; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: G4FLPV499752, bi\u1ec3n s\u1ed1: 79A-505.42)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP Ngo\u1ea1i Th\u01b0\u01a1ng Vi\u1ec7t Nam Chi Nh\u00e1nh Nha Trang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Kh\u00e1nh H\u00f2a",
+                    "DiaChi": "14 L\u00ea Th\u00e1nh T\u00f4n, Ph\u01b0\u1edbc Ti\u1ebfn, Kh\u00e1nh H\u00f2a, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 con",
+                    "NhanHieuMauSon": "KIA m\u00e0u Tr\u1eafng",
+                    "SoKhung": "RNYXE54C0RC321067",
+                    "SoMay": "G4FLPV499752",
+                    "BienSo": "79A-505.42",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

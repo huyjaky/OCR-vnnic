@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328142974/TB-TT3",
+            "SoDon": "9328142974",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu KIA-Màu sơn Trắng có số khung: RNYXG54C0SC370690; số máy: G4FLSV125926, biển số: 37K - 645.23",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quốc Tế Việt Nam Chi Nhánh Vinh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Tầng 1, nhà B, Khu TTTM Dịch vụ - Nhà ở C1, đường Quang Trung, phường Thành Vinh, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "KIA-Màu sơn Trắng",
+                    "SoKhung": "RNYXG54C0SC370690",
+                    "SoMay": "G4FLSV125926",
+                    "BienSo": "37K-645.23",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

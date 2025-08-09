@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328117475/TB-TT3",
+            "SoDon": "9328117475",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Kỹ Thương Việt Nam Chi Nhánh Hải Dương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Dương",
+                    "DiaChi": "Số 82-84, phố Phạm Ngũ Lão, phường Phạm Ngũ Lão, Hải Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RPXCA2FACLV003523",
+                    "SoMay": "LV7200930053",
+                    "BienSo": "34A-386.35",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328168547/TB-TT3",
+            "SoDon": "9328168547",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu: TERACO, màu sơn: trắng có số khung: RM0KB175LSC000054; thông tin khác (số máy: JE493ZLQ540031412, biển số: 36K-696.61)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Sầm Sơn",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "02 Đoàn Thị Điểm, phường Sầm Sơn, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "TERACO, màu sơn: trắng",
+                    "SoKhung": "RM0KB175LSC000054",
+                    "SoMay": "JE493ZLQ540031412",
+                    "BienSo": "36K-696.61",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

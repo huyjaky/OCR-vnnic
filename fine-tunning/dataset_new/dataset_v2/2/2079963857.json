@@ -1,0 +1,55 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0161",
+            "SoDon": "2079963857",
+            "SoDangKyLanDau": "1538737922",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T09:33:00",
+            "SoHopDong": "HPG2024TSDB1901460/HDTC",
+            "NgayCoHieuLucHopDong": "2024-05-18",
+            "GiaTriKhoanVay": 4755665293,
+            "SoPhuLuc": "HPG2025TSDB3348339/HDTC/PL3348339",
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-05-20T08:15:00",
+            "NoiDungThayDoi": "Bổ sung thêm tài sản bảo đảm là THÉP CUỘN với tổng giá trị 4,755,665,293 VND. Các hợp đồng/thỏa thuận/phụ lục liên quan: Hợp đồng mua bán số 01072025/MPHN-HNS ký ngày 01/07/2025; Hợp đồng mua bán hàng hóa số 5H22068 ký ngày 27/02/2025. Các giấy tờ chứng minh quyền sở hữu: Hóa đơn giá trị gia tăng số 82 ngày 02/07/2025; Hóa đơn giá trị gia tăng số 5777 ngày 24/06/2025; Biên bản giao nhận số 0000082 ngày 02/07/2025; Biên bản xác nhận hiện trạng tài sản bảo đảm là hàng hóa ngày 04/07/2025. Phụ lục hợp đồng bảo đảm số HPG2025TSDB3348339/HDTC/PL3348339 ngày 09/07/2025.",
+            "MoTaChungTaiSan": "Toàn bộ nguyên liệu, vật liệu hiện tại hoặc tương lai (cho dù được hình thành từ nguồn vốn nào); Toàn bộ các sản phẩm thành phẩm; Toàn bộ các sản phẩm đang sản xuất dở, sơ chế; Toàn bộ các tài sản được hình thành, các phế liệu, phế phẩm do chế biến, gia công, sản xuất, lắp ráp v.v từ các tài sản trên; Toàn bộ các tài sản được hình thành, có được do việc chuyển đổi, mua bán các tài sản trên; Toàn bộ các khoản thu nhập thu được từ bán tài sản trên; Các quyền, lợi ích, các khoản giá trị gia tăng có trước, trong và sau thời điểm thế chấp mà chưa được ghi nhận trong Hợp Đồng này do Tài Sản Bảo Đảm được đầu tư, nâng cấp, các khoản bồi thường, đền bù và các khoản thanh toán khác gắn liền với Tài Sản Bảo Đảm mà Bên Bảo Đảm được nhận; Các hợp đồng bảo hiểm và toàn bộ các quyền của Bên Bảo Đảm phát sinh từ các hợp đồng bảo hiểm trong trường hợp Tài Sản Bảo Đảm được mua bảo hiểm. (Không bao gồm chứng khoán đã đăng ký tập trung, tàu bay, tàu biển và quyền sử dụng đất, tài sản gắn liền với đất thuộc thẩm quyền đăng ký của Văn phòng đăng ký quyền sử dụng đất).",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN HANOIS",
+                        "MaSoThue": "0110330297",
+                        "DiaChi": "Tầng 13, Tòa CEO, HH2-1, đường Phạm Hùng, Phường Từ Liêm, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM Chi nhánh: Hải Phòng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Số 5 Lý Tự Trọng, phường Hồng Bàng, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "THÉP CUỘN (Tổng giá trị 4,755,665,293 VND) bao gồm các chủng loại: 7,9x1499xC, 8x1499xC, 7,9x1500xC, 3,9x1500xC, 13,9x1500xC, 15,9x1500xC. Ngoài ra còn có toàn bộ nguyên liệu, vật liệu, sản phẩm thành phẩm, sản phẩm đang sản xuất dở, phế liệu, phế phẩm, tài sản hình thành từ chuyển đổi/mua bán, khoản thu nhập, quyền/lợi ích gia tăng, và hợp đồng bảo hiểm liên quan.",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

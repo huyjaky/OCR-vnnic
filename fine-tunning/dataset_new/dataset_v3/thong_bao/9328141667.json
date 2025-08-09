@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328141667/TB-TT3",
+            "SoDon": "9328141667",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô con MITSUBISHI XPANDER , Trắng có số khung: RLA1LNNC1R1001632; thông tin khác (số máy: , biển số: 43H-173.43)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Số 155 Nguyễn Văn Linh, Phường Thanh Khê, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MITSUBISHI XPANDER , Trắng",
+                    "SoKhung": "RLA1LNNC1R1001632",
+                    "SoMay": null,
+                    "BienSo": "43H-173.43",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328158715/TB-TT3",
+            "SoDon": "9328158715",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô FOTON, trắng có số khung: 6FCALC020580; số máy: R16876546771, biển số: 76H-001.04",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Quảng Ngãi",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Ngãi",
+                    "DiaChi": "316 Trần Hưng Đạo, P. Nghĩa Lộ, Quảng Ngãi, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FOTON, trắng",
+                    "SoKhung": "6FCALC020580",
+                    "SoMay": "R16876546771",
+                    "BienSo": "76H-001.04",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

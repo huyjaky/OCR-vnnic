@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328169258/TB-TT3",
+            "SoDon": "9328169258",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ph\u01b0\u01a1ng ti\u1ec7n FORD c\u00f3 s\u1ed1 khung: RL2UMFC50NGR36084; s\u1ed1 m\u00e1y: P02SRNG36084, bi\u1ec3n s\u1ed1: 27C-054.83",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng Chi Nh\u00e1nh H\u00e0 N\u1ed9i Ph\u00f2ng Giao D\u1ecbch Ba \u0110\u00ecnh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "H\u00e0 N\u1ed9i",
+                    "DiaChi": "T\u1ea7ng 1 T\u00f2a nh\u00e0 Vi\u1ec7t H\u1ea3i, L\u00f4 C2-H C\u1ee5m Ti\u1ec3u th\u1ee7 c\u00f4ng nghi\u1ec7p v\u00e0 c\u00f4ng nghi\u1ec7p nh\u1ecf C\u1ea7u Gi\u1ea5y, Ph\u01b0\u1eddng D\u1ecbch V\u1ecdng H\u1eadu, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "FORD",
+                    "NhanHieuMauSon": "FORD",
+                    "SoKhung": "RL2UMFC50NGR36084",
+                    "SoMay": "P02SRNG36084",
+                    "BienSo": "27C-054.83",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328152989/TB-TT3",
+            "SoDon": "9328152989",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 FORD M\u00e0u tr\u1eafng c\u00f3 s\u1ed1 khung: RL2UMFC50SBR16684; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: P02SRSB16684, bi\u1ec3n s\u1ed1: 36K-91630)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n h\u00e0ng TMCP L\u1ed9c Ph\u00e1t Vi\u1ec7t Nam - Chi nh\u00e1nh Thanh H\u00f3a",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh H\u00f3a",
+                    "DiaChi": "280 + 282 Tr\u1ea7n Ph\u00fa, Ph\u01b0\u1eddng Ba \u0110\u00ecnh, Th\u00e0nh Ph\u1ed1 Thanh H\u00f3a (nay l\u00e0 280 + 282 Tr\u1ea7n Ph\u00fa, Ph\u01b0\u1eddng H\u1ea1c Th\u00e0nh), t\u1ec9nh Thanh H\u00f3a, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4",
+                    "NhanHieuMauSon": "FORD M\u00e0u tr\u1eafng",
+                    "SoKhung": "RL2UMFC50SBR16684",
+                    "SoMay": "P02SRSB16684",
+                    "BienSo": "36K-91630",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

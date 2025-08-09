@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328156761/TB-TT3",
+            "SoDon": "9328156761",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu KIA, New Seltos 1.5L Luxury, Động cơ 1.5L - CVT, Màu sơn Trắng có số khung: RNYEJ52C0SC370396; số máy: G4FLSV094312, biển số: 12A-321.24",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Lạng Sơn",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Lạng Sơn",
+                    "DiaChi": "Số 107 -109 đường Lê Lợi, Phường Đông Kinh, tỉnh Lạng Sơn, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "KIA màu Trắng",
+                    "SoKhung": "RNYEJ52C0SC370396",
+                    "SoMay": "G4FLSV094312",
+                    "BienSo": "12A-32124",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328148486/TB-TT3",
+            "SoDon": "9328148486",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu FORD, TERRITORY TITANIUM X, 1.5L, Động cơ xăng, AT, Màu sơn ĐEN có số khung: RL05DYD7MSRR19983; thông tin khác (số máy: S4G029270, biển số: 99A-953.87)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Bắc Giang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Số 303 đường Lê Lợi, phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "FORD màu ĐEN",
+                    "SoKhung": "RL05DYD7MSRR19983",
+                    "SoMay": "S4G029270",
+                    "BienSo": "99A-953.87",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

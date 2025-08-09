@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328132380/TB-TT3",
+            "SoDon": "9328132380",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô có số khung: RL4XW42G8F9420965, số máy: 1TR8853031, biển số: 79A-334.01",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Sài Gòn Thương Tín Chi nhánh Khánh Hòa Phòng giao dịch Phương Sài",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "42 Thái Nguyên, Phường Phương Sài, Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "Xe ô tô",
+                    "SoKhung": "RL4XW42G8F9420965",
+                    "SoMay": "1TR8853031",
+                    "BienSo": "79A-334.01",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328148324/TB-TT3",
+            "SoDon": "9328148324",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe HYUNDAI NEW MIGHTY có số khung: RLUNET7KAMN000664, số máy: D4GAMJ315873, biển số: 60H-039.54",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam - Chi Nhánh Đồng Nai – Phòng Giao Dịch Trảng Bom",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số B1-B2 đường 29/4, Khu phố 5, Thị trấn Trảng Bom, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe tải",
+                    "NhanHieuMauSon": "Hyundai New Mighty",
+                    "SoKhung": "RLUNET7KAMN000664",
+                    "SoMay": "D4GAMJ315873",
+                    "BienSo": "60H-039.54",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

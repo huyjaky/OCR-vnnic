@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328140067/TB-TT3",
+            "SoDon": "9328140067",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 XE \u00d4 T\u00d4 nh\u00e3n hi\u1ec7u HYUNDAI S\u1ed0 LO\u1ea0I TUCSON c\u00f3 s\u1ed1 khung: W14BKN014155; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: D4HAKU017852, bi\u1ec3n s\u1ed1: 98A-270.62)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n h\u00e0ng Th\u01b0\u01a1ng m\u1ea1i C\u1ed5 ph\u1ea7n Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng - Chi nh\u00e1nh B\u1eafc Giang - \u0110\u1ecba \u0111i\u1ec3m kinh doanh Ph\u00f2ng giao d\u1ecbch L\u1ea1ng Giang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "B\u1eafc Ninh",
+                    "DiaChi": "L\u00f4 SH2.16, N64+SH2.17, N64+SH2.18, N64+SH2.19,N64 Khu \u0111\u00f4 th\u1ecb m\u1edbi ph\u00eda T\u00e2y , X\u00e3 L\u1ea1ng Giang, t\u1ec9nh B\u1eafc Ninh, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 con",
+                    "NhanHieuMauSon": "HYUNDAI TUCSON",
+                    "SoKhung": "W14BKN014155",
+                    "SoMay": "D4HAKU017852",
+                    "BienSo": "98A-270.62",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

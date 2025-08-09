@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328150568/TB-TT3",
+            "SoDon": "9328150568",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô có số khung: MR2KUAAG0N0042750; số máy: 2ZRY865752, biển số: 79A-387.51",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TNHH một thành viên Việt Nam Hiện đại - Chi nhánh Khánh Hòa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "11 Lý Thánh Tôn, phường Vạn Thạnh, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MR2KUAAG0N0042750",
+                    "SoMay": "2ZRY865752",
+                    "BienSo": "79A-387.51",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

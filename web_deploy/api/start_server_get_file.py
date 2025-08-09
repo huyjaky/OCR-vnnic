@@ -9,14 +9,14 @@ import requests
 timeout = int(os.getenv("TIMEOUT_SFTP", "5"))  # Default to 5 minutes if not set
 folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
 
-while True:
 
+while True:
     # NOTE: prevent fetching new files when file was processed
     if len(os.listdir(folder_local_path)) != 1:
         print("Waiting for new files to be added to the cache server...")
         time.sleep(5)
         continue
-    
+
     get_file = requests.get("http://localhost:8053/get-file-from-remote")
     timeout_bar = tqdm(
         range(timeout * 60), desc="Waiting for new files", unit="seconds"

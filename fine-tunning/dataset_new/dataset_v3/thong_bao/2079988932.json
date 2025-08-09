@@ -1,0 +1,37 @@
+[
+    {
+        "output": {
+            "MaHoSo": "2079988932/TB-TT3",
+            "SoDon": "2079988932",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": "TĐ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "(1) ngân hàng kê khai thông tin tên bên nhận bảo đảm đã đăng ký không phù hợp với thông tin được lưu giữ tại cơ quan đăng ký; (2) Ngân hàng kê khai thông tin tên sau khi thay đổi của bên nhận bảo đảm tại trường Mô tả thông tin thay đổi không phù hợp với thông tin kê khai tại trường Bên nhận bảo đảm.",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Đầu tư và Phát triển Việt Nam Chi Nhánh Huế Phòng Giao Dịch Nguyễn Trãi",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Huế",
+                    "DiaChi": "166 Nguyễn Trãi, Phường Phú Xuân, , thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": []
+        }
+    }
+]

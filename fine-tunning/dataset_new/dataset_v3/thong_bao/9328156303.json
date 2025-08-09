@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328156303/TB-TT3",
+            "SoDon": "9328156303",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô có số khung: RLUB351CBMN000054; thông tin khác (số máy: G4LAMM904779, biển số: 70A-330.76)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Tây Ninh Phòng giao dịch Hiệp Ninh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "Số 797 đường Cách Mạng Tháng 8, khu phố 2, phường 3, Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLUB351CBMN000054",
+                    "SoMay": "G4LAMM904779",
+                    "BienSo": "70A-330.76",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

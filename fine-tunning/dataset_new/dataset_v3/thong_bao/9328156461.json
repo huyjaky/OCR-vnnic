@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328156461/TB-TT3",
+            "SoDon": "9328156461",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RNHA36KHAMT030863; số máy: LD528252D4CB, biển số: 92H-003.58",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Thương Tín Chi Nhánh Quảng Nam",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Nam",
+                    "DiaChi": "Lô 8 – Khu Trung tâm thương mại, Quảng Nam, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RNHA36KHAMT030863",
+                    "SoMay": "LD528252D4CB",
+                    "BienSo": "92H-003.58",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328158234/TB-TT3",
+            "SoDon": "9328158234",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con có số khung RLUG8S1DBKN033087, số máy G4LAKM235321, biển số 70A-199.31",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Chi Nhánh Tây Ninh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "324, đường 30/4, Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLUG8S1DBKN033087",
+                    "SoMay": "G4LAKM235321",
+                    "BienSo": "70A-199.31",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

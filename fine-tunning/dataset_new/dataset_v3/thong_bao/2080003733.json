@@ -1,0 +1,37 @@
+[
+    {
+        "output": {
+            "MaHoSo": "2080003733/TB-TT3",
+            "SoDon": "2080003733",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": "TĐ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-12T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "thay đổi thông tin tên và địa chỉ cơ quan tiếp nhận thông báo",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Số 2 đường Lê Hữu Lập, phường Hạc Thành, , tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": []
+        }
+    }
+]

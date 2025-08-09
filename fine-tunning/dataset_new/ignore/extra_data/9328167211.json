@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328167211/TB-TT3",
+            "SoDon": "9328167211",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 PEUGEOT, 408 GT, 1.6L, AT c\u00f3 s\u1ed1 khung: RN2PHSEP8SM167613; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: 90050305G07, bi\u1ec3n s\u1ed1: 30M-863.79)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng Tmcp Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng Chi Nh\u00e1nh Nam \u0110\u1ecbnh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ninh B\u00ecnh",
+                    "DiaChi": "S\u1ed1 69 L\u00ea H\u1ed3ng Phong, ph\u01b0\u1eddng Nam \u0110\u1ecbnh, t\u1ec9nh Ninh B\u00ecnh, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4",
+                    "NhanHieuMauSon": "PEUGEOT 408 GT",
+                    "SoKhung": "RN2PHSEP8SM167613",
+                    "SoMay": "90050305G07",
+                    "BienSo": "30M-863.79",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

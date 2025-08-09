@@ -41,7 +41,7 @@ def get_text_from_pdf(
     rendered = converter(str(os.path.join(file_local_get_path, file_name)))
     text, _, images = text_from_rendered(rendered)
     with open(
-        os.path.join(file_local_save_path, file_name),
+        os.path.join(file_local_save_path, file_name.replace(".pdf", ".txt")),
         "w",
         encoding="utf-8",
     ) as f:

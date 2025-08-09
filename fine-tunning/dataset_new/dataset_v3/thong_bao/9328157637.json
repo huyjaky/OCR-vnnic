@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328157637/TB-TT3",
+            "SoDon": "9328157637",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô có số khung: RLUAC41BBPN098061, số máy: G4LCNU815635, biển số: 70A-445.35",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Chi nhánh Tây Ninh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "Số L4-L5, khu shophouse MBLAND, đường 30/4, khu phố 1, phường 1, Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLUAC41BBPN098061",
+                    "SoMay": "G4LCNU815635",
+                    "BienSo": "70A-445.35",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

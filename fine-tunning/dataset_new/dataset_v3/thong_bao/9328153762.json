@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328153762/TB-TT3",
+            "SoDon": "9328153762",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô MITSUBISHI, số khung MK2LRNC1WSN033604, biển số 85H-016.76",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Ninh Thuận",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "360 Thống Nhất, Phường Phan Rang, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI",
+                    "SoKhung": "MK2LRNC1WSN033604",
+                    "SoMay": "",
+                    "BienSo": "85H-016.76",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

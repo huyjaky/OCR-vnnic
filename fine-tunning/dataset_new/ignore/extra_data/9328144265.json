@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328144265/TB-TT3",
+            "SoDon": "9328144265",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "nh\u00e3n hi\u1ec7u TOYOTA c\u00f3 s\u1ed1 khung: RL4XW42G5E9410960; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: 1TR7803626, bi\u1ec3n s\u1ed1: 34A-508.38)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng Chi Nh\u00e1nh H\u1ea3i Ph\u00f2ng Ph\u00f2ng Giao D\u1ecbch L\u1ea1ch Tray",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "H\u1ea3i Ph\u00f2ng",
+                    "DiaChi": "S\u1ed1 276B L\u1ea1ch Tray, Ph\u01b0\u1eddng L\u1ea1ch Tray, H\u1ea3i Ph\u00f2ng, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 con",
+                    "NhanHieuMauSon": "TOYOTA",
+                    "SoKhung": "RL4XW42G5E9410960",
+                    "SoMay": "1TR7803626",
+                    "BienSo": "34A-508.38",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

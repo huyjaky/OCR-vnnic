@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328122744/TB-TT3",
+            "SoDon": "9328122744",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ford Ranger có số khung: RL2AMFE60NBR27284; thông tin khác (số máy: YN2SRNB27284, biển số: 93C-164.59)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Đồng Nai Phòng Giao Dịch Hố Nai",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số 97/5, khu phố 9, quốc lộ 1, phường Tân Biên, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe tải",
+                    "NhanHieuMauSon": "Ford Ranger",
+                    "SoKhung": "RL2AMFE60NBR27284",
+                    "SoMay": "YN2SRNB27284",
+                    "BienSo": "93C-164.59",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

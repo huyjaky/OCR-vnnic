@@ -1,0 +1,40 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328140351/TB-TT3",
+            "SoDon": "9328140351",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Mô tô Xe máy nhãn hiệu SH - HONDA màu trắng, số khung RLHJF9501NY171624, số máy JF95E0186723, biển số 75K1-638.64",
+            "BenGiao": [],
+            "BenNhan": [],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Mô tô Xe máy",
+                    "NhanHieuMauSon": "SH - HONDA , màu trắng",
+                    "SoKhung": "RLHJF9501NY171624",
+                    "SoMay": "JF95E0186723",
+                    "BienSo": "75K1-638.64",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

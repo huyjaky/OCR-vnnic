@@ -10,7 +10,6 @@ from querys.preprocessing import (
 load_dotenv()
 import os
 
-
 def connect_to_db():
     """
     Connect to the SQL Server database and return the connection object.
@@ -93,8 +92,12 @@ def insert_records_from_json(json_input):
 
     conn = connect_to_db()
     insert_single_record(conn=conn, table_name="HoSoTemp", data=ho_so)
-    insert_multiple_records(conn=conn, table_name="BenGiaoTemp", data_list=ben_giao)
-    insert_multiple_records(conn=conn, table_name="BenNhanTemp", data_list=ben_nhan)
+
+    if len(json_input["BenGiao"]) != 0:
+        insert_multiple_records(conn=conn, table_name="BenGiaoTemp", data_list=ben_giao)
+
+    if len(json_input["BenNhan"]) != 0:
+        insert_multiple_records(conn=conn, table_name="BenNhanTemp", data_list=ben_nhan)
 
 
 if __name__ == "__main__":

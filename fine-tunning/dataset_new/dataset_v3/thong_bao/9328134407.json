@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328134407/TB-TT3",
+            "SoDon": "9328134407",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô có số khung MK2LRNC1WPN013220, số máy 4A91KBG8777, biển số 92A-335.98",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Quảng Nam",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Nam",
+                    "DiaChi": "175+177 đường Phan Châu Trinh, phường Phước Hòa,, Quảng Nam, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MK2LRNC1WPN013220",
+                    "SoMay": "4A91KBG8777",
+                    "BienSo": "92A-335.98",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

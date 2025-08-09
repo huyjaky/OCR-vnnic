@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328152989/TB-TT3",
+            "SoDon": "9328152989",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô FORD Màu trắng có số khung: RL2UMFC50SBR16684; thông tin khác (số máy: P02SRSB16684, biển số: 36K-91630)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Thanh Hóa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "280 + 282 Trần Phú, Phường Ba Đình, Thành Phố Thanh Hóa (nay là 280 + 282 Trần Phú, Phường Hạc Thành), tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD Màu trắng",
+                    "SoKhung": "RL2UMFC50SBR16684",
+                    "SoMay": "P02SRSB16684",
+                    "BienSo": "36K-91630",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

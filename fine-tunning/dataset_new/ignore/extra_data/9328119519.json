@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328119519/TB-TT3",
+            "SoDon": "9328119519",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe \u00f4 t\u00f4 con nh\u00e3n hi\u1ec7u MAZDA CX 5, s\u1ed1 khung: RN2KW5726MM056300, bi\u1ec3n s\u1ed1: 92A-334.50",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP Ti\u00ean Phong Chi Nh\u00e1nh \u0110\u00e0 N\u1eb5ng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "\u0110\u00e0 N\u1eb5ng",
+                    "DiaChi": "155 Nguy\u1ec5n V\u0103n Linh, ph\u01b0\u1eddng V\u0129nh Trung, \u0110\u00e0 N\u1eb5ng, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 con",
+                    "NhanHieuMauSon": "MAZDA CX 5",
+                    "SoKhung": "RN2KW5726MM056300",
+                    "SoMay": "",
+                    "BienSo": "92A-334.50",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

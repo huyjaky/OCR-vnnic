@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328164453/TB-TT3",
+            "SoDon": "9328164453",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô BYD có số khung: LC0CE4CC6R6108506; thông tin khác (số máy: , biển số: 61K-605.15)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng Chi nhánh Bình Dương Phòng giao dịch Thuận An",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "Số 68 A đường Nguyễn Văn Tiết, Phường Lái Thiêu, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "BYD",
+                    "SoKhung": "LC0CE4CC6R6108506",
+                    "SoMay": "",
+                    "BienSo": "61K-605.15",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

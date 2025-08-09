@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328169508/TB-TT3",
+            "SoDon": "9328169508",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu MITSUBISHI, Xpander Premium, 1.5L, AT có số khung: MK2LRNC1WSN002456; thông tin khác (số máy: 4A91KCG3954, biển số: 86A-276.48)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Bình Thuận",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bình Thuận",
+                    "DiaChi": "132 Trần Hưng Đạo, Phường Phú Thủy, Bình Thuận, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI, Xpander Premium, 1.5L, AT",
+                    "SoKhung": "MK2LRNC1WSN002456",
+                    "SoMay": "4A91KCG3954",
+                    "BienSo": "86A-276.48",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

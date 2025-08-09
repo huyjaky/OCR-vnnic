@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328167522/TB-TT3",
+            "SoDon": "9328167522",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 Nh\u00e3n hi\u1ec7u FORD, S\u1ed1 lo\u1ea1i RANGER c\u00f3 s\u1ed1 khung: RL2UMFC50RAR69732; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: P02SRRA69732, bi\u1ec3n s\u1ed1: 29K-125.78)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng Chi Nh\u00e1nh H\u00e0 N\u1ed9i Ph\u00f2ng Giao D\u1ecbch Ba \u0110\u00ecnh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "H\u00e0 N\u1ed9i",
+                    "DiaChi": "T\u1ea7ng 1 T\u00f2a nh\u00e0 Vi\u1ec7t H\u1ea3i, L\u00f4 C2-H C\u1ee5m Ti\u1ec3u th\u1ee7 c\u00f4ng nghi\u1ec7p v\u00e0 c\u00f4ng nghi\u1ec7p nh\u1ecf C\u1ea7u Gi\u1ea5y, Ph\u01b0\u1eddngD\u1ecbch V\u1ecdng H\u1eadu, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe t\u1ea3i",
+                    "NhanHieuMauSon": "FORD RANGER",
+                    "SoKhung": "RL2UMFC50RAR69732",
+                    "SoMay": "P02SRRA69732",
+                    "BienSo": "29K-125.78",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

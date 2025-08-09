@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328128762/TB-TT3",
+            "SoDon": "9328128762",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô KIA có số khung: RNYHC54C0SC370219; biển số: 72A-946.59",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Vũng Tàu Phòng giao dịch Bà Rịa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hồ Chí Minh",
+                    "DiaChi": "Số 44 Bạch Đằng, Phường Bà Rịa, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "KIA",
+                    "SoKhung": "RNYHC54C0SC370219",
+                    "SoMay": null,
+                    "BienSo": "72A-946.59",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

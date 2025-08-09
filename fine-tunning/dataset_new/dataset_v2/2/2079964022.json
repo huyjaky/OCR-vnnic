@@ -1,0 +1,64 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0165",
+            "SoDon": "2079964022",
+            "SoDangKyLanDau": "1597696623",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T09:34:00",
+            "SoHopDong": "LN2505265661178",
+            "NgayCoHieuLucHopDong": "2025-06-05",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T09:34:00",
+            "ThoiDiemDKLanDau": "2025-07-09T16:05:00",
+            "NoiDungThayDoi": "- Thay đổi thông tin địa chỉ bên thế chấp của Khách hàng NGÔ DƯƠNG TIẾN từ TỔ 1, Thị trấn Quang Minh, Huyện Mê Linh, thành phố Hà Nội, Việt Nam thành TỔ 1, Xã Quang Minh, thành phố Hà Nội, Việt Nam\n- Thay đổi thông tin địa chỉ bên thế chấp của Khách hàng NGUYỄN THỊ THU HIỀN từ TỔ 1, Thị trấn Quang Minh, Huyện Mê Linh, thành phố Hà Nội, Việt Nam thành TỔ 1, Xã Quang Minh, thành phố Hà Nội, Việt Nam",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGÔ DƯƠNG TIẾN",
+                        "CCCD": "001078012362",
+                        "DiaChi": "TỔ 1, Xã Quang Minh, thành phố Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ THU HIỀN",
+                        "CCCD": "001181035388",
+                        "DiaChi": "TỔ 1, Xã Quang Minh, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi Nhánh ThăngLong - Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, số 292 Hồ Tùng Mậu, tổ dân phố số 12 Phường Phú Diễn, quận BắcTừ Liêm, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLLV4HDG4SH754321",
+                    "SoMay": "VFAAGB254170003",
+                    "BienSo": "29E-213.00",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

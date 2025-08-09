@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0991",
+            "SoDon": "4223477107",
+            "SoDangKyLanDau": "1574773842",
+            "LoaiDonID": 4,
+            "LoaiDonName": "XÓA ĐƠN ĐĂNG KÝ",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:45:00",
+            "SoHopDong": "LN2501084762355",
+            "NgayCoHieuLucHopDong": "2025-01-21",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-01-21T16:26:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN THỊ HẰNG",
+                        "CCCD": "030195007848",
+                        "DiaChi": "Thôn An Bình, Xã Tuấn Việt, Kim Thành, Hải Dương, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NINH VĂN THỰC",
+                        "CCCD": "030095011321",
+                        "DiaChi": "Thôn An Bình, Xã Tuấn Việt, Kim Thành, Hải Dương, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Hải Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Dương",
+                    "DiaChi": "Số 11 Trần Hưng Đạo, phường Trần Hưng Đạo, Thành phố Hải Dương, Hải Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": []
+        }
+    }
+]

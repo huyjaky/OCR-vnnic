@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328124207/TB-TT3",
+            "SoDon": "9328124207",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe \u00f4 t\u00f4 m\u1edbi Ford Everest m\u00e0u tr\u1eafng, s\u1ed1 khung MNCRXXMAWRSB32360, s\u1ed1 m\u00e1y P0WSRSB32360, bi\u1ec3n s\u1ed1 49B-02798",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP Qu\u1ed1c T\u1ebf Vi\u1ec7t Nam Chi Nh\u00e1nh L\u00e2m \u0110\u1ed3ng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "L\u00e2m \u0110\u1ed3ng",
+                    "DiaChi": "56-58 Khu H\u00f2a B\u00ecnh, Ph\u01b0\u1eddng Xu\u00e2n H\u01b0\u01a1ng - \u0110\u00e0 L\u1ea1t, t\u1ec9nh L\u00e2m \u0110\u1ed3ng, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe \u00f4 t\u00f4",
+                    "NhanHieuMauSon": "Ford Everest, m\u00e0u tr\u1eafng",
+                    "SoKhung": "MNCRXXMAWRSB32360",
+                    "SoMay": "P0WSRSB32360",
+                    "BienSo": "49B-02798",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

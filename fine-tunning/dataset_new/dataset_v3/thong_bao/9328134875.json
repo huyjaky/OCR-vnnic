@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328134875/TB-TT3",
+            "SoDon": "9328134875",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô – Nhãn hiệu xe ô tô: HONDA ; Màu sơn: Trắng có số khung: MRHFC6630JT031983; thông tin khác (số máy: R18Z16656304 , biển số: 34A-906.02)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam Chi Nhánh Hải Dương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Số 234 đường Trường Chinh, phường Lê Thanh Nghị, Thành phố Hải Phòng, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HONDA màu Trắng",
+                    "SoKhung": "MRHFC6630JT031983",
+                    "SoMay": "R18Z16656304",
+                    "BienSo": "34A-906.02",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

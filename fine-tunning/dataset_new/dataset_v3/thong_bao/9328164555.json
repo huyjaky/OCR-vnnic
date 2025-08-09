@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328164555/TB-TT3",
+            "SoDon": "9328164555",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô nhãn hiệu: Ford có số khung: FF40KW040159, biển số: 29LD-047.89; 01 xe Ô tô nhãn hiệu: Toyota có số khung: 3GS3K1102448, biển số: 30F-701.65",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Ngô Quyền Phòng Giao Dịch Thái Hà",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và Tầng 2, ngôi nhà số 78A, tổ 4A, Phường Trung Liệt, Quận Đống Đa, Thành phố Hà Nội (Nay:Tầng 1 và Tầng 2, ngôi nhà số 78A, tổ 4A, Phường Đống Đa), thành phố Hà Nội"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Ford",
+                    "SoKhung": "FF40KW040159",
+                    "SoMay": null,
+                    "BienSo": "29LD-047.89",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Toyota",
+                    "SoKhung": "3GS3K1102448",
+                    "SoMay": null,
+                    "BienSo": "30F-701.65",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328156085/TB-TT3",
+            "SoDon": "9328156085",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n h\u00e0ng Tmcp Qu\u1ed1c t\u1ebf Vi\u1ec7t Nam Chi nh\u00e1nh T\u00e2y Ninh Ph\u00f2ng giao d\u1ecbch H\u00f2a Th\u00e0nh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "T\u00e2y Ninh",
+                    "DiaChi": "S\u1ed1 13 Nguy\u1ec5n V\u0103n Ninh, KP Long Th\u1eddi, ph\u01b0\u1eddng Long Th\u00e0nh B\u1eafc, T\u00e2y Ninh, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MF3NC81DEPJ014810",
+                    "SoMay": "G4FLNQ163477",
+                    "BienSo": "70A-439.10",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

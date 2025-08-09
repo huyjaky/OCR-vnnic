@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328129643/TB-TT3",
+            "SoDon": "9328129643",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 MG c\u00f3 s\u1ed1 khung: LSJA36E32RZ163046; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: 15S4C9KGR1210278, bi\u1ec3n s\u1ed1: 73A-347.53)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng Chi Nh\u00e1nh Qu\u1ea3ng B\u00ecnh Ph\u00f2ng Giao D\u1ecbch \u0110\u1ed3ng H\u1edbi",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Qu\u1ea3ng B\u00ecnh",
+                    "DiaChi": "59 T\u1ed1 H\u1eefu, Ph\u01b0\u1eddng Nam L\u00fd, Qu\u1ea3ng B\u00ecnh, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 con",
+                    "NhanHieuMauSon": "MG",
+                    "SoKhung": "LSJA36E32RZ163046",
+                    "SoMay": "15S4C9KGR1210278",
+                    "BienSo": "73A-347.53",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

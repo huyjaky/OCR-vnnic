@@ -1,0 +1,82 @@
+Mã hồ sơ TTHC 000.02.18.G15-250710-0203
+
+ CỤC ĐĂNG KÝ GIAO DỊCH BẢO ĐẢM VÀ BỒI THƯỜNG NHÀ NƯỚC **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG**
+
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc**
+
+*Đà Nẵng, ngày 10 tháng 07 năm 2025*
+
+## **VĂN BẢN CHỨNG NHẬN ĐĂNG KÝ BIỆN PHÁP BẢO ĐẢM, THÔNG BÁO XỬ LÝ TÀI SẢN BẢO ĐẢM**
+
+## **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG CHỨNG NHẬN**
+
+**1.** Nội dung của Phiếu yêu cầu đăng ký đã được cập nhật vào Cơ sở dữ liệu tại thời điểm 09 giờ 49 phút, ngày 10 tháng 07 năm 2025, số đăng ký **2079966542**
+
+**1.1.** Bên nhận thế chấp
+
+ **(4)Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Trung Hòa Nhân Chính**
+
+ Địa chỉ: (4)Tầng 1, tòa nhà 29T1, khu chung cư N05 Đông Nam Trần Duy Hưng, phường Trung Hòa, thành phố Hà Nội, Việt Nam
+
+**1.2.** Bên thế chấp  **CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ Ô TÔ VIỆT PHÚ** Mã số thuế: : **0105689556 1.3.** Mã PIN:
+
+### *(Người yêu cầu đăng ký hoàn toàn chịu trách nhiệm về việc bảo mật thông tin liên quan đến Mã PIN do cơ quan đăng ký cấp)*
+
+**2.** Phiếu yêu cầu đăng ký *(đối với trường hợp yêu cầu đăng ký bằng văn bản giấy),* chi tiết thông tin thể hiện trên giao diện đăng ký trực tuyến *(đối với trường hợp yêu cầu đăng ký qua hệ thống đăng ký trực tuyến)* kèm theo Văn bản chứng nhận này là một phần không thể tách rời của Văn bản chứng nhận.
+
+![](_page_0_Picture_14.jpeg)
+
+# **NGƯỜI CÓ THẨM QUYỀN CỦA TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN**
+
+ *(Ký, ghi rõ họ và tên, chức danh, đóng dấu)*
+
+# **CHI TIẾT THÔNG TIN ĐĂNG KÝ**
+
+Số đăng ký lần đầu: 1572393307 Thời điểm đăng ký: 07-01-2025 09:21 Loại hình giao dịch: Biện pháp bảo đảm Loại biện pháp: Thế chấp
+
+# **ĐĂNG KÝ THAY ĐỔI**
+
+Số hợp đồng: 241224-17308335-01-SME/TC Ngày có hiệu lực của hợp đồng : 06/01/2025
+
+| Số đơn đăng ký | Thời điểm đăng ký |
+|----------------|-------------------|
+| 2079966542     | 10-07-2025 09:49  |
+
+### **Bên thế chấp**
+
+| Loại chủ thể          | Số giấy tờ chứng<br>minh tư cách pháp<br>lý | Tên          | Địa chỉ                    |  |
+|-----------------------|---------------------------------------------|--------------|----------------------------|--|
+|                       |                                             |              |                            |  |
+| Tổ chức có đăng ký    | Mã số thuế:                                 | CÔNG TY TNHH | Thôn Khê Hồi, Xã Hồng Vân, |  |
+| kinh doanh trong nước | 0105689556                                  | THƯƠNG MẠI   | thành phố Hà Nội, Việt Nam |  |
+|                       |                                             | VÀ DỊCH VỤ Ô |                            |  |
+|                       |                                             | TÔ VIỆT PHÚ  |                            |  |
+
+### **Bên nhận thế chấp**
+
+| Tên                      | Địa chỉ                                                     |  |  |
+|--------------------------|-------------------------------------------------------------|--|--|
+|                          |                                                             |  |  |
+| (4)Ngân Hàng TMCP Việt   | (4)Tầng 1, tòa nhà 29T1, khu chung cư N05 Đông Nam Trần Duy |  |  |
+| Nam Thịnh Vượng Chi      | Hưng, phường Trung Hòa, thành phố Hà Nội, Việt Nam          |  |  |
+| Nhánh Thăng Long Phòng   |                                                             |  |  |
+| Giao Dịch Trung Hòa Nhân |                                                             |  |  |
+| Chính                    |                                                             |  |  |
+
+### **Nội dung thay đổi**
+
+RÚT BỚT TÀI SẢN BẢO ĐẢM LÀ 4 XE SỐ KHUNG RLLV3F5D5SH771995 RLLVAGND8SH769105 RLLV1MTC0SH758334 RLNVBL9K7SH742693
+
+### **Số khung**
+
+| ST<br>T | Tên phương<br>tiện | Nhãn hiệu,<br>màu sơn | Số khung  | Số máy | Biển số | Căn cứ thay<br>đổi |
+|---------|--------------------|-----------------------|-----------|--------|---------|--------------------|
+| 1       | Ô tô               | Vinfast               | RLLV3F5D5 |        |         | Xóa thế chấp       |
+
+|   |      |         | SH771995              |  | / cầm cố                 |
+|---|------|---------|-----------------------|--|--------------------------|
+| 2 | Ô tô | Vinfast | RLLVAGND<br>8SH769105 |  | Xóa thế chấp<br>/ cầm cố |
+| 3 | Ô tô | Vinfast | RLLV1MTC<br>0SH758334 |  | Xóa thế chấp<br>/ cầm cố |
+| 4 | Ô tô | Vinfast | RLNVBL9K<br>7SH742693 |  | Xóa thế chấp<br>/ cầm cố |
+
+ **--------------------------------------------------------------------**

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328151471/TB-TT3",
+            "SoDon": "9328151471",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe \u00f4 t\u00f4 con nh\u00e3n hi\u1ec7u MITSUBISHI, Xpander Cross, 1.5L, AT, M\u00e0u s\u01a1n Tr\u1eafng, s\u1ed1 khung: MK2XRNC1WSN018609, s\u1ed1 m\u00e1y: 4A91KDA5748, bi\u1ec3n s\u1ed1: 98A-808.38",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng Tmcp Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng Chi Nh\u00e1nh B\u1eafc Giang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "B\u1eafc Ninh",
+                    "DiaChi": "S\u1ed1 303 \u0111\u01b0\u1eddng L\u00ea L\u1ee3i, ph\u01b0\u1eddng B\u1eafc Giang, t\u1ec9nh B\u1eafc Ninh, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 con",
+                    "NhanHieuMauSon": "MITSUBISHI m\u00e0u Tr\u1eafng",
+                    "SoKhung": "MK2XRNC1WSN018609",
+                    "SoMay": "4A91KDA5748",
+                    "BienSo": "98A-808.38",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

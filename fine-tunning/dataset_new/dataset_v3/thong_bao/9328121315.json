@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328121315/TB-TT3",
+            "SoDon": "9328121315",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô có số khung: RL05BYD7MNAR31285; thông tin khác (số máy: NAG084342, biển số: 77A-267.66)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Bảo Việt Chi nhánh Bình Định",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bình Định",
+                    "DiaChi": "Số 40 đường Nguyễn Thái Học, Phường Lê Hồng Phong, Bình Định, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RL05BYD7MNAR31285",
+                    "SoMay": "NAG084342",
+                    "BienSo": "77A-26766",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328165253/TB-TT3",
+            "SoDon": "9328165253",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu MG, biển số 88A-453.02",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Vĩnh Phúc Phòng Giao Dịch Phúc Yên",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Vĩnh Phúc",
+                    "DiaChi": "Số 104 Hai Bà Trưng, Vĩnh Phúc, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MG",
+                    "SoKhung": "MMLW74U44MG028896",
+                    "SoMay": "15S4CCTTM6230002",
+                    "BienSo": "88A-453.02",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

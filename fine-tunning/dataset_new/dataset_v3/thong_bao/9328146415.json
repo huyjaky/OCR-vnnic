@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328146415/TB-TT3",
+            "SoDon": "9328146415",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Cheng Long, màu bạc có số khung: LNXAEM0C9SL20947; thông tin khác (số máy: YC6L33050LD2L2S50144, biển số: 47C-213.76)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Nông Nghiệp Và Phát Triển Nông Thôn Việt Nam Chi Nhánh Tỉnh Đăk Lăk",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "51 Nguyễn Tất Thành, Phường Tân An, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe tải",
+                    "NhanHieuMauSon": "Cheng Long, màu bạc",
+                    "SoKhung": "LNXAEM0C9SL20947",
+                    "SoMay": "YC6L33050LD2L2S50144",
+                    "BienSo": "47C-213.76",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

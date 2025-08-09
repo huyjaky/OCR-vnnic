@@ -1,0 +1,37 @@
+[
+    {
+        "output": {
+            "MaHoSo": "2079994438/TB-TT3",
+            "SoDon": "2079994438",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": "TĐ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi Nhánh Quảng Trị",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "72 Quốc lộ 9, phường Đông Hà, tỉnh Quảng Trị, , tỉnh Quảng Trị, Việt Nam"
+                }
+            ],
+            "TaiSan": []
+        }
+    }
+]

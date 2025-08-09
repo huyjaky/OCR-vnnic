@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328146323/TB-TT3",
+            "SoDon": "9328146323",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 Xe \u00f4 t\u00f4 c\u00f3 s\u1ed1 khung: MALA741CAHM225432; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: G4LAGM256497, bi\u1ec3n s\u1ed1: 61A-347.52)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng Chi Nh\u00e1nh B\u00ecnh D\u01b0\u01a1ng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "B\u00ecnh D\u01b0\u01a1ng",
+                    "DiaChi": "S\u1ed1 557 \u0110\u1ea1i l\u1ed9 B\u00ecnh D\u01b0\u01a1ng, ph\u01b0\u1eddng Hi\u1ec7p Th\u00e0nh, B\u00ecnh D\u01b0\u01a1ng, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MALA741CAHM225432",
+                    "SoMay": "G4LAGM256497",
+                    "BienSo": "61A-347.52",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

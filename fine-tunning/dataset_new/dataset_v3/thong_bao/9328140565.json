@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328140565/TB-TT3",
+            "SoDon": "9328140565",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô HOANDA ,đỏ có số khung: RLHGN2685NY104825; thông tin khác (số máy: L15ZC2005479, biển số: 61K-710.54)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Công Thương Việt Nam Chi nhánh Bình Dương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "TP. Hồ Chí Minh",
+                    "DiaChi": "330 Đại lộ Bình Dương - Phường Phú Lợi – TP. HCM"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HOANDA ,đỏ",
+                    "SoKhung": "RLHGN2685NY104825",
+                    "SoMay": "L15ZC2005479",
+                    "BienSo": "61K-710.54",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

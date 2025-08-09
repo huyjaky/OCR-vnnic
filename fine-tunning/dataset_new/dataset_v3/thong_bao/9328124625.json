@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328124625/TB-TT3",
+            "SoDon": "9328124625",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô TOYOTA màu: Nâu vàng có số khung: 9F38J5039515; thông tin khác (số máy: 2NRX314345 , biển số: 36A–316.77)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Quỹ Tín Dụng Nhân Dân thị trấn Triệu Sơn",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Số nhà 788 Lê Thái Tổ, Phố Giắt, Xã Triệu Sơn, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "TOYOTA màu: Nâu vàng",
+                    "SoKhung": "9F38J5039515",
+                    "SoMay": "2NRX314345",
+                    "BienSo": "36A–316.77",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

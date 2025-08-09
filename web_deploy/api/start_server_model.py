@@ -8,9 +8,15 @@ import queue
 import signal
 import sys
 from utils.load_models.marker_model import load_marker_model, get_text_from_pdf
+
 load_dotenv()
 folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
 md_cached_path = str(os.getenv("MD_CACHED_PATH"))
+
+print("[PDF Worker] Loading Marker model...")
+converter = load_marker_model()
+print("[PDF Worker] Model loaded successfully")
+
 
 def process_model_1(file_list):
     for file_name in file_list:
@@ -40,17 +46,9 @@ def process_model_2(file_list):
                 print(f"[Model 2] Error: {e}")
 
 
-converter = load_marker_model()
-
-
 def pdf_worker(pdf_queue, result_queue):
     """Worker process for PDF conversion - load model inside process"""
     try:
-        print("[PDF Worker] Loading Marker model...")
-        # Import và load model TRONG process này
-
-        print("[PDF Worker] Model loaded successfully")
-
         while True:
             try:
                 # Get PDF file from queue with timeout
@@ -60,7 +58,6 @@ def pdf_worker(pdf_queue, result_queue):
                     break
 
                 file_name, local_path, save_path = file_info
-
                 print(f"[PDF Worker] Processing: {file_name}")
                 get_text_from_pdf(
                     converter=converter,
@@ -70,7 +67,6 @@ def pdf_worker(pdf_queue, result_queue):
                 )
 
                 result_queue.put(f"Completed: {file_name}")
-                pdf_queue.task_done()
 
             except queue.Empty:
                 continue
@@ -105,19 +101,46 @@ def main():
                     continue
 
                 # Get file lists
-                md_files = []
                 try:
                     md_files = [
                         f for f in os.listdir(md_cached_path) if f.endswith(".txt")
                     ]
                 except FileNotFoundError:
                     os.makedirs(md_cached_path, exist_ok=True)
+                    md_files = []
 
                 pdf_files = [
                     f for f in os.listdir(folder_local_path) if f.endswith(".pdf")
                 ]
 
-                # Start HTTP processing threads
+                # Step 1: Send PDF files to worker process
+                if pdf_files:
+                    for pdf_file in pdf_files:
+                        pdf_queue.put((pdf_file, folder_local_path, md_cached_path))
+
+                # Step 2: Wait for PDF results
+                print("Waiting for PDF processing to complete...")
+                time.sleep(5)  # give some time to process
+
+                pdf_results = []
+                has_pdf_error = False
+                try:
+                    while True:
+                        result = result_queue.get_nowait()
+                        pdf_results.append(result)
+                        print(f"[PDF Result] {result}")
+                        if result.startswith("Error"):
+                            has_pdf_error = True
+                except queue.Empty:
+                    pass
+
+                # Step 3: If PDF error exists, skip thread execution
+                if has_pdf_error:
+                    print("[Main] Skipping model processing due to PDF errors.")
+                    time.sleep(10)
+                    continue
+
+                # Step 4: Process .txt files with threads
                 threads = []
 
                 if md_files:
@@ -137,28 +160,11 @@ def main():
 
                     threads.extend([t1, t2])
 
-                # Send PDF files to worker process
-                if pdf_files:
-                    for pdf_file in pdf_files:
-                        pdf_queue.put((pdf_file, folder_local_path, md_cached_path))
+                    for thread in threads:
+                        thread.start()
 
-                # Start HTTP threads
-                for thread in threads:
-                    thread.start()
-
-                # Wait for threads to complete
-                for thread in threads:
-                    thread.join()
-
-                # Check PDF results (non-blocking)
-                pdf_results = []
-                try:
-                    while True:
-                        result = result_queue.get_nowait()
-                        pdf_results.append(result)
-                        print(f"[PDF Result] {result}")
-                except queue.Empty:
-                    pass
+                    for thread in threads:
+                        thread.join()
 
                 print("Cycle completed")
                 time.sleep(10)
@@ -182,10 +188,12 @@ def main():
             pdf_process.join()
 
 
+
 # Signal handler for graceful shutdown
 def signal_handler(sig, frame):
     print("Graceful shutdown initiated...")
     sys.exit(0)
+
 
 if __name__ == "__main__":
     # Set spawn method for CUDA compatibility

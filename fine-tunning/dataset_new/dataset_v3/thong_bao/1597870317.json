@@ -1,0 +1,37 @@
+[
+  {
+    "output": {
+      "MaHoSo": "1597870317/TB-TT3",
+      "SoDon": "1597870317",
+      "SoDangKyLanDau": null,
+      "LoaiDonID": 1,
+      "LoaiDonName": "Đăng ký lần đầu",
+      "LoaiDonCode": "ĐKLD",
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": null,
+      "LoaiBienPhapName": null,
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10",
+      "SoHopDong": null,
+      "NgayCoHieuLucHopDong": null,
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": null,
+      "ThoiDiemDKLanDau": null,
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": null,
+      "BenGiao": [],
+      "BenNhan": [
+        {
+          "Ten": "Ngân Hàng Nông Nghiệp Và Phát Triển Nông Thôn Việt Nam Chi Nhánh Tỉnh Đăk Lăk",
+          "QuocGia": "Vietnam",
+          "Tinh": "Đắk Lắk",
+          "DiaChi": "51 Nguyễn Tất Thành, Phường Tân An, Tỉnh Đắk Lắk, , tỉnh Đắk Lắk, Việt Nam"
+        }
+      ],
+      "TaiSan": []
+    }
+  }
+]

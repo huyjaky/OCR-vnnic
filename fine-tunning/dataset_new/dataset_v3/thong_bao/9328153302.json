@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328153302/TB-TT3",
+            "SoDon": "9328153302",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô CHENG LONG, MÀU BẠC có số khung: LGGX6D058ML308279; thông tin khác (số máy: YC6L35050LG1L9M00175, biển số: 81H-005.70)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Ngoại Thương Chi nhánh Gia Lai",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "33 Quang Trung, Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô tải",
+                    "NhanHieuMauSon": "CHENG LONG, MÀU BẠC",
+                    "SoKhung": "LGGX6D058ML308279",
+                    "SoMay": "YC6L35050LG1L9M00175",
+                    "BienSo": "81H-005.70",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

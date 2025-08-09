@@ -1,0 +1,46 @@
+import paramiko
+from types_ocr.sftp_account import sftp_account  # pyright: ignore
+import os
+
+
+def push_file_to_remote_when_error(
+    local_save_path: str,
+    folder_remote_save_path: str,
+    account: sftp_account,
+    file_name: str,
+):
+    """
+    Function to upload a file to a remote server using SFTP.
+    # Path to the file to be uploaded
+    # NOTE: This should be the path where the file is saved after processing
+    # For example, after converting PDF to JSON
+    """
+    try:
+        ssh_client = paramiko.SSHClient()
+        ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        ssh_client.connect(
+            account.hostname, account.port, account.username, account.password
+        )
+        sftp_client = ssh_client.open_sftp()
+        print("Connected to the server successfully.")
+
+        sftp_client.put(
+            localpath=os.path.join(local_save_path, file_name.replace(".txt", ".pdf")),
+            remotepath=os.path.join(
+                folder_remote_save_path, f"error_{file_name.replace('.txt', '.pdf')}"
+            ),
+        )  # Upload the file
+        print("File uploaded successfully.")
+
+    except paramiko.AuthenticationException:
+        print("Authentication failed. Check your username and password or keys.")
+    except paramiko.SSHException as e:
+        print(f"SSH connection error: {e}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    finally:
+        # Close the SFTP and SSH connections
+        if "sftp_client" in locals() and sftp_client:  # pyright: ignore
+            sftp_client.close()
+        if "ssh_client" in locals() and ssh_client:  # pyright: ignore
+            ssh_client.close()

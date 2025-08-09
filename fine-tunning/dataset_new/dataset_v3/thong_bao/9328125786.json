@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328125786/TB-TT3",
+            "SoDon": "9328125786",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Hiệu THACO MOBIHOME, TB.24A, màu Xanh Vàng có số khung: RN5B26SEMSN010069; thông tin khác (số máy: WP12H400E50B924L002314, biển số: 77H-080.29)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Bình Định",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "Số 22 đường Nguyễn Tất Thành, phường Quy Nhơn, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Hiệu THACO MOBIHOME",
+                    "NhanHieuMauSon": "THACO MOBIHOME màu Xanh Vàng",
+                    "SoKhung": "RN5B26SEMSN010069",
+                    "SoMay": "WP12H400E50B924L002314",
+                    "BienSo": "77H-080.29",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

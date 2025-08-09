@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328162783/TB-TT3",
+            "SoDon": "9328162783",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô THACO, MOBIHOME S (TB120B22RB), 22 giường, 1 ghế, 4x2, ô tô khách có giường nằm có số khung: RN5B24SFMSN010160; thông tin khác (số máy: WP12H400E50B924L002432, biển số: 35B-012.92)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi nhánh Ninh Bình - Địa điểm kinh doanh Phòng giao dịch Yên Khánh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Số 411-413, Đường Lê Thánh Tông, Phố 3, xã Yên Khánh, tỉnh Ninh Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô khách có giường nằm",
+                    "NhanHieuMauSon": "THACO, MOBIHOME S (TB120B22RB), 22 giường, 1 ghế, 4x2",
+                    "SoKhung": "RN5B24SFMSN010160",
+                    "SoMay": "WP12H400E50B924L002432",
+                    "BienSo": "35B-012.92",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

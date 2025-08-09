@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328140067/TB-TT3",
+            "SoDon": "9328140067",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô XE Ô TÔ nhãn hiệu HYUNDAI SỐ LOẠI TUCSON có số khung: W14BKN014155; thông tin khác (số máy: D4HAKU017852, biển số: 98A-270.62)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Thương mại Cổ phần Việt Nam Thịnh Vượng - Chi nhánh Bắc Giang - Địa điểm kinh doanh Phòng giao dịch Lạng Giang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Lô SH2.16, N64+SH2.17, N64+SH2.18, N64+SH2.19,N64 Khu đô thị mới phía Tây , Xã Lạng Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HYUNDAI TUCSON",
+                    "SoKhung": "W14BKN014155",
+                    "SoMay": "D4HAKU017852",
+                    "BienSo": "98A-270.62",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

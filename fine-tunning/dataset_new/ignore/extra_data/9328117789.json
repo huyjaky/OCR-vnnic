@@ -1,0 +1,57 @@
+[
+  {
+    "output": {
+      "MaHoSo": "9328117789/TB-TT3",
+      "SoDon": "9328117789",
+      "SoDangKyLanDau": null,
+      "LoaiDonID": 9,
+      "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+      "LoaiDonCode": null,
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+      "SoHopDong": null,
+      "NgayCoHieuLucHopDong": null,
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": null,
+      "ThoiDiemDKLanDau": null,
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": "Mô tô Xe máy, nhãn hiệu: VARIO - HONDA, màu xanh đen có số khung: MH1JM5129NK057664; số máy: JM51E2056690, biển số: 75H1-745.90",
+      "BenGiao": [
+        {
+          "LoaiChuTheID": 2,
+          "ThongTinChuThe": {
+            "TenToChuc": "Hộ kinh doanh DNM HT",
+            "MaSoThue": null,
+            "DiaChi": "03 Tỉnh Lộ 10, Phú Thượng, thành phố Huế, Việt Nam"
+          }
+        },
+        {
+          "LoaiChuTheID": 1,
+          "ThongTinChuThe": {
+            "HoTen": "Hoàng Thị Hiền",
+            "CCCD": null,
+            "DiaChi": "03 Tỉnh Lộ 10, Phú Thượng, thành phố Huế, Việt Nam"
+          }
+        }
+      ],
+      "BenNhan": [],
+      "TaiSan": [
+        {
+          "LoaiTaiSan": "TaiSan_CoSoKhung",
+          "PhuongTien": "Xe mô tô",
+          "NhanHieuMauSon": "VARIO - HONDA , màu xanh đen",
+          "SoKhung": "MH1JM5129NK057664",
+          "SoMay": "JM51E2056690",
+          "BienSo": "75H1-745.90",
+          "CanCuThayDoi": 1
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328131752/TB-TT3",
+            "SoDon": "9328131752",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 M\u00f4 t\u00f4 Xe m\u00e1y nh\u00e3n hi\u1ec7u AIRBLADE - HONDA, m\u00e0u x\u00e1m \u0111en, s\u1ed1 khung RLHKF4104KZ003401, s\u1ed1 m\u00e1y KF41E0006427, bi\u1ec3n s\u1ed1 75AA-127.18.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "H\u1ed9 kinh doanh DNM HT",
+                        "MaSoThue": null,
+                        "DiaChi": "03 T\u1ec9nh L\u1ed9 10, Ph\u00fa Th\u01b0\u1ee3ng, th\u00e0nh ph\u1ed1 Hu\u1ebf, Vi\u1ec7t Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Ho\u00e0ng Th\u1ecb Hi\u1ec1n",
+                        "CCCD": null,
+                        "DiaChi": "03 T\u1ec9nh L\u1ed9 10, Ph\u00fa Th\u01b0\u1ee3ng, th\u00e0nh ph\u1ed1 Hu\u1ebf, Vi\u1ec7t Nam"
+                    }
+                }
+            ],
+            "BenNhan": [],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "M\u00f4 t\u00f4 Xe m\u00e1y",
+                    "NhanHieuMauSon": "AIRBLADE - HONDA , m\u00e0u x\u00e1m \u0111en",
+                    "SoKhung": "RLHKF4104KZ003401",
+                    "SoMay": "KF41E0006427",
+                    "BienSo": "75AA-127.18",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

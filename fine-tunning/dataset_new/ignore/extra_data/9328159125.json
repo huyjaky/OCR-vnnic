@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328159125/TB-TT3",
+            "SoDon": "9328159125",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 LEXUS LX600, m\u00e0u s\u01a1n: \u0110en c\u00f3 s\u1ed1 khung: JTJPB7CX20407558; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: V35A0381607, bi\u1ec3n s\u1ed1: 30L-279.99)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n h\u00e0ng Tmcp C\u00f4ng Th\u01b0\u01a1ng Vi\u1ec7t Nam Chi nh\u00e1nh Vinh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ngh\u1ec7 An",
+                    "DiaChi": "S\u1ed1 229 \u0111\u01b0\u1eddng L\u00ea Du\u1ea9n, ph\u01b0\u1eddng Tr\u01b0\u1eddng Vinh, th\u00e0nh ph\u1ed1 Vinh, t\u1ec9nh Ngh\u1ec7 An"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 con",
+                    "NhanHieuMauSon": "LEXUS LX600 m\u00e0u \u0110en",
+                    "SoKhung": "JTJPB7CX20407558",
+                    "SoMay": "V35A0381607",
+                    "BienSo": "30L-279.99",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

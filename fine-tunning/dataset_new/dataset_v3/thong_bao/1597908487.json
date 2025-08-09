@@ -1,0 +1,37 @@
+[
+  {
+    "output": {
+      "MaHoSo": "1597908487/TB-TT3",
+      "SoDon": "1597908487",
+      "SoDangKyLanDau": null,
+      "LoaiDonID": 1,
+      "LoaiDonName": "Đăng ký lần đầu",
+      "LoaiDonCode": "ĐKLD",
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+      "SoHopDong": null,
+      "NgayCoHieuLucHopDong": null,
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": null,
+      "ThoiDiemDKLanDau": null,
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": null,
+      "BenGiao": [],
+      "BenNhan": [
+        {
+          "Ten": "Ngân Hàng Tmcp Kỹ Thương Việt Nam Chi Nhánh Chợ Lớn",
+          "QuocGia": "Vietnam",
+          "Tinh": "thành phố Hồ Chí Minh",
+          "DiaChi": "Số 78 - 80 - 82 Hậu Giang, Phường Bình Tây, thành phố Hồ Chí Minh, Việt Nam"
+        }
+      ],
+      "TaiSan": []
+    }
+  }
+]

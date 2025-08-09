@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328157702/TB-TT3",
+            "SoDon": "9328157702",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Ford Ranger, màu vàng có số khung: RL2AMFE60SPR14053; thông tin khác (số máy: YN2SRSP14053, biển số: 92A-553.67)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP ĐẦU TƯ VÀ PHÁT TRIỂN VIỆT NAM - CHI NHÁNH QUẢNG NAM - PGD CHU LAI",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "65 Phạm Văn Đồng, Khối 1, xã Núi Thành, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Ford Ranger",
+                    "NhanHieuMauSon": "Ford màu vàng",
+                    "SoKhung": "RL2AMFE60SPR14053",
+                    "SoMay": "YN2SRSP14053",
+                    "BienSo": "92A-553.67",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

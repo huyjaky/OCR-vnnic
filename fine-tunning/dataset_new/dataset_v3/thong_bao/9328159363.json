@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328159363/TB-TT3",
+            "SoDon": "9328159363",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe Ô tô nhãn hiệu JAC, số loại N900S có số khung: RRGARV2D4RB000803; thông tin khác (số máy: ISF38S4R16877709002, biển số: 98C-364.01)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Bắc Giang Phòng Giao Dịch Hiệp Hòa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bắc Giang",
+                    "DiaChi": "980 đường 19/5, Thị Trấn Thắng, Bắc Giang, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "JAC",
+                    "SoKhung": "RRGARV2D4RB000803",
+                    "SoMay": "ISF38S4R16877709002",
+                    "BienSo": "98C-364.01",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

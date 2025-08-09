@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328128868/TB-TT3",
+            "SoDon": "9328128868",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 Xe d\u01b0\u1edbi 9 ch\u1ed7 - HYUNDAI - Tucson, m\u00e0u tr\u1eafng c\u00f3 s\u1ed1 khung: RLUJH81DBSN022915; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: , bi\u1ec3n s\u1ed1: 15K-514.07)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng Tmcp Qu\u1ed1c T\u1ebf Vi\u1ec7t Nam Chi Nh\u00e1nh H\u1ea3i Ph\u00f2ng Ph\u00f2ng Giao D\u1ecbch Ng\u00f4 Quy\u1ec1n",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "H\u1ea3i Ph\u00f2ng",
+                    "DiaChi": "283-285 \u0110\u00e0 N\u1eb5ng, P.Ng\u00f4 Quy\u1ec1n, th\u00e0nh ph\u1ed1 H\u1ea3i Ph\u00f2ng, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 Xe d\u01b0\u1edbi 9 ch\u1ed7",
+                    "NhanHieuMauSon": "HYUNDAI - Tucson, m\u00e0u tr\u1eafng",
+                    "SoKhung": "RLUJH81DBSN022915",
+                    "SoMay": "",
+                    "BienSo": "15K-514.07",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

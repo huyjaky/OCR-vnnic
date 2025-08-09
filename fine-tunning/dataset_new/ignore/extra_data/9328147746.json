@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328147746/TB-TT3",
+            "SoDon": "9328147746",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe t\u1ea3i nh\u00e3n hi\u1ec7u Hyundai, bi\u1ec3n s\u1ed1 60C-594.36",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n h\u00e0ng Tmcp Qu\u1ed1c t\u1ebf Vi\u1ec7t Nam Chi nh\u00e1nh \u0110\u1ed3ng Nai Ph\u00f2ng giao d\u1ecbch Tr\u1ea3ng Bom",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "\u0110\u1ed3ng Nai",
+                    "DiaChi": "S\u1ed1 B1-B2 \u0111\u01b0\u1eddng 29/4, khu ph\u1ed1 5, th\u1ecb tr\u1ea5n Tr\u1ea3ng Bom, \u0110\u1ed3ng Nai, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe t\u1ea3i",
+                    "NhanHieuMauSon": "Hyundai",
+                    "SoKhung": "RLUNDT7HAMN000240",
+                    "SoMay": "D4GAMJ305490",
+                    "BienSo": "60C-594.36",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

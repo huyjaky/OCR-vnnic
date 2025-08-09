@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328141942/TB-TT3",
+            "SoDon": "9328141942",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe Ô tô nhãn hiệu CNHTC, số loại ZZ4257V324H có số khung: LZZ1CLVC7RD229426; số máy: MC114450240617221957, biển số: 98C-331.31",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Bắc Giang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bắc Giang",
+                    "DiaChi": "303 đường Lê Lợi, Phường Hoàng Văn Thụ, Bắc Giang, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "CNHTC",
+                    "SoKhung": "LZZ1CLVC7RD229426",
+                    "SoMay": "MC114450240617221957",
+                    "BienSo": "98C-331.31",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

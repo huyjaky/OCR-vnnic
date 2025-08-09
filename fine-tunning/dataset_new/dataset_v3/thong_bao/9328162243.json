@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328162243/TB-TT3",
+            "SoDon": "9328162243",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "HYUNDAI có số khung: RLUZDX7KAMN010383; thông tin khác (số máy: M311487D4CB, biển số: 36C-372.98)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Thanh Hóa Địa điểm kinh doanh Phòng giao dịch Lam Sơn",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Số 253 đường Trần Phú, Phường Ba Đình, Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HYUNDAI",
+                    "SoKhung": "RLUZDX7KAMN010383",
+                    "SoMay": "M311487D4CB",
+                    "BienSo": "36C-372.98",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328119024/TB-TT3",
+            "SoDon": "9328119024",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xanh có số khung: RLLVAG8C8SH751920; thông tin khác (số máy: VFBALB254180119, biển số: 20H-035.77)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Công Thương Việt Nam Chi nhánh Nam Thái Nguyên",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thái Nguyên",
+                    "DiaChi": "Số 2, đường Thắng Lợi, Phường Bá Xuyên, tỉnh Thái Nguyên, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xanh",
+                    "SoKhung": "RLLVAG8C8SH751920",
+                    "SoMay": "VFBALB254180119",
+                    "BienSo": "20H-035.77",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

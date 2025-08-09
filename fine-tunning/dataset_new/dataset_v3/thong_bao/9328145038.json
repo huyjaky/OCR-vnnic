@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328145038/TB-TT3",
+            "SoDon": "9328145038",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu: ISUZU, Màu sơn: Trắng có số khung: RLEFRR90NRVA03640; thông tin khác (số máy: , biển số: 49E-019.91)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Bảo Lộc",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "Số 01-03 Đường 28/03, Phường 1, Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "ISUZU màu Trắng",
+                    "SoKhung": "RLEFRR90NRVA03640",
+                    "SoMay": null,
+                    "BienSo": "49E-019.91",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328131879/TB-TT3",
+            "SoDon": "9328131879",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 nh\u00e3n hi\u1ec7u BYD, SEALION 6 DYNAMIC, 1.5L, AT c\u00f3 s\u1ed1 khung: LGXC74C45SG020000; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: BYD472QA425008044, bi\u1ec3n s\u1ed1: 15K-521.58)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng Tmcp Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng Chi Nh\u00e1nh H\u1ea3i Ph\u00f2ng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "H\u1ea3i Ph\u00f2ng",
+                    "DiaChi": "S\u1ed1 31 - 33 Ph\u1ea1m Ng\u0169 L\u00e3o, Ph\u01b0\u1eddng Gia Vi\u00ean, th\u00e0nh ph\u1ed1 H\u1ea3i Ph\u00f2ng, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 con",
+                    "NhanHieuMauSon": "BYD, SEALION 6 DYNAMIC, 1.5L, AT",
+                    "SoKhung": "LGXC74C45SG020000",
+                    "SoMay": "BYD472QA425008044",
+                    "BienSo": "15K-521.58",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

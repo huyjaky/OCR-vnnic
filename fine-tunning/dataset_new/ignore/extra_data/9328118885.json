@@ -1,0 +1,47 @@
+[
+  {
+    "output": {
+      "MaHoSo": "9328118885/TB-TT3",
+      "SoDon": "9328118885",
+      "SoDangKyLanDau": null,
+      "LoaiDonID": 9,
+      "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+      "LoaiDonCode": "YCBSCA",
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+      "SoHopDong": null,
+      "NgayCoHieuLucHopDong": null,
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": null,
+      "ThoiDiemDKLanDau": null,
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu PEUGEOT màu trắng, biển số 43A-973.20, số khung RN2PNJEP6SM160553, số máy 583124110UF205G02",
+      "BenGiao": [],
+      "BenNhan": [
+        {
+          "Ten": "Ngân hàng Thương mại Cổ phần Quốc Tế Việt Nam - Chi nhánh Đà Nẵng - Phòng giao dịch Sông Hàn",
+          "QuocGia": "Vietnam",
+          "Tinh": "Đà Nẵng",
+          "DiaChi": "Số 214-216-218 đường Nguyễn Hữu Thọ, phường Hòa Cường, thành phố Đà Nẵng, Việt Nam"
+        }
+      ],
+      "TaiSan": [
+        {
+          "LoaiTaiSan": "TaiSan_CoSoKhung",
+          "PhuongTien": "Ô tô con",
+          "NhanHieuMauSon": "PEUGEOT màu trắng",
+          "SoKhung": "RN2PNJEP6SM160553",
+          "SoMay": "583124110UF205G02",
+          "BienSo": "43A-973.20",
+          "CanCuThayDoi": 1
+        }
+      ]
+    }
+  }
+]

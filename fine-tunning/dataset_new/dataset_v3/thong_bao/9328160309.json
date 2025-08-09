@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328160309/TB-TT3",
+            "SoDon": "9328160309",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: FF50HW658343; thông tin khác (số máy: P5AT2343042, biển số: 14C-193.87)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TNHH Một thành viên Việt Nam Hiện Đại Chi Nhánh Quảng Ninh Phòng Giao Dịch Mạo Khê",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Ninh",
+                    "DiaChi": "46-48 Vĩnh Thông, Mạo Khê, tỉnh Quảng Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "",
+                    "SoKhung": "FF50HW658343",
+                    "SoMay": "P5AT2343042",
+                    "BienSo": "14C-193.87",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

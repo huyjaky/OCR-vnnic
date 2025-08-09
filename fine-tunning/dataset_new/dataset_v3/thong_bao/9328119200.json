@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328119200/TB-TT3",
+            "SoDon": "9328119200",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MAZDA, Đỏ có số khung: RN2KE2W7ARM147553; thông tin khác (số máy: PE50417905, biển số: 70A-226.67)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Tây Ninh Phòng giao dịch Trảng Bàng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "Số 41 - 42, Quốc lộ 22, khu phố Lộc An, phường Trảng Bàng, Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MAZDA, Đỏ",
+                    "SoKhung": "RN2KE2W7ARM147553",
+                    "SoMay": "PE50417905",
+                    "BienSo": "70A-226.67",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

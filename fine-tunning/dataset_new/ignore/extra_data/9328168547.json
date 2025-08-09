@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328168547/TB-TT3",
+            "SoDon": "9328168547",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 nh\u00e3n hi\u1ec7u: TERACO, m\u00e0u s\u01a1n: tr\u1eafng c\u00f3 s\u1ed1 khung: RM0KB175LSC000054; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: JE493ZLQ540031412, bi\u1ec3n s\u1ed1: 36K-696.61)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP C\u00f4ng Th\u01b0\u01a1ng Vi\u1ec7t Nam Chi Nh\u00e1nh S\u1ea7m S\u01a1n",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh H\u00f3a",
+                    "DiaChi": "02 \u0110o\u00e0n Th\u1ecb \u0110i\u1ec3m, ph\u01b0\u1eddng S\u1ea7m S\u01a1n, t\u1ec9nh Thanh H\u00f3a, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4",
+                    "NhanHieuMauSon": "TERACO, m\u00e0u s\u01a1n: tr\u1eafng",
+                    "SoKhung": "RM0KB175LSC000054",
+                    "SoMay": "JE493ZLQ540031412",
+                    "BienSo": "36K-696.61",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

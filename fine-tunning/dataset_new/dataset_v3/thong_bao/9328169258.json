@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328169258/TB-TT3",
+            "SoDon": "9328169258",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Phương tiện FORD có số khung: RL2UMFC50NGR36084; số máy: P02SRNG36084, biển số: 27C-054.83",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Hà Nội Phòng Giao Dịch Ba Đình",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 Tòa nhà Việt Hải, Lô C2-H Cụm Tiểu thủ công nghiệp và công nghiệp nhỏ Cầu Giấy, Phường Dịch Vọng Hậu, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "FORD",
+                    "NhanHieuMauSon": "FORD",
+                    "SoKhung": "RL2UMFC50NGR36084",
+                    "SoMay": "P02SRNG36084",
+                    "BienSo": "27C-054.83",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

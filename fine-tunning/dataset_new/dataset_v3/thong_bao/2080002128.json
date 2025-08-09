@@ -1,0 +1,37 @@
+[
+    {
+        "output": {
+            "MaHoSo": "2080002128/TB-TT3",
+            "SoDon": "2080002128",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": "TĐ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "Hồ sơ đăng ký thay đổi bị từ chối theo quy định tại điểm b khoản 1 Điều 15 Nghị định số 99/2022/NĐ-CP ngày 30/11/2022. Cụ thể, ngân hàng không kê khai loại tài sản.",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Bắc Giang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Số 303 đường Lê Lợi, Phường Bắc Giang, , tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": []
+        }
+    }
+]

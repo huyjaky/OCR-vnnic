@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328135637/TB-TT3",
+            "SoDon": "9328135637",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu: Hyundai Màu: Trắng có số khung: RLUD481HBRN002894; thông tin khác (số máy: G4FSPB374452, biển số: 61K-431.02)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam Chi nhánh Bình Dương Phòng giao dịch Thủ Dầu Một",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "215A đường Yersin, Phường Phú Cường, Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Hyundai Màu: Trắng",
+                    "SoKhung": "RLUD481HBRN002894",
+                    "SoMay": "G4FSPB374452",
+                    "BienSo": "61K-431.02",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

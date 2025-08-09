@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328156983/TB-TT3",
+            "SoDon": "9328156983",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MITSUBISHI, Xpander, 1.5L, AT có số khung: MK2XRNC1WPN008609; thông tin khác (số máy: 4A91KBM9197, biển số: 34A-731.34)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Hải Dương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Dương",
+                    "DiaChi": "Số 11 Trần Hưng Đạo, phường Trần Hưng Đạo, Hải Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI, Xpander, 1.5L, AT",
+                    "SoKhung": "MK2XRNC1WPN008609",
+                    "SoMay": "4A91KBM9197",
+                    "BienSo": "34A-731.34",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

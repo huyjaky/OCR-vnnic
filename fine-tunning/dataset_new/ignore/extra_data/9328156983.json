@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328156983/TB-TT3",
+            "SoDon": "9328156983",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 MITSUBISHI, Xpander, 1.5L, AT c\u00f3 s\u1ed1 khung: MK2XRNC1WPN008609; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: 4A91KBM9197, bi\u1ec3n s\u1ed1: 34A-731.34)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng Tmcp Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng Chi Nh\u00e1nh H\u1ea3i D\u01b0\u01a1ng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "H\u1ea3i D\u01b0\u01a1ng",
+                    "DiaChi": "S\u1ed1 11 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, ph\u01b0\u1eddng Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, H\u1ea3i D\u01b0\u01a1ng, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4",
+                    "NhanHieuMauSon": "MITSUBISHI, Xpander, 1.5L, AT",
+                    "SoKhung": "MK2XRNC1WPN008609",
+                    "SoMay": "4A91KBM9197",
+                    "BienSo": "34A-731.34",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328140351/TB-TT3",
+            "SoDon": "9328140351",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "M\u00f4 t\u00f4 Xe m\u00e1y nh\u00e3n hi\u1ec7u SH - HONDA m\u00e0u tr\u1eafng, s\u1ed1 khung RLHJF9501NY171624, s\u1ed1 m\u00e1y JF95E0186723, bi\u1ec3n s\u1ed1 75K1-638.64",
+            "BenGiao": [],
+            "BenNhan": [],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "M\u00f4 t\u00f4 Xe m\u00e1y",
+                    "NhanHieuMauSon": "SH - HONDA , m\u00e0u tr\u1eafng",
+                    "SoKhung": "RLHJF9501NY171624",
+                    "SoMay": "JF95E0186723",
+                    "BienSo": "75K1-638.64",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

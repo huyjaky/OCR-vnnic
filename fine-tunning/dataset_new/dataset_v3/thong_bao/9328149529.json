@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328149529/TB-TT3",
+            "SoDon": "9328149529",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô TOYOTA FORTUNER, Trắng có số khung: 3GS3J0490956; thông tin khác (số máy: 2GDC425358, biển số: 79A-210.60)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TNHH một thành viên Việt Nam Hiện đại - Chi nhánh Khánh Hòa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "11 Lý Thánh Tôn, phường Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "TOYOTA Trắng",
+                    "SoKhung": "3GS3J0490956",
+                    "SoMay": "2GDC425358",
+                    "BienSo": "79A-210.60",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

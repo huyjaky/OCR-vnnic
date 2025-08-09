@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328130508/TB-TT3",
+            "SoDon": "9328130508",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu:TRACOMECO có số khung: RRFKG34W6ST010485; thông tin khác (số máy: , biển số: 29E- 383.19)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - chi nhánh Trần Hưng Đạo",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "(1)Một phần diện tích Tầng 1 và tầng 2 tại tòa nhà Asahi – Hin, phường Tương Mai, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "TRACOMECO",
+                    "SoKhung": "RRFKG34W6ST010485",
+                    "SoMay": "",
+                    "BienSo": "29E- 383.19",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

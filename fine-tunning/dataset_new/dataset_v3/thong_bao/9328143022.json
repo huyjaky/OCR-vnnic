@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328143022/TB-TT3",
+            "SoDon": "9328143022",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST, màu hồng phấn, số khung: RLNVBL9K0SH762218, số máy: TZ160X30G25022200313, biển số: 38A - 826.12",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Hà Tĩnh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Tĩnh",
+                    "DiaChi": "Số 02 Nguyễn Thị Minh Khai, phường Thành Sen, tỉnh Hà Tĩnh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST, màu hồng phấn",
+                    "SoKhung": "RLNVBL9K0SH762218",
+                    "SoMay": "TZ160X30G25022200313",
+                    "BienSo": "38A-82612",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

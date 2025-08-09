@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328147362/TB-TT3",
+            "SoDon": "9328147362",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Cheng Long màu bạc, biển số 47C-156.57",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Nông Nghiệp Và Phát Triển Nông Thôn Việt Nam Chi Nhánh Tỉnh Đăk Lăk",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "51 Nguyễn Tất Thành, Phường Tân An, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Cheng Long màu bạc",
+                    "SoKhung": "LNXAEM0C3SL20958",
+                    "SoMay": "YC6L33050LD2L2S50165",
+                    "BienSo": "47C-156.57",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

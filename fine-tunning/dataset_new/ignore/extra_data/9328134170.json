@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328134170/TB-TT3",
+            "SoDon": "9328134170",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe \u00f4 t\u00f4 nh\u00e3n hi\u1ec7u MAZDA m\u00e0u \u0111\u1ecf, bi\u1ec3n s\u1ed1 43A-981.25",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NG\u00c2N H\u00c0NG TH\u01af\u01a0NG M\u1ea0I C\u1ed4 PH\u1ea6N B\u1eaeC \u00c1",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ngh\u1ec7 An",
+                    "DiaChi": "S\u1ed1 117 \u0110\u01b0\u1eddng Quang Trung, Ph\u01b0\u1eddng Th\u00e0nh Vinh, t\u1ec9nh Ngh\u1ec7 An, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4",
+                    "NhanHieuMauSon": "MAZDA, M\u00c0U \u0110\u1ece",
+                    "SoKhung": "RN2B12SAAPM119045",
+                    "SoMay": "P520923102",
+                    "BienSo": "43A-981.25",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328144070/TB-TT3",
+            "SoDon": "9328144070",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: FE60LX301413; thông tin khác (số máy: YN2QXL301413, biển số: 93A-223.87)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Sài Gòn Thương Tín Chi nhánh Chơn Thành",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bình Phước",
+                    "DiaChi": "Tổ 1, Khu Phố 3 thị trấn Chơn Thành, Bình Phước, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "FE60LX301413",
+                    "SoMay": "YN2QXL301413",
+                    "BienSo": "93A-22387",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

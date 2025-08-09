@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328154543/TB-TT3",
+            "SoDon": "9328154543",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô con 5 chỗ mới 100%, nhãn hiệu KIA, số loại SONET QY 1.5 CVT FH5, màu Trắng có số khung: RNYXE54C0RC321067; thông tin khác (số máy: G4FLPV499752, biển số: 79A-505.42)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Nha Trang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "14 Lê Thánh Tôn, Phước Tiến, Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "KIA màu Trắng",
+                    "SoKhung": "RNYXE54C0RC321067",
+                    "SoMay": "G4FLPV499752",
+                    "BienSo": "79A-505.42",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

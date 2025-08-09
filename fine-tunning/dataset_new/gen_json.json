@@ -1,0 +1,294 @@
+{
+  "name": "API 4 OCR",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -416,
+        -148
+      ],
+      "id": "5d16ec03-9de5-4ddf-950f-964b4c2b252a",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "fileSelector": "={{ $json.path }}/*.txt",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        32,
+        -148
+      ],
+      "id": "8f048691-7e31-43f3-88db-c1fcff1102c7",
+      "name": "Read/Write Files from Disk"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        256,
+        -148
+      ],
+      "id": "de28c053-2b5b-4ed8-ae15-63fbae3d7f0a",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "binaryPropertyName": "=data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1280,
+        -272
+      ],
+      "id": "e8ee5189-d35a-4468-9e67-7f427e10ac38",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $('Edit Fields1').item.json.path }}/{{ $('Read/Write Files from Disk').item.json.fileName.replace('.txt', '.json') }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1504,
+        -148
+      ],
+      "id": "58e02f09-6705-4b93-8e54-4e9eebf750ed",
+      "name": "Read/Write Files from Disk1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "bcf239a7-7958-41da-9ae4-6d2b5e65a0de",
+              "name": "path",
+              "value": "/home/duckq1u/Documents/dataset_v2/extra_data",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -192,
+        -148
+      ],
+      "id": "0c80e068-91b3-449a-9365-5c2309b033d2",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a9ee9767-62de-4ba4-82ae-fdc11fc56c59",
+              "name": "output",
+              "value": "={{ $json.output.replaceAll(\"```json\", \"\").replaceAll(\"```\", \"\").parseJson() }}",
+              "type": "object"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1056,
+        -272
+      ],
+      "id": "4eb0940b-6c55-4130-b69b-a75d77d1ded3",
+      "name": "Edit Fields2"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=<văn bản>\n{{ $json.data }}\n</văn bản> ",
+        "options": {
+          "systemMessage": "=## Yêu cầu:\n- Trích xuất thông tin từ văn bản và hãy tuân thủ JSON schema tôi cung cấp bên dưới\n\n## Luật\n- Không thêm bớt hay chỉnh sửa JSON \n- Giá trị \"MaHoSo\" thường nằm sau từ \"Số: \" \nVD: \"MaHoSo\": \"2079965573/TB-TT3\"\n- Phải đầy đủ nếu như trường nào không có thông tin thì gán `null` \n- Nếu `BenNhan`, `BenGiao`, `TaiSan` không có giá trị nào hoặc giá trị không xác định thì để list rỗng `[]` \n\n\n```json\n{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Hồ sơ đăng ký bảo đảm\",\n  \"description\": \"Schema cho việc đăng ký các giao dịch bảo đảm tại Việt Nam\",\n  \"type\": \"object\",\n  \"definitions\": {\n    \"TaiSan_CoSoKhung\": {\n      \"type\": \"object\",\n      \"title\": \"Tài sản có số khung\",\n      \"description\": \"Phương tiện giao thông cơ giới có số khung như ô tô, mô tô, xe gắn máy, xe máy điện...\",\n      \"properties\": {\n        \"LoaiTaiSan\": {\n          \"const\": \"TaiSan_CoSoKhung\",\n          \"description\": \"Loại tài sản - tài sản có số khung\"\n        },\n        \"PhuongTien\": {\n          \"type\": \"string\",\n          \"description\": \"Tên loại phương tiện (VD: ô tô con, xe mô tô, xe gắn máy, xe tải...)\",\n          \"examples\": [\"Ô tô con\", \"Xe mô tô\", \"Xe gắn máy\", \"Xe tải\"]\n        },\n        \"NhanHieuMauSon\": {\n          \"type\": \"string\", \n          \"description\": \"Nhãn hiệu và màu sơn của phương tiện (VD: Honda màu đỏ, Toyota màu trắng)\",\n          \"examples\": [\"Honda màu đỏ\", \"Toyota màu trắng\", \"Yamaha màu xanh\"]\n        },\n        \"SoKhung\": {\n          \"type\": \"string\",\n          \"description\": \"Số khung (chassis number) - mã số duy nhất của khung xe\",\n          \"pattern\": \"^[A-Z0-9]+$\",\n          \"examples\": [\"JTDBR32E150123456\", \"VF1BA0D0524123456\"]\n        },\n        \"SoMay\": {\n          \"type\": \"string\", \n          \"description\": \"Số máy (engine number) - mã số động cơ của phương tiện\",\n          \"examples\": [\"G16A123456\", \"4A91123456\"]\n        },\n        \"BienSo\": {\n          \"type\": \"string\",\n          \"description\": \"Biển số đăng ký của phương tiện (VD: 43A-12345, 30F1-12345)\",\n          \"pattern\": \"^[0-9]{2}[A-Z]{1,2}-[0-9]{4,5}$\",\n          \"examples\": [\"43A-12345\", \"30F1-54321\", \"51B-67890\"]\n        },\n        \"CanCuThayDoi\": {\n          \"type\": \"integer\",\n          \"enum\": [1, 2],\n          \"enumDescriptions\": [\n            \"1 - Thế chấp/Cầm cố: Tạo mới giao dịch bảo đảm\",\n            \"2 - Xóa thế chấp/Cầm cố: Hủy bỏ giao dịch bảo đảm hiện có\"\n          ],\n          \"description\": \"Căn cứ thay đổi - lý do thực hiện giao dịch\"\n        }\n      },\n      \"required\": [\n        \"LoaiTaiSan\", \n        \"PhuongTien\", \n        \"NhanHieuMauSon\", \n        \"SoKhung\", \n        \"SoMay\", \n        \"BienSo\", \n        \"CanCuThayDoi\"\n      ]\n    },\n    \n    \"TaiSan_KhongCoSoKhung\": {\n      \"type\": \"object\",\n      \"title\": \"Tài sản không có số khung\",\n      \"description\": \"Tàu cá, phương tiện giao thông đường thủy nội địa và các phương tiện không có số khung\",\n      \"properties\": {\n        \"LoaiTaiSan\": {\n          \"const\": \"TaiSan_KhongCoSoKhung\",\n          \"description\": \"Loại tài sản - tài sản không có số khung\"\n        },\n        \"TenPhuongTienNhanHieu\": {\n          \"type\": \"string\",\n          \"description\": \"Tên và nhãn hiệu của phương tiện (VD: Tàu cá Yamaha, Thuyền máy Honda)\",\n          \"examples\": [\"Tàu cá Yamaha\", \"Thuyền máy Honda\", \"Ca nô Suzuki\"]\n        },\n        \"TenChuPhuongTien\": {\n          \"type\": \"string\",\n          \"description\": \"Họ và tên chủ sở hữu phương tiện theo giấy tờ đăng ký\",\n          \"examples\": [\"Nguyễn Văn A\", \"Trần Thị B\"]\n        },\n        \"SoDangKyCoQuanCC\": {\n          \"type\": \"string\",\n          \"description\": \"Số đăng ký do cơ quan có thẩm quyền cấp (VD: cảng vụ, phòng tài nguyên)\",\n          \"examples\": [\"TN-001-2024\", \"CV-123456-2024\"]\n        },\n        \"CapPhuongTien\": {\n          \"type\": \"string\",\n          \"description\": \"Cấp phương tiện theo quy định (VD: Cấp 1, Cấp 2, Cấp 3)\",\n          \"examples\": [\"Cấp 1\", \"Cấp 2\", \"Cấp 3\"]\n        },\n        \"CanCuThayDoi\": {\n          \"type\": \"integer\",\n          \"enum\": [1, 2],\n          \"enumDescriptions\": [\n            \"1 - Thế chấp/Cầm cố: Tạo mới giao dịch bảo đảm\",\n            \"2 - Xóa thế chấp/Cầm cố: Hủy bỏ giao dịch bảo đảm hiện có\"\n          ],\n          \"description\": \"Căn cứ thay đổi - lý do thực hiện giao dịch\"\n        }\n      },\n      \"required\": [\n        \"LoaiTaiSan\",\n        \"TenPhuongTienNhanHieu\",\n        \"TenChuPhuongTien\", \n        \"SoDangKyCoQuanCC\",\n        \"CapPhuongTien\",\n        \"CanCuThayDoi\"\n      ]\n    },\n    \n    \"TaiSan_QuyenTaiSan\": {\n      \"type\": \"object\",\n      \"title\": \"Quyền tài sản\",\n      \"description\": \"Tài sản bảo đảm là quyền tài sản hoặc một phần quyền tài sản (bản quyền, quyền tác giả, quyền sử dụng đất...)\",\n      \"properties\": {\n        \"LoaiTaiSan\": {\n          \"const\": \"TaiSan_QuyenTaiSan\",\n          \"description\": \"Loại tài sản - quyền tài sản\"\n        },\n        \"TenQuyen\": {\n          \"type\": \"string\",\n          \"description\": \"Tên chính thức của quyền tài sản được nêu trong tài liệu pháp lý, không được tóm tắt hay diễn giải\",\n          \"examples\": [\n            \"Quyền sử dụng đất\",\n            \"Quyền tác giả đối với tác phẩm văn học nghệ thuật\", \n            \"Quyền sở hữu công nghiệp đối với nhãn hiệu\",\n            \"Quyền khai thác mỏ\"\n          ]\n        },\n        \"CanCuPhatSinhQuyen\": {\n          \"type\": \"string\",\n          \"description\": \"Liệt kê đầy đủ tất cả căn cứ pháp lý phát sinh quyền bao gồm: tên văn bản quy phạm pháp luật, số văn bản, ngày ban hành, ngày có hiệu lực\",\n          \"examples\": [\n            \"Luật Đất đai số 31/2013/QH13 ngày 29/11/2013, có hiệu lực từ 01/07/2014\",\n            \"Luật Sở hữu trí tuệ số 50/2005/QH11 ngày 29/11/2005, có hiệu lực từ 01/07/2006\"\n          ]\n        }\n      },\n      \"required\": [\n        \"LoaiTaiSan\",\n        \"TenQuyen\", \n        \"CanCuPhatSinhQuyen\"\n      ]\n    },\n    \n    \"TaiSan_HangHoaLuanChuyen\": {\n      \"type\": \"object\",\n      \"title\": \"Hàng hóa luân chuyển và kho hàng\",\n      \"description\": \"Tài sản bảo đảm là hàng hóa luân chuyển trong quá trình sản xuất kinh doanh hoặc kho hàng (không bao gồm phương tiện giao thông cơ giới đường bộ)\",\n      \"properties\": {\n        \"LoaiTaiSan\": {\n          \"const\": \"TaiSan_HangHoaLuanChuyen\",\n          \"description\": \"Loại tài sản - hàng hóa luân chuyển\"\n        },\n        \"LoaiKhoHang\": {\n          \"type\": \"integer\",\n          \"enum\": [0, 1],\n          \"enumDescriptions\": [\n            \"0 - Hàng hóa luân chuyển: Hàng hóa, nguyên vật liệu, thành phẩm thay đổi liên tục\",\n            \"1 - Kho hàng: Cơ sở vật chất cố định để chứa đựng hàng hóa\"\n          ],\n          \"description\": \"Phân loại giữa hàng hóa luân chuyển và kho hàng cố định\"\n        },\n        \"GiaTri_TenLoai_HangHoa\": {\n          \"type\": \"string\",\n          \"description\": \"Mô tả chi tiết về giá trị, tên gọi và loại hàng hóa (VD: Hàng hóa điện tử trị giá 1 tỷ VND, Nguyên liệu thép các loại)\",\n          \"examples\": [\n            \"Hàng hóa điện tử trị giá 1.000.000.000 VND\",\n            \"Nguyên vật liệu sản xuất giày dép các loại\",\n            \"Thành phẩm may mặc xuất khẩu\"\n          ]\n        },\n        \"DiaChiKhoHang\": {\n          \"type\": \"string\",\n          \"description\": \"Địa chỉ cụ thể của kho hàng hoặc nơi chứa đựng hàng hóa (số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành phố)\",\n          \"examples\": [\n            \"123 Đường ABC, Phường XYZ, Quận 1, TP.HCM\",\n            \"Km 15, Quốc lộ 1A, Xã DEF, Huyện GHI, Tỉnh JKL\"\n          ]\n        },\n        \"SoHieuKhoHang\": {\n          \"type\": \"string\", \n          \"description\": \"Số hiệu, mã số hoặc ký hiệu nhận dạng của kho hàng do doanh nghiệp quy định\",\n          \"examples\": [\"KH-001\", \"WAREHOUSE-A01\", \"K1-2024\"]\n        },\n        \"CanCuThayDoi\": {\n          \"type\": \"integer\",\n          \"enum\": [1, 2],\n          \"enumDescriptions\": [\n            \"1 - Thế chấp/Cầm cố: Tạo mới giao dịch bảo đảm\",\n            \"2 - Xóa thế chấp/Cầm cố: Hủy bỏ giao dịch bảo đảm hiện có\"\n          ],\n          \"description\": \"Căn cứ thay đổi - lý do thực hiện giao dịch\"\n        }\n      },\n      \"required\": [\n        \"LoaiTaiSan\",\n        \"LoaiKhoHang\",\n        \"GiaTri_TenLoai_HangHoa\",\n        \"DiaChiKhoHang\", \n        \"SoHieuKhoHang\",\n        \"CanCuThayDoi\"\n      ]\n    },\n      \n    \"CongDanVietNam\": {\n      \"type\": \"object\",\n      \"title\": \"Công dân Việt Nam\",\n      \"description\": \"Thông tin công dân Việt Nam tham gia giao dịch\",\n      \"properties\": {\n        \"HoTen\": { \n          \"type\": \"string\",\n          \"description\": \"Họ và tên đầy đủ theo CCCD/CMND\",\n          \"examples\": [\"Nguyễn Văn An\", \"Trần Thị Bình\"]\n        },\n        \"CCCD\": { \n          \"type\": \"string\",\n          \"description\": \"Số căn cước công dân hoặc chứng minh nhân dân\",\n          \"pattern\": \"^[0-9]{9,12}$\",\n          \"examples\": [\"123456789012\", \"987654321\"]\n        },\n        \"DiaChi\": { \n          \"type\": \"string\",\n          \"description\": \"Địa chỉ thường trú theo CCCD/CMND\",\n          \"examples\": [\"123 Đường ABC, Phường XYZ, Quận 1, TP.HCM\"]\n        }\n      },\n      \"required\": [\"HoTen\", \"CCCD\", \"DiaChi\"]\n    },\n    \n    \"ToChucTrongNuoc\": {\n      \"type\": \"object\", \n      \"title\": \"Tổ chức trong nước\",\n      \"description\": \"Doanh nghiệp, tổ chức có đăng ký kinh doanh tại Việt Nam\",\n      \"properties\": {\n        \"TenToChuc\": { \n          \"type\": \"string\",\n          \"description\": \"Tên đầy đủ của tổ chức theo giấy phép kinh doanh\",\n          \"examples\": [\"Công ty TNHH ABC\", \"Công ty Cổ phần XYZ\"]\n        },\n        \"MaSoThue\": { \n          \"type\": \"string\",\n          \"description\": \"Mã số thuế do cơ quan thuế cấp\",\n          \"pattern\": \"^[0-9]{10,13}$\", \n          \"examples\": [\"0123456789\", \"0987654321123\"]\n        },\n        \"DiaChi\": { \n          \"type\": \"string\",\n          \"description\": \"Địa chỉ trụ sở chính của tổ chức\",\n          \"examples\": [\"456 Đường DEF, Phường GHI, Quận 3, TP.HCM\"]\n        }\n      },\n      \"required\": [\"TenToChuc\", \"MaSoThue\", \"DiaChi\"]\n    },\n    \n    \"NguoiNuocNgoai\": {\n      \"type\": \"object\",\n      \"title\": \"Người nước ngoài\", \n      \"description\": \"Cá nhân có quốc t適khác Việt Nam\",\n      \"properties\": {\n        \"HoTen\": { \n          \"type\": \"string\",\n          \"description\": \"Họ và tên đầy đủ theo hộ chiếu\",\n          \"examples\": [\"John Smith\", \"Marie Dubois\"]\n        },\n        \"SoHoChieu\": { \n          \"type\": \"string\",\n          \"description\": \"Số hộ chiếu (passport number)\",\n          \"examples\": [\"A12345678\", \"FR1234567\"]\n        },\n        \"QuocGiaCap\": { \n          \"type\": \"string\",\n          \"description\": \"Quốc gia cấp hộ chiếu\",\n          \"examples\": [\"United States\", \"France\", \"Japan\"]\n        },\n        \"QuocGia\": { \n          \"type\": \"string\",\n          \"description\": \"Quốc gia cư trú hiện tại\",\n          \"examples\": [\"Vietnam\", \"United States\", \"France\"]\n        },\n        \"Tinh\": { \n          \"type\": \"string\",\n          \"description\": \"Tỉnh/thành phố cư trú hiện tại\",\n          \"examples\": [\"TP.HCM\", \"Hà Nội\", \"Đà Nẵng\"]\n        },\n        \"DiaChi\": { \n          \"type\": \"string\",\n          \"description\": \"Địa chỉ cư trú chi tiết\",\n          \"examples\": [\"789 Nguyen Trai St, District 1, HCMC\"]\n        }\n      },\n      \"required\": [\"HoTen\", \"SoHoChieu\", \"QuocGiaCap\", \"QuocGia\", \"Tinh\", \"DiaChi\"]\n    },\n    \n    \"NhaDauTuNuocNgoai\": {\n      \"type\": \"object\",\n      \"title\": \"Nhà đầu tư nước ngoài\",\n      \"description\": \"Tổ chức đầu tư nước ngoài có hoạt động tại Việt Nam\",\n      \"properties\": {\n        \"MaSoThue\": { \n          \"type\": \"string\",\n          \"description\": \"Mã số thuế tại Việt Nam hoặc mã số đăng ký đầu tư\",\n          \"examples\": [\"8123456789\", \"DT-001-2024\"]\n        },\n        \"Ten\": { \n          \"type\": \"string\",\n          \"description\": \"Tên đầy đủ của tổ chức đầu tư\",\n          \"examples\": [\"Samsung Electronics Vietnam\", \"Toyota Motor Vietnam\"]\n        },\n        \"QuocGia\": { \n          \"type\": \"string\",\n          \"description\": \"Quốc gia đăng ký thành lập\",\n          \"examples\": [\"South Korea\", \"Japan\", \"Singapore\"]\n        },\n        \"Tinh\": { \n          \"type\": \"string\",\n          \"description\": \"Tỉnh/thành phố hoạt động tại Việt Nam\",\n          \"examples\": [\"TP.HCM\", \"Hà Nội\", \"Bắc Ninh\"]\n        },\n        \"DiaChi\": { \n          \"type\": \"string\",\n          \"description\": \"Địa chỉ trụ sở tại Việt Nam\",\n          \"examples\": [\"Tầng 10, Tòa nhà ABC, 123 Đường XYZ, Q.1, TP.HCM\"]\n        }\n      },\n      \"required\": [\"MaSoThue\", \"Ten\", \"QuocGia\", \"Tinh\", \"DiaChi\"]\n    },\n    \n    \"ToChucKhac\": {\n      \"type\": \"object\",\n      \"title\": \"Tổ chức khác\",\n      \"description\": \"Các tổ chức không thuộc loại doanh nghiệp hoặc nhà đầu tư nước ngoài\",\n      \"properties\": {\n        \"Ten\": { \n          \"type\": \"string\",\n          \"description\": \"Tên đầy đủ của tổ chức\",\n          \"examples\": [\"Đại sứ quán Hàn Quốc\", \"Tổ chức từ thiện ABC\"]\n        },\n        \"QuocGia\": { \n          \"type\": \"string\", \n          \"description\": \"Quốc gia có liên quan đến tổ chức\",\n          \"examples\": [\"Vietnam\", \"South Korea\", \"International\"]\n        },\n        \"Tinh\": { \n          \"type\": \"string\",\n          \"description\": \"Tỉnh/thành phố hoạt động\",\n          \"examples\": [\"Hà Nội\", \"TP.HCM\", \"Đà Nẵng\"]\n        },\n        \"DiaChi\": { \n          \"type\": \"string\",\n          \"description\": \"Địa chỉ trụ sở hoặc địa điểm hoạt động\",\n          \"examples\": [\"456 Kim Mã, Ba Đình, Hà Nội\"]\n        }\n      },\n      \"required\": [\"Ten\", \"QuocGia\", \"Tinh\", \"DiaChi\"]\n    },\n    \n    \"NguoiKhongQuocTich\": {\n      \"type\": \"object\",\n      \"title\": \"Người không quốc tịch\",\n      \"description\": \"Cá nhân không có quốc tịch nhưng cư trú hợp pháp tại Việt Nam\",\n      \"properties\": {\n        \"HoTen\": { \n          \"type\": \"string\",\n          \"description\": \"Họ và tên đầy đủ theo giấy tờ tùy thân\",\n          \"examples\": [\"Ahmed Hassan\", \"Maria Santos\"]\n        },\n        \"TheCuTru\": { \n          \"type\": \"string\",\n          \"description\": \"Số thẻ cư trú hoặc giấy phép cư trú\",\n          \"examples\": [\"CR-123456789\", \"PR-987654321\"]\n        },\n        \"QuocGia\": { \n          \"type\": \"string\",\n          \"description\": \"Quốc gia cư trú (thường là Vietnam)\",\n          \"examples\": [\"Vietnam\"]\n        },\n        \"Tinh\": { \n          \"type\": \"string\",\n          \"description\": \"Tỉnh/thành phố cư trú tại Việt Nam\", \n          \"examples\": [\"TP.HCM\", \"Hà Nội\", \"Cần Thơ\"]\n        },\n        \"DiaChi\": { \n          \"type\": \"string\",\n          \"description\": \"Địa chỉ cư trú chi tiết tại Việt Nam\",\n          \"examples\": [\"321 Đường Cộng Hòa, P.12, Q.Tân Bình, TP.HCM\"]\n        }\n      },\n      \"required\": [\"HoTen\", \"TheCuTru\", \"QuocGia\", \"Tinh\", \"DiaChi\"]\n    }\n  },\n    \n  \"properties\": {\n    \"MaHoSo\": {\n      \"type\": \"string\",\n      \"description\": \"Mã số hồ sơ đăng ký bảo đảm do hệ thống tự động tạo, thường xuất hiện sau cụm từ 'Mã hồ sơ:' hoặc 'Số:'\",\n      \"pattern\": \"^[A-Z0-9-]+$\",\n      \"examples\": [\"HS-2024-001234\", \"BDBB-240615-001\"]\n    },\n    \n    \"SoDon\": {\n      \"type\": \"string\", \n      \"description\": \"Số đăng ký giao dịch bảo đảm, là mã số duy nhất của từng đơn đăng ký\",\n      \"examples\": [\"DK-2024-5678\", \"001234/ĐKBĐ-2024\"]\n    },\n    \n    \"SoDangKyLanDau\": {\n      \"type\": \"string\",\n      \"description\": \"Số đăng ký của lần đăng ký đầu tiên (chỉ có khi đây là đơn thay đổi hoặc sửa chữa)\",\n      \"examples\": [\"DK-2024-1111\", \"000123/ĐKBĐ-2024\"]\n    },\n    \n    \"LoaiDonID\": {\n      \"type\": \"integer\",\n      \"description\": \"Mã số định danh loại đơn đăng ký theo quy định của hệ thống\",\n      \"enum\": [1, 2, 3, 4, 6, 8, 9, 10],\n      \"enumDescriptions\": [\n        \"1 - Đăng ký lần đầu: Đăng ký mới một giao dịch bảo đảm\",\n        \"2 - Đăng ký thay đổi: Thay đổi thông tin đăng ký đã có\",\n        \"3 - Sửa chữa sai sót: Chỉnh sửa lỗi trong đăng ký\", \n        \"4 - Xóa đơn đăng ký: Hủy bỏ đăng ký theo yêu cầu\",\n        \"6 - Xóa đăng ký bởi cơ quan có thẩm quyền: Hủy bỏ theo quyết định hành chính\",\n        \"8 - Cung cấp bản sao: Yêu cầu cấp bản sao hồ sơ\",\n        \"9 - Yêu cầu cấp bản sao kèm thông báo CA: Cấp bản sao có xác thực số\",\n        \"10 - Cung cấp thông tin: Tra cứu thông tin đăng ký\"\n      ]\n    },\n    \n    \"LoaiDonName\": {\n      \"type\": \"string\",\n      \"description\": \"Tên đầy đủ của loại đơn, phải tương ứng với LoaiDonID\",\n      \"examples\": [\"Đăng ký lần đầu\", \"Đăng ký thay đổi\", \"Sửa chữa sai sót\"]\n    },\n    \n    \"LoaiDonCode\": {\n      \"type\": \"string\", \n      \"description\": \"Mã viết tắt của loại đơn theo quy định\",\n      \"examples\": [\"ĐKLD\", \"ĐKTĐ\", \"SCSS\", \"XDD\"]\n    },\n    \n    \"LoaiHinhGDID\": {\n      \"type\": \"integer\",\n      \"description\": \"Mã số định danh loại hình giao dịch chính\",\n      \"enum\": [1, 2, 3],\n      \"enumDescriptions\": [\n        \"1 - Biện pháp bảo đảm: Giao dịch tạo ra biện pháp bảo đảm (thế chấp, cầm cố...)\",\n        \"2 - Hợp đồng: Giao dịch dựa trên hợp đồng dân sự/thương mại\",\n        \"3 - Thông báo xử lý tài sản bảo đảm: Thông báo về việc xử lý tài sản\"\n      ]\n    },\n    \n    \"LoaiHinhGDName\": {\n      \"type\": \"string\",\n      \"description\": \"Tên đầy đủ loại hình giao dịch, phải khớp với LoaiHinhGDID\",\n      \"examples\": [\"Biện pháp bảo đảm\", \"Hợp đồng\", \"Thông báo xử lý tài sản bảo đảm\"]\n    },\n    \n    \"LoaiBienPhapID\": {\n      \"type\": \"integer\",\n      \"description\": \"Mã số loại biện pháp bảo đảm (chỉ có khi LoaiHinhGDID = 1)\",\n      \"enum\": [1, 2, 3, 4, 5, 6],\n      \"enumDescriptions\": [\n        \"1 - Thế chấp: Đặt tài sản làm bảo đảm mà người bảo đảm vẫn sử dụng được\",\n        \"2 - Bảo lưu quyền sở hữu: Người bán giữ quyền sở hữu đến khi thanh toán xong\",\n        \"3 - Cầm cố: Giao tài sản cho người nhận bảo đảm để giữ\",\n        \"4 - Đặt cọc: Giao tiền hoặc tài sản làm bảo đảm thực hiện nghĩa vụ\",\n        \"5 - Ký cược: Đặt tiền hoặc tài sản để bảo đảm thực hiện hợp đồng\",\n        \"6 - Ký quỹ: Đặt tiền vào tài khoản phong tỏa để bảo đảm\"\n      ]\n    },\n    \n    \"LoaiBienPhapName\": {\n      \"type\": \"string\",\n      \"description\": \"Tên đầy đủ loại biện pháp bảo đảm, phải khớp với LoaiBienPhapID\",\n      \"examples\": [\"Thế chấp\", \"Cầm cố\", \"Đặt cọc\", \"Ký cược\", \"Ký quỹ\"]\n    },\n    \n    \"LoaiHopDongID\": {\n      \"type\": \"integer\",\n      \"description\": \"Mã số loại hợp đồng (chỉ có khi LoaiHinhGDID = 2)\",\n      \"enum\": [1, 2, 3, 4],\n      \"enumDescriptions\": [\n        \"1 - Hợp đồng cho thuê tài chính: Hợp đồng leasing\",\n        \"2 - Hợp đồng thuê tài sản có thời hạn 1 năm trở lên: Thuê dài hạn\",\n        \"3 - Hợp đồng chuyển giao quyền đòi nợ, khoản phải thu, quyền yêu cầu thanh toán khác: Chuyển nhượng công nợ\",\n        \"4 - Hợp đồng ký gửi: Giao tài sản cho bên khác bảo quản\"\n      ]\n    },\n    \n    \"LoaiHopDongName\": {\n      \"type\": [\"string\", \"null\"],\n      \"description\": \"Tên đầy đủ loại hợp đồng nếu có, phải khớp với LoaiHopDongID\",\n      \"examples\": [\"Hợp đồng cho thuê tài chính\", \"Hợp đồng thuê tài sản dài hạn\", \"Hợp đồng chuyển giao quyền đòi nợ\", \"Hợp đồng ký gửi\"]\n    },\n    \n    \"ThoiDiemDangKy\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Thời điểm chính thức đăng ký giao dịch, thường xuất hiện sau cụm từ 'Thời điểm đăng ký' hoặc được ghi dưới dạng 'Đà Nẵng, ngày DD tháng MM năm YYYY'\",\n      \"examples\": [\"2024-06-25T14:30:00Z\", \"2024-12-15T09:15:00Z\"]\n    },\n    \n    \"SoHopDong\": {\n      \"type\": \"string\",\n      \"description\": \"Số hợp đồng gốc tạo ra giao dịch bảo đảm, là căn cứ pháp lý chính\",\n      \"examples\": [\"HD-2024-001\", \"CONTRACT-240615-ABC\", \"HĐ.123/2024/BIDV\"]\n    },\n    \n    \"NgayCoHieuLucHopDong\": {\n      \"type\": \"string\", \n      \"format\": \"date\",\n      \"description\": \"Ngày hợp đồng chính thức có hiệu lực pháp lý (không phải ngày ký)\",\n      \"examples\": [\"2024-06-25\", \"2024-12-01\"]\n    },\n    \n    \"GiaTriKhoanVay\": {\n      \"type\": \"number\",\n      \"minimum\": 0,\n      \"description\": \"Tổng giá trị khoản vay hoặc nghĩa vụ tài chính được bảo đảm, tính bằng VND\",\n      \"examples\": [1000000000, 5500000000, 750000000]\n    },\n    \n    \"SoPhuLuc\": {\n      \"type\": \"string\",\n      \"description\": \"Số phụ lục hợp đồng (nếu có), thường là các thỏa thuận bổ sung hoặc điều chỉnh\",\n      \"examples\": [\"PL-01/2024\", \"Phụ lục số 1\", \"Amendment No.1\"]\n    },\n    \n    \"ThoiDiemKHDangKy\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\", \n      \"description\": \"Thời điểm khách hàng bắt đầu khởi tạo đơn đăng ký trong hệ thống (có thể khác với thời điểm hoàn thành)\",\n      \"examples\": [\"2024-06-25T10:00:00Z\", \"2024-12-14T16:45:00Z\"]\n    },\n    \n    \"ThoiDiemDKLanDau\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Thời điểm đăng ký lần đầu tiên của giao dịch này (chỉ có trong đơn thay đổi/sửa chữa), được ghi rõ ở phần 'Đăng ký lần đầu'\",\n      \"examples\": [\"2024-01-15T14:30:00Z\", \"2024-05-20T11:20:00Z\"]\n    },\n    \n    \"NoiDungThayDoi\": {\n      \"type\": \"string\",\n      \"description\": \"Mô tả chi tiết nội dung cần thay đổi so với đăng ký ban đầu (chỉ có trong đơn thay đổi)\",\n      \"examples\": [\n        \"Thay đổi giá trị khoản vay từ 1 tỷ thành 1.5 tỷ VND\",\n        \"Bổ sung thêm tài sản bảo đảm xe ô tô biển số 51B-12345\",\n        \"Thay đổi địa chỉ bên giao từ TP.HCM sang Đà Nẵng\"\n      ]\n    },\n    \n    \"MoTaChungTaiSan\": {\n      \"type\": \"string\", \n      \"description\": \"Mô tả tổng quan về toàn bộ tài sản bảo đảm trong giao dịch, bao gồm bất động sản, động sản, phương tiện giao thông và các loại tài sản khác\",\n      \"examples\": [\n        \"01 xe ô tô con nhãn hiệu Toyota màu trắng, biển số 51B-12345\",\n        \"Quyền sử dụng đất thửa số 123, tờ bản đồ số 45, xã ABC, huyện XYZ\",\n        \"Hàng hóa điện tử luân chuyển tại kho số 1, địa chỉ 123 Nguyễn Trãi, Q.1, TP.HCM\"\n      ]\n    },\n    \n    \"BenGiao\": {\n      \"type\": \"array\",\n      \"description\": \"Danh sách các bên giao tài sản bảo đảm (bên thế chấp/bên cầm cố/bên bảo đảm), là những người sở hữu tài sản và đồng ý dùng tài sản làm bảo đảm\",\n      \"minItems\": 1,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"LoaiChuTheID\": {\n            \"type\": \"integer\",\n            \"description\": \"Mã số định danh loại chủ thể theo phân loại pháp lý\",\n            \"enum\": [1, 2, 3, 4, 5, 6],\n            \"enumDescriptions\": [\n              \"1 - Công dân Việt Nam: Cá nhân có quốc tịch Việt Nam\",\n              \"2 - Tổ chức có đăng ký kinh doanh trong nước: Doanh nghiệp Việt Nam\", \n              \"3 - Người nước ngoài: Cá nhân có quốc tịch nước khác\",\n              \"4 - Nhà đầu tư nước ngoài: Tổ chức đầu tư từ nước ngoài\",\n              \"5 - Tổ chức khác: Các tổ chức không thuộc loại doanh nghiệp\",\n              \"6 - Người không quốc tịch cư trú tại Việt Nam: Người tị nạn, không quốc tịch\"\n            ]\n          },\n          \"ThongTinChuThe\": {\n            \"description\": \"Thông tin chi tiết của chủ thể tương ứng với LoaiChuTheID\",\n            \"oneOf\": [\n              { \"$ref\": \"#/definitions/CongDanVietNam\" },\n              { \"$ref\": \"#/definitions/ToChucTrongNuoc\" },\n              { \"$ref\": \"#/definitions/NguoiNuocNgoai\" },\n              { \"$ref\": \"#/definitions/NhaDauTuNuocNgoai\" },\n              { \"$ref\": \"#/definitions/ToChucKhac\" },\n              { \"$ref\": \"#/definitions/NguoiKhongQuocTich\" }\n            ]\n          }\n        },\n        \"required\": [\"LoaiChuTheID\", \"ThongTinChuThe\"]\n      }\n    },\n    \n    \"BenNhan\": {\n      \"type\": \"array\",\n      \"description\": \"Danh sách các bên nhận bảo đảm (bên nhận thế chấp/bên nhận cầm cố/người cho vay), là những người có quyền lợi được bảo vệ bởi tài sản bảo đảm\",\n      \"minItems\": 1,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"Ten\": {\n            \"type\": \"string\",\n            \"description\": \"Tên đầy đủ của bên nhận bảo đảm (cá nhân hoặc tổ chức)\",\n            \"examples\": [\"Ngân hàng TMCP Đầu tư và Phát triển Việt Nam\", \"Nguyễn Thị C\", \"Samsung Electronics Vietnam\"]\n          },\n          \"QuocGia\": {\n            \"type\": \"string\", \n            \"description\": \"Quốc gia của bên nhận bảo đảm\",\n            \"examples\": [\"Vietnam\", \"South Korea\", \"Japan\", \"United States\"]\n          },\n          \"Tinh\": {\n            \"type\": \"string\",\n            \"description\": \"Tỉnh/thành phố nơi bên nhận bảo đảm có trụ sở hoặc cư trú\",\n            \"examples\": [\"TP.HCM\", \"Hà Nội\", \"Đà Nẵng\", \"Bình Dương\"]\n          },\n          \"DiaChi\": {\n            \"type\": \"string\",\n            \"description\": \"Địa chỉ chi tiết của bên nhận bảo đảm\",\n            \"examples\": [\n              \"Tầng 18, Tòa nhà BIDV, 35 Hàng Vôi, Hoàn Kiếm, Hà Nội\",\n              \"123 Lê Lợi, Phường Bến Nghé, Quận 1, TP.HCM\"\n            ]\n          }\n        },\n        \"required\": [\"Ten\", \"QuocGia\", \"Tinh\", \"DiaChi\"]\n      }\n    },\n    \n    \"TaiSan\": {\n      \"type\": \"array\",\n      \"description\": \"Danh sách chi tiết tất cả tài sản được sử dụng làm bảo đảm trong giao dịch\",\n      \"minItems\": 1,\n      \"items\": {\n        \"oneOf\": [\n          {\n            \"$ref\": \"#/definitions/TaiSan_CoSoKhung\"\n          },\n          {\n            \"$ref\": \"#/definitions/TaiSan_KhongCoSoKhung\"\n          },\n          {\n            \"$ref\": \"#/definitions/TaiSan_QuyenTaiSan\"\n          },\n          {\n            \"$ref\": \"#/definitions/TaiSan_HangHoaLuanChuyen\"\n          }\n        ]\n      }\n    }\n  },\n  \n  \"required\": [\n    \"MaHoSo\",\n    \"SoDon\", \n    \"LoaiDonID\",\n    \"LoaiDonName\",\n    \"LoaiDonCode\",\n    \"LoaiHinhGDID\", \n    \"LoaiHinhGDName\",\n    \"ThoiDiemDangKy\",\n    \"BenGiao\",\n    \"BenNhan\",\n    \"TaiSan\"\n  ],\n  \n  \"additionalProperties\": false,\n  \n  \"if\": {\n    \"properties\": {\n      \"LoaiHinhGDID\": { \"const\": 1 }\n    }\n  },\n  \"then\": {\n    \"required\": [\"LoaiBienPhapID\", \"LoaiBienPhapName\"]\n  },\n  \n  \"allOf\": [\n    {\n      \"if\": {\n        \"properties\": {\n          \"LoaiHinhGDID\": { \"const\": 2 }\n        }\n      },\n      \"then\": {\n        \"required\": [\"LoaiHopDongID\"]\n      }\n    },\n    {\n      \"if\": {\n        \"properties\": {\n          \"LoaiDonID\": { \"enum\": [2, 3] }\n        }\n      },\n      \"then\": {\n        \"required\": [\"SoDangKyLanDau\", \"ThoiDiemDKLanDau\"]\n      }\n    },\n    {\n      \"if\": {\n        \"properties\": {\n          \"LoaiDonID\": { \"const\": 2 }\n        }\n      },\n      \"then\": {\n        \"required\": [\"NoiDungThayDoi\"]\n      }\n    }\n  ]\n}\n```\n\n## Ví dụ: \nvd1: \n``` json ví dụ \n {\n      \"MaHoSo\": \"1597870317/TB-TT3\",\n      \"SoDon\": \"1597870317\",\n      \"SoDangKyLanDau\": null,\n      \"LoaiDonID\": 1,\n      \"LoaiDonName\": \"Đăng ký lần đầu\",\n      \"LoaiDonCode\": \"ĐKLD\",\n      \"LoaiHinhGDID\": 1,\n      \"LoaiHinhGDName\": \"Biện pháp bảo đảm\",\n      \"LoaiBienPhapID\": null,\n      \"LoaiBienPhapName\": null,\n      \"LoaiHopDongID\": null,\n      \"LoaiHopDongName\": null,\n      \"ThoiDiemDangKy\": \"2025-07-10\",\n      \"SoHopDong\": null,\n      \"NgayCoHieuLucHopDong\": null,\n      \"GiaTriKhoanVay\": null,\n      \"SoPhuLuc\": null,\n      \"ThoiDiemKHDangKy\": null,\n      \"ThoiDiemDKLanDau\": null,\n      \"NoiDungThayDoi\": null,\n      \"MoTaChungTaiSan\": null,\n      \"BenGiao\": [],\n      \"BenNhan\": [\n        {\n          \"Ten\": \"Ngân Hàng Nông Nghiệp Và Phát Triển Nông Thôn Việt Nam Chi Nhánh Tỉnh Đăk Lăk\",\n          \"QuocGia\": \"Vietnam\",\n          \"Tinh\": \"Đắk Lắk\",\n          \"DiaChi\": \"51 Nguyễn Tất Thành, Phường Tân An, Tỉnh Đắk Lắk, , tỉnh Đắk Lắk, Việt Nam\"\n        }\n      ],\n      \"TaiSan\": []\n    }\n```"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        704,
+        -272
+      ],
+      "id": "c9c60f58-dcb7-44c6-9f9e-585d8a8f3af9",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        480,
+        -272
+      ],
+      "id": "40887fb3-8e6a-4099-a3a5-45abf67992e6",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        776,
+        -48
+      ],
+      "id": "7757a15a-1b57-44a0-8dd9-69eb5a0ee65a",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "ybnqu4gAydZOhMPJ",
+          "name": "Google Gemini(PaLM) Api account 8"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk1": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields2": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "a62fcbb2-a0bc-4aff-87ef-50801489840f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "d93f4fb92eca6295f4baf878415baaa2e771b6c0aab6c4ea74902a26f6166066"
+  },
+  "id": "XklY6N5TjMjktHFH",
+  "tags": []
+}

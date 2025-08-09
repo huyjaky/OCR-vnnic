@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328124207/TB-TT3",
+            "SoDon": "9328124207",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô mới Ford Everest màu trắng, số khung MNCRXXMAWRSB32360, số máy P0WSRSB32360, biển số 49B-02798",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Lâm Đồng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "56-58 Khu Hòa Bình, Phường Xuân Hương - Đà Lạt, tỉnh Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "Ford Everest, màu trắng",
+                    "SoKhung": "MNCRXXMAWRSB32360",
+                    "SoMay": "P0WSRSB32360",
+                    "BienSo": "49B-02798",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

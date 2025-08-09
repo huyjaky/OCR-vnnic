@@ -1,0 +1,37 @@
+[
+    {
+        "output": {
+            "MaHoSo": "2080010126/TB-TT3",
+            "SoDon": "2080010126",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": "TĐ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "ngân hàng không kê khai nội dung thay đổi",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Ngoại thương Việt Nam Chi nhánh Vũng Tàu",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "thành phố Hồ Chí Minh",
+                    "DiaChi": "27 Trần Hưng Đạo, Phường Vũng Tàu, , thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": []
+        }
+    }
+]

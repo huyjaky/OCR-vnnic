@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328162783/TB-TT3",
+            "SoDon": "9328162783",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Bi\u1ec7n ph\u00e1p b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Th\u1ebf ch\u1ea5p",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "\u00d4 t\u00f4 THACO, MOBIHOME S (TB120B22RB), 22 gi\u01b0\u1eddng, 1 gh\u1ebf, 4x2, \u00f4 t\u00f4 kh\u00e1ch c\u00f3 gi\u01b0\u1eddng n\u1eb1m c\u00f3 s\u1ed1 khung: RN5B24SFMSN010160; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: WP12H400E50B924L002432, bi\u1ec3n s\u1ed1: 35B-012.92)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n h\u00e0ng TMCP Vi\u1ec7t Nam Th\u1ecbnh V\u01b0\u1ee3ng - Chi nh\u00e1nh Ninh B\u00ecnh - \u0110\u1ecba \u0111i\u1ec3m kinh doanh Ph\u00f2ng giao d\u1ecbch Y\u00ean Kh\u00e1nh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ninh B\u00ecnh",
+                    "DiaChi": "S\u1ed1 411-413, \u0110\u01b0\u1eddng L\u00ea Th\u00e1nh T\u00f4ng, Ph\u1ed1 3, x\u00e3 Y\u00ean Kh\u00e1nh, t\u1ec9nh Ninh B\u00ecnh, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "\u00d4 t\u00f4 kh\u00e1ch c\u00f3 gi\u01b0\u1eddng n\u1eb1m",
+                    "NhanHieuMauSon": "THACO, MOBIHOME S (TB120B22RB), 22 gi\u01b0\u1eddng, 1 gh\u1ebf, 4x2",
+                    "SoKhung": "RN5B24SFMSN010160",
+                    "SoMay": "WP12H400E50B924L002432",
+                    "BienSo": "35B-012.92",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

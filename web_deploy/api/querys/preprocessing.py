@@ -8,6 +8,7 @@ columns = [
     # "HoSoTempId", done
     # "QuocGia", done
     # "Tinh", done
+    # "DiaChi", done
     "HoTen",
     "CCCD",
     "TenToChuc",
@@ -15,7 +16,6 @@ columns = [
     "SoHoChieu",
     "TheCuTru",
     "QuocGiaCap",
-    "DiaChi",
 ]
 
 loai_chu_the = {
@@ -50,6 +50,13 @@ def preprocessing_ben_giao(ben_giao: list[dict], ho_so_id: str) -> list[dict]:
             "HoSoTempId": ho_so_id,
             "QuocGia": quoc_gia,
             "Tinh": tinh,
+            "DiaChi": str(item["ThongTinChuThe"]["DiaChi"])
+            .replace(f"{quoc_gia}", "")
+            .replace(f"{tinh},", "")
+            .replace("tỉnh", "")
+            .replace("thành phố", "")
+            .replace("quốc gia", "")
+            .strip(),
         }
         for key in columns:  # Skip the first column which is 'LoaiChuTheID'
             if key in list(item["ThongTinChuThe"].keys()):
@@ -75,9 +82,12 @@ def preprocessing_ben_nhan(ben_nhan: list[dict], ho_so_id: str) -> list[dict]:
             "Ten": item["Ten"],
             "QuocGia": item.get("QuocGia", None),
             "Tinh": item.get("Tinh", None),
-            "DiaChi": str(item.get("DiaChi", None))
+            "DiaChi": str(item.get("DiaChi"))
             .replace(f"{item.get('QuocGia')}", "")
             .replace(f"{item.get('Tinh')},", "")
+            .replace("tỉnh", "")
+            .replace("thành phố", "")
+            .replace("quốc gia", "")
             .strip(),
             "HoSoTempId": ho_so_id,
         }

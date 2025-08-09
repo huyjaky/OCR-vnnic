@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328159125/TB-TT3",
+            "SoDon": "9328159125",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô LEXUS LX600, màu sơn: Đen có số khung: JTJPB7CX20407558; thông tin khác (số máy: V35A0381607, biển số: 30L-279.99)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Công Thương Việt Nam Chi nhánh Vinh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 229 đường Lê Duẩn, phường Trường Vinh, thành phố Vinh, tỉnh Nghệ An"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "LEXUS LX600 màu Đen",
+                    "SoKhung": "JTJPB7CX20407558",
+                    "SoMay": "V35A0381607",
+                    "BienSo": "30L-279.99",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

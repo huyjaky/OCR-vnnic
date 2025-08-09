@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328127269/TB-TT3",
+            "SoDon": "9328127269",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: LA9940AC2M7LHD103; thông tin khác (số máy: , biển số: 81R-008.79)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP ĐT&PT Việt Nam Chi Nhánh Phố Núi",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "242 Nguyễn Tất Thành, phường Phù Đổng, Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "LA9940AC2M7LHD103",
+                    "SoMay": null,
+                    "BienSo": "81R-008.79",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

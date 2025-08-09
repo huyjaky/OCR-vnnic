@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0796",
+            "SoDon": "1597870033",
+            "SoDangKyLanDau": "1597870033",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:26:00",
+            "SoHopDong": "68/TC25-NAN",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T15:26:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Xe ô tô tải thùng kín, nhãn hiệu ISUZU, màu trắng, số khung RLE1MR77HRVA05993, biển số 37C-182.89",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH THƯƠNG MẠI NAM LONG",
+                        "MaSoThue": "2900326960",
+                        "DiaChi": "Số 19 Phạm Nguyễn Du, Phường Trường Vinh, tỉnh Nghệ An, tỉnh Nghệ An, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Ngoại Thương Việt Nam - Chi Nhánh Nghệ An",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 21, đường Quang Trung, phường Thành Vinh, tỉnh Nghệ An, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "ISUZU, màu trắng",
+                    "SoKhung": "RLE1MR77HRVA05993",
+                    "SoMay": "231Y78",
+                    "BienSo": "37C-182.89",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

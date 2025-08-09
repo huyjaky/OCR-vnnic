@@ -1,0 +1,52 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0788",
+            "SoDon": "1597869254",
+            "SoDangKyLanDau": "1597869254",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:24:00",
+            "SoHopDong": "01/220.089/25/QĐN-AD",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": 3660710000,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T15:24:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Quyền đòi nợ của Bên thế chấp theo Hợp đồng thi công xây dựng công trình số 266/2024/HĐ-XL, thời điểm có hiệu lực: ngày 20/12/2024 ký giữa Ban quản lý dự án đầu tư xây dựng huyện Tiên Yên và Công ty TNHH Ánh Dương. giá trị: 3.660.710.000 VNĐ (Bằng chữ: Ba tỷ sáu trăm sáu mươi triệu bảy trăm mười nghìn đồng).",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công ty TNHH Ánh Dương",
+                        "MaSoThue": "5700302781",
+                        "DiaChi": "Tổ 1, khu 6, phường Bãi Cháy, tỉnh Quảng Ninh, tỉnh Quảng Ninh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Thịnh Vượng và Phát Triển Chi nhánh Quảng Ninh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ninh",
+                    "DiaChi": "Số 7 +8 Lô A2 Đường 25/4 phường Hồng Gai, tỉnh Quảng Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Quyền đòi nợ",
+                    "CanCuPhatSinhQuyen": "Hợp đồng thi công xây dựng công trình số 266/2024/HĐ-XL, thời điểm có hiệu lực: ngày 20/12/2024 ký giữa Ban quản lý dự án đầu tư xây dựng huyện Tiên Yên và Công ty TNHH Ánh Dương"
+                }
+            ]
+        }
+    }
+]

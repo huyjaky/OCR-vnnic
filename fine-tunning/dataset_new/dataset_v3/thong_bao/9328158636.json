@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328158636/TB-TT3",
+            "SoDon": "9328158636",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô FORD, đen có số khung: FF60MW110918; thông tin khác (số máy: YN2QWM110918, biển số: 76C-142.79)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Quảng Ngãi",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Ngãi",
+                    "DiaChi": "316 Trần Hưng Đạo, P. Nghĩa Lộ, Quảng Ngãi, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "FORD, đen",
+                    "SoKhung": "FF60MW110918",
+                    "SoMay": "YN2QWM110918",
+                    "BienSo": "76C-142.79",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328151353/TB-TT3",
+            "SoDon": "9328151353",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu MG màu trắng, biển số 19A-808.46, số khung MMLW74U49SG012903, số máy 15S4CCTTS2240037.",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam Chi nhánh Phú Thọ Phòng giao dịch Thanh Ba",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Phú Thọ",
+                    "DiaChi": "Khu 6, xã Thanh Ba, tỉnh Phú Thọ, tỉnh Phú Thọ, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MG màu Trắng",
+                    "SoKhung": "MMLW74U49SG012903",
+                    "SoMay": "15S4CCTTS2240037",
+                    "BienSo": "19A-808.46",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

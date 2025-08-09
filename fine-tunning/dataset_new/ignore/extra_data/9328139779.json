@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9328139779/TB-TT3",
+            "SoDon": "9328139779",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Y\u00eau c\u1ea7u c\u1ea5p b\u1ea3n sao k\u00e8m th\u00f4ng b\u00e1o CA",
+            "LoaiDonCode": "TBCA",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Th\u00f4ng b\u00e1o x\u1eed l\u00fd t\u00e0i s\u1ea3n b\u1ea3o \u0111\u1ea3m",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe \u00f4 t\u00f4 c\u00f3 s\u1ed1 khung: MF3PB812EPJ046209; th\u00f4ng tin kh\u00e1c (s\u1ed1 m\u00e1y: G4FLNQ159549, bi\u1ec3n s\u1ed1: 43A-721.13)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ng\u00e2n H\u00e0ng TMCP Ti\u00ean Phong Chi Nh\u00e1nh \u0110\u00e0 N\u1eb5ng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "\u0110\u00e0 N\u1eb5ng",
+                    "DiaChi": "155 Nguy\u1ec5n V\u0103n Linh, ph\u01b0\u1eddng V\u0129nh Trung, \u0110\u00e0 N\u1eb5ng, Vi\u1ec7t Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe \u00f4 t\u00f4",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MF3PB812EPJ046209",
+                    "SoMay": "G4FLNQ159549",
+                    "BienSo": "43A-721.13",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

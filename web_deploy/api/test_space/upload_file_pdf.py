@@ -32,8 +32,8 @@ try:
             "/home/duckq1u/Downloads/FIL/"
         )
     ):
-        if list(pdf_file.strip())[0] != "1":
-            continue
+        # if list(pdf_file.strip())[0] != "2":
+        #     continue
 
         if pdf_file.endswith(".pdf"):
             file_path = os.path.join(

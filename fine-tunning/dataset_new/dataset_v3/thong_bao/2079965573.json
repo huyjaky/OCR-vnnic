@@ -1,0 +1,37 @@
+[
+    {
+        "output": {
+            "MaHoSo": "2079965573/TB-TT3",
+            "SoDon": "2079965573",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": "TĐ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "Nội dung yêu cầu đăng ký kê khai không đúng theo quy định tại điểm d khoản 1 Điều 15 Nghị định số 99/2022/NĐ-CP ngày 30/11/2022 về đăng ký biện pháp bảo đảm. Cụ thể, Quý ngân hàng kê khai tài sản rút bớt không phù hợp với nội dung đã đăng ký.",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Nghệ An",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Nhà A, Khu Thương mại dịch vụ nhà ở C1, đường Quang Trung, Phường Quang Trung, Thành phố Vinh, , tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": []
+        }
+    }
+]
