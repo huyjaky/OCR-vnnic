@@ -126,15 +126,22 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id: str) -> dict:
     :param ho_so_id: Unique identifier for the 'HoSo'.
     :return: Dictionary with preprocessed data.
     """
-    LoaiDonID = int(ho_so.get("LoaiDonID"))  # pyright:ignore
+    if ho_so.get("LoaiDonID") != None:
+        LoaiDonID = int(ho_so.get("LoaiDonID"))  # pyright:ignore
 
-    if "/TB-TT3" in str(ho_so.get("MaHoSo", None)):
-        LoaiDonID = 10  # CCTT
+        if "/TB-TT3" in str(ho_so.get("MaHoSo", None)):
+            LoaiDonID = 9  # CCTT
+        elif "CCTT" in str(ho_so.get("SoDon", None)):
+            LoaiDonID = 10
+        else:
+            LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])
+
+        LoaiDonName = loai_don_dict[LoaiDonID]
+        LoaiDonCode = loai_don_code[LoaiDonID]  # CCTT
     else:
-        LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])
-
-    LoaiDonName = loai_don_dict[LoaiDonID]
-    LoaiDonCode = loai_don_code[LoaiDonID]  # CCTT
+        LoaiDonID = None
+        LoaiDonName = None
+        LoaiDonCode = None
 
     return {
         "MaHoSo": ho_so.get("MaHoSo", None),

@@ -74,6 +74,7 @@ def gen_json(
         do_sample=True,
         # streamer=TextStreamer(tokenizer, skip_prompt=True),
     )
+    
     generated_output = tokenizer.batch_decode(outputs)[0]
 
     # Tách phần content từ assistant

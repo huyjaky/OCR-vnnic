@@ -53,7 +53,6 @@ model_2, tokenizer = load_model_and_tokenizer(
     model_path=model_path, max_seq_length=max_seq_length, cuda_index=1
 )  # Llama 3.1 model for generating JSON from Markdown
 
-
 def convert_to_json(file_name: str, model, index: int) -> dict:
     # NOTE: Convert PDF to JSON
     print("Generating JSON from Markdown...")
