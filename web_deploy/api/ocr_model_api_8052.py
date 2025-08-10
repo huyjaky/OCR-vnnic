@@ -18,7 +18,8 @@ folder_remote_path = str(os.getenv("REMOTE_CACHE_PATH"))
 folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
 folder_remote_save_path = str(os.getenv("REMOTE_SAVE_PATH"))
 md_cached_path = str(os.getenv("MD_CACHED_PATH"))
-folder_remote_save_path_when_error = str(os.getenv("REMOTE_SAVE_PATH_WHEN_ERROR"))
+folder_remote_path_when_error = str(os.getenv("REMOTE_SAVE_PATH_WHEN_ERROR"))
+folder_local_path_when_error = str(os.getenv("ERROR_CACHE_PATH"))
 
 model_path = str(os.getenv("MODEL_PATH", "llama-3.1"))
 max_seq_length = int(os.getenv("MAX_SEQ_LENGTH", "2048"))
@@ -55,6 +56,7 @@ model_2, tokenizer = load_model_and_tokenizer(
     model_path=model_path, max_seq_length=max_seq_length, cuda_index=1
 )  # Llama 3.1 model for generating JSON from Markdown
 
+
 def convert_to_json(file_name: str, model, index: int) -> dict:
     # NOTE: Convert PDF to JSON
     print("Generating JSON from Markdown...")
@@ -81,8 +83,7 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
         )
 
         print("-" * 50, "END", "-" * 50)
-        insert_records_from_json(json_input=generated_output)
-
+        insert_records_from_json(json_input=generated_output, file_name=file_name)
         print("JSON generated and inserted into the database successfully.")
 
     except Exception as e:
@@ -91,7 +92,10 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             local_save_path=folder_local_path,
             file_name=file_name,
             account=account,
-            folder_remote_save_path=folder_remote_save_path_when_error,
+            error_remote_path=folder_remote_path_when_error,
+            error_local_path=folder_local_path_when_error,
+            error_message=str(e),
+            model_index=index,
         )
 
     # NOTE: remove file from cache after processing

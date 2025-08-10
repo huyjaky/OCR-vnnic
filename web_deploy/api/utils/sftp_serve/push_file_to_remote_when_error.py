@@ -5,9 +5,12 @@ import os
 
 def push_file_to_remote_when_error(
     local_save_path: str,
-    folder_remote_save_path: str,
     account: sftp_account,
     file_name: str,
+    error_remote_path: str,
+    error_local_path: str,
+    error_message: str,
+    model_index: int,
 ):
     """
     Function to upload a file to a remote server using SFTP.
@@ -25,12 +28,32 @@ def push_file_to_remote_when_error(
         sftp_client = ssh_client.open_sftp()
         print("Connected to the server successfully.")
 
+        # NOTE: Put original file to remote server
         sftp_client.put(
             localpath=os.path.join(local_save_path, file_name.replace(".txt", ".pdf")),
             remotepath=os.path.join(
-                folder_remote_save_path, file_name.replace(".txt", ".pdf")
+                error_remote_path, file_name.replace(".txt", ".pdf")
             ),
         )  # Upload the file
+
+        # NOTE: Put log file to remote server
+        # Write the error message to a log file on the remote server
+        with open(
+            os.path.join(error_local_path, f"model_{model_index}_{file_name.replace('.txt', '.log')}"), "w"
+        ) as error_file:
+            error_file.write(
+                f"Error in model {model_index}:\n {file_name} \n {error_message}\n"
+            )
+
+        sftp_client.put(
+            localpath=os.path.join(
+                error_local_path, f"{file_name.replace('.txt', '.log')}"
+            ),
+            remotepath=os.path.join(
+                error_remote_path, f"{file_name.replace('.txt', '.log')}"
+            ),
+        )  # Upload the error log file
+
         print("File uploaded successfully.")
 
     except paramiko.AuthenticationException:

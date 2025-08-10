@@ -82,14 +82,14 @@ def insert_single_record(conn, table_name: str, data: dict):
     cursor.close()
 
 
-def insert_records_from_json(json_input):
+def insert_records_from_json(json_input, file_name:str):
     """
     Insert records into the database from a JSON input.
     :param json_input: JSON object containing the data to insert.
     """
     ho_so_id = uuid.uuid4()
 
-    ho_so = preprocessing_ho_so(ho_so=json_input, ho_so_id=ho_so_id) # pyright:ignore
+    ho_so = preprocessing_ho_so(ho_so=json_input, ho_so_id=ho_so_id, file_name=file_name)
     ben_giao = preprocessing_ben_giao(ben_giao=json_input["BenGiao"], ho_so_id=ho_so_id) # pyright:ignore
     ben_nhan = preprocessing_ben_nhan(ben_nhan=json_input["BenNhan"], ho_so_id=ho_so_id) # pyright:ignore
 

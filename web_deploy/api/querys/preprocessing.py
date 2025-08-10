@@ -119,7 +119,7 @@ loai_don_code = {
 }
 
 
-def preprocessing_ho_so(ho_so: dict, ho_so_id: str) -> dict:
+def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
     """
     Preprocess the 'HoSo' data to extract necessary fields.
     :param ho_so: Dictionary containing 'HoSo' data.
@@ -165,7 +165,7 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id: str) -> dict:
         "ThoiDiemDKLanDau": ho_so.get("ThoiDiemDKLanDau", None),
         # "NoiDungThayDoi": ho_so.get("NoiDungThayDoi", None),
         # "MoTaChungTaiSan": ho_so.get("MoTaChungTaiSan", None),
-
+        "TenFile": file_name,
         "isCheck": False,
         "HoSoTempId": ho_so_id,
         # WARNING: Not clarified fields
