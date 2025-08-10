@@ -39,6 +39,7 @@ from utils.sftp_serve.push_file_to_remote_when_error import (
     push_file_to_remote_when_error,
 )
 
+
 class Item(BaseModel):
     file_name: str
 
@@ -53,7 +54,6 @@ model_1, tokenizer = load_model_and_tokenizer(
 model_2, tokenizer = load_model_and_tokenizer(
     model_path=model_path, max_seq_length=max_seq_length, cuda_index=1
 )  # Llama 3.1 model for generating JSON from Markdown
-
 
 def convert_to_json(file_name: str, model, index: int) -> dict:
     # NOTE: Convert PDF to JSON
@@ -122,6 +122,7 @@ def convert_json_model_2(file: Item):
     if file.file_name.endswith(".txt") is False:
         return {"response": "File must be a txt."}
     return convert_to_json(file_name=file.file_name, model=model_2, index=1)
+
 
 @app.post("/convert-to-json-from-upload", response_model=dict)
 async def testing_function(file: UploadFile = File(...)):
