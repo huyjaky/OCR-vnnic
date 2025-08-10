@@ -28,9 +28,11 @@ def push_file_to_remote_save_path(
 ):
     """
     Function to upload a file to a remote server using SFTP.
-    # Path to the file to be uploaded
-    # NOTE: This should be the path where the file is saved after processing
-    # For example, after converting PDF to JSON
+    :param local_save_path: Local path where the file is saved.
+    :param folder_remote_save_path: Remote path where the file will be saved.
+    :param account: SFTP account details.
+    :param datetime_folder: Date and time folder to organize files on the remote server.
+    :param file_name: Name of the file to be uploaded.
     """
     try:
         ssh_client = paramiko.SSHClient()

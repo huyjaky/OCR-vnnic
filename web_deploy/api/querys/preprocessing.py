@@ -165,6 +165,7 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id: str) -> dict:
         "ThoiDiemDKLanDau": ho_so.get("ThoiDiemDKLanDau", None),
         # "NoiDungThayDoi": ho_so.get("NoiDungThayDoi", None),
         # "MoTaChungTaiSan": ho_so.get("MoTaChungTaiSan", None),
+
         "isCheck": False,
         "HoSoTempId": ho_so_id,
         # WARNING: Not clarified fields

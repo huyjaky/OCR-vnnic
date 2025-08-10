@@ -12,6 +12,7 @@ from utils.load_models.marker_model import load_marker_model, get_text_from_pdf
 load_dotenv()
 folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
 md_cached_path = str(os.getenv("MD_CACHED_PATH"))
+model_api = str(os.getenv("MODEL_API"))
 
 print("[PDF Worker] Loading Marker model...")
 converter = load_marker_model()
@@ -23,7 +24,7 @@ def process_model_1(file_list):
         if file_name.endswith(".txt"):
             try:
                 x = requests.post(
-                    "http://localhost:8052/convert-json-from-local-model-1",
+                    f"{model_api}/convert-json-from-local-model-1",
                     json={"file_name": file_name},
                     timeout=30,
                 )
@@ -37,7 +38,7 @@ def process_model_2(file_list):
         if file_name.endswith(".txt"):
             try:
                 x = requests.post(
-                    "http://localhost:8052/convert-json-from-local-model-2",
+                    f"{model_api}/convert-json-from-local-model-2",
                     json={"file_name": file_name},
                     timeout=30,
                 )

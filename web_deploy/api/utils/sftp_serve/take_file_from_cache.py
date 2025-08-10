@@ -6,15 +6,19 @@ import pypdf
 
 
 def take_file_from_cache(
-    folder_remote_path: str,
+    folder_remote_save_path: str,
     folder_local_path: str,
     account: sftp_account,
+    folder_remote_save_path_when_error: str,
 ) -> bool:
     """
     Function to take a file from server using SFTP after taking it from cache
     that file will be removed from cache
-    :param folder_remote_path: Path to the remote folder on the server
-    :param folder_local_path: Path to the local folder where the file will be saved
+    :param folder_remote_save_path: Remote path where the file will be uploaded.
+    :param folder_local_path: Local path where the file is saved.
+    :param account: SFTP account details containing hostname, port, username, and password.
+    :param folder_remote_save_path_when_error: Remote path where the file will be uploaded when
+    an error occurs.
     """
 
     try:
@@ -26,12 +30,12 @@ def take_file_from_cache(
         sftp_client = ssh_client.open_sftp()
         print("Connected to the server successfully.")
 
-        file_list = sftp_client.listdir(folder_remote_path)
+        file_list = sftp_client.listdir(folder_remote_save_path)
 
         print("Starting get file from cache serve---")
         # NOTE: checking the folder have a new file after 5 minutes
         # set timer right here
-        file_list = sftp_client.listdir(folder_remote_path)
+        file_list = sftp_client.listdir(folder_remote_save_path)
 
         # prevent complile new progress bar when no new file
         processer_bar = tqdm(file_list, desc="Downloading files", position=0)
@@ -43,11 +47,18 @@ def take_file_from_cache(
                 ):  # ignore error files
                     processer_bar.set_description(f"Downloading {file_name}")
 
-                    remote_file_path = os.path.join(folder_remote_path, file_name)
+                    remote_file_path = os.path.join(folder_remote_save_path, file_name)
                     local_file_path = os.path.join(folder_local_path, file_name)
+                    remote_file_path_when_error = os.path.join(
+                        folder_remote_save_path_when_error, file_name
+                    )
 
                     # Download the file from the remote server to the local path
                     sftp_client.get(remote_file_path, local_file_path)
+
+                    sftp_client.remove(
+                        remote_file_path
+                    )  # Remove the file from remote cache
 
                     # WARNING: Remove the PDF file if it has more than 7 pages
                     # as well as checking the file PDF file is not corrupted
@@ -56,11 +67,12 @@ def take_file_from_cache(
                         print(
                             f"File {file_name} has more than 7 pages, removing from cache."
                         )
+                        sftp_client.put(
+                            localpath=local_file_path,
+                            remotepath=remote_file_path_when_error,
+                        )
                         os.remove(local_file_path)
-                    else:
-                        sftp_client.remove(
-                            remote_file_path
-                        )  # Remove the file from remote cache
+
                     processer_bar.update()
 
                 else:
@@ -69,8 +81,8 @@ def take_file_from_cache(
                     )
             print("Successfull")
 
-    except pypdf.errors.PdfReadError:
-        os.remove(local_file_path)
+    except pypdf.errors.PdfReadError:  # pyright: ignore
+        os.remove(local_file_path)  # pyright: ignore
     except paramiko.AuthenticationException:
         print("Authentication failed. Check your username and password or keys.")
     except paramiko.SSHException as e:
@@ -103,7 +115,7 @@ if __name__ == "__main__":
     folder_remote_path = str(os.getenv("REMOTE_CACHE_PATH"))
     folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
     take_file_from_cache(
-        folder_remote_path=folder_remote_path,
+        folder_remote_save_path=folder_remote_path,
         folder_local_path=folder_local_path,
         account=account,
     )

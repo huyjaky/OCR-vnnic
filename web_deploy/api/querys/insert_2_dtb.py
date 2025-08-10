@@ -89,9 +89,9 @@ def insert_records_from_json(json_input):
     """
     ho_so_id = uuid.uuid4()
 
-    ho_so = preprocessing_ho_so(ho_so=json_input, ho_so_id=ho_so_id)
-    ben_giao = preprocessing_ben_giao(ben_giao=json_input["BenGiao"], ho_so_id=ho_so_id)
-    ben_nhan = preprocessing_ben_nhan(ben_nhan=json_input["BenNhan"], ho_so_id=ho_so_id)
+    ho_so = preprocessing_ho_so(ho_so=json_input, ho_so_id=ho_so_id) # pyright:ignore
+    ben_giao = preprocessing_ben_giao(ben_giao=json_input["BenGiao"], ho_so_id=ho_so_id) # pyright:ignore
+    ben_nhan = preprocessing_ben_nhan(ben_nhan=json_input["BenNhan"], ho_so_id=ho_so_id) # pyright:ignore
 
     conn = connect_to_db()
     insert_single_record(conn=conn, table_name="HoSoTemp", data=ho_so)

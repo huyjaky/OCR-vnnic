@@ -11,9 +11,10 @@ def push_file_to_remote_when_error(
 ):
     """
     Function to upload a file to a remote server using SFTP.
-    # Path to the file to be uploaded
-    # NOTE: This should be the path where the file is saved after processing
-    # For example, after converting PDF to JSON
+    :param local_save_path: Local path where the file is saved.
+    :param folder_remote_save_path: Remote path where the file will be uploaded.
+    :param account: SFTP account details containing hostname, port, username, and password.
+    :param file_name: Name of the file to be uploaded.
     """
     try:
         ssh_client = paramiko.SSHClient()
@@ -27,7 +28,7 @@ def push_file_to_remote_when_error(
         sftp_client.put(
             localpath=os.path.join(local_save_path, file_name.replace(".txt", ".pdf")),
             remotepath=os.path.join(
-                folder_remote_save_path, f"error_{file_name.replace('.txt', '.pdf')}"
+                folder_remote_save_path, file_name.replace(".txt", ".pdf")
             ),
         )  # Upload the file
         print("File uploaded successfully.")
