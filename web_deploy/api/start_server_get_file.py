@@ -11,7 +11,7 @@ get_file_api = str(os.getenv("GET_FILE_API"))
 
 while True:
     # NOTE: prevent fetching new files when file was processed
-    if len(os.listdir(folder_local_path)) != 1:
+    if len(os.listdir(folder_local_path)) != 0:
         print("Waiting for new files to be added to the cache server...")
         time.sleep(5)
         continue

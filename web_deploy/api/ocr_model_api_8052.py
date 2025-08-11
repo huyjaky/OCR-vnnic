@@ -39,6 +39,7 @@ from utils.sftp_serve.push_file_to_remote_save_path import push_file_to_remote_s
 from utils.sftp_serve.push_file_to_remote_when_error import (
     push_file_to_remote_when_error,
 )
+from utils.sftp_serve.take_file_from_cache import take_file_from_cache
 
 
 class Item(BaseModel):
@@ -70,6 +71,7 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             max_seq_length=max_seq_length,
             cuda_index=index,  # Use the first GPU for model_1
         )  # Generate JSON from Markdown
+        
 
         push_file_to_remote_save_path(
             account=account,

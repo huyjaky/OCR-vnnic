@@ -15,8 +15,7 @@ account = sftp_account(
     hostname=str(os.getenv("HOSTNAME_SSH")),
     port=int(os.getenv("PORT_SSH", "22")),
     username=str(os.getenv("USERNAME_SSH")),
-    password=str(os.getenv("PASSWORD_SSH")),
-)
+    password=str(os.getenv("PASSWORD_SSH")),)
 
 app = FastAPI()
 
@@ -30,6 +29,6 @@ async def get_file_from_remote():
         folder_remote_save_path=folder_remote_save_path,
         folder_local_path=folder_local_path,
         account=account,
-        folder_remote_save_path_when_error=folder_remote_save_path_when_error,
+        folder_remote_path_when_error=folder_remote_save_path_when_error
     )  # Timeout in minutes
     return {"message": "File retrieval initiated."}

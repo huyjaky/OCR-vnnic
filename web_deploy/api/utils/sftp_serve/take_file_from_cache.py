@@ -9,7 +9,9 @@ def take_file_from_cache(
     folder_remote_save_path: str,
     folder_local_path: str,
     account: sftp_account,
-    folder_remote_save_path_when_error: str,
+    folder_remote_path_when_error: str,
+    folder_local_path_when_error: str,
+    model_index: int,
 ) -> bool:
     """
     Function to take a file from server using SFTP after taking it from cache
@@ -49,8 +51,9 @@ def take_file_from_cache(
 
                     remote_file_path = os.path.join(folder_remote_save_path, file_name)
                     local_file_path = os.path.join(folder_local_path, file_name)
-                    remote_file_path_when_error = os.path.join(
-                        folder_remote_save_path_when_error, file_name
+
+                    file_remote_path_when_error = os.path.join(
+                        folder_remote_path_when_error, "pdf", file_name
                     )
 
                     # Download the file from the remote server to the local path
@@ -69,8 +72,34 @@ def take_file_from_cache(
                         )
                         sftp_client.put(
                             localpath=local_file_path,
-                            remotepath=remote_file_path_when_error,
+                            remotepath=file_remote_path_when_error,
                         )
+
+                        # NOTE: Put log file to remote server
+                        # Write the error message to a log file on the remote server
+                        with open(
+                            os.path.join(
+                                folder_local_path_when_error,
+                                f"model_{model_index}_{file_name.replace('.pdf', '.log')}",
+                            ),
+                            "w",
+                        ) as error_file:
+                            error_file.write(
+                                f"Error in model {model_index}:\n {file_name} \n Has more than 7 pages \n"
+                            )
+
+                        sftp_client.put(
+                            localpath=os.path.join(
+                                folder_local_path_when_error,
+                                f"model_{model_index}_{file_name.replace('.pdf', '.log')}",
+                            ),
+                            remotepath=os.path.join(
+                                folder_remote_path_when_error,
+                                "log",
+                                file_name.replace(".pdf", ".log"),
+                            ),
+                        )  # Upload the error log file
+
                         os.remove(local_file_path)
 
                     processer_bar.update()

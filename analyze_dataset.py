@@ -12,8 +12,8 @@ for foldername in os.listdir("./dataset/"):
                     # list_cache.append(len(data[0]["output"]["TaiSan"]))
                     list_cache.append(data[0]["output"]["LoaiHopDongName"])
             except Exception as e:
-                data[0]["output"]["LoaiHopDongName"] = None
-                with open(filepath, "w") as file:
-                    json.dump(data, file, ensure_ascii=False, indent=4)
-                # print(f"Error processing {filepath}: {e}")
-                # print(filename)
+                # data[0]["output"]["LoaiHopDongName"] = None
+                # with open(filepath, "w") as file:
+                #     json.dump(data, file, ensure_ascii=False, indent=4)
+                print(f"Error processing {filepath}: {e}")
+                print(filename)
