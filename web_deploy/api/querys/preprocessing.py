@@ -131,7 +131,7 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
 
         if "/TB-TT3" in str(ho_so.get("MaHoSo", None)):
             LoaiDonID = 9  # CCTT
-        elif "CCTT" in str(ho_so.get("SoDon", None)):
+        elif "CCTT" in str(ho_so.get("SoDon", None)) or "CCTT" in file_name:
             LoaiDonID = 10
         else:
             LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])
