@@ -14,10 +14,12 @@ account = sftp_account(
     password=str(os.getenv("PASSWORD_SSH")),
 )
 timeout = int(os.getenv("TIMEOUT_SFTP", "5"))
+
 folder_remote_path = str(os.getenv("REMOTE_CACHE_PATH"))
 folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
-folder_remote_save_path = str(os.getenv("REMOTE_SAVE_PATH"))
 md_cached_path = str(os.getenv("MD_CACHED_PATH"))
+
+folder_remote_save_path = str(os.getenv("REMOTE_SAVE_PATH"))
 folder_remote_path_when_error = str(os.getenv("REMOTE_SAVE_PATH_WHEN_ERROR"))
 folder_local_path_when_error = str(os.getenv("ERROR_CACHE_PATH"))
 
@@ -39,12 +41,10 @@ from utils.sftp_serve.push_file_to_remote_save_path import push_file_to_remote_s
 from utils.sftp_serve.push_file_to_remote_when_error import (
     push_file_to_remote_when_error,
 )
-from utils.sftp_serve.take_file_from_cache import take_file_from_cache
 
 
 class Item(BaseModel):
     file_name: str
-
 
 app = FastAPI()
 
@@ -71,7 +71,8 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             max_seq_length=max_seq_length,
             cuda_index=index,  # Use the first GPU for model_1
         )  # Generate JSON from Markdown
-        
+
+        file_name = file_name.replace(".txt", "")
 
         push_file_to_remote_save_path(
             account=account,
@@ -102,8 +103,8 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
 
     # NOTE: remove file from cache after processing
     # file_name = <file_name>.txt
-    os.remove(str(os.path.join(md_cached_path, file_name)))
-    os.remove(str(os.path.join(folder_local_path, file_name.replace(".txt", ".pdf"))))
+    os.remove(str(os.path.join(md_cached_path, f"{file_name}.txt")))
+    os.remove(str(os.path.join(folder_local_path, f"{file_name}.pdf")))
 
     return {"response": True}
 

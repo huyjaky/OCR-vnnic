@@ -100,8 +100,6 @@ def take_file_from_cache(
                             ),
                         )  # Upload the error log file
 
-                        os.remove(local_file_path)
-
                     processer_bar.update()
 
                 else:

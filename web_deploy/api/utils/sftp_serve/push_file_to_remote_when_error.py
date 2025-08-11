@@ -20,6 +20,7 @@ def push_file_to_remote_when_error(
     :param file_name: Name of the file to be uploaded.
     """
     try:
+        file_name = f"{file_name}.log"
         ssh_client = paramiko.SSHClient()
         ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         ssh_client.connect(
@@ -30,10 +31,11 @@ def push_file_to_remote_when_error(
 
         # NOTE: Put original file to remote server
         sftp_client.put(
-            localpath=os.path.join(local_save_path, file_name.replace(".txt", ".pdf")),
+            localpath=os.path.join(local_save_path, file_name),
             remotepath=os.path.join(
-                os.path.join(error_remote_path, "/pdf"),
-                file_name.replace(".txt", ".pdf"),
+                error_remote_path,
+                "pdf",
+                f"{file_name}.pdf",
             ),
         )  # Upload the file
 
@@ -42,25 +44,24 @@ def push_file_to_remote_when_error(
         with open(
             os.path.join(
                 error_local_path,
-                f"model_{model_index}_{file_name.replace('.txt', '.log')}",
+                f"model_{model_index}_{file_name}",
             ),
             "w",
         ) as error_file:
             error_file.write(
-                f"Error in model {model_index}:\n {file_name} \n {error_message}\n"
+                f"Error in model: {model_index}\n File name: {file_name} \n\n\n {error_message}\n"
             )
 
         sftp_client.put(
-            localpath=os.path.join(
-                error_local_path, f"{file_name.replace('.txt', '.log')}"
-            ),
+            localpath=os.path.join(error_local_path, f"{file_name}"),
             remotepath=os.path.join(
-                os.path.join(error_remote_path, "/log"),
-                f"{file_name.replace('.txt', '.log')}",
+                error_remote_path,
+                "log",
+                f"{file_name}",
             ),
         )  # Upload the error log file
 
-        print("File uploaded successfully.")
+        print("File error uploaded successfully.")
 
     except paramiko.AuthenticationException:
         print("Authentication failed. Check your username and password or keys.")

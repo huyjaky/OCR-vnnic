@@ -35,6 +35,7 @@ def push_file_to_remote_save_path(
     :param file_name: Name of the file to be uploaded.
     """
     try:
+        file_name = f"{file_name}.pdf"
         ssh_client = paramiko.SSHClient()
         ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         ssh_client.connect(
@@ -55,8 +56,8 @@ def push_file_to_remote_save_path(
         )  # Ensure the remote directory exists
 
         sftp_client.put(
-            localpath=os.path.join(local_save_path, file_name.replace(".txt", ".pdf")),
-            remotepath=os.path.join(remote_save_path, file_name.replace(".txt", ".pdf")),
+            localpath=os.path.join(local_save_path, file_name),
+            remotepath=os.path.join(remote_save_path, file_name),
         )  # Upload the file
 
         # sftp_client.remove(
