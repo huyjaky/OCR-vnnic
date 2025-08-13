@@ -1,14 +1,13 @@
 import pyodbc
 import uuid
-from dotenv import load_dotenv
+from datetime import datetime
 from querys.preprocessing import (
     preprocessing_ben_giao,
     preprocessing_ben_nhan,
     preprocessing_ho_so,
 )
 
-load_dotenv()
-import os
+from utils.load_env import account
 
 
 def connect_to_db():
@@ -16,12 +15,22 @@ def connect_to_db():
     Connect to the SQL Server database and return the connection object.
     """
     # try:
+    # conn = pyodbc.connect(
+    #     "DRIVER={ODBC Driver 17 for SQL Server};"
+    #     f"SERVER={str(os.getenv('DTB_SERVER'))};"
+    #     f"DATABASE={str(os.getenv('DTB_NAME'))};"
+    #     f"UID={str(os.getenv('DTB_UID'))};"
+    #     f"PWD={str(os.getenv('DTB_PWD'))};",
+    #     autocommit=True,
+    # )
+    dtb_account = account.dtb_account  # pyright:ignore
+
     conn = pyodbc.connect(
         "DRIVER={ODBC Driver 17 for SQL Server};"
-        f"SERVER={str(os.getenv('DTB_SERVER'))};"
-        f"DATABASE={str(os.getenv('DTB_NAME'))};"
-        f"UID={str(os.getenv('DTB_UID'))};"
-        f"PWD={str(os.getenv('DTB_PWD'))};",
+        f"SERVER={str(dtb_account.server)};"
+        f"DATABASE={str(dtb_account.database)};"
+        f"UID={str(dtb_account.uid)};"
+        f"PWD={str(dtb_account.password)};",
         autocommit=True,
     )
     print("Connection successful")
@@ -76,22 +85,21 @@ def insert_single_record(conn, table_name: str, data: dict):
     conn.commit()
 
     print("Record inserted successfully.")
-    # except Exception as e:
-    #     print(f"Error inserting record: {e}")
-    # finally:
     cursor.close()
 
 
-def insert_records_from_json(json_input, file_name:str):
+def insert_records_from_json(json_input, file_name: str):
     """
     Insert records into the database from a JSON input.
     :param json_input: JSON object containing the data to insert.
     """
     ho_so_id = uuid.uuid4()
 
-    ho_so = preprocessing_ho_so(ho_so=json_input, ho_so_id=ho_so_id, file_name=file_name)
-    ben_giao = preprocessing_ben_giao(ben_giao=json_input["BenGiao"], ho_so_id=ho_so_id) # pyright:ignore
-    ben_nhan = preprocessing_ben_nhan(ben_nhan=json_input["BenNhan"], ho_so_id=ho_so_id) # pyright:ignore
+    ho_so = preprocessing_ho_so(
+        ho_so=json_input, ho_so_id=ho_so_id, file_name=file_name
+    )
+    ben_giao = preprocessing_ben_giao(ben_giao=json_input["BenGiao"], ho_so_id=ho_so_id)  # pyright:ignore
+    ben_nhan = preprocessing_ben_nhan(ben_nhan=json_input["BenNhan"], ho_so_id=ho_so_id)  # pyright:ignore
 
     conn = connect_to_db()
     insert_single_record(conn=conn, table_name="HoSoTemp", data=ho_so)
@@ -101,6 +109,29 @@ def insert_records_from_json(json_input, file_name:str):
 
     if len(json_input["BenNhan"]) != 0:
         insert_multiple_records(conn=conn, table_name="BenNhanTemp", data_list=ben_nhan)
+
+
+def insert_records_from_error(
+    file_name: str, error_str: Exception, is_check: bool = False
+):
+    """
+    Insert records into the database from an error JSON input.
+    :param error_json: JSON object containing the error data to insert.
+    """
+    error_id = uuid.uuid4()
+
+    conn = connect_to_db()
+    insert_single_record(
+        conn=conn,
+        table_name="HoSoTemp",
+        data={
+            "ErrorId": error_id,
+            "TenFile": file_name,
+            "MoTaLoi": str(error_str),
+            "isCheck": is_check,
+            "NgayTao": datetime.now(),
+        },
+    )
 
 
 if __name__ == "__main__":
@@ -113,7 +144,7 @@ if __name__ == "__main__":
 
     json_input = data
     ho_so_id = uuid.uuid4()
-    ho_so = preprocessing_ho_so(ho_so=json_input, ho_so_id=ho_so_id, file_name=)
+    # ho_so = preprocessing_ho_so(ho_so=json_input, ho_so_id=ho_so_id, file_name=)
     ben_giao = preprocessing_ben_giao(ben_giao=json_input["BenGiao"], ho_so_id=ho_so_id)
     ben_nhan = preprocessing_ben_nhan(ben_nhan=json_input["BenNhan"], ho_so_id=ho_so_id)
     conn = connect_to_db()

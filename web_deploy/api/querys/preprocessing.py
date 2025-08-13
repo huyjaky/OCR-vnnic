@@ -105,6 +105,7 @@ loai_don_dict = {
     8: "Cung cấp bản sao (BS)",
     9: "Yêu cầu cấp bản sao kèm thông báo CA (TBCA)",
     10: "Cung cấp thông tin (CCTT)",
+    11: "Thông báo xóa văn bản (TB-TT3)",
 }
 
 loai_don_code = {
@@ -116,8 +117,8 @@ loai_don_code = {
     8: "BS",
     9: "TBCA",
     10: "CCTT",
+    11: "TB-TT3",
 }
-
 
 def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
     """
@@ -130,7 +131,7 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
         LoaiDonID = int(ho_so.get("LoaiDonID"))  # pyright:ignore
 
         if "/TB-TT3" in str(ho_so.get("MaHoSo", None)):
-            LoaiDonID = 9  # CCTT
+            LoaiDonID = 11  # CCTT
         elif "CCTT" in str(ho_so.get("SoDon", None)) or "CCTT" in file_name:
             LoaiDonID = 10
         else:

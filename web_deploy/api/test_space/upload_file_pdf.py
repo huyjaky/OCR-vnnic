@@ -29,7 +29,7 @@ try:
     # /mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR/fine-tunning
     for pdf_file in tqdm(
         os.listdir(
-            "/home/duckq1u/Downloads/FIL/"
+            "/home/duckq1u/Downloads/ o/DA IN/"
         )
     ):
         # if list(pdf_file.strip())[0] != "2":
@@ -37,7 +37,7 @@ try:
 
         if pdf_file.endswith(".pdf"):
             file_path = os.path.join(
-                "/home/duckq1u/Downloads/FIL/",
+                "/home/duckq1u/Downloads/ o/DA IN/",
                 pdf_file,
             )
             remote_path = os.path.join("C:/Nga/PHAN-MEM/DKBaoDam/", pdf_file)

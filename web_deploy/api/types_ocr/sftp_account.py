@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class sftp_account(BaseModel):
+class SftpAccount(BaseModel):
     hostname: str
     port: int
     username: str

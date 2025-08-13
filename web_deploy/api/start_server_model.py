@@ -8,6 +8,22 @@ import queue
 import signal
 import sys
 from utils.load_models.marker_model import load_marker_model, get_text_from_pdf
+from utils.sftp_serve.push_file_to_remote_when_error import (
+    push_file_to_remote_when_error,
+)
+from types_ocr.sftp_account import sftp_account
+
+
+account = sftp_account(
+    hostname=str(os.getenv("HOSTNAME_SSH")),
+    port=int(os.getenv("PORT_SSH", "22")),
+    username=str(os.getenv("USERNAME_SSH")),
+    password=str(os.getenv("PASSWORD_SSH")),
+)
+
+folder_remote_save_path = str(os.getenv("REMOTE_SAVE_PATH"))
+folder_remote_path_when_error = str(os.getenv("REMOTE_SAVE_PATH_WHEN_ERROR"))
+folder_local_path_when_error = str(os.getenv("ERROR_CACHE_PATH"))
 
 load_dotenv()
 folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
@@ -71,6 +87,23 @@ def pdf_worker(pdf_queue, result_queue):
 
             except queue.Empty:
                 continue
+
+            except RuntimeError as e:
+                # Xử lý riêng lỗi hết bộ nhớ GPU
+                if "CUDA out of memory" in str(e):
+                    push_file_to_remote_when_error(
+                        local_save_path=folder_local_path,
+                        file_name=file_name,
+                        account=account,
+                        error_remote_path=folder_remote_path_when_error,
+                        error_local_path=folder_local_path_when_error,
+                        error_message=str(e),
+                        model_index=0,
+                        generated_output={"error": "oom"},
+                    )
+                else:
+                    result_queue.put(f"RuntimeError processing {file_name}: {e}")
+                    print(f"[PDF Worker] RuntimeError: {e}")
             except Exception as e:
                 result_queue.put(f"Error processing {file_name}: {e}")
                 print(f"[PDF Worker] Error: {e}")

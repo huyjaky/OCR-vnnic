@@ -66,10 +66,11 @@ def take_file_from_cache(
                     # WARNING: Remove the PDF file if it has more than 7 pages
                     # as well as checking the file PDF file is not corrupted
                     reader = pypdf.PdfReader(local_file_path)
-                    if len(reader.pages) > 7:
+                    if len(reader.pages) > 5:
                         print(
                             f"File {file_name} has more than 7 pages, removing from cache."
                         )
+
                         sftp_client.put(
                             localpath=local_file_path,
                             remotepath=file_remote_path_when_error,
@@ -99,6 +100,8 @@ def take_file_from_cache(
                                 file_name.replace(".pdf", ".log"),
                             ),
                         )  # Upload the error log file
+
+                        os.remove(local_file_path)
 
                     processer_bar.update()
 

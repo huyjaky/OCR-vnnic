@@ -1,6 +1,7 @@
 import paramiko
 from types_ocr.sftp_account import sftp_account  # pyright: ignore
 import os
+import json
 
 
 def push_file_to_remote_when_error(
@@ -11,6 +12,7 @@ def push_file_to_remote_when_error(
     error_local_path: str,
     error_message: str,
     model_index: int,
+    generated_output: dict | None,
 ):
     """
     Function to upload a file to a remote server using SFTP.
@@ -20,7 +22,6 @@ def push_file_to_remote_when_error(
     :param file_name: Name of the file to be uploaded.
     """
     try:
-        file_name = f"{file_name}.log"
         ssh_client = paramiko.SSHClient()
         ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         ssh_client.connect(
@@ -31,12 +32,8 @@ def push_file_to_remote_when_error(
 
         # NOTE: Put original file to remote server
         sftp_client.put(
-            localpath=os.path.join(local_save_path, file_name),
-            remotepath=os.path.join(
-                error_remote_path,
-                "pdf",
-                f"{file_name}.pdf",
-            ),
+            localpath=os.path.join(local_save_path, file_name + ".pdf"),
+            remotepath=os.path.join(error_remote_path, "pdf", file_name + ".pdf"),
         )  # Upload the file
 
         # NOTE: Put log file to remote server
@@ -44,20 +41,23 @@ def push_file_to_remote_when_error(
         with open(
             os.path.join(
                 error_local_path,
-                f"model_{model_index}_{file_name}",
+                f"model_{model_index}_{file_name + '.log'}",
             ),
             "w",
         ) as error_file:
             error_file.write(
-                f"Error in model: {model_index}\n File name: {file_name} \n\n\n {error_message}\n"
+                f"Error in model: {model_index}\n File name: {file_name}\n JSON: \n{json.dumps(generated_output, indent=4, ensure_ascii=False)} \n\n\n ERROR: \n {error_message}\n"
             )
 
         sftp_client.put(
-            localpath=os.path.join(error_local_path, f"{file_name}"),
+            localpath=os.path.join(
+                error_local_path,
+                f"model_{model_index}_{file_name + '.log'}",
+            ),
             remotepath=os.path.join(
                 error_remote_path,
                 "log",
-                f"{file_name}",
+                f"model_{model_index}_{file_name + '.log'}",
             ),
         )  # Upload the error log file
 

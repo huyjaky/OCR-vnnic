@@ -1,1 +1,52 @@
-[{"output":{"MaHoSo":"000.02.18.G15-250710-0881","SoDon":"1597884242","SoDangKyLanDau":"1597884242","LoaiDonID":1,"LoaiDonName":"Đăng ký lần đầu","LoaiDonCode":null,"LoaiHinhGDID":1,"LoaiHinhGDName":"Biện pháp bảo đảm","LoaiBienPhapID":1,"LoaiBienPhapName":"Thế chấp","LoaiHopDongID":null,"LoaiHopDongName":null,"ThoiDiemDangKy":"2025-07-10T16:02:00","SoHopDong":"1007-17762075-HĐTC/HLC-01","NgayCoHieuLucHopDong":"2025-07-10","GiaTriKhoanVay":null,"SoPhuLuc":null,"ThoiDiemKHDangKy":"2025-07-10T16:02:00","ThoiDiemDKLanDau":"2025-07-10T16:02:00","NoiDungThayDoi":null,"MoTaChungTaiSan":"Quyền đòi nợ theo HỢP ĐỒNG CHO VAY TIỀN số 258/2025/MARS-HDVV-TC ngày 10/07/2025 giữa CÔNG TY TNHH PHÁT TRIỂN HLC và CÔNG TY CỔ PHẦN MARS , và các phụ lục đính kèm hợp đồng (nếu có).\nNgày hiệu lực của hợp đồng: 10/04/2026\nQuyền đòi nợ nêu tại Điều này được hiểu là mọi quyền lợi/lợi ích (nhưng không bao gồm các nghĩa vụ), bao gồm nhưng không giới hạn các quyền đòi nợ và/hoặc quyền thu các khoản phải thu theo các Hợp Đồng Cho Vay nêu trên, các khoản tiền mà Bên có nghĩa vụ thanh toán đã/sẽ thanh toán cho Bên bảo đảm liên quan đến các Hợp Đồng Cho Vay, các khoản tiền lãi, tiền bồi thường thiệt hại, tiền phạt vi phạm hợp đồng, khoản tiền bảo hiểm, bảo lãnh (nếu có) và các nghĩa vụ tài chính khác mà Bên có nghĩa vụ thanh toán phải thanh toán cho Bên bảo đảm.\n* Trừ chứng khoán đã đăng ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam.\n* Trừ tàu bay, tàu biển và quyền sử dụng đất, tài sản gắn liền với đất thuộc thẩm quyền đăng ký của Văn phòng đăng ký quyền sử dụng đất","BenGiao":[{"LoaiChuTheID":2,"ThongTinChuThe":{"TenToChuc":"CÔNG TY TNHH PHÁT TRIỂN HLC","MaSoThue":"0110774454","DiaChi":"Số nhà 9A, ngõ 142, đường Âu Cơ, phường Hồng Hà, thành phố Hà Nội, Việt Nam"}}],"BenNhan":[{"Ten":"Ngân hàng Tmcp Việt Nam Thịnh Vượng","QuocGia":"Việt Nam","Tinh":"Hà Nội","DiaChi":"Số 89 Láng Hạ, Phường Đống Đa, thành phố Hà Nội, Việt Nam"}],"TaiSan":[{"LoaiTaiSan":"TaiSan_QuyenTaiSan","TenQuyen":"Quyền đòi nợ","CanCuPhatSinhQuyen":"HỢP ĐỒNG CHO VAY TIỀN số 258/2025/MARS-HDVV-TC ngày 10/07/2025 giữa CÔNG TY TNHH PHÁT TRIỂN HLC và CÔNG TY CỔ PHẦN MARS"}]}}]
+[
+  {
+    "output": {
+      "MaHoSo": "000.02.18.G15-250710-0881",
+      "SoDon": "1597884242",
+      "SoDangKyLanDau": "1597884242",
+      "LoaiDonID": 1,
+      "LoaiDonName": "Đăng ký lần đầu",
+      "LoaiDonCode": null,
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-07-10T16:02:00",
+      "SoHopDong": "1007-17762075-HĐTC/HLC-01",
+      "NgayCoHieuLucHopDong": "2025-07-10",
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": "2025-07-10T16:02:00",
+      "ThoiDiemDKLanDau": "2025-07-10T16:02:00",
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": "Quyền đòi nợ theo HỢP ĐỒNG CHO VAY TIỀN số 258/2025/MARS-HDVV-TC ngày 10/07/2025 giữa CÔNG TY TNHH PHÁT TRIỂN HLC và CÔNG TY CỔ PHẦN MARS , và các phụ lục đính kèm hợp đồng (nếu có).\nNgày hiệu lực của hợp đồng: 10/04/2026\nQuyền đòi nợ nêu tại Điều này được hiểu là mọi quyền lợi/lợi ích (nhưng không bao gồm các nghĩa vụ), bao gồm nhưng không giới hạn các quyền đòi nợ và/hoặc quyền thu các khoản phải thu theo các Hợp Đồng Cho Vay nêu trên, các khoản tiền mà Bên có nghĩa vụ thanh toán đã/sẽ thanh toán cho Bên bảo đảm liên quan đến các Hợp Đồng Cho Vay, các khoản tiền lãi, tiền bồi thường thiệt hại, tiền phạt vi phạm hợp đồng, khoản tiền bảo hiểm, bảo lãnh (nếu có) và các nghĩa vụ tài chính khác mà Bên có nghĩa vụ thanh toán phải thanh toán cho Bên bảo đảm.\n* Trừ chứng khoán đã đăng ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam.\n* Trừ tàu bay, tàu biển và quyền sử dụng đất, tài sản gắn liền với đất thuộc thẩm quyền đăng ký của Văn phòng đăng ký quyền sử dụng đất",
+      "BenGiao": [
+        {
+          "LoaiChuTheID": 2,
+          "ThongTinChuThe": {
+            "TenToChuc": "CÔNG TY TNHH PHÁT TRIỂN HLC",
+            "MaSoThue": "0110774454",
+            "DiaChi": "Số nhà 9A, ngõ 142, đường Âu Cơ, phường Hồng Hà, thành phố Hà Nội, Việt Nam"
+          }
+        }
+      ],
+      "BenNhan": [
+        {
+          "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng",
+          "QuocGia": "Việt Nam",
+          "Tinh": "Hà Nội",
+          "DiaChi": "Số 89 Láng Hạ, Phường Đống Đa, thành phố Hà Nội, Việt Nam"
+        }
+      ],
+      "TaiSan": [
+        {
+          "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+          "TenQuyen": "Quyền đòi nợ",
+          "CanCuPhatSinhQuyen": "HỢP ĐỒNG CHO VAY TIỀN số 258/2025/MARS-HDVV-TC ngày 10/07/2025 giữa CÔNG TY TNHH PHÁT TRIỂN HLC và CÔNG TY CỔ PHẦN MARS"
+        }
+      ]
+    }
+  }
+]
