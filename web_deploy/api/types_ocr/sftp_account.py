@@ -6,3 +6,5 @@ class SftpAccount(BaseModel):
     port: int
     username: str
     password: str
+    timeout: int
+    banner_timeout: int

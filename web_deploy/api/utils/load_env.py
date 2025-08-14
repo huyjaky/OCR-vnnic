@@ -8,7 +8,7 @@ load_dotenv()
 
 
 max_seq_length = int(os.getenv("MAX_SEQ_LENGTH", "2048"))
-timeout = int(os.getenv("TIMEOUT_SFTP", "5"))
+timeout = int(os.getenv("TIMEOUT_GET_FILE", "5"))
 model_path = str(os.getenv("MODEL_PATH", "llama-3.1"))
 
 folder_remote_path = str(os.getenv("REMOTE_CACHE_PATH"))
@@ -44,6 +44,8 @@ account = Account(
         port=int(os.getenv("PORT_SSH", "22")),
         username=str(os.getenv("USERNAME_SSH")),
         password=str(os.getenv("PASSWORD_SSH")),
+        timeout=int(os.getenv("TIMEOUT_SFTP", "5")),
+        banner_timeout=int(os.getenv("BANNER_TIMEOUT_SFTP", "5")),
     ),
     dtb_account=DtbAccount(
         server=str(os.getenv("DTB_SERVER")),
@@ -52,5 +54,3 @@ account = Account(
         password=str(os.getenv("DTB_PWD")),
     ),
 )
-
-

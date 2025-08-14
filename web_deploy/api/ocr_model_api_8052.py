@@ -90,26 +90,26 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
 
     except Exception as e:
         print(f"Error generating JSON: {e}")
-        push_file_to_remote_when_error(
-            local_save_path=folder_local_path,
-            file_name=file_name,
-            account=account,
-            error_remote_path=folder_remote_path_when_error,
-            error_local_path=folder_local_path_when_error,
-            error_message=str(e),
-            model_index=index,
-            generated_output=generated_output,
-        )
-        # handle_error(
-        #     account=account.sftp_account,
-        #     folder_local_path=folder_local_path,
+        # push_file_to_remote_when_error(
+        #     local_save_path=folder_local_path,
         #     file_name=file_name,
-        #     folder_remote_path_when_error=folder_remote_path_when_error,
-        #     folder_local_path_when_error=folder_local_path_when_error,
-        #     e=e,
+        #     account=account,
+        #     error_remote_path=folder_remote_path_when_error,
+        #     error_local_path=folder_local_path_when_error,
+        #     error_message=str(e),
+        #     model_index=index,
         #     generated_output=generated_output,
-        #     index=index,
         # )
+        handle_error(
+            account=account.sftp_account,
+            folder_local_path=folder_local_path,
+            file_name=file_name,
+            folder_remote_path_when_error=folder_remote_path_when_error,
+            folder_local_path_when_error=folder_local_path_when_error,
+            e=e,
+            generated_output=generated_output,
+            index=index,
+        )
 
     # NOTE: remove file from cache after processing
     # file_name = <file_name>.txt

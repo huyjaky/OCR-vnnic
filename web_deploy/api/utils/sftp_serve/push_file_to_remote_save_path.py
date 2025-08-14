@@ -39,8 +39,14 @@ def push_file_to_remote_save_path(
         ssh_client = paramiko.SSHClient()
         ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         ssh_client.connect(
-            account.hostname, account.port, account.username, account.password
+            account.hostname,
+            account.port,
+            account.username,
+            account.password,
+            timeout=account.timeout,
+            banner_timeout=account.banner_timeout,
         )
+
         sftp_client = ssh_client.open_sftp()
         print("Connected to the server successfully.")
 

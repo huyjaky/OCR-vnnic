@@ -205,7 +205,7 @@ def main():
             except KeyboardInterrupt:
                 print("Stopping main loop...")
                 break
-            except Exception as e :
+            except Exception as e:
                 print("Waiting for new files", e)
                 time.sleep(5)
 
