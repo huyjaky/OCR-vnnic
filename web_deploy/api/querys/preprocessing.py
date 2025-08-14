@@ -108,23 +108,23 @@ loai_don_dict = {
     2: "Đăng ký thay đổi (TĐ)",
     3: "Sửa chữa sai sót (SC)",
     4: "Xoá đơn đăng ký (XOA)",
-    6: "Xoá đăng ký bởi cơ quan có thẩm quyền (XCQ)",
-    8: "Cung cấp bản sao (BS)",
-    9: "Yêu cầu cấp bản sao kèm thông báo CA (TBCA)",
-    10: "Cung cấp thông tin (CCTT)",
-    11: "Thông báo xóa văn bản (TB-TT3)",
+    5: "Xóa đăng ký bởi cơ quan có thẩm quyền (XCQ)",
+    6: "Cung cấp bản sao (BS)",
+    7: "Yêu cầu cấp bản sao kèm thông báo (TBCA)",
+    8: "Cung cấp thông tin (CCTT)",
+    9: "Thông báo xử lý tài sản (XLTS)",
 }
 
 loai_don_code = {
-    1: "LD",
-    2: "TD",
+    1: "LĐ",
+    2: "TĐ",
     3: "SC",
     4: "XOA",
-    6: "XCQ",
-    8: "BS",
-    9: "TBCA",
-    10: "CCTT",
-    11: "TB-TT3",
+    5: "XCQ",
+    6: "BS",
+    7: "TBCA",
+    8: "CCTT",
+    9: "XLTS",
 }
 
 
@@ -136,14 +136,14 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
     :return: Dictionary with preprocessed data.
     """
     if ho_so.get("LoaiDonID") != None:
-        LoaiDonID = int(ho_so.get("LoaiDonID"))  # pyright:ignore
+        LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])  # pyright:ignore
 
-        if "/TB-TT3" in str(ho_so.get("MaHoSo", None)):
-            LoaiDonID = 11  # CCTT
-        elif "CCTT" in str(ho_so.get("SoDon", None)) or "CCTT" in file_name:
-            LoaiDonID = 10
-        else:
-            LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])
+        # if "/TB-TT3" in str(ho_so.get("MaHoSo", None)):
+        #     LoaiDonID = 11  # CCTT
+        # elif "CCTT" in str(ho_so.get("SoDon", None)) or "CCTT" in file_name:
+        #     LoaiDonID = 10
+        # else:
+        #     LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])
 
         LoaiDonName = loai_don_dict[LoaiDonID]
         LoaiDonCode = loai_don_code[LoaiDonID]  # CCTT
@@ -155,7 +155,7 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
     return {
         "MaHoSo": ho_so.get("MaHoSo", None),
         "SoDon": ho_so.get("SoDon", None),
-        "SoDangKyLanDau": ho_so.get("SoDangKyLanDau", None),
+        "SoDangKyLanDau": str(ho_so.get("SoDangKyLanDau", None)).replace("/HDTC", ""),
         "LoaiDonID": LoaiDonID,
         "LoaiDonName": LoaiDonName,
         "LoaiDonCode": LoaiDonCode,

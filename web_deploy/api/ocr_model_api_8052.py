@@ -70,7 +70,6 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             raise ValueError(
                 "The MaHoSo does not start with TB-TT3 or does not have 9 on the head."
             )
-
         file_name = file_name.replace(".txt", "")
 
         push_file_to_remote_save_path(
