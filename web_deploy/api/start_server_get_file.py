@@ -1,13 +1,13 @@
 from tqdm import tqdm
-from dotenv import load_dotenv
-load_dotenv()
+from utils.load_env import timeout, folder_local_path, get_file_api
 import os
 import time
 import requests
 
-timeout = int(os.getenv("TIMEOUT_SFTP", "1"))  # Default to 5 minutes if not set
-folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
-get_file_api = str(os.getenv("GET_FILE_API"))
+
+# timeout = int(os.getenv("TIMEOUT_SFTP", "1"))  # Default to 5 minutes if not set
+# folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
+# get_file_api = str(os.getenv("GET_FILE_API"))
 
 while True:
     # NOTE: prevent fetching new files when file was processed

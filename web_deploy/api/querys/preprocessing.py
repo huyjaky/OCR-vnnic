@@ -38,8 +38,15 @@ def preprocessing_ben_giao(ben_giao: list[dict], ho_so_id: str) -> list[dict]:
     """
     list_ben_giao = []
     for item in ben_giao:
-        quoc_gia = str(item["ThongTinChuThe"]["DiaChi"]).split(",")[-1].strip()
-        tinh = str(item["ThongTinChuThe"]["DiaChi"]).split(",")[-2].strip()
+        try:
+            quoc_gia = str(item["ThongTinChuThe"]["DiaChi"]).split(",")[-1].strip()
+        except IndexError:
+            quoc_gia = "Không xác định"
+
+        try:
+            tinh = str(item["ThongTinChuThe"]["DiaChi"]).split(",")[-2].strip()
+        except IndexError:
+            tinh = "Không xác định"
 
         print(quoc_gia, tinh)
 
@@ -119,6 +126,7 @@ loai_don_code = {
     10: "CCTT",
     11: "TB-TT3",
 }
+
 
 def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
     """

@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import requests
 import threading
 import multiprocessing
@@ -11,17 +10,24 @@ from utils.load_models.marker_model import load_marker_model, get_text_from_pdf
 from utils.sftp_serve.push_file_to_remote_when_error import (
     push_file_to_remote_when_error,
 )
-from utils.load_env import account
+from utils.load_env import (
+    account,
+    folder_remote_path_when_error,
+    folder_local_path_when_error,
+    folder_local_path,
+    md_cached_path,
+    model_api,
+)
 
 
-folder_remote_save_path = str(os.getenv("REMOTE_SAVE_PATH"))
-folder_remote_path_when_error = str(os.getenv("REMOTE_SAVE_PATH_WHEN_ERROR"))
-folder_local_path_when_error = str(os.getenv("ERROR_CACHE_PATH"))
+# folder_remote_save_path = str(os.getenv("REMOTE_SAVE_PATH"))
+# folder_remote_path_when_error = str(os.getenv("REMOTE_SAVE_PATH_WHEN_ERROR"))
+# folder_local_path_when_error = str(os.getenv("ERROR_CACHE_PATH"))
 
-load_dotenv()
-folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
-md_cached_path = str(os.getenv("MD_CACHED_PATH"))
-model_api = str(os.getenv("MODEL_API"))
+# load_dotenv()
+# folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
+# md_cached_path = str(os.getenv("MD_CACHED_PATH"))
+# model_api = str(os.getenv("MODEL_API"))
 
 print("[PDF Worker] Loading Marker model...")
 converter = load_marker_model()
@@ -122,7 +128,7 @@ def main():
     try:
         while True:
             try:
-                if len(os.listdir(folder_local_path)) == 1:
+                if len(os.listdir(folder_local_path)) == 0:
                     print("Waiting for new files to be added to the cache server...")
                     time.sleep(5)
                     continue
@@ -199,8 +205,8 @@ def main():
             except KeyboardInterrupt:
                 print("Stopping main loop...")
                 break
-            except Exception as e:
-                print(f"Main loop error: {e}")
+            except Exception as e :
+                print("Waiting for new files", e)
                 time.sleep(5)
 
     finally:

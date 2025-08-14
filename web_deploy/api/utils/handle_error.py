@@ -1,11 +1,11 @@
 from .sftp_serve.push_file_to_remote_when_error import push_file_to_remote_when_error
 from querys.insert_2_dtb import insert_records_from_error
-
+from types_ocr.sftp_account import SftpAccount
 
 def handle_error(
     folder_local_path: str,
     file_name: str,
-    account,
+    account: SftpAccount,
     folder_remote_path_when_error: str,
     folder_local_path_when_error: str,
     e: Exception,

@@ -112,20 +112,19 @@ def insert_records_from_json(json_input, file_name: str):
 
 
 def insert_records_from_error(
-    file_name: str, error_str: Exception, is_check: bool = False
+    file_name: str, error_str: Exception | str, is_check: bool = False
 ):
     """
     Insert records into the database from an error JSON input.
     :param error_json: JSON object containing the error data to insert.
     """
-    error_id = uuid.uuid4()
 
     conn = connect_to_db()
     insert_single_record(
         conn=conn,
-        table_name="HoSoTemp",
+        table_name="Error",
         data={
-            "ErrorId": error_id,
+            "ErrorId": uuid.uuid4(),
             "TenFile": file_name,
             "MoTaLoi": str(error_str),
             "isCheck": is_check,

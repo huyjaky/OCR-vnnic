@@ -4,6 +4,8 @@ from tqdm import tqdm
 from types_ocr.sftp_account import SftpAccount
 import pypdf
 
+from querys.insert_2_dtb import insert_records_from_error
+
 
 def take_file_from_cache(
     folder_remote_save_path: str,
@@ -103,6 +105,11 @@ def take_file_from_cache(
 
                         os.remove(local_file_path)
 
+                        insert_records_from_error(
+                            error_str="File has more than 7 pages",
+                            file_name=file_name,
+                            is_check=False,
+                        )
                     processer_bar.update()
 
                 else:
