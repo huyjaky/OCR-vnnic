@@ -1,14 +1,14 @@
 import paramiko
 import os
 from tqdm import tqdm
-from types_ocr.sftp_account import sftp_account
+from types_ocr.sftp_account import SftpAccount
 import pypdf
 
 
 def take_file_from_cache(
     folder_remote_save_path: str,
     folder_local_path: str,
-    account: sftp_account,
+    account: SftpAccount,
     folder_remote_path_when_error: str,
     folder_local_path_when_error: str,
     model_index: int,

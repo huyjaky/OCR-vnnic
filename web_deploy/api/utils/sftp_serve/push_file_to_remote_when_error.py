@@ -1,12 +1,12 @@
 import paramiko
-from types_ocr.sftp_account import sftp_account  # pyright: ignore
+from types_ocr.sftp_account import SftpAccount
 import os
 import json
 
 
 def push_file_to_remote_when_error(
     local_save_path: str,
-    account: sftp_account,
+    account: SftpAccount,
     file_name: str,
     error_remote_path: str,
     error_local_path: str,

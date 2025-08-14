@@ -1,5 +1,5 @@
 import paramiko
-from types_ocr.sftp_account import sftp_account  # pyright: ignore
+from types_ocr.sftp_account import SftpAccount
 from datetime import datetime
 import os
 
@@ -22,7 +22,7 @@ def push_file_to_remote_save_path(
     local_save_path: str,
     # folder_remote_get_path: str,
     folder_remote_save_path: str,
-    account: sftp_account,
+    account: SftpAccount,
     datetime_folder: str,
     file_name: str,
 ):
