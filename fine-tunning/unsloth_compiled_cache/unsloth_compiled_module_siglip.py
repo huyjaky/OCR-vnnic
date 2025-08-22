@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
-4.53.3
-0.19.1
+2025.8.5
+2025.8.6
+4.55.2
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 
@@ -34,6 +34,8 @@ from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
 import math
 
 UNSLOTH_ENABLE_LOGGING = os.environ.get("UNSLOTH_ENABLE_LOGGING", "0") == "1"
+UNSLOTH_ENABLE_CCE = os.environ.get("UNSLOTH_ENABLE_CCE", "1") == "1"
+UNSLOTH_COMPILE_DISABLE = os.environ.get("UNSLOTH_COMPILE_DISABLE", "0") == "1"
 
 import logging
 logger_compiler = logging.getLogger(__name__)
@@ -55,8 +57,7 @@ pass
 
 from unsloth_zoo.loss_utils import (
     fused_linear_cross_entropy,
-    unsloth_compiled_ce_loss_function,
-    unsloth_compiled_fused_ce_loss_function,
+    unsloth_fused_ce_loss,
 )
 
 if UNSLOTH_STUDIO_ENABLED:
@@ -96,7 +97,7 @@ else:
 pass
 
 
-torch_compile_options = {'epilogue_fusion': True, 'max_autotune': False, 'shape_padding': True, 'trace.enabled': False, 'triton.cudagraphs': False, 'debug': False, 'dce': True, 'memory_planning': True, 'coordinate_descent_tuning': False, 'trace.graph_diagram': False, 'compile_threads': 6, 'combo_kernels': False, 'group_fusion': True, 'disable_progress': True, 'verbose_progress': False, 'triton.multi_kernel': 0, 'triton.use_block_ptr': False, 'triton.enable_persistent_tma_matmul': True, 'triton.autotune_at_compile_time': True}
+torch_compile_options = {'epilogue_fusion': True, 'max_autotune': False, 'shape_padding': True, 'trace.enabled': False, 'triton.cudagraphs': False, 'debug': False, 'dce': True, 'memory_planning': True, 'coordinate_descent_tuning': False, 'trace.graph_diagram': False, 'compile_threads': 6, 'group_fusion': True, 'disable_progress': True, 'verbose_progress': False, 'triton.multi_kernel': 0, 'triton.use_block_ptr': False, 'triton.enable_persistent_tma_matmul': True, 'triton.autotune_at_compile_time': False, 'triton.cooperative_reductions': False, 'cuda.compile_opt_level': '-O2', 'cuda.enable_cuda_lto': True, 'combo_kernels': False, 'benchmark_combo_kernel': True, 'combo_kernel_foreach_dynamic_shapes': True}
 
 from torch.nn import CrossEntropyLoss
 
@@ -160,7 +161,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from transformers.models.siglip.modeling_siglip import (math, warnings, Callable, Optional, np, torch, nn, _calculate_fan_in_and_fan_out, ACT2FN, ALL_ATTENTION_FUNCTIONS, torch_int, SiglipTextConfig, SiglipVisionConfig, logger)
+from transformers.models.siglip.modeling_siglip import (math, warnings, Callable, Optional, np, torch, nn, _calculate_fan_in_and_fan_out, ACT2FN, ALL_ATTENTION_FUNCTIONS, torch_int, SiglipTextConfig, SiglipVisionConfig)
 
 @torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 def _trunc_normal_(tensor, mean, std, a, b):
@@ -402,7 +403,7 @@ def eager_attention_forward(
     if attention_mask is not None:
         attn_weights = attn_weights + attention_mask
 
-    attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype=torch.float32).to(query.dtype)
+    attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype = torch.float32).to(attn_weights.dtype).to(query.dtype)
     attn_weights = nn.functional.dropout(attn_weights, p=dropout, training=module.training)
 
     attn_output = torch.matmul(attn_weights, value)
@@ -416,7 +417,7 @@ def SiglipAttention_forward(
     self,
     hidden_states: torch.Tensor,
     attention_mask: Optional[torch.Tensor] = None,
-    output_attentions: Optional[bool] = False,
+    **kwargs,
 ) -> tuple[torch.Tensor, Optional[torch.Tensor]]:
     """Input shape: Batch x Time x Channel"""
 
@@ -432,13 +433,7 @@ def SiglipAttention_forward(
 
     attention_interface: Callable = eager_attention_forward
     if self.config._attn_implementation != "eager":
-        if self.config._attn_implementation == "sdpa" and output_attentions:
-            logger.warning_once(
-                "`torch.nn.functional.scaled_dot_product_attention` does not support `output_attentions=True`. Falling back to "
-                'eager attention. This warning can be removed using the argument `attn_implementation="eager"` when loading the model.'
-            )
-        else:
-            attention_interface = ALL_ATTENTION_FUNCTIONS[self.config._attn_implementation]
+        attention_interface = ALL_ATTENTION_FUNCTIONS[self.config._attn_implementation]
 
     attn_output, attn_weights = attention_interface(
         self,
@@ -453,9 +448,6 @@ def SiglipAttention_forward(
 
     attn_output = attn_output.reshape(batch_size, seq_length, embed_dim).contiguous()
     attn_output = self.out_proj(attn_output)
-
-    if not output_attentions:
-        attn_weights = None
 
     return attn_output, attn_weights
 
@@ -486,9 +478,9 @@ class SiglipAttention(nn.Module):
         self,
         hidden_states: torch.Tensor,
         attention_mask: Optional[torch.Tensor] = None,
-        output_attentions: Optional[bool] = False,
+        **kwargs,
     ) -> tuple[torch.Tensor, Optional[torch.Tensor]]:
-        return SiglipAttention_forward(self, hidden_states, attention_mask, output_attentions)
+        return SiglipAttention_forward(self, hidden_states, attention_mask, **kwargs)
 
 
 @torch.compile(fullgraph = False, dynamic = True, options = torch_compile_options)

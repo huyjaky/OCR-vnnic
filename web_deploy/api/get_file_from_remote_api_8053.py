@@ -7,8 +7,6 @@ from utils.load_env import (
     folder_local_path_when_error,
     account,
 )
-
-
 # timeout = int(os.getenv("TIMEOUT_SFTP", "5"))
 # folder_remote_save_path = str(os.getenv("REMOTE_CACHE_PATH"))
 # folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))

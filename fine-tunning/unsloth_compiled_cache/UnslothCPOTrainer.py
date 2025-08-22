@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
-4.53.3
-0.19.1
+2025.8.5
+2025.8.6
+4.55.2
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from trl.trainer.cpo_trainer import (Any, AutoModelForCausalLM, BaseImageProcessor, CPOConfig, CPOTrainer, Callable, DPODataCollatorWithPadding, DataCollator, DataLoader, Dataset, EvalLoopOutput, F, FeatureExtractionMixin, Literal, Optional, PartialState, Path, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, Trainer, TrainerCallback, Union, add_bos_token_if_needed, add_eos_token_if_needed, autocast, defaultdict, disable_dropout_in_model, generate_model_card, get_comet_experiment_url, inspect, is_comet_available, is_peft_available, is_torch_fx_proxy, is_wandb_available, log_table_to_comet_experiment, maybe_apply_chat_template, maybe_extract_prompt, nn, np, nullcontext, os, pad_to_length, pd, peft_module_casting_to_bf16, prepare_model_for_kbit_training, random, selective_log_softmax, textwrap, torch, wandb, warnings, F, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, torch)
+from trl.trainer.cpo_trainer import (Any, AutoModelForCausalLM, BaseImageProcessor, CPOConfig, CPOTrainer, Callable, DPODataCollatorWithPadding, DataCollator, DataLoader, Dataset, EvalLoopOutput, F, FeatureExtractionMixin, Literal, Optional, PartialState, Path, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, Trainer, TrainerCallback, Union, add_bos_token_if_needed, add_eos_token_if_needed, autocast, defaultdict, disable_dropout_in_model, generate_model_card, get_comet_experiment_url, inspect, is_comet_available, is_peft_available, is_torch_fx_proxy, is_wandb_available, log_table_to_comet_experiment, maybe_apply_chat_template, maybe_extract_prompt, nn, np, nullcontext, os, pad_to_length, pd, peft_module_casting_to_bf16, prepare_model_for_kbit_training, random, selective_log_softmax, textwrap, torch, warnings, F, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, torch)
 
 
 import os
@@ -248,7 +248,7 @@ class UnslothCPOConfig(CPOConfig):
         use_liger_kernel = False,
         liger_kernel_config = None,
         eval_use_gather_object = False,
-        average_tokens_across_devices = False,
+        average_tokens_across_devices = True,
         max_length = 1024,
         max_prompt_length = 512,
         max_completion_length = None,
@@ -1426,7 +1426,7 @@ class _UnslothCPOTrainer(Trainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="CPO",
             trainer_citation=citation,
@@ -1452,7 +1452,7 @@ class UnslothCPOTrainer(_UnslothCPOTrainer):
             The dataset to use for training.
         eval_dataset (`datasets.Dataset`):
             The dataset to use for evaluation.
-        processing_class (`PreTrainedTokenizerBase` or `BaseImageProcessor` or `FeatureExtractionMixin` or `ProcessorMixin`, *optional*):
+        processing_class ([`~transformers.PreTrainedTokenizerBase`], [`~transformers.BaseImageProcessor`], [`~transformers.FeatureExtractionMixin`] or [`~transformers.ProcessorMixin`], *optional*, defaults to `None`):
             Processing class used to process the data. If provided, will be used to automatically process the inputs
             for the model, and it will be saved along the model to make it easier to rerun an interrupted training or
             reuse the fine-tuned model.
@@ -1599,6 +1599,14 @@ class UnslothCPOTrainer(_UnslothCPOTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
-4.53.3
-0.19.1
+2025.8.5
+2025.8.6
+4.55.2
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from trl.trainer.ppo_trainer import (Accelerator, BaseImageProcessor, CallbackHandler, DEFAULT_CALLBACKS, DEFAULT_PROGRESS_CALLBACK, DataCollatorWithPadding, DataLoader, Dataset, ExportableState, FeatureExtractionMixin, GenerationConfig, INVALID_LOGPROB, OnlineTrainerState, Optional, PPOConfig, PPOTrainer, Path, PeftConfig, PeftModel, PolicyAndValueWrapper, PreTrainedTokenizerBase, PrinterCallback, ProcessorMixin, Trainer, TrainerCallback, TrainerControl, Union, batch_generation, broadcast, contextmanager, create_reference_model, defaultdict, disable_dropout_in_model, empty_cache, exact_div, first_true_indices, forward, gather_object, gc, generate_model_card, get_comet_experiment_url, get_peft_model, get_reporting_integration_callbacks, get_reward, is_peft_available, is_rich_available, is_wandb_available, log_table_to_comet_experiment, masked_mean, masked_whiten, math, nn, np, nullcontext, os, pd, peft_module_casting_to_bf16, prepare_deepspeed, print_rich_table, selective_log_softmax, textwrap, time, torch, truncate_response, unwrap_model_for_generation, wandb, Optional, PeftModel, Trainer, is_peft_available, os, torch)
+from trl.trainer.ppo_trainer import (Accelerator, BaseImageProcessor, CallbackHandler, DEFAULT_CALLBACKS, DEFAULT_PROGRESS_CALLBACK, DataCollatorWithPadding, DataLoader, Dataset, ExportableState, FeatureExtractionMixin, GenerationConfig, INVALID_LOGPROB, OnlineTrainerState, Optional, PPOConfig, PPOTrainer, Path, PeftConfig, PeftModel, PolicyAndValueWrapper, PreTrainedTokenizerBase, PrinterCallback, ProcessorMixin, Trainer, TrainerCallback, TrainerControl, Union, batch_generation, broadcast, contextmanager, create_reference_model, defaultdict, disable_dropout_in_model, empty_cache, exact_div, first_true_indices, forward, gather_object, gc, generate_model_card, get_comet_experiment_url, get_peft_model, get_reporting_integration_callbacks, get_reward, is_peft_available, is_rich_available, is_wandb_available, log_table_to_comet_experiment, masked_mean, masked_whiten, math, nn, np, nullcontext, os, pd, peft_module_casting_to_bf16, prepare_deepspeed, print_rich_table, selective_log_softmax, textwrap, time, torch, truncate_response, unwrap_model_for_generation, Optional, PeftModel, Trainer, is_peft_available, os, torch)
 
 
 import os
@@ -235,7 +235,7 @@ class UnslothPPOConfig(PPOConfig):
         use_liger_kernel = False,
         liger_kernel_config = None,
         eval_use_gather_object = False,
-        average_tokens_across_devices = False,
+        average_tokens_across_devices = True,
         dataset_num_proc = None,
         num_mini_batches = 1,
         total_episodes = None,
@@ -944,7 +944,7 @@ class _UnslothPPOTrainer(Trainer):
                                 pg_clipfrac = masked_mean(
                                     (pg_losses2 > pg_losses).float(), ~padding_mask[micro_batch_inds]
                                 )
-                                prob_dist = torch.nn.functional.softmax(logits, dim=-1)
+                                prob_dist = torch.nn.functional.softmax(logits, dim=-1, dtype = torch.float32).to(logits.dtype)
                                 entropy = torch.logsumexp(logits, dim=-1) - torch.sum(prob_dist * logits, dim=-1)
                                 approxkl = 0.5 * (logprobs_diff**2).mean()
                                 approxkl_stats[ppo_epoch_idx, minibatch_idx, gradient_accumulation_idx] = approxkl
@@ -1164,7 +1164,7 @@ class _UnslothPPOTrainer(Trainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="PPO",
             trainer_citation=citation,
@@ -1303,6 +1303,14 @@ class UnslothPPOTrainer(_UnslothPPOTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

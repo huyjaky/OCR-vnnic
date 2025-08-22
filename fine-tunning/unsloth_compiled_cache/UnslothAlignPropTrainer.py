@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
-4.53.3
-0.19.1
+2025.8.5
+2025.8.6
+4.55.2
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from trl.trainer.alignprop_trainer import (Accelerator, AlignPropConfig, AlignPropTrainer, Any, Callable, DDPOStableDiffusionPipeline, Optional, Path, ProjectConfiguration, PyTorchModelHubMixin, Union, defaultdict, generate_model_card, get_comet_experiment_url, is_wandb_available, logger, os, set_seed, textwrap, torch, wandb, warn)
+from trl.trainer.alignprop_trainer import (Accelerator, AlignPropConfig, AlignPropTrainer, Any, Callable, DDPOStableDiffusionPipeline, Optional, Path, ProjectConfiguration, PyTorchModelHubMixin, Union, defaultdict, generate_model_card, get_comet_experiment_url, is_wandb_available, logger, os, set_seed, textwrap, torch, warnings)
 
 
 import os
@@ -219,8 +219,12 @@ class _UnslothAlignPropTrainer(PyTorchModelHubMixin):
         sd_pipeline: DDPOStableDiffusionPipeline,
         image_samples_hook: Optional[Callable[[Any, Any, Any], Any]] = None,
     ):
+        warnings.warn(
+            "AlignPropTrainer is deprecated and will be removed in version 0.23.0.",
+            DeprecationWarning,
+        )
         if image_samples_hook is None:
-            warn("No image_samples_hook provided; no images will be logged")
+            warnings.warn("No image_samples_hook provided; no images will be logged")
 
         self.prompt_fn = prompt_function
         self.reward_fn = reward_function
@@ -607,7 +611,7 @@ class _UnslothAlignPropTrainer(PyTorchModelHubMixin):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="AlignProp",
             trainer_citation=citation,

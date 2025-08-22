@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
-4.53.3
-0.19.1
+2025.8.5
+2025.8.6
+4.55.2
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from trl.trainer.reward_trainer import (Any, BaseImageProcessor, Callable, DataCollator, Dataset, EvalPrediction, FeatureExtractionMixin, FrozenInstanceError, Optional, PartialState, Path, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, RewardConfig, RewardDataCollatorWithPadding, RewardTrainer, Trainer, TrainerCallback, Union, _tokenize, compute_accuracy, decode_and_strip_padding, defaultdict, disable_dropout_in_model, gather_object, generate_model_card, get_comet_experiment_url, inspect, is_peft_available, is_rich_available, is_wandb_available, log_table_to_comet_experiment, maybe_apply_chat_template, nested_detach, nn, os, pd, prepare_model_for_kbit_training, print_rich_table, replace, torch, wandb, warnings, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, torch)
+from trl.trainer.reward_trainer import (Any, BaseImageProcessor, Callable, DataCollator, Dataset, EvalPrediction, FeatureExtractionMixin, FrozenInstanceError, Optional, PartialState, Path, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, RewardConfig, RewardDataCollatorWithPadding, RewardTrainer, Trainer, TrainerCallback, Union, _tokenize, compute_accuracy, decode_and_strip_padding, defaultdict, disable_dropout_in_model, gather_object, generate_model_card, get_comet_experiment_url, inspect, is_peft_available, is_rich_available, is_wandb_available, log_table_to_comet_experiment, maybe_apply_chat_template, nested_detach, nn, os, pd, prepare_model_for_kbit_training, print_rich_table, replace, torch, warnings, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, torch)
 
 
 import os
@@ -409,7 +409,7 @@ class _UnslothRewardTrainer(Trainer):
                 The dataset to use for training.
             eval_dataset (`datasets.Dataset`):
                 The dataset to use for evaluation.
-            processing_class (`PreTrainedTokenizerBase` or `BaseImageProcessor` or `FeatureExtractionMixin` or `ProcessorMixin`, *optional*):
+            processing_class ([`~transformers.PreTrainedTokenizerBase`], [`~transformers.BaseImageProcessor`], [`~transformers.FeatureExtractionMixin`] or [`~transformers.ProcessorMixin`], *optional*, defaults to `None`):
                 Processing class used to process the data. If provided, will be used to automatically process the
                 inputs for the model, and it will be saved along the model to make it easier to rerun an interrupted
                 training or reuse the fine-tuned model.
@@ -711,7 +711,7 @@ class _UnslothRewardTrainer(Trainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="Reward",
         )
@@ -847,6 +847,14 @@ class UnslothRewardTrainer(_UnslothRewardTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

@@ -1,5 +1,4 @@
 import os
-
 import torch
 from pydantic import BaseModel
 
@@ -30,9 +29,9 @@ from utils.sftp_serve.push_file_to_remote_save_path import push_file_to_remote_s
 from utils.handle_error import handle_error
 
 
+
 class Item(BaseModel):
     file_name: str
-
 
 app = FastAPI()
 

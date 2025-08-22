@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
-4.53.3
-0.19.1
+2025.8.5
+2025.8.6
+4.55.2
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from trl.trainer.gkd_trainer import (Any, AutoModelForCausalLM, BaseImageProcessor, Callable, DataCollator, DataCollatorForChatML, Dataset, EvalPrediction, F, FeatureExtractionMixin, GKDConfig, GKDTrainer, GenerationConfig, Optional, PeftConfig, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, SFTTrainer, TrainerCallback, Union, disable_dropout_in_model, empty_cache, generate_model_card, get_comet_experiment_url, is_wandb_available, nn, os, prepare_deepspeed, random, textwrap, torch, unwrap_model_for_generation, wandb)
+from trl.trainer.gkd_trainer import (Any, AutoModelForCausalLM, BaseImageProcessor, Callable, DataCollator, DataCollatorForChatML, Dataset, EvalPrediction, F, FeatureExtractionMixin, GKDConfig, GKDTrainer, GenerationConfig, Optional, PeftConfig, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, SFTTrainer, TrainerCallback, Union, disable_dropout_in_model, empty_cache, generate_model_card, get_comet_experiment_url, is_wandb_available, nn, os, prepare_deepspeed, random, textwrap, torch, unwrap_model_for_generation)
 
 
 import os
@@ -228,14 +228,13 @@ class UnslothGKDConfig(GKDConfig):
         pad_token = None,
         max_length = 1024,
         packing = False,
-        packing_strategy = 'ffd',
+        packing_strategy = 'bfd',
         padding_free = False,
         pad_to_multiple_of = None,
         eval_packing = None,
         completion_only_loss = None,
         assistant_only_loss = False,
         activation_offloading = False,
-        max_seq_length = None,
         temperature = 0.9,
         lmbda = 0.5,
         beta = 0.5,
@@ -407,7 +406,6 @@ class UnslothGKDConfig(GKDConfig):
             completion_only_loss = completion_only_loss,
             assistant_only_loss = assistant_only_loss,
             activation_offloading = activation_offloading,
-            max_seq_length = max_seq_length,
             temperature = temperature,
             lmbda = lmbda,
             beta = beta,
@@ -617,7 +615,7 @@ class _UnslothGKDTrainer(SFTTrainer):
 
     @staticmethod
     def generate_on_policy_outputs(model, inputs, generation_config, pad_token_id=None):
-        # Generate output with respect to the prompt only
+        # Generate output with respect to the prompt-only
         generated_outputs = model.generate(
             input_ids=inputs["prompts"],
             attention_mask=inputs.get("prompt_attention_mask", None),
@@ -722,7 +720,7 @@ class _UnslothGKDTrainer(SFTTrainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="GKD",
             trainer_citation=citation,
@@ -863,6 +861,14 @@ class UnslothGKDTrainer(_UnslothGKDTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

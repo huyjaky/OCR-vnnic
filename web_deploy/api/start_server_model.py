@@ -113,6 +113,7 @@ def pdf_worker(pdf_queue, result_queue):
         print("[PDF Worker] Shutting down")
 
 
+
 def main():
     # Create queues for communication with PDF worker
     pdf_queue = multiprocessing.Queue()

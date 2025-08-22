@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
-4.53.3
-0.19.1
+2025.8.5
+2025.8.6
+4.55.2
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 
@@ -34,6 +34,8 @@ from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
 import math
 
 UNSLOTH_ENABLE_LOGGING = os.environ.get("UNSLOTH_ENABLE_LOGGING", "0") == "1"
+UNSLOTH_ENABLE_CCE = os.environ.get("UNSLOTH_ENABLE_CCE", "1") == "1"
+UNSLOTH_COMPILE_DISABLE = os.environ.get("UNSLOTH_COMPILE_DISABLE", "0") == "1"
 
 import logging
 logger_compiler = logging.getLogger(__name__)
@@ -55,8 +57,7 @@ pass
 
 from unsloth_zoo.loss_utils import (
     fused_linear_cross_entropy,
-    unsloth_compiled_ce_loss_function,
-    unsloth_compiled_fused_ce_loss_function,
+    unsloth_fused_ce_loss,
 )
 
 if UNSLOTH_STUDIO_ENABLED:
@@ -96,7 +97,7 @@ else:
 pass
 
 
-torch_compile_options = {'epilogue_fusion': True, 'max_autotune': False, 'shape_padding': True, 'trace.enabled': False, 'triton.cudagraphs': False, 'debug': False, 'dce': True, 'memory_planning': True, 'coordinate_descent_tuning': False, 'trace.graph_diagram': False, 'compile_threads': 6, 'combo_kernels': False, 'group_fusion': True, 'disable_progress': True, 'verbose_progress': False, 'triton.multi_kernel': 0, 'triton.use_block_ptr': False, 'triton.enable_persistent_tma_matmul': True, 'triton.autotune_at_compile_time': True}
+torch_compile_options = {'epilogue_fusion': True, 'max_autotune': False, 'shape_padding': True, 'trace.enabled': False, 'triton.cudagraphs': False, 'debug': False, 'dce': True, 'memory_planning': True, 'coordinate_descent_tuning': False, 'trace.graph_diagram': False, 'compile_threads': 6, 'group_fusion': True, 'disable_progress': True, 'verbose_progress': False, 'triton.multi_kernel': 0, 'triton.use_block_ptr': False, 'triton.enable_persistent_tma_matmul': True, 'triton.autotune_at_compile_time': False, 'triton.cooperative_reductions': False, 'cuda.compile_opt_level': '-O2', 'cuda.enable_cuda_lto': True, 'combo_kernels': False, 'benchmark_combo_kernel': True, 'combo_kernel_foreach_dynamic_shapes': True}
 
 from torch.nn import CrossEntropyLoss
 
@@ -160,7 +161,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from transformers.models.llama.modeling_llama import (Callable, Optional, Union, torch, nn, ACT2FN, Cache, GenerationMixin, use_kernel_forward_from_hub, FlashAttentionKwargs, BaseModelOutputWithPast, CausalLMOutputWithPast, ROPE_INIT_FUNCTIONS, dynamic_rope_update, ALL_ATTENTION_FUNCTIONS, PreTrainedModel, Unpack, can_return_tuple, LlamaConfig, logger, __name__, LlamaPreTrainedModel, LlamaModel, KwargsForCausalLM, LlamaForCausalLM)
+from transformers.models.llama.modeling_llama import (Callable, Optional, Union, torch, nn, ACT2FN, Cache, GenerationMixin, use_kernel_forward_from_hub, BaseModelOutputWithPast, CausalLMOutputWithPast, ROPE_INIT_FUNCTIONS, dynamic_rope_update, ALL_ATTENTION_FUNCTIONS, PreTrainedModel, Unpack, TransformersKwargs, can_return_tuple, LlamaConfig, logger, __name__, LlamaPreTrainedModel, LlamaModel, LlamaForCausalLM)
 
 @torch.compile(fullgraph = True, dynamic = True, options = torch_compile_options)
 def LlamaRMSNorm_forward(self, hidden_states):
@@ -207,7 +208,7 @@ class LlamaRotaryEmbedding(nn.Module):
     def __init__(self, config: LlamaConfig, device=None):
         super().__init__()
         # BC: "rope_type" was originally "type"
-        if hasattr(config, "rope_scaling") and config.rope_scaling is not None:
+        if hasattr(config, "rope_scaling") and isinstance(config.rope_scaling, dict):
             self.rope_type = config.rope_scaling.get("rope_type", config.rope_scaling.get("type"))
         else:
             self.rope_type = "default"
@@ -304,7 +305,7 @@ def eager_attention_forward(
     attention_mask: Optional[torch.Tensor],
     scaling: float,
     dropout: float = 0.0,
-    **kwargs,
+    **kwargs: Unpack[TransformersKwargs],
 ):
     key_states = repeat_kv(key, module.num_key_value_groups)
     value_states = repeat_kv(value, module.num_key_value_groups)
@@ -314,7 +315,7 @@ def eager_attention_forward(
         causal_mask = attention_mask[:, :, :, : key_states.shape[-2]]
         attn_weights = attn_weights + causal_mask
 
-    attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype=torch.float32).to(query.dtype)
+    attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype = torch.float32).to(attn_weights.dtype).to(query.dtype)
     attn_weights = nn.functional.dropout(attn_weights, p=dropout, training=module.training)
     attn_output = torch.matmul(attn_weights, value_states)
     attn_output = attn_output.transpose(1, 2).contiguous()
@@ -330,8 +331,8 @@ def LlamaAttention_forward(
     attention_mask: Optional[torch.Tensor],
     past_key_value: Optional[Cache] = None,
     cache_position: Optional[torch.LongTensor] = None,
-    **kwargs: Unpack[FlashAttentionKwargs],
-) -> tuple[torch.Tensor, Optional[torch.Tensor], Optional[tuple[torch.Tensor]]]:
+    **kwargs: Unpack[TransformersKwargs],
+) -> tuple[torch.Tensor, torch.Tensor]:
     input_shape = hidden_states.shape[:-1]
     hidden_shape = (*input_shape, -1, self.head_dim)
 
@@ -399,8 +400,8 @@ class LlamaAttention(nn.Module):
         attention_mask: Optional[torch.Tensor],
         past_key_value: Optional[Cache] = None,
         cache_position: Optional[torch.LongTensor] = None,
-        **kwargs: Unpack[FlashAttentionKwargs],
-    ) -> tuple[torch.Tensor, Optional[torch.Tensor], Optional[tuple[torch.Tensor]]]:
+        **kwargs: Unpack[TransformersKwargs],
+    ) -> tuple[torch.Tensor, torch.Tensor]:
         return LlamaAttention_forward(self, hidden_states, position_embeddings, attention_mask, past_key_value, cache_position, **kwargs)
 
 
@@ -415,18 +416,11 @@ def LlamaForCausalLM_forward(
     inputs_embeds: Optional[torch.FloatTensor] = None,
     labels: Optional[torch.LongTensor] = None,
     use_cache: Optional[bool] = None,
-    output_attentions: Optional[bool] = None,
-    output_hidden_states: Optional[bool] = None,
     cache_position: Optional[torch.LongTensor] = None,
     logits_to_keep: Union[int, torch.Tensor] = 0,
-    **kwargs: Unpack[KwargsForCausalLM],
+    **kwargs: Unpack[TransformersKwargs],
 ) -> CausalLMOutputWithPast:
     r"""
-    labels (`torch.LongTensor` of shape `(batch_size, sequence_length)`, *optional*):
-        Labels for computing the masked language modeling loss. Indices should either be in `[0, ...,
-        config.vocab_size]` or -100 (see `input_ids` docstring). Tokens with indices set to `-100` are ignored
-        (masked), the loss is only computed for the tokens with labels in `[0, ..., config.vocab_size]`.
-
     Example:
 
     ```python
@@ -443,12 +437,6 @@ def LlamaForCausalLM_forward(
     >>> tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
     "Hey, are you conscious? Can you talk to me?\nI'm not conscious, but I can talk to you."
     ```"""
-    output_attentions = output_attentions if output_attentions is not None else self.config.output_attentions
-    output_hidden_states = (
-        output_hidden_states if output_hidden_states is not None else self.config.output_hidden_states
-    )
-
-    # decoder outputs consists of (dec_features, layer_state, dec_hidden, dec_attn)
     outputs: BaseModelOutputWithPast = self.model(
         input_ids=input_ids,
         attention_mask=attention_mask,
@@ -456,8 +444,6 @@ def LlamaForCausalLM_forward(
         past_key_values=past_key_values,
         inputs_embeds=inputs_embeds,
         use_cache=use_cache,
-        output_attentions=output_attentions,
-        output_hidden_states=output_hidden_states,
         cache_position=cache_position,
         **kwargs,
     )
@@ -529,17 +515,7 @@ def LlamaForCausalLM_forward(
         INFERENCE_RUNS += 1
     
         logits = self.lm_head(hidden_states[:, slice_indices, :])
-    elif (UNSLOTH_STUDIO_ENABLED and NOT_RETURN_LOGITS and labels is not None) and not requires_grad_:
-        loss = fast_linear_cross_entropy(
-            hidden_states        = hidden_states[:, slice_indices, :],
-            lm_head              = self.lm_head,
-            labels               = labels,
-            num_items_in_batch   = n_items,
-            logit_softcapping    = None if () == () else (),
-            logit_scale_multiply = None if () == () else (),
-            logit_scale_divide   = None if () == () else (),
-        )
-    elif (() == () and () == ()) and NOT_RETURN_LOGITS and self.loss_function.__name__.endswith("ForCausalLMLoss") and labels is not None and not requires_grad_:
+    elif (() == () and () == ()) and (UNSLOTH_ENABLE_CCE) and NOT_RETURN_LOGITS and self.loss_function.__name__.endswith("ForCausalLMLoss") and labels is not None and not requires_grad_:
         loss = fused_linear_cross_entropy(
             hidden_states      = hidden_states[:, slice_indices, :],
             lm_weight          = self.lm_head.weight,
@@ -555,34 +531,21 @@ def LlamaForCausalLM_forward(
         _hidden_states = hidden_states[:, slice_indices, :]
         torch._dynamo.mark_dynamic(_hidden_states, 1)
         torch._dynamo.mark_dynamic(labels, 1)
-        loss = unsloth_compiled_fused_ce_loss_function(
+        loss = unsloth_fused_ce_loss(
+            trainer              = None,
             hidden_states        = _hidden_states,
             lm_head_weight       = lm_head_weight,
             lm_head_bias         = lm_head_bias,
-            output_labels        = labels,
+            labels               = labels,
+            mask                 = None,
+            n_items              = n_items,
+            scaling              = getattr(self, "accelerator_scaler"),
+            target_gb            = 1,
+            torch_compile        = not UNSLOTH_COMPILE_DISABLE,
             logit_scale_multiply = () if () != () else 0,
             logit_scale_divide   = () if () != () else 0,
-            logit_softcapping    = () if () not in (None, (),) else 0,
-            vocab_size           = (self.config.vocab_size),
-            n_items              = n_items if n_items is not None else 0,
-            requires_grad_       = requires_grad_,
+            logit_softcapping    = () if () != () else 0,
         )
-    
-    
-        # ========= OLD non fused =========
-        # logits = self.lm_head(hidden_states[:, slice_indices, :].to(lm_head_weight.device))
-        # torch._dynamo.mark_dynamic(logits, 1)
-        # torch._dynamo.mark_dynamic(labels, 1)
-        # loss = unsloth_compiled_ce_loss_function(
-        #     output_logits        = logits,
-        #     output_labels        = labels,
-        #     logit_scale_multiply = () if () != () else 0,
-        #     logit_scale_divide   = () if () != () else 0,
-        #     logit_softcapping    = () if () not in (None, (),) else 0,
-        #     vocab_size           = (self.config.vocab_size),
-        #     n_items              = n_items if n_items is not None else 0,
-        #     requires_grad_       = requires_grad_,
-        # )
     else:
         logits = self.lm_head(hidden_states[:, slice_indices, :])
         if () != ():
@@ -618,18 +581,6 @@ class LlamaForCausalLM(LlamaPreTrainedModel, GenerationMixin):
         # Initialize weights and apply final processing
         self.post_init()
 
-    def get_input_embeddings(self):
-        return self.model.embed_tokens
-
-    def set_input_embeddings(self, value):
-        self.model.embed_tokens = value
-
-    def get_output_embeddings(self):
-        return self.lm_head
-
-    def set_output_embeddings(self, new_embeddings):
-        self.lm_head = new_embeddings
-
     def set_decoder(self, decoder):
         self.model = decoder
 
@@ -646,10 +597,8 @@ class LlamaForCausalLM(LlamaPreTrainedModel, GenerationMixin):
         inputs_embeds: Optional[torch.FloatTensor] = None,
         labels: Optional[torch.LongTensor] = None,
         use_cache: Optional[bool] = None,
-        output_attentions: Optional[bool] = None,
-        output_hidden_states: Optional[bool] = None,
         cache_position: Optional[torch.LongTensor] = None,
         logits_to_keep: Union[int, torch.Tensor] = 0,
-        **kwargs: Unpack[KwargsForCausalLM],
+        **kwargs: Unpack[TransformersKwargs],
     ) -> CausalLMOutputWithPast:
-        return LlamaForCausalLM_forward(self, input_ids, attention_mask, position_ids, past_key_values, inputs_embeds, labels, use_cache, output_attentions, output_hidden_states, cache_position, logits_to_keep, **kwargs)
+        return LlamaForCausalLM_forward(self, input_ids, attention_mask, position_ids, past_key_values, inputs_embeds, labels, use_cache, cache_position, logits_to_keep, **kwargs)

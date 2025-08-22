@@ -152,10 +152,13 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
         LoaiDonName = None
         LoaiDonCode = None
 
+    if ho_so.get("SoDangKyLanDau", None) != None:
+        ho_so["SoDangKyLanDau"] = str(ho_so["SoDangKyLanDau"]).replace("/HDTC", "")
+
     return {
         "MaHoSo": ho_so.get("MaHoSo", None),
         "SoDon": ho_so.get("SoDon", None),
-        "SoDangKyLanDau": str(ho_so.get("SoDangKyLanDau", None)).replace("/HDTC", ""),
+        "SoDangKyLanDau": ho_so.get("SoDangKyLanDau", None),
         "LoaiDonID": LoaiDonID,
         "LoaiDonName": LoaiDonName,
         "LoaiDonCode": LoaiDonCode,
