@@ -14,7 +14,8 @@ from utils.load_env import (
     max_seq_length,
 )
 
-# FIXED: Unsloth and PyTorch Dynamo conflict
+# FIX: Unsloth and PyTorch Dynamo conflict when load marker model
+# and load unsloth model in the same GPU
 # WARNING: Must configure OS before importing Unsloth
 os.environ["PYTORCH_DISABLE_DYNAMO"] = "1"
 os.environ["TORCH_COMPILE_DISABLE"] = "1"
@@ -28,10 +29,9 @@ from utils.load_models.major_model import gen_json, load_model_and_tokenizer
 from utils.sftp_serve.push_file_to_remote_save_path import push_file_to_remote_save_path
 from utils.handle_error import handle_error
 
-
-
 class Item(BaseModel):
     file_name: str
+
 
 app = FastAPI()
 
@@ -62,7 +62,7 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             file_local_path=str(os.path.join(md_cached_path, file_name)),
             max_seq_length=max_seq_length,
             cuda_index=index,  # Use the first GPU for model_1
-        )  # Generate JSON from Markdown
+        )
 
         # NOTE: if MaHoSon != 9...../TB-TT3, raise error
         if tb_tt3_not_9_on_head(generated_output["MaHoSo"]):
@@ -88,16 +88,6 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
 
     except Exception as e:
         print(f"Error generating JSON: {e}")
-        # push_file_to_remote_when_error(
-        #     local_save_path=folder_local_path,
-        #     file_name=file_name,
-        #     account=account,
-        #     error_remote_path=folder_remote_path_when_error,
-        #     error_local_path=folder_local_path_when_error,
-        #     error_message=str(e),
-        #     model_index=index,
-        #     generated_output=generated_output,
-        # )
         handle_error(
             account=account.sftp_account,
             folder_local_path=folder_local_path,
@@ -105,7 +95,7 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             folder_remote_path_when_error=folder_remote_path_when_error,
             folder_local_path_when_error=folder_local_path_when_error,
             e=e,
-            generated_output=generated_output,
+            generated_output=generated_output,  # pyright: ignore
             index=index,
         )
 
@@ -140,13 +130,12 @@ def convert_json_model_2(file: Item):
 
 
 @app.post("/convert-to-json-from-upload", response_model=dict)
-async def testing_function(file: UploadFile = File(...)):
+async def convert_to_json_from_upload(file: UploadFile = File(...)):
     # NOTE: process the uploaded file
     if file.content_type != "application/pdf":
         raise HTTPException(status_code=400, detail="File must be a PDF")
     try:
         # WARNING: This endpoint is for testing purposes only.
-        # NOTE: Save the uploaded PDF file to a temporary location
         contents = await file.read()
 
         file_name_cache = "pdf_cached.pdf"

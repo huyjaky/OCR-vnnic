@@ -290,22 +290,21 @@ class OptimizedPDFProcessor:
             model_futures = []
             for i in range(self.model_workers):
                 # Alternate between model endpoints
-
-                # endpoint = (
-                #     "convert-json-from-local-model-1"
-                #     if i % 2 == 0
-                #     else "convert-json-from-local-model-2"
-                # )
-
                 endpoint = (
                     "convert-json-from-local-model-1"
-                    if i % 4 == 0
-                    else "convert-json-from-local-model-4"
-                    if i % 3 == 0
-                    else "convert-json-from-local-model-3"
                     if i % 2 == 0
                     else "convert-json-from-local-model-2"
                 )
+
+                # endpoint = (
+                #     "convert-json-from-local-model-1"
+                #     if i % 4 == 0
+                #     else "convert-json-from-local-model-4"
+                #     if i % 3 == 0
+                #     else "convert-json-from-local-model-3"
+                #     if i % 2 == 0
+                #     else "convert-json-from-local-model-2"
+                # )
                 future = executor.submit(self.model_worker, i, endpoint)
                 model_futures.append(future)
 

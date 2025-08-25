@@ -19,16 +19,6 @@ from utils.load_env import (
     model_api,
 )
 
-
-# folder_remote_save_path = str(os.getenv("REMOTE_SAVE_PATH"))
-# folder_remote_path_when_error = str(os.getenv("REMOTE_SAVE_PATH_WHEN_ERROR"))
-# folder_local_path_when_error = str(os.getenv("ERROR_CACHE_PATH"))
-
-# load_dotenv()
-# folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
-# md_cached_path = str(os.getenv("MD_CACHED_PATH"))
-# model_api = str(os.getenv("MODEL_API"))
-
 print("[PDF Worker] Loading Marker model...")
 converter = load_marker_model()
 print("[PDF Worker] Model loaded successfully")
@@ -100,6 +90,7 @@ def pdf_worker(pdf_queue, result_queue):
                         model_index=0,
                         generated_output={"error": "oom"},
                     )
+
                 else:
                     result_queue.put(f"RuntimeError processing {file_name}: {e}")
                     print(f"[PDF Worker] RuntimeError: {e}")
@@ -111,7 +102,6 @@ def pdf_worker(pdf_queue, result_queue):
         print(f"[PDF Worker] Fatal error: {e}")
     finally:
         print("[PDF Worker] Shutting down")
-
 
 
 def main():

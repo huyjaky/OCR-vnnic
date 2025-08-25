@@ -66,9 +66,6 @@ def push_file_to_remote_save_path(
             remotepath=os.path.join(remote_save_path, file_name),
         )  # Upload the file
 
-        # sftp_client.remove(
-        #     os.path.join(folder_remote_get_path, file_name.replace(".txt", ".pdf"))
-        # )  # Remove the file from the remote server after uploading
         print("File uploaded successfully.")
 
     except paramiko.AuthenticationException:

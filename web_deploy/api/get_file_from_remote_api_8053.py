@@ -7,21 +7,8 @@ from utils.load_env import (
     folder_local_path_when_error,
     account,
 )
-# timeout = int(os.getenv("TIMEOUT_SFTP", "5"))
-# folder_remote_save_path = str(os.getenv("REMOTE_CACHE_PATH"))
-# folder_local_path = str(os.getenv("LOCAL_CACHE_PATH"))
-# folder_remote_save_path_when_error = str(os.getenv("REMOTE_SAVE_PATH_WHEN_ERROR"))
-# folder_local_path_when_error = str(os.getenv("ERROR_CACHE_PATH"))
-
-# account = sftp_account(
-#     hostname=str(os.getenv("HOSTNAME_SSH")),
-#     port=int(os.getenv("PORT_SSH", "22")),
-#     username=str(os.getenv("USERNAME_SSH")),
-#     password=str(os.getenv("PASSWORD_SSH")),
-# )
 
 app = FastAPI()
-
 
 @app.get("/get-file-from-remote", response_model=dict)
 async def get_file_from_remote():

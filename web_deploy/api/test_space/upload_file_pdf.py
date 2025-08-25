@@ -6,14 +6,10 @@ from tqdm import tqdm
 load_dotenv()
 
 
-hostname = str(
-    os.getenv("HOSTNAME_SSH", "103.82.23.137")
-)  # Default to localhost if not set
+hostname = str(os.getenv("HOSTNAME_SSH"))  # Default to localhost if not set
 port = int(os.getenv("PORT_SSH", "22"))  # Default port is 22 if not set
-username = str(os.getenv("USERNAME_SSH", "sshlogin"))  # Default username if not set
-password = str(
-    os.getenv("PASSWORD_SSH", "SSH@#server@123")
-)  # Default password if not set
+username = str(os.getenv("USERNAME_SSH"))  # Default username if not set
+password = str(os.getenv("PASSWORD_SSH"))  # Default password if not set
 
 file_path = "./cache/pdf_cached.pdf"
 
@@ -27,11 +23,7 @@ try:
     sftp_client = ssh_client.open_sftp()
 
     # /mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR/fine-tunning
-    for pdf_file in tqdm(
-        os.listdir(
-            "/home/duckq1u/Downloads/ o/DA IN/"
-        )
-    ):
+    for pdf_file in tqdm(os.listdir("/home/duckq1u/Downloads/ o/DA IN/")):
         # if list(pdf_file.strip())[0] != "2":
         #     continue
 
