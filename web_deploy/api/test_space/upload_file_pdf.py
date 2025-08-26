@@ -16,9 +16,11 @@ password = str(
 )  # Default password if not set
 
 file_path = "./cache/pdf_cached.pdf"
+rm_path = "C:/Nga/PHAN-MEM/DKBaoDam/"
+lc_path = "/home/duckq1u/Documents/pdf_ocr_for_testing/pdf_cache/"
 
 remote_path = (
-    "C:/Nga/PHAN-MEM/DKBaoDam/" + file_path.split("/")[-1]
+    rm_path + file_path.split("/")[-1]
 )  # Remote path where the file will be uploaded
 try:
     ssh_client = paramiko.SSHClient()
@@ -27,20 +29,16 @@ try:
     sftp_client = ssh_client.open_sftp()
 
     # /mnt/SSD-playing games/Workspace/obsidian_aio/Notebook/Dự án/OCR/fine-tunning
-    for pdf_file in tqdm(
-        os.listdir(
-            "/home/duckq1u/Downloads/ o/DA IN/"
-        )
-    ):
+    for pdf_file in tqdm(os.listdir(lc_path)):
         # if list(pdf_file.strip())[0] != "2":
         #     continue
 
         if pdf_file.endswith(".pdf"):
             file_path = os.path.join(
-                "/home/duckq1u/Downloads/ o/DA IN/",
+                lc_path,
                 pdf_file,
             )
-            remote_path = os.path.join("C:/Nga/PHAN-MEM/DKBaoDam/", pdf_file)
+            remote_path = os.path.join(rm_path, pdf_file)
             sftp_client.put(file_path, remote_path)
             print(f"File {pdf_file} uploaded successfully.")
 
