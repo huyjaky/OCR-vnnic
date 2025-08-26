@@ -144,6 +144,9 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
         #     LoaiDonID = 10
         # else:
         #     LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])
+        if LoaiDonID is str:
+            LoaiDonID = ho_so.get("LoaiDonID", None)
+
 
         LoaiDonName = loai_don_dict[LoaiDonID]
         LoaiDonCode = loai_don_code[LoaiDonID]  # CCTT
