@@ -25,7 +25,7 @@ def process_model_1(file_list):
                 x = requests.post(
                     f"{model_api}/convert-json-from-local-model-1",
                     json={"file_name": file_name},
-                    timeout=30,
+                    timeout=3600,
                 )
                 print(f"[Model 1] Processed: {file_name}")
             except Exception as e:
@@ -39,7 +39,7 @@ def process_model_2(file_list):
                 x = requests.post(
                     f"{model_api}/convert-json-from-local-model-2",
                     json={"file_name": file_name},
-                    timeout=30,
+                    timeout=3600,
                 )
                 print(f"[Model 2] Processed: {file_name}")
             except Exception as e:
