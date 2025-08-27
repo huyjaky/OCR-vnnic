@@ -2,163 +2,151 @@ import requests
 import multiprocessing
 import os
 import time
-from utils.load_env import (
-    md_cached_path,
-    model_api,
-)
+from utils.load_env import md_cached_path, model_api
 
 
-def worker_model_1(task_queue):
-    """Worker cho model 1 - lấy task từ queue"""
+class WorkerStats:
+    def __init__(self):
+        self.manager = multiprocessing.Manager()
+        self.stats = self.manager.dict(
+            {
+                "model1": {"busy": False, "processed": 0, "last_active": time.time()},
+                "model2": {"busy": False, "processed": 0, "last_active": time.time()},
+            }
+        )
+
+
+def worker(model_id, shared_queue, stats):
+    """Universal worker for both models"""
+    endpoint = f"/convert-json-from-local-model-{model_id}"
+    worker_key = f"model{model_id}"
+
     while True:
         try:
-            # Lấy file từ queue (timeout sau 5 giây nếu không có task)
-            try:
-                file_name = task_queue.get(timeout=5)
-                if file_name is None:  # Poison pill để dừng worker
-                    break
-            except:
-                continue  # Timeout, tiếp tục loop
+            file_name = shared_queue.get(timeout=5)
+            if file_name is None:
+                break
+
+            # Mark as busy
+            stats[worker_key]["busy"] = True
+            start_time = time.time()
 
             try:
-                x = requests.post(
-                    f"{model_api}/convert-json-from-local-model-1",
+                requests.post(
+                    f"{model_api}{endpoint}",
                     json={"file_name": file_name},
                     timeout=3600,
                 )
-                print(f"[Model 1] Processed: {file_name}")
+                print(f"[Model {model_id}] ✓ {file_name}")
+                stats[worker_key]["processed"] += 1
             except Exception as e:
-                print(f"[Model 1] Error processing {file_name}: {e}")
-            finally:
-                print("[Model 1] Task done")
+                print(f"[Model {model_id}] ✗ {file_name}: {e}")
 
+            # Update stats
+            stats[worker_key].update({"busy": False, "last_active": time.time()})
+
+        except multiprocessing.TimeoutError:
+            continue
         except Exception as e:
-            print(f"[Model 1] Worker error: {e}")
+            print(f"[Model {model_id}] Worker error: {e}")
+            stats[worker_key]["busy"] = False
 
 
-def worker_model_2(task_queue):
-    """Worker cho model 2 - lấy task từ queue"""
-    while True:
-        try:
-            # Lấy file từ queue (timeout sau 5 giây nếu không có task)
-            try:
-                file_name = task_queue.get(timeout=5)
-                if file_name is None:  # Poison pill để dừng worker
-                    break
-            except:
-                continue  # Timeout, tiếp tục loop
+def get_best_worker(stats):
+    """Get least busy worker based on dynamic stats"""
+    current_time = time.time()
 
-            try:
-                x = requests.post(
-                    f"{model_api}/convert-json-from-local-model-2",
-                    json={"file_name": file_name},
-                    timeout=3600,
-                )
-                print(f"[Model 2] Processed: {file_name}")
-            except Exception as e:
-                print(f"[Model 2] Error processing {file_name}: {e}")
-            finally:
-                print("[Model 2] Task done")
+    # Check if workers are responsive (active within last 60s)
+    model1_responsive = current_time - stats["model1"]["last_active"] < 60
+    model2_responsive = current_time - stats["model2"]["last_active"] < 60
 
-        except Exception as e:
-            print(f"[Model 2] Worker error: {e}")
+    # Prefer non-busy and responsive workers
+    if not stats["model1"]["busy"] and model1_responsive:
+        if not stats["model2"]["busy"] and model2_responsive:
+            # Both free, choose less loaded one
+            return (
+                1 if stats["model1"]["processed"] <= stats["model2"]["processed"] else 2
+            )
+        return 1
+    elif not stats["model2"]["busy"] and model2_responsive:
+        return 2
+
+    # Both busy or unresponsive, use round-robin as fallback
+    return (
+        1
+        if (stats["model1"]["processed"] + stats["model2"]["processed"]) % 2 == 0
+        else 2
+    )
 
 
-def file_monitor(queue1, queue2):
-    """Monitor files và phân phối vào 2 queue"""
+def file_monitor(shared_queue, stats):
+    """Monitor files and distribute with dynamic load balancing"""
     processed_files = set()
 
     while True:
         try:
-            all_files = os.listdir(md_cached_path)
-            txt_files = [f for f in all_files if f.endswith(".txt")]
-
-            if not txt_files:
-                print("No .txt files found. Waiting...")
-                time.sleep(10)
-                continue
-
-            # Chỉ xử lý các file mới
+            txt_files = [f for f in os.listdir(md_cached_path) if f.endswith(".txt")]
             new_files = [f for f in txt_files if f not in processed_files]
 
-            if not new_files:
-                time.sleep(5)
-                continue
+            if new_files:
+                print(f"Found {len(new_files)} new files")
 
-            print(f"Found {len(new_files)} new files to process")
+                for file_name in new_files:
+                    shared_queue.put(file_name)
+                    processed_files.add(file_name)
 
-            # Phân phối files vào 2 queue theo round-robin
-            for i, file_name in enumerate(new_files):
-                if i % 2 == 0:
-                    queue1.put(file_name)
-                    print(f"Assigned {file_name} to Model 1")
-                else:
-                    queue2.put(file_name)
-                    print(f"Assigned {file_name} to Model 2")
+                    # Log assignment decision
+                    best_worker = get_best_worker(stats)
+                    print(f"Queued: {file_name} (next: Model {best_worker})")
 
-                processed_files.add(file_name)
+            # Print stats every 30 seconds
+            if int(time.time()) % 30 == 0:
+                print(
+                    f"Stats - Model1: {stats['model1']['processed']} files, "
+                    f"Model2: {stats['model2']['processed']} files, "
+                    f"Queue: ~{shared_queue.qsize()}"
+                )
 
         except Exception as e:
-            print(f"File monitor error: {e}")
+            print(f"Monitor error: {e}")
 
-        time.sleep(5)  # Kiểm tra files mới mỗi 5 giây
+        time.sleep(5)
 
 
-if __name__ == "__main__":
-    # Tạo 2 queue riêng biệt cho mỗi model
-    queue1 = multiprocessing.Queue()
-    queue2 = multiprocessing.Queue()
+def main():
+    # Shared resources
+    shared_queue = multiprocessing.Queue()
+    stats = WorkerStats()
 
-    # Tạo các process
-    p1 = multiprocessing.Process(target=worker_model_1, args=(queue1,))
-    p2 = multiprocessing.Process(target=worker_model_2, args=(queue2,))
-    monitor = multiprocessing.Process(target=file_monitor, args=(queue1, queue2))
+    # Create processes
+    processes = [
+        multiprocessing.Process(target=worker, args=(1, shared_queue, stats.stats)),
+        multiprocessing.Process(target=worker, args=(2, shared_queue, stats.stats)),
+        multiprocessing.Process(target=file_monitor, args=(shared_queue, stats.stats)),
+    ]
 
-    # Đặt daemon=True
-    p1.daemon = True
-    p2.daemon = True
-    monitor.daemon = True
-
-    # Khởi động các process
-    p1.start()
-    p2.start()
-    monitor.start()
+    # Start all processes
+    for p in processes:
+        p.daemon = True
+        p.start()
 
     try:
-        # Giữ main process chạy và monitor health
+        # Simple health monitoring
         while True:
-            if not p1.is_alive():
-                print("Worker 1 died, restarting...")
-                p1 = multiprocessing.Process(target=worker_model_1, args=(queue1,))
-                p1.daemon = True
-                p1.start()
-
-            if not p2.is_alive():
-                print("Worker 2 died, restarting...")
-                p2 = multiprocessing.Process(target=worker_model_2, args=(queue2,))
-                p2.daemon = True
-                p2.start()
-
-            if not monitor.is_alive():
-                print("Monitor died, restarting...")
-                monitor = multiprocessing.Process(
-                    target=file_monitor, args=(queue1, queue2)
-                )
-                monitor.daemon = True
-                monitor.start()
-
-            time.sleep(10)
+            alive_count = sum(1 for p in processes if p.is_alive())
+            if alive_count < len(processes):
+                print(f"Only {alive_count}/{len(processes)} processes alive!")
+            time.sleep(30)
 
     except KeyboardInterrupt:
         print("Shutting down...")
-        # Gửi poison pills để dừng workers gracefully
-        queue1.put(None)
-        queue2.put(None)
+        shared_queue.put(None)  # Stop workers
+        shared_queue.put(None)
 
-        p1.terminate()
-        p2.terminate()
-        monitor.terminate()
+        for p in processes:
+            p.terminate()
+            p.join(timeout=5)
 
-        p1.join()
-        p2.join()
-        monitor.join()
+
+if __name__ == "__main__":
+    main()
