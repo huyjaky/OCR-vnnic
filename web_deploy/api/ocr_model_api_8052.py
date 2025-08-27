@@ -95,7 +95,7 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
         # chạy _inner() với timeout 30s
         with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
             future = executor.submit(_inner)
-            return future.result(timeout=30)
+            return future.result(timeout=15)
     except Exception as e:
         print(f"Error generating JSON: {e}")
         handle_error(
@@ -108,7 +108,7 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             generated_output=locals().get("generated_output"),
             index=index,
         )
-        return {"response": False}
+        return {"response": False, "error": str(e)}
 
 
 @app.post("/convert-json-from-local-model-1", response_model=dict)

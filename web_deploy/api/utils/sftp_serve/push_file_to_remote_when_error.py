@@ -22,6 +22,7 @@ def push_file_to_remote_when_error(
     :param file_name: Name of the file to be uploaded.
     """
     try:
+        file_name = file_name.replace(".txt", "")
         ssh_client = paramiko.SSHClient()
         ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         ssh_client.connect(

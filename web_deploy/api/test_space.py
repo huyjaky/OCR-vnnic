@@ -1,2 +1,3 @@
-from querys.insert_2_dtb import connect_to_db
-connect_to_db()
+A = [1,2,3,4]
+print(A.pop())
+print(A)
