@@ -3,3 +3,4 @@ marker-pdf
 paramiko
 json-repair
 pypdf
+"fastapi[standard]"

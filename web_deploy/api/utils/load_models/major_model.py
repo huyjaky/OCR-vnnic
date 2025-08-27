@@ -74,7 +74,7 @@ def gen_json(
         do_sample=True,
         # streamer=TextStreamer(tokenizer, skip_prompt=True),
     )
-    
+
     generated_output = tokenizer.batch_decode(outputs)[0]
 
     # Tách phần content từ assistant
@@ -92,4 +92,4 @@ def gen_json(
     if "mô tả" and "tài sản" in markdown_text.lower():
         json_output["MoTaChungTaiSan"] = None  # pyright: ignore
 
-    return json_output # pyright: ignore
+    return json_output  # pyright: ignore
