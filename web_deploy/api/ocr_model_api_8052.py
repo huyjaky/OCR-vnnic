@@ -53,10 +53,11 @@ def tb_tt3_not_9_on_head(ma_ho_so: str):
 
 
 def convert_to_json(file_name: str, model, index: int) -> dict:
+    # NOTE: Convert PDF to JSON
     print("Generating JSON from Markdown...")
     print("-" * 50, file_name, "-" * 50)
 
-    def _inner():
+    try:
         generated_output = gen_json(
             model,
             tokenizer,
@@ -65,37 +66,28 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             cuda_index=index,  # Use the first GPU for model_1
         )  # Generate JSON from Markdown
 
-        # NOTE: if MaHoSo != 9...../TB-TT3, raise error
+        # NOTE: if MaHoSon != 9...../TB-TT3, raise error
         if tb_tt3_not_9_on_head(generated_output["MaHoSo"]):
             raise ValueError(
                 "The MaHoSo does not start with TB-TT3 or does not have 9 on the head."
             )
-
-        fname = file_name.replace(".txt", "")
+        file_name = file_name.replace(".txt", "")
 
         push_file_to_remote_save_path(
             account=account.sftp_account,
-            file_name=fname,
+            file_name=file_name,
+            # folder_remote_get_path=folder_remote_path,
             folder_remote_save_path=folder_remote_save_path,
             local_save_path=folder_local_path,
-            datetime_folder=str(generated_output["ThoiDiemDangKy"]),
+            datetime_folder=str(
+                generated_output["ThoiDiemDangKy"]
+            ),  # Assuming the file name is in the
         )
 
         print("-" * 50, "END", "-" * 50)
-        insert_records_from_json(json_input=generated_output, file_name=fname)
+        insert_records_from_json(json_input=generated_output, file_name=file_name)
         print("JSON generated and inserted into the database successfully.")
 
-        # remove file from cache after processing
-        os.remove(str(os.path.join(md_cached_path, f"{fname}.txt")))
-        os.remove(str(os.path.join(folder_local_path, f"{fname}.pdf")))
-
-        return {"response": True}
-
-    try:
-        # chạy _inner() với timeout 30s
-        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
-            future = executor.submit(_inner)
-            return future.result(timeout=15)
     except Exception as e:
         print(f"Error generating JSON: {e}")
         handle_error(
@@ -105,10 +97,16 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             folder_remote_path_when_error=folder_remote_path_when_error,
             folder_local_path_when_error=folder_local_path_when_error,
             e=e,
-            generated_output=locals().get("generated_output"),
+            generated_output=generated_output,
             index=index,
         )
-        return {"response": False, "error": str(e)}
+
+    # NOTE: remove file from cache after processing
+    # file_name = <file_name>.txt
+    os.remove(str(os.path.join(md_cached_path, f"{file_name}.txt")))
+    os.remove(str(os.path.join(folder_local_path, f"{file_name}.pdf")))
+
+    return {"response": True}
 
 
 @app.post("/convert-json-from-local-model-1", response_model=dict)

@@ -6,9 +6,7 @@ columns = [
     # "LoaiChuTheName", done
     # "BenGiaoTempId", done
     # "HoSoTempId", done
-    # "QuocGia", done
-    # "Tinh", done
-    # "DiaChi", done
+    # "QuocGia", done "Tinh", done "DiaChi", done
     "HoTen",
     "CCCD",
     "TenToChuc",
@@ -64,6 +62,10 @@ def preprocessing_ben_giao(ben_giao: list[dict], ho_so_id: str) -> list[dict]:
             .replace("thành phố", "")
             .replace("quốc gia", "")
             .strip(),
+            # WARNING: Not clarified fields
+            "isCheck": False,
+            "NgayTao": datetime.now(),
+            "NgayUpdate": datetime.now(),
         }
         for key in columns:  # Skip the first column which is 'LoaiChuTheID'
             if key in list(item["ThongTinChuThe"].keys()):
@@ -97,6 +99,10 @@ def preprocessing_ben_nhan(ben_nhan: list[dict], ho_so_id: str) -> list[dict]:
             .replace("quốc gia", "")
             .strip(),
             "HoSoTempId": ho_so_id,
+            # WARNING: Not clarified fields
+            "isCheck": False,
+            "NgayTao": datetime.now(),
+            "NgayUpdate": datetime.now(),
         }
         list_ben_nhan.append(cache)
 
@@ -137,18 +143,10 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
     """
     if ho_so.get("LoaiDonID") != None:
         LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])  # pyright:ignore
-
-        # if "/TB-TT3" in str(ho_so.get("MaHoSo", None)):
-        #     LoaiDonID = 11  # CCTT
-        # elif "CCTT" in str(ho_so.get("SoDon", None)) or "CCTT" in file_name:
-        #     LoaiDonID = 10
-        # else:
-        #     LoaiDonID = int(list(str(ho_so.get("SoDon", None)))[0])
         if "TBD" in file_name:
             LoaiDonID = 9
         elif "CCTT8" in file_name:
             LoaiDonID = 8
-
 
         LoaiDonName = loai_don_dict[LoaiDonID]
         LoaiDonCode = loai_don_code[LoaiDonID]  # CCTT
@@ -177,12 +175,10 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
         "SoPhuLuc": ho_so.get("SoPhuLuc", None),
         "ThoiDiemKHDangKy": ho_so.get("ThoiDiemKHDangKy", None),
         "ThoiDiemDKLanDau": ho_so.get("ThoiDiemDKLanDau", None),
-        # "NoiDungThayDoi": ho_so.get("NoiDungThayDoi", None),
-        # "MoTaChungTaiSan": ho_so.get("MoTaChungTaiSan", None),
-        "TenFile": file_name,
-        "isCheck": False,
+        "TenFile": file_name + ".pdf",
         "HoSoTempId": ho_so_id,
         # WARNING: Not clarified fields
+        "isCheck": False,
         "NgayTao": datetime.now(),
         "NgayUpdate": datetime.now(),
     }
