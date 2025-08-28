@@ -1,0 +1,5 @@
+pyodbc
+marker-pdf
+paramiko
+json-repair
+pypdf
