@@ -15,7 +15,7 @@ def server_model(txt_file: str, model_index: int):
             timeout=60,
         )
         response_messages = response.json()
-        print(f"{response_messages} | {len(os.listdir(folder_local_path_when_error))}")
+        print(f"{response_messages} | {len(os.listdir(folder_local_path_when_error))} | Model {model_index}")
 
     except Exception as e:
         print(f"Error in server_model({txt_file}, {model_index}): {e}")
