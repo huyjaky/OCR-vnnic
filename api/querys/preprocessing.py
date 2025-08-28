@@ -45,9 +45,6 @@ def preprocessing_ben_giao(ben_giao: list[dict], ho_so_id: str) -> list[dict]:
             tinh = str(item["ThongTinChuThe"]["DiaChi"]).split(",")[-2].strip()
         except IndexError:
             tinh = "Không xác định"
-
-        print(quoc_gia, tinh)
-
         cache = {
             "LoaiChuTheID": item["LoaiChuTheID"],
             "LoaiChuTheName": loai_chu_the[int(item["LoaiChuTheID"])],
@@ -55,13 +52,13 @@ def preprocessing_ben_giao(ben_giao: list[dict], ho_so_id: str) -> list[dict]:
             "HoSoTempId": ho_so_id,
             "QuocGia": quoc_gia,
             "Tinh": tinh,
-            "DiaChi": str(item["ThongTinChuThe"]["DiaChi"])
-            .replace(f"{quoc_gia}", "")
-            .replace(f"{tinh},", "")
-            .replace("tỉnh", "")
-            .replace("thành phố", "")
-            .replace("quốc gia", "")
-            .strip(),
+            "DiaChi": str(item["ThongTinChuThe"]["DiaChi"]),
+            # .replace(f"{quoc_gia}", "")
+            # .replace(f"{tinh},", "")
+            # .replace("tỉnh", "")
+            # .replace("thành phố", "")
+            # .replace("quốc gia", "")
+            # .strip(),
             # WARNING: Not clarified fields
             "isCheck": False,
             "NgayTao": datetime.now(),
@@ -91,13 +88,13 @@ def preprocessing_ben_nhan(ben_nhan: list[dict], ho_so_id: str) -> list[dict]:
             "Ten": item["Ten"],
             "QuocGia": item.get("QuocGia", None),
             "Tinh": item.get("Tinh", None),
-            "DiaChi": str(item.get("DiaChi"))
-            .replace(f"{item.get('QuocGia')}", "")
-            .replace(f"{item.get('Tinh')},", "")
-            .replace("tỉnh", "")
-            .replace("thành phố", "")
-            .replace("quốc gia", "")
-            .strip(),
+            "DiaChi": str(item.get("DiaChi")),
+            # .replace(f"{item.get('QuocGia')}", "")
+            # .replace(f"{item.get('Tinh')},", "")
+            # .replace("tỉnh", "")
+            # .replace("thành phố", "")
+            # .replace("quốc gia", "")
+            # .strip(),
             "HoSoTempId": ho_so_id,
             # WARNING: Not clarified fields
             "isCheck": False,
