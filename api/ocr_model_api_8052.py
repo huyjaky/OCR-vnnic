@@ -56,12 +56,13 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
     # NOTE: Convert PDF to JSON
     print("Generating JSON from Markdown...")
     print("-" * 50, file_name, "-" * 50)
+    file_name = file_name.replace(".txt", "")
 
     try:
         generated_output = gen_json(
             model,
             tokenizer,
-            file_local_path=str(os.path.join(md_cached_path, file_name)),
+            file_local_path=str(os.path.join(md_cached_path, file_name + ".txt")),
             max_seq_length=max_seq_length,
             cuda_index=index,  # Use the first GPU for model_1
         )  # Generate JSON from Markdown
@@ -114,7 +115,6 @@ def convert_to_json(file_name: str, model, index: int) -> dict:
             )
 
     # NOTE: remove file from cache after processing
-    # file_name = <file_name>.txt
     os.remove(str(os.path.join(md_cached_path, f"{file_name}.txt")))
     os.remove(str(os.path.join(folder_local_path, f"{file_name}.pdf")))
 
