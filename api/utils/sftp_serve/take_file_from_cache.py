@@ -4,8 +4,6 @@ from tqdm import tqdm
 from types_ocr.sftp_account import SftpAccount
 import pypdf
 
-from querys.insert_2_dtb import insert_records_from_error
-
 
 def take_file_from_cache(
     folder_remote_save_path: str,
@@ -70,53 +68,20 @@ def take_file_from_cache(
                         remote_file_path
                     )  # Remove the file from remote cache
 
-                    # WARNING: Remove the PDF file if it has more than 7 pages
-                    # as well as checking the file PDF file is not corrupted
                     reader = pypdf.PdfReader(local_file_path)
-                    if len(reader.pages) > 5:
-                        print(
-                            f"File {file_name} has more than 7 pages, removing from cache."
-                        )
 
-                        sftp_client.put(
-                            localpath=local_file_path,
-                            remotepath=file_remote_path_when_error,
-                        )
+                    # WARNING: just getting first 2 pages if the pdf have more than 7 pages
+                    if len(reader.pages) > 7:
+                        writer = pypdf.PdfWriter()
 
-                        # NOTE: Put log file to remote server
-                        # Write the error message to a log file on the remote server
-                        with open(
-                            os.path.join(
-                                folder_local_path_when_error,
-                                f"model_{model_index}_{file_name.replace('.pdf', '.log')}",
-                            ),
-                            "w",
-                        ) as error_file:
-                            error_file.write(
-                                f"Error in model {model_index}:\n {file_name} \n Has more than 7 pages \n"
-                            )
+                        for page_num in range(min(2, len(reader.pages))):
+                            writer.add_page(reader.pages[page_num])
 
-                        sftp_client.put(
-                            localpath=os.path.join(
-                                folder_local_path_when_error,
-                                f"model_{model_index}_{file_name.replace('.pdf', '.log')}",
-                            ),
-                            remotepath=os.path.join(
-                                folder_remote_path_when_error,
-                                "log",
-                                file_name.replace(".pdf", ".log"),
-                            ),
-                        )  # Upload the error log file
+                        output_file_path = local_file_path
+                        with open(output_file_path, "wb") as output_pdf:
+                            writer.write(output_pdf)
 
-                        os.remove(local_file_path)
-
-                        insert_records_from_error(
-                            error_str="File has more than 7 pages",
-                            file_name=file_name,
-                            is_check=False,
-                        )
                     processer_bar.update()
-
                 else:
                     print(
                         "No new files found in the remote folder. Retrying in 5 minutes..."

@@ -7,12 +7,6 @@ print("[PDF Worker] Loading Marker model...")
 converter = load_marker_model()
 print("[PDF Worker] Model loaded successfully")
 
-# get_text_from_pdf(
-#     converter=converter,
-#     file_local_get_path=local_path,
-#     file_local_save_path=save_path,
-#     file_name=file_name,
-# )
 
 while True:
     try:

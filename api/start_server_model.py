@@ -15,7 +15,9 @@ def server_model(txt_file: str, model_index: int):
             timeout=60,
         )
         response_messages = response.json()
-        print(f"{response_messages} | {len(os.listdir(folder_local_path_when_error))} | Model {model_index}")
+        print(
+            f"{response_messages} | {len(os.listdir(folder_local_path_when_error))} | Model {model_index}"
+        )
 
     except Exception as e:
         print(f"Error in server_model({txt_file}, {model_index}): {e}")
@@ -41,15 +43,15 @@ while True:
     t1 = threading.Thread(target=looping_pull, args=(txt_files, 1))
     t2 = threading.Thread(target=looping_pull, args=(txt_files, 2))
 
-    while txt_files != []:
-        try:
+    try:
+        while txt_files != []:
             t1.start()
             t2.start()
 
             t1.join()
             t2.join()
-        except IndexError:
-            break
+    except IndexError:
+        continue
 
     if os.listdir(md_cached_path) == []:
         print("All files processed. Waiting for new files...")
