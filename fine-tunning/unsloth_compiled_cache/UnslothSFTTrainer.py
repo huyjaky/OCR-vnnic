@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
+2025.8.5
+2025.8.6
 4.53.3
-0.19.1
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from trl.trainer.sft_trainer import (Any, AutoModelForCausalLM, AutoTokenizer, BaseImageProcessor, Callable, ConstantLengthDataset, DataCollator, DataCollatorForLanguageModeling, Dataset, EvalPrediction, FeatureExtractionMixin, IterableDataset, Optional, Path, PeftConfig, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, SFTConfig, SFTTrainer, Trainer, TrainerCallback, TrainingArguments, Union, clone_chat_template, contextlib, dataclass, dataclasses, defaultdict, generate_model_card, get_act_offloading_ctx_manager, get_comet_experiment_url, get_peft_model, is_conversational, is_peft_available, is_wandb_available, nn, os, pad, peft, peft_module_casting_to_bf16, prepare_model_for_kbit_training, torch, version, wandb, warnings, Callable, ConstantLengthDataset, DataCollator, DataCollatorForLanguageModeling, Dataset, IterableDataset, Optional, Union, os, pad, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, peft, torch, os)
+from trl.trainer.sft_trainer import (Any, AutoModelForCausalLM, AutoTokenizer, BaseImageProcessor, Callable, DataCollator, DataCollatorForLanguageModeling, Dataset, EvalPrediction, FeatureExtractionMixin, IterableDataset, Optional, Path, PeftConfig, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, SFTConfig, SFTTrainer, Trainer, TrainerCallback, TrainingArguments, Union, clone_chat_template, contextlib, dataclass, dataclasses, defaultdict, generate_model_card, get_act_offloading_ctx_manager, get_comet_experiment_url, get_peft_model, is_conversational, is_peft_available, is_wandb_available, nn, os, pack_dataset, pad, peft, peft_module_casting_to_bf16, prepare_model_for_kbit_training, torch, version, wandb, warnings, Callable, DataCollator, DataCollatorForLanguageModeling, Dataset, IterableDataset, Optional, Union, os, pack_dataset, pad, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, peft, torch, os)
 
 
 import os
@@ -95,14 +95,14 @@ class UnslothSFTConfig(SFTConfig):
         packing (`bool`, *optional*, defaults to `False`):
             Whether to group multiple sequences into fixed-length blocks to improve computational efficiency and reduce
             padding. Uses `max_length` to define sequence length.
-        packing_strategy (`str`, *optional*, defaults to `"ffd"`):
-            Strategy for packing sequences. Can be either `"ffd"` (first-fit decreasing, default), or `"wrapped"`.
+        packing_strategy (`str`, *optional*, defaults to `"bfd"`):
+            Strategy for packing sequences. Can be either `"bfd"` (best-fit decreasing, default), or `"wrapped"`.
         padding_free (`bool`, *optional*, defaults to `False`):
             Whether to perform forward passes without padding by flattening all sequences in the batch into a single
             continuous sequence. This reduces memory usage by eliminating padding overhead. Currently, this is only
-            supported with the `flash_attention_2` attention implementation, which can efficiently handle the flattened
-            batch structure. When packing is enabled with strategy `"ffd"`, padding-free is enabled, regardless of the
-            value of this parameter.
+            supported with the FlashAttention 2 or 3, which can efficiently handle the flattened batch structure. When
+            packing is enabled with strategy `"bfd"`, padding-free is enabled, regardless of the value of this
+            parameter.
         pad_to_multiple_of (`int` or `None`, *optional*, defaults to `None`):
             If set, the sequences will be padded to a multiple of this value.
         eval_packing (`bool` or `None`, *optional*, defaults to `None`):
@@ -271,14 +271,13 @@ class UnslothSFTConfig(SFTConfig):
         pad_token = None,
         max_length = 1024,
         packing = False,
-        packing_strategy = 'ffd',
+        packing_strategy = 'bfd',
         padding_free = False,
         pad_to_multiple_of = None,
         eval_packing = None,
         completion_only_loss = None,
         assistant_only_loss = False,
         activation_offloading = False,
-        max_seq_length = None,
         vllm_sampling_params = None,
         unsloth_num_chunks = -1,
         **kwargs,
@@ -436,8 +435,7 @@ class UnslothSFTConfig(SFTConfig):
             eval_packing = eval_packing,
             completion_only_loss = completion_only_loss,
             assistant_only_loss = assistant_only_loss,
-            activation_offloading = activation_offloading,
-            max_seq_length = max_seq_length,**kwargs)
+            activation_offloading = activation_offloading,**kwargs)
         self.vllm_sampling_params = vllm_sampling_params
         self.unsloth_num_chunks = unsloth_num_chunks
 pass
@@ -505,17 +503,50 @@ class _UnslothSFTTrainer(Trainer):
             if os.path.isfile(args.chat_template_path) and args.chat_template_path.endswith((".jinja", ".j2")):
                 with open(args.chat_template_path, encoding="utf-8") as chat_template_file:
                     processing_class.chat_template = chat_template_file.read()
+                added_tokens = []
             else:
-                model, processing_class = clone_chat_template(model, processing_class, args.chat_template_path)
+                model, processing_class, added_tokens = clone_chat_template(
+                    model, processing_class, args.chat_template_path
+                )
+        else:
+            added_tokens = []
 
         # PEFT configuration and model wrapping
         if False:
-            model = self._prepare_peft_model(model, peft_config, args)
+            if added_tokens:
+                # Ensure that the added tokens are trainable
+                if peft_config.trainable_token_indices is None:
+                    peft_config.trainable_token_indices = {"embed_tokens": added_tokens}
+                elif "embed_tokens" not in peft_config.trainable_token_indices:
+                    peft_config.trainable_token_indices["embed_tokens"] = added_tokens
+                else:
+                    peft_config.trainable_token_indices["embed_tokens"].extend(added_tokens)
+
+                # Ensure that the lm_head is trainable
+                if peft_config.modules_to_save is None or "lm_head" not in peft_config.modules_to_save:
+                    warnings.warn(
+                        "Cloning chat template added new tokens to the tokenizer, but 'lm_head' is not in PEFT's "
+                        "`modules_to_save`. As a result, the model may not learn to generate outputs with these new "
+                        "tokens, leading to degraded generation quality. To fix this, add "
+                        "`modules_to_save=['lm_head']` to your PEFT configuration."
+                    )
+
+                    if peft_config.modules_to_save is None:
+                        peft_config.modules_to_save = ["lm_head"]
+                    else:
+                        peft_config.modules_to_save.append("lm_head")
+
+        if False:
+            pass
 
         # Data collator
-        # FFD packing requires padding-free mode; otherwise, the collator outputs padded attention masks, causing
+        # BFD packing requires padding-free mode; otherwise, the collator outputs padded attention masks, causing
         # FlashAttention to ignore position_ids and recompute them incorrectly from the padded attention mask.
-        self.padding_free = args.padding_free or (args.packing and args.packing_strategy == "ffd")
+        self.padding_free = args.padding_free or (args.packing and args.packing_strategy == "bfd")
+        use_flash_attention = model.config._attn_implementation in [
+            "flash_attention_2",
+            "kernels-community/vllm-flash-attn3",
+        ]
         if self.padding_free:
             if data_collator is not None:
                 raise ValueError("Passing a custom data collator is not supported when using padding-free.")
@@ -524,7 +555,7 @@ class _UnslothSFTTrainer(Trainer):
                     "You are passing `padding_free=True` with the 'wrapped' packing strategy, which is not "
                     "recommended. Please refer to the documentation to understand why this is not recommended."
                 )
-            if model.config._attn_implementation != "flash_attention_2":
+            if not use_flash_attention:
                 warnings.warn(
                     "Padding-free training is enabled, but the attention implementation is not set to "
                     "'flash_attention_2'. Padding-free training flattens batches into a single sequence, and "
@@ -540,9 +571,9 @@ class _UnslothSFTTrainer(Trainer):
                     "to at least 2."
                 )
 
+        dataset_sample = next(iter(train_dataset))
         if args.completion_only_loss is None:
-            first_example = next(iter(train_dataset))
-            self.completion_only_loss = "prompt" in first_example
+            self.completion_only_loss = "prompt" in dataset_sample
         else:
             self.completion_only_loss = args.completion_only_loss
 
@@ -562,23 +593,20 @@ class _UnslothSFTTrainer(Trainer):
                 completion_only_loss=self.completion_only_loss,
                 padding_free=self.padding_free,
                 # Using position_ids without flash_attn hurts the training
-                return_position_ids=model.config._attn_implementation == "flash_attention_2",
+                return_position_ids=use_flash_attention,
                 pad_to_multiple_of=args.pad_to_multiple_of,
             )
 
-        if (
-            args.packing
-            and args.packing_strategy == "ffd"
-            and model.config._attn_implementation != "flash_attention_2"
-        ):
+        if args.packing and args.packing_strategy == "bfd" and not use_flash_attention:
             warnings.warn(
-                "You are using packing, but the attention implementation is not set to 'flash_attention_2'. Packing "
-                "flattens batches into a single sequence, and 'flash_attention_2' is the only known attention "
-                "mechanism that reliably supports this. Using other implementations may lead to cross-contamination "
-                "between batches. To avoid this, either disable packing by setting `packing=False`, or set "
-                "`attn_implementation='flash_attention_2'` in the model configuration."
+                "You are using packing, but the attention implementation is not set to 'flash_attention_2' or "
+                "'kernels-community/vllm-flash-attn3'. Packing flattens batches into a single sequence, and Flash "
+                "Attention is the only known attention mechanisms that reliably support this. Using other "
+                "implementations may lead to cross-contamination between batches. To avoid this, either disable "
+                "packing by setting `packing=False`, or set `attn_implementation='flash_attention_2'` or "
+                "`attn_implementation='kernels-community/vllm-flash-attn3'` in the model configuration."
             )
-        if args.assistant_only_loss and not is_conversational(train_dataset[0]):
+        if args.assistant_only_loss and not is_conversational(dataset_sample):
             raise ValueError(
                 "You set `assistant_only_loss=True`, but the dataset is not conversational. This option is only "
                 "supported for conversational datasets."
@@ -672,15 +700,6 @@ class _UnslothSFTTrainer(Trainer):
         if not is_peft_available():
             raise ImportError("To use PeftModel, you need to install the `peft` library.")
 
-        if not isinstance(peft_config, PeftConfig):
-            raise ValueError(
-                f"Expected PeftConfig object but got {type(peft_config)}. If you want to use the PeftModel, you need "
-                "to pass a PeftConfig object to the SFTTrainer."
-            )
-
-        if isinstance(model, PeftModel):
-            return model
-
         # Handle quantized models (QLoRA)
         is_qlora = getattr(model, "is_loaded_in_4bit", False) or getattr(model, "is_loaded_in_8bit", False)
 
@@ -701,14 +720,15 @@ class _UnslothSFTTrainer(Trainer):
             model = self._enable_gradient_checkpointing(model, args)
 
         # Create PEFT model
-        if (
-            version.parse(peft.__version__) >= version.parse("0.12")  # autocast_adapter_dtype introduced in 0.12
-            and getattr(model, "is_loaded_in_4bit", False)
-            and is_sharded_qlora
-        ):
-            model = get_peft_model(model, peft_config, autocast_adapter_dtype=False)
-        else:
-            model = get_peft_model(model, peft_config)
+        if peft_config is not None:
+            if (
+                version.parse(peft.__version__) >= version.parse("0.12")  # autocast_adapter_dtype introduced in 0.12
+                and getattr(model, "is_loaded_in_4bit", False)
+                and is_sharded_qlora
+            ):
+                model = get_peft_model(model, peft_config, autocast_adapter_dtype=False)
+            else:
+                model = get_peft_model(model, peft_config)
 
         # Handle bf16 casting for 4-bit models
         if args.bf16 and getattr(model, "is_loaded_in_4bit", False) and not is_sharded_qlora:
@@ -754,7 +774,10 @@ class _UnslothSFTTrainer(Trainer):
         dataset_name: str,
     ) -> Union[Dataset, IterableDataset]:
         # All Unsloth Zoo code licensed under LGPLv3
-        if isinstance(dataset, ConstantLengthDataset): return dataset
+        try:
+            if isinstance(dataset, ConstantLengthDataset): return dataset
+        except:
+            pass
     
         map_kwargs = {}
         use_desc = isinstance(dataset, Dataset)
@@ -859,18 +882,22 @@ class _UnslothSFTTrainer(Trainer):
             pass
         pass
         if packing:
-            print("Unsloth: Hugging Face's packing is currently buggy - we're disabling it for now!")
-            return dataset
+            # Try using new packing which works in TRL
+            try:
+                pack_dataset
+            except:
+                print("Unsloth: Hugging Face's packing is currently buggy - we're disabling it for now!")
+                return dataset
     
             if max_seq_length == 0:
                 raise ValueError("When packing is enabled, `max_seq_length` can't be `None`.")
     
             if use_desc: map_kwargs["desc"] = f"Unsloth: Packing {dataset_name} dataset"
-            dataset = dataset.select_columns(used_column_names).map(
-                pack_examples,
-                batched = True,
-                fn_kwargs = {"seq_length": max_seq_length,},
-                **map_kwargs,
+            dataset = pack_dataset(
+                dataset.select_columns(used_column_names),
+                max_seq_length,
+                getattr(args, "packing_strategy", "bfd"),
+                map_kwargs,
             )
         pass
         return dataset
@@ -884,7 +911,7 @@ class _UnslothSFTTrainer(Trainer):
             self._signature_columns = [
                 "input_ids",
                 "labels",
-                "position_ids",
+                "seq_lengths",
                 "completion_mask",
                 "assistant_masks",
             ]
@@ -969,7 +996,7 @@ class _UnslothSFTTrainer(Trainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=list(tags),
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="SFT",
         )
@@ -1020,7 +1047,7 @@ class UnslothSFTTrainer(_UnslothSFTTrainer):
             The trainer also supports processed datasets (tokenized) as long as they contain an `input_ids` field.
         eval_dataset ([`~datasets.Dataset`], [`~datasets.IterableDataset`] or `dict[str, Union[Dataset, IterableDataset]]`):
             Dataset to use for evaluation. It must meet the same requirements as `train_dataset`.
-        processing_class ([`~transformers.PreTrainedTokenizerBase`], *optional*, defaults to `None`):
+        processing_class ([`~transformers.PreTrainedTokenizerBase`], [`~transformers.BaseImageProcessor`], [`~transformers.FeatureExtractionMixin`] or [`~transformers.ProcessorMixin`], *optional*, defaults to `None`):
             Processing class used to process the data. If `None`, the processing class is loaded from the model's name
             with [`~transformers.AutoTokenizer.from_pretrained`].
         callbacks (list of [`~transformers.TrainerCallback`], *optional*, defaults to `None`):
@@ -1209,6 +1236,14 @@ class UnslothSFTTrainer(_UnslothSFTTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

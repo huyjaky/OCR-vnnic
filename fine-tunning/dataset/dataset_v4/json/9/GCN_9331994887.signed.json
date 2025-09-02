@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331994887/TB-TT3",
+            "SoDon": "9331994887",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ PHÁT DIỆM",
+            "DiaChi": "XÃ PHÁT DIỆM, TỈNH NINH BÌNH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô JAC, SỐ LOẠI N360S-E5 có số khung: RRGAWVAD4SB000111; thông tin khác (số máy: HFC4DB32DS4111947, biển số: 35A-341.87)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi nhánh Ninh Bình - Địa điểm kinh doanh Phòng giao dịch Yên Khánh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Số 411 - 413, đường Lê Thánh Tông, Phố 3, xã Yên Khánh, tỉnh Ninh Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô JAC",
+                    "NhanHieuMauSon": "JAC N360S-E5",
+                    "SoKhung": "RRGAWVAD4SB000111",
+                    "SoMay": "HFC4DB32DS4111947",
+                    "BienSo": "35A-341.87",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

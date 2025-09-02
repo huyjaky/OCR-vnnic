@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0994",
+            "SoDon": "4223477608",
+            "SoDangKyLanDau": "1590173963",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:47:00",
+            "SoHopDong": "1027800.24.TH.34",
+            "NgayCoHieuLucHopDong": "2025-05-22",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN THƯƠNG MẠI Ô TÔ THANH HÓA",
+                        "MaSoThue": "2802299243",
+                        "DiaChi": "Lô 87, Đại Lộ Võ Nguyên Giáp, Phường Quảng Thành, Thành phố Thanh Hóa, Thanh Hóa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Số 02 Lê Hữu Lập, phường Lam sơn, Thanh Hóa, Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

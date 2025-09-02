@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331716087/TB-TT3",
+            "SoDon": "9331716087",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Đông Triều",
+            "DiaChi": "phường Đông Triều, tỉnh Quảng Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô KIA có số khung: RNYFC47D7SC373124; số máy: G4FJNE030043, biển số: 14A-999.62",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - CHI NHÁNH HẢI DƯƠNG - ĐỊA ĐIỂM KINH DOANH PHÒNG GIAO DỊCH CHÍ LINH",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Số 251 Đường Nguyễn Trãi, Phường Chu Văn An, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô KIA",
+                    "NhanHieuMauSon": "KIA",
+                    "SoKhung": "RNYFC47D7SC373124",
+                    "SoMay": "G4FJNE030043",
+                    "BienSo": "14A-999.62",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

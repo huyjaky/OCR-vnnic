@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331750772/TB-TT3",
+            "SoDon": "9331750772",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Ea Kao",
+            "DiaChi": "phường Ea Kao, Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MAZDA CX-5, MÀU: ĐỎ có số khung: RN2KE2W7ASM172294; thông tin khác (số máy: PE50449544, biển số: 47A-528.10)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 56-58 đường Y Jút, Phường Buôn Ma Thuột, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MAZDA CX-5, MÀU: ĐỎ",
+                    "SoKhung": "RN2KE2W7ASM172294",
+                    "SoMay": "PE50449544",
+                    "BienSo": "47A-528.10",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0916",
+            "SoDon": "4223468789",
+            "SoDangKyLanDau": "1561646281",
+            "LoaiDonID": 4,
+            "LoaiDonName": "XÓA ĐƠN ĐĂNG KÝ",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:18:00",
+            "SoHopDong": "LN2410244120700/HĐTC",
+            "NgayCoHieuLucHopDong": "2024-11-01",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-11-02T08:51:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN ANH NGỌC HOÀNG",
+                        "CCCD": "024086010792",
+                        "DiaChi": "TDP CẢ TRỌNG, Thị trấn Phồn Xương, Yên Thế, Bắc Giang, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THƯƠNG HÒA",
+                        "CCCD": "001192005874",
+                        "DiaChi": "TDP số 5 Phú Mỹ, Mỹ Đình 2, Nam Từ Liêm, Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Bắc Giang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Giang",
+                    "DiaChi": "(9) 303 đường Lê Lợi, Phường Hoàng Văn Thụ, Thành phố Bắc Giang, Bắc Giang, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

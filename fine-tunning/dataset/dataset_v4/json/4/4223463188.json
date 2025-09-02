@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0870",
+            "SoDon": "4223463188",
+            "SoDangKyLanDau": "1554836319",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:58:00",
+            "SoHopDong": "1011214.24",
+            "NgayCoHieuLucHopDong": "2024-09-24",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-09-24T08:48:00",
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Giềng Nàm Sáng",
+                        "CCCD": "075083002241",
+                        "DiaChi": "Tổ 2, khu phố Ông Đông, Tân Hiệp, thành phố Tân Uyên, Bình Dương, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Nguyễn Thị Thủy",
+                        "CCCD": "019185002735",
+                        "DiaChi": "Tổ 2, khu phố Ông Đông, Tân Hiệp, thành phố Tân Uyên, Bình Dương, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP QUỐC TẾ VIỆT NAM - CHI NHÁNH BÌNH DƯƠNG - PHÒNG GIAO DỊCH THỦ DẦU MỘT",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "215A đường Yersin, Phường Phú Cường, thành phố Thủ Dầu Một, Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

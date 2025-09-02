@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332053270/TB-TT3",
+            "SoDon": "9332053270",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBSCA",
+            "TenCongAn": "Công an xã Mộ Đức, tỉnh Quảng Ngãi",
+            "DiaChi": "Số 36 Đường 23/3, TDP2, xã Mộ Đức, tỉnh Quảng Ngãi",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô HYUNDAI màu xanh, biển số 76A-268.83, số khung RLUMBT7KASN000987, số máy SD595728D4CB",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Thương mại Cổ phần Quốc Tế Việt Nam - Chi nhánh Quảng Ngãi",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ngãi",
+                    "DiaChi": "Tầng trệt và tầng 1 tòa nhà Ricco Building, 186 đường Hùng Vương, phườngNghĩa Lộ, tỉnh Quảng Ngãi, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HYUNDAI, Xanh",
+                    "SoKhung": "RLUMBT7KASN000987",
+                    "SoMay": "SD595728D4CB",
+                    "BienSo": "76A-268.83",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

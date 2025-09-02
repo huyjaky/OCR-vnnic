@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1105",
+            "SoDon": "1597915530",
+            "SoDangKyLanDau": "1597915530",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:07:00",
+            "SoHopDong": "3030304065/2025/HĐBĐ/NHCT488/MAI THI ANH THI",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T18:07:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Các quyền tài sản (bao gồm nhưng không giới hạn: quyền đòi nợ và thụ hưởng số tiền đòi nợ; quyền được phân chia và sử dụng, khai thác và/hoặc sở hữu sản phẩm được phân chia; quyền yêu cầu hoàn trả tiền ứng trước, tiền phạt vi phạm, tiền bồi thường thiệt hại và thu hưởng số tiền này; các quyền, lợi ích, các khoản bồi hoàn; …) Các tài sản bảo đảm nêu trên thuộc thẩm quyền đăng ký của trung tâm đăng ký giao dịch, tài sản.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Mai Thị Anh Thi",
+                        "CCCD": "064191007015",
+                        "DiaChi": "Căn hộ CT1-CH07.14, chung cư NOXH Bàu Tràm, Phường Hòa Hiệp Nam, Quận Liên Chiểu, TP Đà Nẵng, thành phố Đà Nẵng, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Trần Tiến Dũng",
+                        "CCCD": "049088005052",
+                        "DiaChi": "Căn hộ CT1-CH07.14, chung cư NOXH Bàu Tràm, Phường Hòa Hiệp Nam, Quận Liên Chiểu, TP Đà Nẵng, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP CÔNG THƯƠNG VIỆT NAM - CHI NHÁNH BẮC ĐÀ NẴNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Lô 03 & 04 Khu A2, Khu phức hợp đô thị thương mại cao tầng Phương Trang, phường Hòa Minh, quận Liên Chiểu, TP Đà Nẵng. Nay là : Lô 03 & 04 Khu A2, Khu phức hợp đô thị thương mại cao tầng Phương Trang, phường Hòa Khánh, TP Đà Nẵng., thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Quyền tài sản",
+                    "CanCuPhatSinhQuyen": "Quyền tài sản phát sinh từ hợp đồng - Hợp đồng: Hợp đồng mua bán Nhà ở xã hội Số CT1-CH07.14/HĐMBCH/B4-1BTL Thời điểm có hiệu lực: ngày 06 tháng 06 năm 2025 - Các bên tham gia xác lập hợp đồng: Công ty cổ phần đầu tư Sài Gòn- Đà Nẵng và Ông: Trần Tiến Dũng và Bà: Mai Thị Anh Thi."
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331336671/TB-TT3",
+            "SoDon": "9331336671",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT - Công An Hải Phòng",
+            "DiaChi": "Số 14 Phan Chu Trinh, Hồng Bàng, TP Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu FORD, Ranger XLS 2.0L AT (4x2), có số khung RL2UMFC50SAR23864, số máy P02SRSA23864, biển số 15K-65249",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi Nhánh Hải Phòng - Phòng Giao Dịch Lê Hồng Phong",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Thửa 13, Lô 22B, Khu đô thị mới Ngã Năm, Sân bay Cát Bi, Phường Ngô Quyền, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe tải",
+                    "NhanHieuMauSon": "FORD Ranger XLS 2.0L AT (4x2)",
+                    "SoKhung": "RL2UMFC50SAR23864",
+                    "SoMay": "P02SRSA23864",
+                    "BienSo": "15K-65249",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

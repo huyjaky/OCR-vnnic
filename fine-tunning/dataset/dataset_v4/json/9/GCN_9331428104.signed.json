@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331428104/TB-TT3",
+            "SoDon": "9331428104",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "",
+            "TenCongAn": "Phòng Cảnh sát giao thông Công An TP Đà Nẵng",
+            "DiaChi": "41 Trần Quý Cáp, Phường Bàn Thạch, TP Đà Nẵng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "SoDangKyLanDau": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô có số khung: RNHA850BCHC048324, số máy: YZ4102ZLQ-BC01000065, biển số: 92LD-002.4",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH MAKITECH VIỆT NAM",
+                        "MaSoThue": null,
+                        "DiaChi": "Lô số 18 KCN Điện Nam Điện Ngọc, Phường Điện Bàn Đông, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "",
+                    "SoKhung": "RNHA850BCHC048324",
+                    "SoMay": "YZ4102ZLQ-BC01000065",
+                    "BienSo": "92LD-002.4",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

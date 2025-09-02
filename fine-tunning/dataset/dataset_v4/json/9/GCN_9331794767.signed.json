@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331794767/TB-TT3",
+            "SoDon": "9331794767",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công An Thành Phố Hồ Chí Minh",
+            "DiaChi": "341 Trần Hưng Đạo, Phường Cầu Ông Lãnh, Thành Phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu VINFAST, màu sơn: Hồng phấn có số khung: RLNVBL9KXSH765742; thông tin khác (số máy: , biển số: 51M-159.74)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP SÀI GÒN THƯƠNG TÍN – CN BÌNH DƯƠNG – PHÒNG GIAO DỊCH DĨ AN",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thành phố Hồ Chí Minh",
+                    "DiaChi": "9/22 Trần Hưng Đạo, Khu phố Bình Minh 2, phường Dĩ An, thành phố Hồ Chí Minh"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST, màu sơn: Hồng phấn",
+                    "SoKhung": "RLNVBL9KXSH765742",
+                    "SoMay": null,
+                    "BienSo": "51M-159.74",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

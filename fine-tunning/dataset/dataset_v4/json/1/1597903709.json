@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1005",
+            "SoDon": "1597903709",
+            "SoDangKyLanDau": "1597903709",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:53:00",
+            "SoHopDong": "100725/18557486/TP/VPB-MBN/16",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:53:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Tài sản bảo đảm là toàn bộ số trái phiếu và lãi trái phiếu, quyền mua cổ phiếu mới, quyền nhận cổ phiếu thường, các tài sản, quyền tài sản, quyền và lợi ích vật chất khác phát sinh từ Tài sản bảo đảm thuộc sở hữu của Bên bảo đảm.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH MBN VN",
+                        "MaSoThue": "0110924621",
+                        "DiaChi": "Số 6/53 ngõ Trại Cá, Phường Hai Bà Trưng, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Đông Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "(1)Số 362 Phố Huế, Phường Hai Bà Trưng, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Toàn bộ số trái phiếu và lãi trái phiếu, quyền mua cổ phiếu mới, quyền nhận cổ phiếu thường, các tài sản, quyền tài sản, quyền và lợi ích vật chất khác phát sinh từ Tài sản bảo đảm thuộc sở hữu của Bên bảo đảm",
+                    "CanCuPhatSinhQuyen": "Tổ chức phát hành (“Doanh Nghiệp”): Công ty Cổ phần đầu tư và phát triển Du lịch Phú Quốc; Tên trái phiếu: DPQCH2227003; Số lượng: 154.801; Ngày phát hành: 10/06/2022; Ngày đáo hạn: 10/06/2027; Mệnh giá (đồng): 100.000."
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331345477/TB-TT3",
+            "SoDon": "9331345477",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ HÒA THUẬN TỈNH AN GIANG",
+            "DiaChi": "ẤP BÌNH QUANG XÃ HÒA THUẬN TỈNH AN GIANG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô có số khung: 00BCHC062140, số máy: 3D10F1H00198, biển số: 68C-081.05",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP An Bình Chi Nhánh Kiên Giang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Kiên Giang",
+                    "DiaChi": "Số 40 Trần Phú, phường Vĩnh Thanh, Kiên Giang, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "00BCHC062140",
+                    "SoMay": "3D10F1H00198",
+                    "BienSo": "68C-081.05",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

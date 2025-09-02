@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331457556/TB-TT3",
+            "SoDon": "9331457556",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông, Công an tỉnh Bắc Ninh",
+            "DiaChi": "TDP số 1, phường Bắc Giang, tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu TOYOTA màu nâu vàng, có số khung: RL4B28F37R5342775, số máy: 2NRY246333, biển số: 99A-74496",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Bản Việt Chi nhánh Bắc Ninh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Lô Thương mại SH-08 và SH-09, Tòa nhà Lotus Central, số 28 Lý Thái Tổ, Phường Kinh Bắc, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "TOYOTA màu nâu vàng",
+                    "SoKhung": "RL4B28F37R5342775",
+                    "SoMay": "2NRY246333",
+                    "BienSo": "99A-74496",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

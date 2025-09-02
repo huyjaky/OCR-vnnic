@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331941337/TB-TT3",
+            "SoDon": "9331941337",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Tân Lợi, tỉnh Đồng Nai",
+            "DiaChi": "xã Tân Lợi, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu Vinfast màu trắng, số khung RLLVAGND7SH784713, biển số 93H-084.58",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN SÀI GÒN THƯƠNG TÍN CHI NHÁNH BÌNH PHƯỚC – PGD BÙ ĐỐP",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Ấp 07, xã Thiện Hưng, tỉnh Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Vinfast màu trắng",
+                    "SoKhung": "RLLVAGND7SH784713",
+                    "SoMay": null,
+                    "BienSo": "93H-084.58",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

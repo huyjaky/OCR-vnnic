@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331783989/TB-TT3",
+            "SoDon": "9331783989",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Phòng Cảnh sát giao thông Công an tỉnh Khánh Hòa",
+            "DiaChi": "Số 02A Hà Huy Tập, Phường Bảo An, tỉnh Khánh Hòa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô hiệu FORD - RANGER, màu trắng có số khung: RL2UMFC50NGR37266; thông tin khác (số máy: , biển số: 85C – 079.42)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Ninh Thuận",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Ninh Thuận",
+                    "DiaChi": "Số 47 đường 16/4, P. Kinh Dinh, Ninh Thuận, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD - RANGER, màu trắng",
+                    "SoKhung": "RL2UMFC50NGR37266",
+                    "SoMay": null,
+                    "BienSo": "85C-07942",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

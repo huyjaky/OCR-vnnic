@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1036",
+            "SoDon": "4223482226",
+            "SoDangKyLanDau": "1408613221",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T17:14:00",
+            "SoHopDong": "43756/HĐTC",
+            "NgayCoHieuLucHopDong": "2021-03-24",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2021-03-24T16:37:00",
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI – DỊCH VỤ LÊ HÒA",
+                        "MaSoThue": "4001225395",
+                        "DiaChi": "Số 77 Thái Phiên, phường An Sơn, Tam Kỳ, Quảng Nam, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Thương Tín Chi Nhánh Quảng Nam",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Nam",
+                    "DiaChi": "Lô 8 – Khu Trung tâm thương mại,, Tam Kỳ, Quảng Nam, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

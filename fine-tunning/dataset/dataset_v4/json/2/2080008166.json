@@ -1,0 +1,139 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1025",
+            "SoDon": "2080008166",
+            "SoDangKyLanDau": "1513027311",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2023-10-11T17:39:00",
+            "SoHopDong": "01-2021/NP/HĐTC-HH",
+            "NgayCoHieuLucHopDong": "2021-06-30",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": "PL315/01-2021/NP/HĐTC-HH",
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2023-10-11T17:39:00",
+            "NoiDungThayDoi": "BỔ SUNG THÊM 10 XE theo Phụ lục Hợp đồng thế chấp số PL315/01-2021/NP/HĐTC-HH ngày 10/07/2025:",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH Ô TÔ NGỌC PHƯƠNG",
+                        "MaSoThue": "3500890941",
+                        "DiaChi": "611 Quốc lộ 51, khu phố Hương Sơn, phường Long Hương, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Ngoại thương Việt Nam Chi nhánh Bà Rịa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 3, Trường Chinh, phường Bà Rịa, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 06 chỗ ngồi hiệu Hyundai mới 100%. Loại xe STARGAZER X",
+                    "SoKhung": "MF3NA81DESJ077974",
+                    "SoMay": "G4FLSQ506831",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 06 chỗ ngồi hiệu Hyundai mới 100%. Loại xe STARGAZER X CAO CẤP",
+                    "SoKhung": "MF3NA81DESJ078387",
+                    "SoMay": "G4FLSQ508232",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 05 chỗ ngồi hiệu Hyundai mới 100%. Loại xe ACCENT 1.5 AT",
+                    "SoKhung": "RLUGT41DBST012634",
+                    "SoMay": "G4FLSQ488484",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 05 chỗ ngồi hiệu Hyundai mới 100%. Loại xe TUCSON N LINE",
+                    "SoKhung": "RLUJJ81BHSN022468",
+                    "SoMay": "G4FPSB048721",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 05 chỗ ngồi hiệu Hyundai mới 100%. Loại xe TUCSON N LINE",
+                    "SoKhung": "RLUJJ81BHSN022560",
+                    "SoMay": "G4FPSB048687",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 05 chỗ ngồi hiệu Hyundai mới 100%. Loại xe ACCENT 1.5 AT ĐẶC BIỆT",
+                    "SoKhung": "RLUGU41DBST012412",
+                    "SoMay": "G4FLSQ485758",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 05 chỗ ngồi hiệu Hyundai mới 100%. Loại xe CRETA 1.5 ĐẶC BIỆT FACELIFT",
+                    "SoKhung": "RLUPF812EST015557",
+                    "SoMay": "G4FLSQ495176",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 05 chỗ ngồi hiệu Hyundai mới 100%. Loại xe TUCSON 2.0 XĂNG ĐẶC BIỆT 2024",
+                    "SoKhung": "RLUJH81DBSN022853",
+                    "SoMay": "G4NLSW631706",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 05 chỗ ngồi hiệu Hyundai mới 100%. Loại xe TUCSON 2.0 XĂNG ĐẶC BIỆT 2024",
+                    "SoKhung": "RLUJH81DBSN022902",
+                    "SoMay": "G4NLSW631695",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô 05 chỗ ngồi hiệu Hyundai mới 100%. Loại xe TUCSON 2.0 XĂNG ĐẶC BIỆT 2024",
+                    "SoKhung": "RLUJH81DBSN022989",
+                    "SoMay": "G4NLSW631707",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

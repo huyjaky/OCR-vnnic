@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332173437/TB-TT3",
+            "SoDon": "9332173437",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 6,
+            "LoaiDonName": "Xóa đăng ký bởi cơ quan có thẩm quyền",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN THÀNH PHỐ HÀ NỘI",
+            "DiaChi": "86 LÝ THƯỜNG KIỆT, PHƯỜNG CỬA NAM, THÀNH PHỐ HÀ NỘI.",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-09T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe MAZDA có số khung: RN2BM4AA6GC036111; số máy: P520368735, biển số: 30F-127.99",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Trung tâm Khách hàng cá nhân",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 89 Láng Hạ, phường Láng Hạ, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MAZDA",
+                    "SoKhung": "RN2BM4AA6GC036111",
+                    "SoMay": "P520368735",
+                    "BienSo": "30F-127.99",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331872747/TB-TT3",
+            "SoDon": "9331872747",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG LÁNG",
+            "DiaChi": "1180 ĐƯỜNG LÁNG, PHƯỜNG LÁNG, TP HÀ NỘI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu HONDA, City RS, 1.5L, AT có số khung: RLHGN2684SY307409; thông tin khác (số máy: L15ZC4010165, biển số: 30M-777.65)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, Số 292 Hồ Tùng Mậu, tổ dân phố số 12, phường Phú Diễn, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HONDA, City RS, 1.5L, AT",
+                    "SoKhung": "RLHGN2684SY307409",
+                    "SoMay": "L15ZC4010165",
+                    "BienSo": "30M-777.65",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

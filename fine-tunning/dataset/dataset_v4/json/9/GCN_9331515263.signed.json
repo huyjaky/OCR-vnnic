@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331515263/TB-TT3",
+            "SoDon": "9331515263",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Phòng CSGT Công An tỉnh Nghệ An",
+            "DiaChi": "Số 108 Đường Hoàng Phan Thái, Phường Vinh Phú, Tỉnh Nghệ An",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô có số khung: RL4JB3GS4M2531835; số máy: 2GD0975791, biển số: 37A-832.67",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Vinh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 9, Nguyễn Sỹ Sách, phường Hà Huy Tập, Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RL4JB3GS4M2531835",
+                    "SoMay": "2GD0975791",
+                    "BienSo": "37A-832.67",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

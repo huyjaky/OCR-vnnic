@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0979",
+            "SoDon": "4223476269",
+            "SoDangKyLanDau": "1553200318",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-11T00:00:00",
+            "SoHopDong": "LN2409093681415",
+            "NgayCoHieuLucHopDong": "2024-09-11",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:41:00",
+            "ThoiDiemDKLanDau": "2024-09-12T11:01:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN VĂN BẨY",
+                        "CCCD": "034092008567",
+                        "DiaChi": "Thường Thọ, Xã Châu Sơn, Quỳnh Phụ, Thái Bình, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHAN THỊ OANH",
+                        "CCCD": "014190000325",
+                        "DiaChi": "Thường Thọ, Xã Châu Sơn, Quỳnh Phụ, Thái Bình, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi Nhánh Thái Bình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thái Bình",
+                    "DiaChi": "Số nhà 259 M, phố Lê Quý Đôn, phường Bồ Xuyên, Thành phố Thái Bình, Thái Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332083011/TB-TT3",
+            "SoDon": "9332083011",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Hoàng Mai",
+            "DiaChi": "Thôn 14, phường Hoàng Mai, tỉnh Nghệ An",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô VINFAST VF7-PLUS, số khung RLLV3EHB0SH733790, số máy VFCAJB254010142;VFCAJB254010187, biển số 37B-079.60",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Sở Giao Dịch",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và tầng 3, tòa nhà số 34, phố Hai Bà Trưng, Phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST VF7-PLUS",
+                    "SoKhung": "RLLV3EHB0SH733790",
+                    "SoMay": "VFCAJB254010142;VFCAJB254010187",
+                    "BienSo": "37B-079.60",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

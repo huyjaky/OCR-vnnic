@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0997",
+            "SoDon": "1597902037",
+            "SoDangKyLanDau": "1597902037",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:49:00",
+            "SoHopDong": "11637/25MB/HĐBĐ",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:49:00",
+            "ThoiDiemDKLanDau": "2025-07-10T16:49:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Số tiền/khoản tiền, khoản tiền phải thu,… phát sinh từ các hợp đồng/phụ lục hợp đồng/đơn hàng/văn bản khác được ký giữa Bên bảo đảm và các đối tác",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH DSGLOBAL VINA",
+                        "MaSoThue": "0801202015",
+                        "DiaChi": "LÔ XN3-1E Khu công nghiệp Đại An mở rộng, Phường Tứ Minh, thành phố Hải Phòng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP PHÁT TRIỂN THÀNH PHỐ HỒ CHÍ MINH – CHI NHÁNH HẢI DƯƠNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "360 Nguyễn Lương Bằng, Phường Lê Thanh Nghị, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Khoản tiền, khoản tiền phải thu",
+                    "CanCuPhatSinhQuyen": "Các hợp đồng, phụ lục hợp đồng, đơn hàng, văn bản khác được ký giữa Bên bảo đảm và các đối tác"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332154011/TB-TT3",
+            "SoDon": "9332154011",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN TP HÀ NỘI",
+            "DiaChi": "86 LÝ THƯỜNG KIỆT, PHƯỜNG CỬA NAM, HÀ NỘI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô VINFAST có số khung: RLNV5JSE9SH772200, số máy: VFCAFB255290304, biển số: 29E-393.74",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNV5JSE9SH772200",
+                    "SoMay": "VFCAFB255290304",
+                    "BienSo": "29E-393.74",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

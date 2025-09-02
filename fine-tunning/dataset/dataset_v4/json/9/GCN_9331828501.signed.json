@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331828501/TB-TT3",
+            "SoDon": "9331828501",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBS-CA",
+            "TenCongAn": "Công An Phường Tân An, Tỉnh Đắk Lắk",
+            "DiaChi": "24 Trương Quang Giao, P. Tân An, Tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu HYUNDAI SANTAFE màu Đen, biển số 47A-30213, số khung D4HBJU753154, số máy 81XBJN013722",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Đắk Lắk",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "35 Nguyễn Tất Thành, Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HYUNDAI màu Đen",
+                    "SoKhung": "D4HBJU753154",
+                    "SoMay": "81XBJN013722",
+                    "BienSo": "47A-30213",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

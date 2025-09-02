@@ -1,0 +1,56 @@
+[
+	{
+		"output": {
+			"MaHoSo": "000.02.18.G15-250802-0194",
+			"SoDon": "4225561555",
+			"SoDangKyLanDau": "1336598933",
+			"LoaiDonID": 4,
+			"LoaiDonName": "Xóa đơn đăng ký",
+			"LoaiDonCode": "XDD",
+			"TenCongAn": null,
+			"DiaChi": null,
+			"LoaiHinhGDID": 2,
+			"LoaiHinhGDName": "Hợp đồng",
+			"LoaiBienPhapID": null,
+			"LoaiBienPhapName": null,
+			"LoaiHopDongID": null,
+			"LoaiHopDongName": "Giao dịch bảo đảm",
+			"ThoiDiemDangKy": "2025-08-02T11:36:00Z",
+			"SoHopDong": "LN1907181534306",
+			"NgayCoHieuLucHopDong": "2019-08-01",
+			"GiaTriKhoanVay": null,
+			"SoPhuLuc": null,
+			"ThoiDiemKHDangKy": null,
+			"ThoiDiemDKLanDau": "2019-08-01T15:58:00Z",
+			"NoiDungThayDoi": null,
+			"MoTaChungTaiSan": null,
+			"BenGiao": [
+				{
+					"LoaiChuTeID": 1,
+					"ThongTinChuTe": {
+						"HoTen": "HÀ VĂN THU",
+						"CCCD": "050817578",
+						"DiaChi": "Nà Khi, Mường Lạn, Sốp Cộp, Sơn La, Việt Nam"
+					}
+				},
+				{
+					"LoaiChuTeID": 1,
+					"ThongTinChuTe": {
+						"HoTen": "TÒNG THỊ ĐÔI",
+						"CCCD": "050505453",
+						"DiaChi": "Nà Khi, Mường Lạn, Sốp Cộp, Sơn La, Việt Nam"
+					}
+				}
+			],
+			"BenNhan": [
+				{
+					"Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG (VPBANK) - CHI NHÁNH THĂNG LONG - PHÒNG GIAO DỊCH TRẦN THÁI TÔNG",
+					"QuocGia": "Việt Nam",
+					"Tinh": "Hà Nội",
+					"DiaChi": "Số D5 Trần Thái Tông, khu đô thị mới Cầu Giấy, Phường Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Việt Nam"
+				}
+			],
+			"TaiSan": []
+		}
+	}
+]

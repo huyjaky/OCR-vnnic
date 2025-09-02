@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331906470/TB-TT3",
+            "SoDon": "9331906470",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ YÊN PHONG",
+            "DiaChi": "XÃ YÊN PHONG, TỈNH BẮC NINH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MG có số khung: MMLA36U39RG029140; thông tin khác (số máy: 15S4C5QTRB060016, biển số: 99C-316.96)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "",
+                        "CCCD": "",
+                        "DiaChi": ""
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MG",
+                    "SoKhung": "MMLA36U39RG029140",
+                    "SoMay": "15S4C5QTRB060016",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

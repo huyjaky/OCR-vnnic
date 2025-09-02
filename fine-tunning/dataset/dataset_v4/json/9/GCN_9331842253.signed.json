@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331842253/TB-TT3",
+            "SoDon": "9331842253",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Xã Ea Nuôl, tỉnh Đắk Lắk",
+            "DiaChi": "Buôn Niêng 3, xã Ea Nuôl, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô Ford Ranger, màu đen có số khung: RL2UMFA30RSR88474; thông tin khác (số máy: P02SRRS88474, biển số: 47A–926.16)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 27 đường Nguyễn Tất Thành, phường Buôn Ma Thuột, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Ford Ranger",
+                    "NhanHieuMauSon": "Ford Ranger màu đen",
+                    "SoKhung": "RL2UMFA30RSR88474",
+                    "SoMay": "P02SRRS88474",
+                    "BienSo": "47A-92616",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

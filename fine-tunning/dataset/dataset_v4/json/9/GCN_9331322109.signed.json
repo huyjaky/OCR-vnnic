@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331322109/TB-TT3",
+            "SoDon": "9331322109",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH ĐỒNG NAI",
+            "DiaChi": "161 PHẠM VĂN THUẬN, TAM HIỆP, ĐỒNG NAI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MK2XRNC1WLN013394; thông tin khác (số máy: 4A91JC9238, biển số: 60A-930.11)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TNHH Một Thành Viên Shinhan Việt Nam Chi Nhánh Biên Hòa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Tòa nhà Sonadezi, tầng 09, tầng 10, số 1, đường số 1, KCN Biên Hòa 1, Phường An Bình, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MK2XRNC1WLN013394",
+                    "SoMay": "4A91JC9238",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

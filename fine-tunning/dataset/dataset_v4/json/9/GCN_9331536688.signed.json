@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331536688/TB-TT3",
+            "SoDon": "9331536688",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông - Công An Tỉnh Gia Lai",
+            "DiaChi": "267A Trần Phú, Phường Diên Hồng, Tỉnh Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RN5B36SCMNN005060; số máy: WP12375E401420C011673, biển số: 81F-002.23",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP An Bình Chi Nhánh Gia Lai Phòng Giao Dịch Pleiku",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "18 Quang Trung, phường Tây Sơn, Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RN5B36SCMNN005060",
+                    "SoMay": "WP12375E401420C011673",
+                    "BienSo": "81F-002.23",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

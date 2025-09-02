@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0978",
+            "SoDon": "1597898732",
+            "SoDangKyLanDau": "1597898732",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:41:00",
+            "SoHopDong": "0292500007948",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:41:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Hàng hóa luân chuyển trong quá trình sản xuất, kinh doanh, kho hàng không phải là phương tiện giao thông cơ giới đường bộ",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH THỰC PHẨM SÁNG NGỌC",
+                        "MaSoThue": "0401304492",
+                        "DiaChi": "Lô C2-11 đường Trần Nhân Tông, Phường Sơn Trà, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Bản Việt - Chi nhánh Đà Nẵng - Địa điểm kinh doanh Phòng giao dịch Sông Hàn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "124-126 đường 2 Tháng 9, Phường Hòa Cường, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "C25-101T Thịt gà nguyên con đông lạnh Singgreen 12 con đai đỏ - Thịt gà nguyên con đông lạnh (không đầu, không chân, không nội tạng) (thuộc loài Gallus domesticus) Frozen Whole Chicken (M), số lượng: 22.876,92 kg. Số tiền thu được, tài sản hình thành từ số tiền thu được, tài sản được thay thế hoặc được trao đổi trong trường hợp hàng hóa nêu trên được bán, được thay thế, được trao đổi; số tiền thu được từ bảo hiểm đối với hàng hóa nêu trên. Thịt gà nguyên con đông lạnh Singgreen 12 con đai đỏ",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

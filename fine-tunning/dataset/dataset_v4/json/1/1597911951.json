@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1071",
+            "SoDon": "1597911951",
+            "SoDangKyLanDau": "1597911951",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:37:00",
+            "SoHopDong": "13501813/2025HT/NOXH",
+            "NgayCoHieuLucHopDong": "2025-07-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:37:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại; quyền thụ hưởng bảo hiểm phát sinh từ Hợp đồng mua bán nhà ở xã hội số VNGQT/CC2/6A02/26.06.2025/HĐMBQT-HL ký giữa bà Bùi Thị Trà My với chủ đầu tư có chức năng kinh doanh BĐS là Công ty TNHH Đầu tư xây dựng và phát triển hạ tầng Hợp Lực ngày 26/06/2025, thời điểm có hiệu lực của Hợp đồng ngày 26/06/2025.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "BÙI THỊ TRÀ MY",
+                        "CCCD": "038195033381",
+                        "DiaChi": "Khu phố 5, xã Kim Tân, tỉnh Thanh Hóa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "05 Phan Chu Trinh, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Tất cả quyền tài sản phát sinh từ Hợp đồng mua bán nhà ở xã hội số VNGQT/CC2/6A02/26.06.2025/HĐMBQT-HL ký giữa bà Bùi Thị Trà My với chủ đầu tư có chức năng kinh doanh BĐS là Công ty TNHH Đầu tư xây dựng và phát triển hạ tầng Hợp Lực ngày 26/06/2025, thời điểm có hiệu lực của Hợp đồng ngày 26/06/2025.",
+                    "CanCuPhatSinhQuyen": "Hợp đồng mua bán nhà ở xã hội số VNGQT/CC2/6A02/26.06.2025/HĐMBQT-HL ký giữa bà Bùi Thị Trà My với chủ đầu tư có chức năng kinh doanh BĐS là Công ty TNHH Đầu tư xây dựng và phát triển hạ tầng Hợp Lực ngày 26/06/2025, thời điểm có hiệu lực của Hợp đồng ngày 26/06/2025"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

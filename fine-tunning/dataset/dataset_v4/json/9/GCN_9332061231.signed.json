@@ -1,0 +1,55 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332061231/TB-TT3",
+            "SoDon": "9332061231",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ ĐẠI ĐỒNG",
+            "DiaChi": "THÔN ĐẠI ĐỒNG, XÃ ĐẠI ĐỒNG, HƯNG YÊN",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu VINFAST có số khung: RLLVAGND3SH754219; thông tin khác (số máy: VFCAJB254200089, biển số: 89A-256.26)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng Chi nhánh Hưng Yên",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hưng Yên",
+                    "DiaChi": "Khu công nghiệp Phố Nối B, xã Nguyễn Văn Linh, tỉnh Hưng Yên, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLLVAGND3SH754219",
+                    "SoMay": "VFCAJB254200089",
+                    "BienSo": "89A-25626",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

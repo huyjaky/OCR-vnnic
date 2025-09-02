@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0812",
+            "SoDon": "1597872125",
+            "SoDangKyLanDau": "1597872125",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:30:00",
+            "SoHopDong": "9977585.25",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T15:30:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô khách, hiệu THACO MOBIHOME, TB.24A, BKS 77H-080.29",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THÀNH HIẾU",
+                        "CCCD": "052091015605",
+                        "DiaChi": "Xóm Mới Thôn Tân Thuận, Xã Tuy Phước, tỉnh Gia Lai, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "CA THỊ MỸ XOAN",
+                        "CCCD": "054192007733",
+                        "DiaChi": "Thôn 2, Xã Xuân Lộc, tỉnh Đắk Lắk, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Thương mại Cổ phần Quốc Tế Việt Nam - Chi nhánh Bình Định",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "Số 22 đường Nguyễn Tất Thành, phường Quy Nhơn, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô khách",
+                    "NhanHieuMauSon": "Hiệu THACO MOBIHOME, TB.24A, màu Xanh Vàng",
+                    "SoKhung": "RN5B26SEMSN010069",
+                    "SoMay": "WP12H400E50B924L002314",
+                    "BienSo": "77H-080.29",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

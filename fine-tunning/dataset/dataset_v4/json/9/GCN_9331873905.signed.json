@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331873905/TB-TT3",
+            "SoDon": "9331873905",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CẢNH SÁT GIAO THÔNG - CÔNG AN THÀNH PHỐ HẢI PHÒNG",
+            "DiaChi": "14 Phan Chu Trinh, Phường Hồng Bàng, Thành phố Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu MG có số khung: MMLA36U60RG027884; thông tin khác (số máy: 15S4C5QTRA040031, biển số: 34A-981.55)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - Chi Nhánh ThăngLong - Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, Số 292 Hồ Tùng Mậu, tổ dân phố số 12, phường Phú Diễn, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MG",
+                    "SoKhung": "MMLA36U60RG027884",
+                    "SoMay": "15S4C5QTRA040031",
+                    "BienSo": "34A-981.55",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331660613/TB-TT3",
+            "SoDon": "9331660613",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Quảng Phú",
+            "DiaChi": "Phường Quảng Phú, Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MITSUBISHI, Nâu có số khung: MK2XRNC1WSN019551; số máy: 4A91KDB7730, biển số: 36K-906.91",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Thương mại Cổ phần Quốc Tế Việt Nam - Chi nhánh Thanh Hóa - Phòng Giao Dịch Hàm Rồng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Số 267 Trường Thi, phường Hạc Thành, tỉnh Thanh Hóa"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MITSUBISHI, Nâu",
+                    "SoKhung": "MK2XRNC1WSN019551",
+                    "SoMay": "4A91KDB7730",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

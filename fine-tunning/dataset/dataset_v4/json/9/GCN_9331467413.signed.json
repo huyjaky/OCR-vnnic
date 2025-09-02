@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331467413/TB-TT3",
+            "SoDon": "9331467413",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "N/A",
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN THÀNH PHỐ ĐÀ NẴNG",
+            "DiaChi": "KHU E1 , VÕ AN NINH,HÒA XUÂN, ĐÀ NẴNG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô BMW có số khung: RN235FV05RYZ03835; thông tin khác (số máy: 24687419B48B20A, biển số: 43A-789.68)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "N/A",
+                        "CCCD": "N/A",
+                        "DiaChi": "N/A"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Hải Vân",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "523 Điện Biên Phủ, Phường Thanh Khê, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "BMW",
+                    "SoKhung": "RN235FV05RYZ03835",
+                    "SoMay": "24687419B48B20A",
+                    "BienSo": "43A-789.68",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

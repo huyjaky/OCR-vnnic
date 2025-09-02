@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332142376/TB-TT3",
+            "SoDon": "9332142376",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBSA_TBCA",
+            "TenCongAn": "Công an xã Trảng Bom, tỉnh Đồng Nai",
+            "DiaChi": "đường 30 tháng 4, ấp 5, xã Trảng Bom, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô tải có mui, nhãn hiệu CHENGLONG, Màu: Bạc, số khung: LNXAEM0C8SL212148, số máy: YC6L33050LD2L2S50328, biển số: 60H-142.20",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Hà Nội Chi Nhánh Đồng Nai Phòng Giao Dịch Long Thành",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số 297, tổ 7, đường Lê Duẩn, ấp Phước Hải, xã Long Thành, tỉnh Đồng Nai"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô tải có mui",
+                    "NhanHieuMauSon": "CHENGLONG, Màu: Bạc",
+                    "SoKhung": "LNXAEM0C8SL212148",
+                    "SoMay": "YC6L33050LD2L2S50328",
+                    "BienSo": "60H-142.20",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0955",
+            "SoDon": "1597895101",
+            "SoDangKyLanDau": "1597895101",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:30:00",
+            "SoHopDong": "2142/HĐCĐ",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:30:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "1/ XE MÁY HONDA AIRBLADE 125 2022 MÀU SƠN : XANH ĐEN XE ĐÃ QUA SỬ DỤNG Bên nhận bảo đảm đang lưu giữ bản gốc giấy chứng nhận đăng ký xe số 0 2 9 6 4 1",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Nguyễn Quang Hào",
+                        "CCCD": "046095008343",
+                        "DiaChi": "Thôn Ngọc Anh , Phú Thượng, thành phố Huế, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Hộ Kinh Doanh DNM HT",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thừa Thiên Huế",
+                    "DiaChi": "03 Tỉnh Lộ 10, Phú Thượng, thành phố Huế, Việt Nam"
+                },
+                {
+                    "Ten": "Hoàng Thị Hiền",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thừa Thiên Huế",
+                    "DiaChi": "03 Tỉnh Lộ 10, Phú Thượng, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Mô tô xe máy",
+                    "NhanHieuMauSon": "AIRBLADE - HONDA , màu xanh đen",
+                    "SoKhung": "LHJK1401NZ051413",
+                    "SoMay": "JK14E0084733",
+                    "BienSo": "75F2-108.28",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0219",
+            "SoDon": "2079967141",
+            "SoDangKyLanDau": "1353299104",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T09:54:00",
+            "SoHopDong": "971038.19.803.1565945.BĐ",
+            "NgayCoHieuLucHopDong": "2019-12-13",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2019-12-13T15:59:00",
+            "NoiDungThayDoi": "Thay đổi thông tin Bên thế chấp:\nTừ “NV05 - 24, Khu đô thị mới Phước Long, Phước Long, thành phố Nha Trang, Khánh Hòa, Việt Nam”\nThành ” NV05 - 24, Khu đô thị mới Phước Long, phường Nam Nha Trang, tỉnh Khánh Hòa, Việt Nam”\nThay đổi thông tin Bên nhận thế chấp:\nTừ \"Ngân hàng TMCP Quân đội- Chi nhánh Cam Ranh\"\nThành \"Ngân hàng TMCP Quân đội - Chi nhánh Nam Khánh Hòa\"\nTừ ”151 Nguyễn Chí Thanh, phường Cam Nghĩa, Cam Ranh, Khánh Hòa”\nThành ”Số 151 Nguyễn Chí Thanh, phường Bắc Cam Ranh, Khánh Hòa”",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÊ ĐỨC DUY",
+                        "CCCD": "225432882",
+                        "DiaChi": "NV05 - 24, Khu đô thị mới Phước Long, phường Nam Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN THỊ HƯƠNG",
+                        "CCCD": "241241537",
+                        "DiaChi": "NV05 - 24, Khu đô thị mới Phước Long, phường Nam Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Quân đội - Chi nhánh Nam Khánh Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "151 Nguyễn Chí Thanh, phường Bắc Cam Ranh, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

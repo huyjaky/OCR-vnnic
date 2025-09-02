@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1136",
+            "SoDon": "1597918121",
+            "SoDangKyLanDau": "1597918121",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:39:00",
+            "SoHopDong": "10496568/HĐTC/VPB",
+            "NgayCoHieuLucHopDong": "2025-07-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T18:39:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Quyền tài sản phát sinh từ hợp đồng - Hợp đồng cho vay tiền số 20507/2025/JUPITER-HĐVV ngày 04/07/2025 Thời điểm có hiệu lực: ngày 04 tháng 07 năm 2025 - Các bên tham gia Hợp đồng: Ông/Bà LÊ XUÂN TUẤN với CÔNG TY CỔ PHẦN MBN JUPITER",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÊ XUÂN TUẤN",
+                        "CCCD": "038078001756",
+                        "DiaChi": "Căn hộ chung cư số 510, Tòa chung cư No10, Khu đô thị mới Dịch Vọng, Phường CầuGiấy, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Hà Nội",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tòa nhà 5 Đường Điện Biên Phủ, Cửa Nam, Ba Đình, Hà Nội, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "(i) Quyền tài sản phát sinh từ hợp đồng - Hợp đồng cho vay tiền số 20507/2025/JUPITER-HĐVV ngày 04/07/2025 Thời điểm có hiệu lực: ngày 04 tháng 07 năm 2025",
+                    "CanCuPhatSinhQuyen": "(i) Quyền tài sản phát sinh từ hợp đồng - Hợp đồng cho vay tiền số 20507/2025/JUPITER-HĐVV ngày 04/07/2025 Thời điểm có hiệu lực: ngày 04 tháng 07 năm 2025 - Các bên tham gia Hợp đồng: Ông/Bà LÊ XUÂN TUẤN với CÔNG TY CỔ PHẦN MBN JUPITER"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

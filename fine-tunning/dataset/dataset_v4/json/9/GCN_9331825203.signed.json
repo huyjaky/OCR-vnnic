@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331825203/TB-TT3",
+            "SoDon": "9331825203",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Đồng Văn",
+            "DiaChi": "Tổ 3, xã Đồng Văn, tỉnh Tuyên Quang",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô TOYOTA, đen có số khung: MR0FZ29G501575055; thông tin khác (số máy: 1KD7878192, biển số: 23C-07457)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam Chi nhánh Hà Giang Phòng giao dịch Đồng Văn",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Tuyên Quang",
+                    "DiaChi": "Số nhà 11, đường 3/2, tổ 03, xã Đồng Văn, tỉnh Tuyên Quang"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "TOYOTA màu đen",
+                    "SoKhung": "MR0FZ29G501575055",
+                    "SoMay": "1KD7878192",
+                    "BienSo": "23C-07457",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

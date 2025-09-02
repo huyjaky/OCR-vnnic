@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0872",
+            "SoDon": "2080000578",
+            "SoDangKyLanDau": "1519086774",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": 3,
+            "LoaiHopDongName": "Hợp đồng chuyển giao quyền đòi nợ, khoản phải thu, quyền yêu cầu thanh toán khác",
+            "ThoiDiemDangKy": "2025-07-10T16:00:00",
+            "SoHopDong": "DNG2023TSDB1481410/HDTC",
+            "NgayCoHieuLucHopDong": "2023-12-01",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2023-12-01T16:39:00",
+            "NoiDungThayDoi": "Bổ sung tài sản bảo đảm như sau:\nToàn bộ quyền đòi nợ và các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên Thế Chấp ký kết với bất kỳ bên thứ ba (bao gồm các phụ lục, văn bản/thỏa thuận có liên quan kèm theo) phát sinh trong hoạt động sản xuất, kinh doanh của Bên Thế Chấp được Techcombank tài trợ (cấp tín dụng). Chi tiết các hợp đồng/thỏa thuận phát sinh quyền đòi nợ và các khoản phải thu được thế chấp cho Techcombank cụ thể như saukhoản phải thu được thế chấp cho Techcombank cụ thể như sau:\nSTT Hợp đồng/Thỏa thuận phát sinh quyền đòi nợ và các khoản phải thu Bên có nghĩa vụ trả nợ\n1.1. Trị giá được thanh toán Ngày Thanh Toán\n1 Hợp đồng mua bán hàng hóa số 25013/BĐPC-HKN có hiệu lực ngày 07/05/2025 và các văn bản phụ lục kèm theo CÔNG TY ĐIỆN LỰC BÌNH ĐỊNH 4,729,069,980 VND Theo quy định tại hợp đồng\nTài Sản Bảo Đảm còn bao gồm: (i) Toàn bộ số dư trong Tài Khoản số 19124052742678; (ii) Toàn bộ các quyền, lợi ích, các khoản bồi thường, đền bù, hoa lợi, lợi tức và các khoản thanh toán khác phát sinh từ hoặc có liên quan đến Tài Sản Bảo Đảm mà Bên bảo đảm có thể được nhận.",
+            "MoTaChungTaiSan": "Toàn bộ quyền đòi nợ và các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên Thế Chấp ký kết với bất kỳ bên thứ ba (bao gồm các phụ lục, văn bản/thỏa thuận có liên quan kèm theo) phát sinh trong hoạt động sản xuất, kinh doanh của Bên Thế Chấp được Techcombank tài trợ (cấp tín dụng). Chi tiết các hợp đồng/thỏa thuận phát sinh quyền đòi nợ và các khoản phải thu được thế chấp cho Techcombank cụ thể như saukhoản phải thu được thế chấp cho Techcombank cụ thể như sau: STT Hợp đồng/Thỏa thuận phát sinh quyền đòi nợ và các khoản phải thu Bên có nghĩa vụ trả nợ 1.1. Trị giá được thanh toán Ngày Thanh Toán 1 Hợp đồng mua bán hàng hóa số 25013/BĐPC-HKN có hiệu lực ngày 07/05/2025 và các văn bản phụ lục kèm theo CÔNG TY ĐIỆN LỰC BÌNH ĐỊNH 4,729,069,980 VND Theo quy định tại hợp đồng. Tài Sản Bảo Đảm còn bao gồm: (i) Toàn bộ số dư trong Tài Khoản số 19124052742678; (ii) Toàn bộ các quyền, lợi ích, các khoản bồi thường, đền bù, hoa lợi, lợi tức và các khoản thanh toán khác phát sinh từ hoặc có liên quan đến Tài Sản Bảo Đảm mà Bên bảo đảm có thể được nhận.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH HẢI KHÁNH NGUYÊN",
+                        "MaSoThue": "0401477897",
+                        "DiaChi": "76 Trường Sơn - Xưởng SCVK 38, phường Cẩm Lệ, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM - CHI NHÁNH ĐÀ NẴNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "304-306 Nguyễn Văn Linh, Phường Thanh Khê, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Toàn bộ quyền đòi nợ và các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên Thế Chấp ký kết với bất kỳ bên thứ ba (bao gồm các phụ lục, văn bản/thỏa thuận có liên quan kèm theo) phát sinh trong hoạt động sản xuất, kinh doanh của Bên Thế Chấp được Techcombank tài trợ (cấp tín dụng)",
+                    "CanCuPhatSinhQuyen": "Hợp đồng mua bán hàng hóa số 25013/BĐPC-HKN có hiệu lực ngày 07/05/2025 và các văn bản phụ lục kèm theo"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

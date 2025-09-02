@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331486829/TB-TT3",
+            "SoDon": "9331486829",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN THÀNH PHỐ HUẾ",
+            "DiaChi": "50 TRẦN CAO VÂN, PHƯỜNG THUẬN HÓA, THÀNH PHỐ HUẾ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST, TRẮNG có số khung: RLNV5JSE1SH761370; số máy: VFCAFB255060144 , biển số: 75H-052.91",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": null,
+                    "ThongTinChuThe": null
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Sài Gòn Thương Tín Chi nhánh Huế Phòng giao dịch Phú Lộc",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thừa Thiên Huế",
+                    "DiaChi": "thôn Xuân Sơn, xã Hưng Lộc, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST màu trắng",
+                    "SoKhung": "RLNV5JSE1SH761370",
+                    "SoMay": "VFCAFB255060144",
+                    "BienSo": "75H-052.91",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

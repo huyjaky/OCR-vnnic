@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0921",
+            "SoDon": "4223469110",
+            "SoDangKyLanDau": "1569560644",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:19:00",
+            "SoHopDong": "LN2411084245552",
+            "NgayCoHieuLucHopDong": "2024-11-29",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-12-19T09:20:00",
+            "NoiDungThayDoi": "Xóa đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN DUY THẮNG",
+                        "CCCD": "033201002270",
+                        "DiaChi": "Thôn 13, Xã Đắk Sin, Đắk R Lấp, Đắk Nông, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ HUYỀN",
+                        "CCCD": "033301000466",
+                        "DiaChi": "Xóm 8, Thôn Quang Yên, Xã Nhật Quang, Phù Cừ, Hưng Yên, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Đà Lạt",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "(9) 37 đường Phan Bội Châu, Phường 1, Thành phố Đà Lạt, Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

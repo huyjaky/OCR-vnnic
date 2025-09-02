@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332145176/TB-TT3",
+            "SoDon": "9332145176",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Tân An - Công an Tỉnh Đăk Lăk",
+            "DiaChi": "78 Nguyễn Chí Thanh, Phường Tân An; Tỉnh Đăk Lăk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô TOYOTA COROLLA, màu sơn Trắng, số khung MR2KZAAGXN0037427, số máy 2ZRY837151, biển số 47A-98702",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 56-58 đường Y Jút, Phường Buôn Ma Thuột, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô TOYOTA COROLLA",
+                    "NhanHieuMauSon": "TOYOTA màu Trắng",
+                    "SoKhung": "MR2KZAAGXN0037427",
+                    "SoMay": "2ZRY837151",
+                    "BienSo": "47A-98702",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

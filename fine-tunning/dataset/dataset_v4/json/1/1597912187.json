@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1075",
+            "SoDon": "1597912187",
+            "SoDangKyLanDau": "1597912187",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:38:00",
+            "SoHopDong": "LN2506185847182",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T17:38:00",
+            "ThoiDiemDKLanDau": "2025-07-10T17:38:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô, nhãn hiệu BMW, Màu sơn Trắng",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN VĂN CỪ",
+                        "CCCD": "024091001513",
+                        "DiaChi": "Căn 1714 Chung cư Aquapark, Tổ 5, Phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Bắc Giang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Số 303 đường Lê Lợi, phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "nhãn hiệu BMW, Màu sơn Trắng",
+                    "SoKhung": "RN215DS09RYZ04874",
+                    "SoMay": "10837579B48B20A",
+                    "BienSo": "98A-966.68",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

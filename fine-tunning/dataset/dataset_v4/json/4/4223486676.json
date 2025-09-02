@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1062",
+            "SoDon": "4223486676",
+            "SoDangKyLanDau": "1420789845",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2021-06-29T12:23:00",
+            "SoHopDong": "TTC202113964/HDTC",
+            "NgayCoHieuLucHopDong": "2021-06-28",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "MAI THỊ THẮM",
+                        "CCCD": "013660117",
+                        "DiaChi": "Số Nhà 21 A Ngõ 87 Đường Nguyễn Phong Sắc-Tổ 13, phường Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM NGỌC ĐÔNG",
+                        "CCCD": "036082004245",
+                        "DiaChi": "Số Nhà 21 A Ngõ 87 Đường Nguyễn Phong Sắc-Tổ 13, phường Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM - Chi nhánh Hai Bà Trưng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 9 Tô Hiến Thành, phường Bùi Thị Xuân, Hai Bà Trưng, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

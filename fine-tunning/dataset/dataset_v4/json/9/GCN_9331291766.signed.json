@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331291766/TB-TT3",
+            "SoDon": "9331291766",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công an Xã Hồng Vân",
+            "DiaChi": "60 Nguyễn Ý, Cẩm Cơ, xã Hồng Vân, thành phố Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RL4BU3HE4J7519108; số máy: 2ZRY494807, biển số: 30F-233.17",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG (VPBANK)",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 4 Dã Tượng, Phường Trần Hưng Đạo, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RL4BU3HE4J7519108",
+                    "SoMay": "2ZRY494807",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331716573/TB-TT3",
+            "SoDon": "9331716573",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông – Công An Tỉnh Gia Lai",
+            "DiaChi": "04 Lý Thái Tổ, phường Diên Hồng, tỉnh Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xanh có số khung: RL3EPT7MMSBR17449; thông tin khác (số máy: S4P36404DURATORQ4D23A5H, biển số: 81B-014.46)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN NGOẠI THƯƠNG VIỆT NAM - CHI NHÁNH BẮC GIA LAI",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "737 Phạm Văn Đồng, Phường Thống nhất, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Màu Xanh",
+                    "SoKhung": "RL3EPT7MMSBR17449",
+                    "SoMay": "S4P36404DURATORQ4D23A5H",
+                    "BienSo": "81B-01446",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

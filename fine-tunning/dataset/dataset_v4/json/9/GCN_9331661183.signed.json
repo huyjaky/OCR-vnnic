@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331661183/TB-TT3",
+            "SoDon": "9331661183",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ PHÚC THỊNH",
+            "DiaChi": "THÔN BẾN TRUNG, XÃ PHÚC THỊNH, TP HÀ NỘI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu JAC , N200S E5 , Tải trọng 1.950kg, 4x2, thùng mui bạt/thùng kín, có số khung: RRGAWV3D4SB000092; số máy: HFC4DB32DP4126006, biển số: 29E-194.55",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, Số 292 Hồ Tùng Mậu, tổ dân phố số 12, phường Phú Diễn, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô tải",
+                    "NhanHieuMauSon": "JAC",
+                    "SoKhung": "RRGAWV3D4SB000092",
+                    "SoMay": "HFC4DB32DP4126006",
+                    "BienSo": "29E-194.55",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

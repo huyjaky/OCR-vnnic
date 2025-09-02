@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0912",
+            "SoDon": "1597890372",
+            "SoDangKyLanDau": "1597890372",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:16:00",
+            "SoHopDong": "LN2506195856069",
+            "NgayCoHieuLucHopDong": "2025-07-02",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:16:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Xe ô tô nhãn hiệu VINFAST",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN ĐÌNH TUẤN",
+                        "CCCD": "037056000105",
+                        "DiaChi": "22 NGUYỄN DU, TỔ 11, Phường Tam Điệp, tỉnh Ninh Bình, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM THỊ NỤ",
+                        "CCCD": "037159000529",
+                        "DiaChi": "22 NGUYỄN DU, TỔ 11, Phường Tam Điệp, tỉnh Ninh Bình, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNVBL9K8SH761513",
+                    "SoMay": "TZ160X30G25022100409",
+                    "BienSo": "35A-452.48",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1046",
+            "SoDon": "4223484900",
+            "SoDangKyLanDau": "1560503217",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10 17:23:00",
+            "SoHopDong": "HDTC4002024315",
+            "NgayCoHieuLucHopDong": "2024-10-28",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-10-28 08:43:00",
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 5,
+                    "ThongTinChuThe": {
+                        "Ten": "CÔNG TY TNHH MTV DV VẬN TẢI HOÀNG HUY",
+                        "QuocGia": "Việt Nam",
+                        "Tinh": "Quảng Ngãi",
+                        "DiaChi": "Xóm 25, thôn Vĩnh An, xã Phổ Khánh, thị xã Đức Phổ, Quảng Ngãi, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP LỘC PHÁT VIỆT NAM – CHI NHÁNH QUẢNG NGÃI",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ngãi",
+                    "DiaChi": "316 Trần Hưng Đạo, P. Nghĩa Lộ, Thành phố Quảng Ngãi, Quảng Ngãi, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

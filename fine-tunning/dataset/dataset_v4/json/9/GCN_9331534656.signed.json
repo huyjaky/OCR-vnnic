@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331534656/TB-TT3",
+            "SoDon": "9331534656",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Phòng cảnh sát giao thông - Công an tỉnh Thanh Hóa",
+            "DiaChi": "Đường tránh phía Bắc QL1A, phường Hàm Rồng, Tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MNCRXXMAWRPY28432; thông tin khác (số máy: P0WSRPY28432, biển số: 36A-890.23)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Tiên Phong Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 13+14 Phan Chu Trinh, phường Điện Biên, Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MNCRXXMAWRPY28432",
+                    "SoMay": "P0WSRPY28432",
+                    "BienSo": "36A-890.23",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

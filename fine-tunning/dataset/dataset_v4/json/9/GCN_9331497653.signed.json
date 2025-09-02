@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331497653/TB-TT3",
+            "SoDon": "9331497653",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG ĐÔNG SƠN",
+            "DiaChi": "PHƯỜNG ĐÔNG SƠN, TỈNH THANH HÓA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô HAVAL, JOLION HEV ULTRA, 1.5L, TURBO, AT có số khung: MNUAA2S50RR001027; thông tin khác (số máy: GW4G15H246H2001007, biển số: 36K-869.54)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 05 + 06, đường Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô HAVAL, JOLION HEV ULTRA, 1.5L, TURBO, AT",
+                    "NhanHieuMauSon": "HAVAL",
+                    "SoKhung": "MNUAA2S50RR001027",
+                    "SoMay": "GW4G15H246H2001007",
+                    "BienSo": "36K-869.54",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331970586/TB-TT3",
+            "SoDon": "9331970586",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công an Tp Hồ Chí Minh",
+            "DiaChi": "341 Trần Hưng Đạo, phường Cầu Ông Lãnh, TP.HCM",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu VOLKSWAGEN, số loại TOUAREG, màu sơn xanh, số khung WVGZZZCR2PD027856, biển số 51M-091.61",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 89 Láng Hạ, phường Láng Hạ, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VOLKSWAGEN màu xanh",
+                    "SoKhung": "WVGZZZCR2PD027856",
+                    "SoMay": null,
+                    "BienSo": "51M-091.61",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

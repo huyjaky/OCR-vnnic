@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0958",
+            "SoDon": "1597895647",
+            "SoDangKyLanDau": "1597895647",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:31:00",
+            "SoHopDong": "TCU2025CFMG16406148/HDTC",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:31:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "- Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán số GH304.25/VHGP/HĐMBCH ngày có hiệu lực Hợp đồng là ngày 24/07/2023 giữa Doanh nghiệp kinh Doanh Bất động sản là Công Ty TNHH Kinh Doanh Bất Động Sản MV1 Việt Nam với ông/bà TRẦN ĐOÀN TIỂU HUỆ và vợ/chồng là bà ông VÕ BÙI THANH HIẾN về việc mua bán Căn Hộ số: GH304.25 thuộc Dự án Khu nhà ở cao tầng thuộc các lô đất B1, B2, B3 - Khu dân cư và Công viên Phước Thiện (hoặc tên gọi khác do Chủ Đầu Tư hoặc Cơ quan có thẩm quyền quyết định tuỳ thời điểm) tại Phường Long Bình, Thành Phố Thủ Đức, Thành Phồ Hồ Chí Minh được cơ quan có thẩm quyền phê duyệt.\n- Thế chấp Quyền tài sản khác theo quy định của pháp luật phát sinh theo Hợp Đồng Mua Bán trên (trừ Quyền sử dụng đất và tài sản gắn liền với đất thuộc thẩm quyền đăng ký của văn phòng đăng ký quyền sử dụng đất, trừ tàu bay, tàu biển, trừ chứng khoán đã được đăng ký tại Trung Tâm lưu ký và bù trừ chứng khoán Việt Nam)\n- Các khoản lợi tức thu được từ việc khai thác, kinh doanh tài sản thế chấp phát sinh từ hợp đồng mua bán trên.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN ĐOÀN TIỂU HUỆ",
+                        "CCCD": "075190026902",
+                        "DiaChi": "Ấp Trung Nghĩa, Xã Xuân Trường, tỉnh Đồng Nai, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VÕ BÙI THANH HIẾN",
+                        "CCCD": "077088010533",
+                        "DiaChi": "Tổ 13, Thôn Đức Mỹ, Xã Ngãi Giao, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Kỹ Thương Việt Nam Chi Nhánh Sài Gòn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hồ Chí Minh",
+                    "DiaChi": "23 Lê Duẩn, Phường Sài Gòn, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, quyền thụ hưởng bảo hiểm",
+                    "CanCuPhatSinhQuyen": "Hợp Đồng Mua Bán số GH304.25/VHGP/HĐMBCH ngày có hiệu lực Hợp đồng là ngày 24/07/2023 giữa Doanh nghiệp kinh Doanh Bất động sản là Công Ty TNHH Kinh Doanh Bất Động Sản MV1 Việt Nam với ông/bà TRẦN ĐOÀN TIỂU HUỆ và vợ/chồng là bà ông VÕ BÙI THANH HIẾN về việc mua bán Căn Hộ số: GH304.25 thuộc Dự án Khu nhà ở cao tầng thuộc các lô đất B1, B2, B3 - Khu dân cư và Công viên Phước Thiện (hoặc tên gọi khác do Chủ Đầu Tư hoặc Cơ quan có thẩm quyền quyết định tuỳ thời điểm) tại Phường Long Bình, Thành Phố Thủ Đức, Thành Phồ Hồ Chí Minh được cơ quan có thẩm quyền phê duyệt."
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

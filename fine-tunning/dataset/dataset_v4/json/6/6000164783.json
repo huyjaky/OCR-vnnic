@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": null,
+            "SoDon": "6000164783",
+            "SoDangKyLanDau": "1548116060",
+            "LoaiDonID": 6,
+            "LoaiDonName": "XÓA ĐĂNG KÝ BỞI CƠ QUAN CÓ THẨM QUYỀN",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo việc kê biên tài sản thi hành án",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2024-09-24T14:01:00",
+            "SoHopDong": "2033/CTĐLA-QLN",
+            "NgayCoHieuLucHopDong": "2024-07-12",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-08-01T13:48:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH PHƯƠNG ĐÔNG",
+                        "MaSoThue": "6000415220",
+                        "DiaChi": "47 Thái Phiên, Phường Tân An, Thành phố Buôn Ma Thuột, Đắk Lắk, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "CỤC THUẾ TỈNH ĐẮK LẮK",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 12, đường Lý Thái Tổ, phường Tân An, Thành phố Buôn Ma Thuột, Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

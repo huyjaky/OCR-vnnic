@@ -1,0 +1,60 @@
+[
+	{
+		"output": {
+			"MaHoSo": "000.02.18.G15-250804-0784",
+			"SoDon": "4225667887",
+			"SoDangKyLanDau": "1549229207",
+			"LoaiDonID": 4,
+			"LoaiDonName": "Xóa đơn đăng ký",
+			"LoaiDonCode": "XDD",
+			"TenCongAn": null,
+			"DiaChi": null,
+			"LoaiHinhGDID": 1,
+			"LoaiHinhGDName": "Biện pháp bảo đảm",
+			"LoaiBienPhapID": 1,
+			"LoaiBienPhapName": "Thế chấp",
+			"LoaiHopDongID": null,
+			"LoaiHopDongName": null,
+			"ThoiDiemDangKy": "2025-08-04T15:51:00Z",
+			"SoHopDong": "1004/HĐCĐ",
+			"NgayCoHieuLucHopDong": "2024-08-08",
+			"GiaTriKhoanVay": null,
+			"SoPhuLuc": null,
+			"ThoiDiemKHDangKy": null,
+			"ThoiDiemDKLanDau": "2024-08-09T08:15:00Z",
+			"NoiDungThayDoi": null,
+			"MoTaChungTaiSan": null,
+			"BenGiao": [
+				{
+					"LoaiChuTheID": 1,
+					"ThongTinChuThe": {
+						"HoTen": "Lương Thị Miên",
+						"CCCD": "046193004361",
+						"DiaChi": "Diêm Trường 1, Vinh Hưng, Phú Lộc, Thừa Thiên Huế, Việt Nam"
+					}
+				}
+			],
+			"BenNhan": [
+				{
+					"Ten": "Lương Hoàng Nhật Nam",
+					"QuocGia": "Việt Nam",
+					"Tinh": "Thừa Thiên Huế",
+					"DiaChi": "03 Tỉnh Lộ 10, Phú Thượng, Huế"
+				},
+				{
+					"Ten": "Hoàng Thị Hiền",
+					"QuocGia": "Việt Nam",
+					"Tinh": "Thừa Thiên Huế",
+					"DiaChi": "03 Tỉnh Lộ 10, Phú Thượng, Huế"
+				},
+				{
+					"Ten": "Hộ Kinh Doanh DNM HT",
+					"QuocGia": "Việt Nam",
+					"Tinh": "Thừa Thiên Huế",
+					"DiaChi": "03 Tỉnh Lộ 10, Phú Thượng, Huế"
+				}
+			],
+			"TaiSan": []
+		}
+	}
+]

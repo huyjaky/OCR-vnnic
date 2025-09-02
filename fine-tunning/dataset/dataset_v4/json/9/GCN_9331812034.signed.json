@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331812034/TB-TT3",
+            "SoDon": "9331812034",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ HIỆP THẠNH",
+            "DiaChi": "XÃ HIỆP THẠNH, T LÂM ĐỒNG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô MG có số khung: MMLA36U60RG016335, số máy: 15S4C5QTR5140024, biển số: 49A-255.57",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Đà Lạt",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "37 Phan Bội Châu, Phường Xuân Hương, tỉnh Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MG",
+                    "SoKhung": "MMLA36U60RG016335",
+                    "SoMay": "15S4C5QTR5140024",
+                    "BienSo": "49A-255.57",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332024538/TB-TT3",
+            "SoDon": "9332024538",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao thông Công An TP Đà Nẵng",
+            "DiaChi": "77 Võ AnNinh, phường HòaXuân, Tp. Đà Nẵng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "03 xe ô tô xi téc phun nước nhãn hiệu DONGFENG màu trắng với các biển số 43A-958.19, 43B-096.65, 43B-095.29",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP BẢN VIỆT - CHI NHÁNH NAM ĐÀ NẴNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "236, đường Nguyễn Phước Lan, Phường Hòa Xuân, Thành phố Đà Nẵng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô xi téc phun nước",
+                    "NhanHieuMauSon": "DONGFENG, màu sơn: Trắng",
+                    "SoKhung": "LZ9D3A335SSSZ0716",
+                    "SoMay": "",
+                    "BienSo": "43A-958.19",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô xi téc phun nước",
+                    "NhanHieuMauSon": "DONGFENG, màu sơn: Trắng",
+                    "SoKhung": "LZ9D3A333SSSZ0715",
+                    "SoMay": "",
+                    "BienSo": "43B-096.65",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô xi téc phun nước",
+                    "NhanHieuMauSon": "DONGFENG, màu sơn: Trắng",
+                    "SoKhung": "LZ9D3A337SSSZ0717",
+                    "SoMay": "",
+                    "BienSo": "43B-095.29",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0614",
+            "SoDon": "2079987713",
+            "SoDangKyLanDau": "1597739830",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T14:21:00",
+            "SoHopDong": "LN2506055744923",
+            "NgayCoHieuLucHopDong": "2025-06-23",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "THAY ĐỔI BIỂN SỐ TỪ 43A -983.22 THÀNH 43A -983.32 CÁC NỘI DUNG KHÁC GIỮ NGUYÊN KHÔNG THAY ĐỔI",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HUỲNH VIẾT CHÁNH",
+                        "CCCD": "048095008911",
+                        "DiaChi": "Số Nhà 11 An Trung Đông 6, Tổ 23, Phường An Hải, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Số 112 Phan Châu Trinh, Phường Hải Châu, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô nhãn hiệu THACO",
+                    "SoKhung": "RNHA49TW",
+                    "SoMay": "BST009033",
+                    "BienSo": "43A -983.32",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

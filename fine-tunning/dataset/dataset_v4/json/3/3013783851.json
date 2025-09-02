@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250115-0285",
+            "SoDon": "3013783851",
+            "SoDangKyLanDau": "1563161823",
+            "LoaiDonID": 3,
+            "LoaiDonName": "SỬA CHỮA SAI SÓT",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-01-15T10:14:00",
+            "SoHopDong": "104/2024-XE-BQ/HĐBĐ/NHCT682",
+            "NgayCoHieuLucHopDong": "2024-11-13",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-11-13T09:59:00",
+            "NoiDungThayDoi": "Xóa đăng ký đối với tài sản được rút bớt",
+            "MoTaChungTaiSan": "Xe ô tô sát xi tải hiệu Isuzu QKR QMR77HE4",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH ÔTÔ BẮC QUANG",
+                        "MaSoThue": "3600655564",
+                        "DiaChi": "KCN Biên Hòa 1, Đường số 1, Phường An Bình, thành phố Biên Hòa, Đồng Nai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi nhánh Khu Công Nghiệp Biên Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Ngã tư Amata, Xa lộ Hà Nội, P.Long Bình, Biên Hòa, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô hiệu Isuzu QKR QMR77HE4",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLE1MR77 HRV104214",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô hiệu Isuzu QKR QMR77HE4",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLE1MR77 HRV104215",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

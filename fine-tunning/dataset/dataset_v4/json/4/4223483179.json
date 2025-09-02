@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1044",
+            "SoDon": "4223483179",
+            "SoDangKyLanDau": "1431897086",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2021-11-09T13:32:00",
+            "SoHopDong": "HĐTC6202021531",
+            "NgayCoHieuLucHopDong": "2021-11-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T17:18:00",
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TẠ HOÀNG ÂN",
+                        "CCCD": "264194640",
+                        "DiaChi": "KP5, phường Phan Rang, tỉnh Khánh Hòa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Lộc Phát Việt Nam Chi Nhánh Ninh Thuận",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "Số 44 đường 16 tháng 4, phường Phan Rang, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

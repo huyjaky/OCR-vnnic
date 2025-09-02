@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0284",
+            "SoDon": "2079970448",
+            "SoDangKyLanDau": "1504909179",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T10:30:00",
+            "SoHopDong": "0127/2023-HĐTC02/OCEANBANK.CNVINH",
+            "NgayCoHieuLucHopDong": "2023-07-21",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2023-07-24T09:33:00",
+            "NoiDungThayDoi": "Thông tin thay đổi:đổi tên ngân hàng Từ :Ngân Hàng Thương Mại TNHH Một Thành Viên Đại Dương Chi Nhánh Vinh Thành :Ngân hàng TNHH một thành viên Việt Nam Hiện Đại - Chi Nhánh Nghệ An mọi thông tin khác không thay đổi",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN MAI THẢO",
+                        "CCCD": "040191027236",
+                        "DiaChi": "Khối 15, phường Hà Huy Tập, tỉnh Nghệ An, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TNHH một thành viên Việt Nam Hiện Đại - Chi Nhánh Nghệ An",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 215 đường Lê Lợi, phường Lê Lợi, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

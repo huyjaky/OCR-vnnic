@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331881307/TB-TT3",
+            "SoDon": "9331881307",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông Công an tỉnh Thanh Hóa",
+            "DiaChi": "Đường tránh phía Bắc Cầu Hạc, phường Hàm Rồng, tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu: CNHTC có số khung: LSB3EA031726; biển số: 36C-093.12",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam - Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Số 12 Phan Chu Trinh, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CNHTC",
+                    "SoKhung": "LSB3EA031726",
+                    "SoMay": "",
+                    "BienSo": "36C-093.12",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

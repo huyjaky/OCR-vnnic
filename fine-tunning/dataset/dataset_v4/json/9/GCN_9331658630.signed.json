@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331658630/TB-TT3",
+            "SoDon": "9331658630",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBCA",
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH THANH HÓA",
+            "DiaChi": "QL1A, PHÍA BẮC ĐƯỜNG TRÁNH, PHƯỜNG HÀM RỒNG, TỈNH THANH HÓA.",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô TOYOTA, VELOZ CROSS CVT TOP, 1.5L, CVT có số khung: RL4AB1BB6S6614992; thông tin khác (số máy: 2NRY485890, biển số: 36K-972.07)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 05 + 06, đường Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "TOYOTA, VELOZ CROSS CVT TOP, 1.5L, CVT",
+                    "SoKhung": "RL4AB1BB6S6614992",
+                    "SoMay": "2NRY485890",
+                    "BienSo": "36K-972.07",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

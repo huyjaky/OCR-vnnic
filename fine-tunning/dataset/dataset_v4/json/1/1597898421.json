@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0977",
+            "SoDon": "1597898421",
+            "SoDangKyLanDau": "1597898421",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:40:00",
+            "SoHopDong": "LN2506185843034",
+            "NgayCoHieuLucHopDong": "2025-07-04",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:40:00",
+            "ThoiDiemDKLanDau": "2025-07-10T16:40:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô nhãn hiệu FORD, TERRITORY TITANIUM X, 1.5L, Động cơ xăng, AT, Màu sơn ĐEN",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN HỮU AN",
+                        "CCCD": "024078001338",
+                        "DiaChi": "CẨM TRANG, Xã Hợp Thịnh, tỉnh Bắc Ninh, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGHIÊM THỊ HUYÊN",
+                        "CCCD": "024185014187",
+                        "DiaChi": "CẨM TRANG, Xã Hợp Thịnh, tỉnh Bắc Ninh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Bắc Giang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Số 303 đường Lê Lợi, phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD, TERRITORY TITANIUM X, 1.5L, Động cơ xăng, AT, Màu sơn ĐEN",
+                    "SoKhung": "RL05DYD7MSRR19983",
+                    "SoMay": "S4G029270",
+                    "BienSo": "99A-953.87",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332138558/TB-TT3",
+            "SoDon": "9332138558",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG HẠC THÀNH",
+            "DiaChi": "PHƯỜNG HẠC THÀNH, TỈNH THANH HÓA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MG (MORRIS GARAGES), NEW MG ZS LUXURY, 1.5L, 2WD, AT có số khung: MMLW74U6XSG011762; thông tin khác (số máy: 15S4CCTTS1220071, biển số: 36K-981.48)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 05 + 06, đường Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô MG (MORRIS GARAGES), NEW MG ZS LUXURY, 1.5L, 2WD, AT",
+                    "NhanHieuMauSon": "MG (MORRIS GARAGES), NEW MG ZS LUXURY, 1.5L, 2WD, AT",
+                    "SoKhung": "MMLW74U6XSG011762",
+                    "SoMay": "15S4CCTTS1220071",
+                    "BienSo": "36K-981.48",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

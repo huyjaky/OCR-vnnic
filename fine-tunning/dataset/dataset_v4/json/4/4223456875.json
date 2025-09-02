@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0826",
+            "SoDon": "4223456875",
+            "SoDangKyLanDau": "1558860239",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:36:00",
+            "SoHopDong": "03/2024/3035060/HĐBĐ",
+            "NgayCoHieuLucHopDong": "2024-10-17",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-10-17T10:48:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH MỘT THÀNH VIÊN MINH HƯƠNG GL",
+                        "MaSoThue": "5900428453",
+                        "DiaChi": "293A Phan Đình Phùng, phường Yên Đỗ, Thành phố Pleiku , Gia Lai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP ĐẦU TƯ VÀ PHÁT TRIỂN VIỆT NAM – CHI NHÁNH PHỐ NÚI",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "242 Nguyễn Tất Thành, Phường Phù Đổng, Thành phố Pleiku , Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

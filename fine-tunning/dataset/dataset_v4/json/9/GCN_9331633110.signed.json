@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331633110/TB-TT3",
+            "SoDon": "9331633110",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ HOÀI ĐỨC, THÀNH PHỐ HÀ NỘI",
+            "DiaChi": "XÃ HOÀI ĐỨC, THÀNH PHỐ HÀ NỘI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MITSUBISHI, Xpander Premium, 1.5L, AT có số khung: MK2LRNC1WSN029376; thông tin khác (số máy: 4A91KCY2047, biển số: 29K-092.43)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Ngô Quyền Phòng giao dịch Chương Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Một phần diện tích tại tầng 1 và tầng 5 tòa nhà Plaschem, số 562 đường Nguyễn Văn Cừ, phường Bồ Đề, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô MITSUBISHI, Xpander Premium, 1.5L, AT",
+                    "NhanHieuMauSon": "MITSUBISHI, Xpander Premium, 1.5L, AT",
+                    "SoKhung": "MK2LRNC1WSN029376",
+                    "SoMay": "4A91KCY2047",
+                    "BienSo": "29K-092.43",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

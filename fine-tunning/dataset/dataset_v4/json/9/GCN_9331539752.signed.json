@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331539752/TB-TT3",
+            "SoDon": "9331539752",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "CBSCATB",
+            "TenCongAn": "Công an phường Đồng Xoài, tỉnh Đồng Nai",
+            "DiaChi": "Ấp 6, phường Đồng Xoài, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô Isuzu, màu trắng có số khung: RLEFRR90LRVA01307; số máy: 4HK10XJ197, biển số: 93H-047.29",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam Chi nhánh Biên Hòa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Tầng trệt, Tòa nhà Thanh Bình Plaza, số 5 đường Cách Mạng Tháng Tám, phường Thanh Bình, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Isuzu, màu trắng",
+                    "SoKhung": "RLEFRR90LRVA01307",
+                    "SoMay": "4HK10XJ197",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

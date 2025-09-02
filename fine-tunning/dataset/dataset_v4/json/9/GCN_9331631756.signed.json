@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331631756/TB-TT3",
+            "SoDon": "9331631756",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "ĐỘI CSGT-CÔNG AN XÃ TÂN HƯƠNG",
+            "DiaChi": "ẤP TÂN XUÂN, XÃ TÂN HƯƠNG, TỈNH ĐỒNG THÁP",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MITSUBISHI có số khung: MK2XRNC1WSN020406; số máy: 4A91KDC6881, biển số: 63A-339.71",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Người Giao Không Rõ",
+                        "CCCD": "123456789",
+                        "DiaChi": "Địa chỉ không rõ từ văn bản"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Long An",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "Số 6 Lê Cao Dõng, Phường Long An, tỉnh Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI",
+                    "SoKhung": "MK2XRNC1WSN020406",
+                    "SoMay": "4A91KDC6881",
+                    "BienSo": "63A-33971",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

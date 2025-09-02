@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332158263/TB-TT3",
+            "SoDon": "9332158263",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "CSCA",
+            "TenCongAn": "Phòng CSGT Công an TP Hải Phòng",
+            "DiaChi": "Số 14 Phan Chu Chinh, Phường Hồng Bàng, TP Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: F6AMFTR09125; thông tin khác (số máy: MGDB09125, biển số: 15A-200.54)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Hải Phòng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "31-33 Phạm Ngũ Lão, Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "F6AMFTR09125",
+                    "SoMay": "MGDB09125",
+                    "BienSo": "15A-200.54",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

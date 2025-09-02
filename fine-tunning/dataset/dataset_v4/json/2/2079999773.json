@@ -1,0 +1,103 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0862",
+            "SoDon": "2079999773",
+            "SoDangKyLanDau": "1520800178",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T15:54:00",
+            "SoHopDong": "330.0132.03/2023/BĐ",
+            "NgayCoHieuLucHopDong": "2023-12-14",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2023-12-14T17:24:00",
+            "NoiDungThayDoi": "+ Bổ sung tài sản bảo đảm thông tin chi tiết như sau: Tài sản hình thành trong tương lai nay đã hình thành 02 xe ô tô HYUNDAI theo phụ lục hợp đồng số 250606-001/PLHD/VC081 được mô tả chi tiết như sau:\n1. Nhãn hiệu: HYUNDAI, Kiểu loại: CRETA 1.5 ĐẶC BIỆT FACELIFT, Số khung: RLUPF812EST015635\n2. Nhãn hiệu: HYUNDAI, Kiểu loại: CRETA 1.5 ĐẶC BIỆT FACELIFT, Số khung: RLUPF812EST015694\n+ Thay đổi liên quan đến tài sản bảo đảm như sau:\n- Rút bớt tài sản đảm bảo là 03 xe ô tô Hyundai đã hình thành được mô tả chi tiết như sau:\n1. Nhãn hiệu: HYUNDAI, Kiểu loại: TUCSON 1.6 TURBO 2024, Số khung: RLUJF81BHSN021739\n2. Nhãn hiệu: HYUNDAI, Kiểu loại: STARGAZER TIÊU CHUẨN, Số khung: MF3NB81DESJ073575\n3. Nhãn hiệu: HYUNDAI, Kiểu loại: CRETA 1.5 CAO CẤP FACELIFT PILOT, Số khung: RLUPG812EST015266\n- Rút bớt hàng hóa là 01 xe ô tô Hyundai đã hình thành được mô tả chi tiết như sau:\n1.Nhãn hiệu: HYUNDAI, Kiểu loại: TUCSON 2.0 XĂNG ĐẶC BIỆT 2024, Số khung: RLUJH81DBSN020536, Số máy: G4NLSW606153\n- Rút 05 xe ô tô HYUNDAI là tài sản hình thành trong tương lai thuộc PLHD số 250606-001/PLHD/VC081 ngày 06/06/2025\n- Rút 01 xe ô tô HYUNDAI là tài sản hình thành trong tương lai thuộc PLHD số 250624-002/PLHD/VC081 ngày 24/06/2025",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH Ô TÔ NAM SÔNG THU",
+                        "MaSoThue": "4001182007",
+                        "DiaChi": "Quốc lộ 1A, phường Bàn Thạch, thành phố Đà Nẵng., thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN THỊNH VƯỢNG VÀ PHÁT TRIỂN-CHI NHÁNH ĐÀ NẴNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Số 130 Điện Biên Phủ, phường Thanh Khê, thành phố Đà Nẵng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô HYUNDAI CRETA 1.5 ĐẶC BIỆT FACELIFT",
+                    "NhanHieuMauSon": "HYUNDAI CRETA 1.5 ĐẶC BIỆT FACELIFT",
+                    "SoKhung": "RLUPF812EST015635",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô HYUNDAI CRETA 1.5 ĐẶC BIỆT FACELIFT",
+                    "NhanHieuMauSon": "HYUNDAI CRETA 1.5 ĐẶC BIỆT FACELIFT",
+                    "SoKhung": "RLUPF812EST015694",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô HYUNDAI TUCSON 1.6 TURBO 2024",
+                    "NhanHieuMauSon": "HYUNDAI TUCSON 1.6 TURBO 2024",
+                    "SoKhung": "RLUJF81BHSN021739",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô HYUNDAI CRETA 1.5 CAO CẤP FACELIFT PILOT",
+                    "NhanHieuMauSon": "HYUNDAI CRETA 1.5 CAO CẤP FACELIFT PILOT",
+                    "SoKhung": "RLUPG812EST015266",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô HYUNDAI TUCSON 2.0 XĂNG ĐẶC BIỆT 2024",
+                    "NhanHieuMauSon": "HYUNDAI TUCSON 2.0 XĂNG ĐẶC BIỆT 2024",
+                    "SoKhung": "RLUJH81DBSN020536",
+                    "SoMay": "G4NLSW606153",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô HYUNDAI STARGAZER TIÊU CHUẨN",
+                    "NhanHieuMauSon": "HYUNDAI STARGAZER TIÊU CHUẨN",
+                    "SoKhung": "MF3NB81DESJ073575",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

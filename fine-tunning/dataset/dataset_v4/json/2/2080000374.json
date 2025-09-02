@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0871",
+            "SoDon": "2080000374",
+            "SoDangKyLanDau": "1550836501",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:58:00",
+            "SoHopDong": "QTN20242171946/HĐTC",
+            "NgayCoHieuLucHopDong": "2024-08-21",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": "QTN20242171946/HĐTC/PL3349604",
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "Kê khai nội dung thay đổi khác: bổ sung tài sản là: Tài Sản Bảo Đảm bao gồm quyền đòi nợ và toàn bộ các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên bảo đảm ký kết với bất kỳ bên thứ ba nào (bao gồm các phụ lục, văn bản có liên quan kèm theo các hợp đồng, thỏa thuận đó). Chi tiết các hợp đồng/thỏa thuận phát sinh quyền đòi nợ và các khoản phải thu được thế chấp cho Techcombank cụ thể như sau\nSTT Hợp đồng/Thỏa thuận phát sinh quyền đòi nợ và các khoản phải thu Bên có nghĩa vụ trả nợ\nTrị giá được thanh toán\n(VND)\nNgày Thanh Toán\n1 Hợp đồng mua bán số 76/HĐMB/QNaPC-EMJ-BHT ký ngày 07/05/2025 hiệu lực ngày\n07/05/2025 giữa CÔNG TY ĐIỆN LỰC QUẢNG NAM – CHI NHÁNH TỔNG CÔNG TY\nĐIỆN LỰC MIỀN TRUNG và LIÊN DANH CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI\nXÂY DỰNG ĐIỆN BÍCH HẠNH và CÔNG TY TNHH MTV VẬT LIỆU ĐIỆN VÀ CƠ KHÍ\nĐÀ NẴNG\nCÔNG TY ĐIỆN LỰC QUẢNG NAM – CHI NHÁNH TỔNG CÔNG TY ĐIỆN LỰC MIỀN\nTRUNG 1,519,604,565 Theo quy định tại hợp đồng\nTài Sản Bảo Đảm còn bao gồm: (i) Toàn bộ số dư trong Tài Khoản số 1303344306; (ii) Toàn bộ\ncác quyền, lợi ích, các khoản bồi thường, đền bù, hoa lợi, lợi tức và các khoản thanh toán khác\nphát sinh từ hoặc có liên quan đến Tài Sản Bảo Đảm mà Bên bảo đảm có thể được nhận.",
+            "MoTaChungTaiSan": "Tài Sản Bảo Đảm bao gồm quyền đòi nợ và toàn bộ các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên bảo đảm ký kết với bất kỳ bên thứ ba nào (bao gồm các phụ lục, văn bản có liên quan kèm theo các hợp đồng, thỏa thuận đó). Tài Sản Bảo Đảm còn bao gồm: (i) Toàn bộ số dư trong Tài Khoản số 1303344306; (ii) Toàn bộ các quyền, lợi ích, các khoản bồi thường, đền bù, hoa lợi, lợi tức và các khoản thanh toán khác phát sinh từ hoặc có liên quan đến Tài Sản Bảo Đảm mà Bên bảo đảm có thể được nhận.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI XÂY DỰNG ĐIỆN BÍCH HẠNH",
+                        "MaSoThue": "0303344306",
+                        "DiaChi": "1050/14 Đường Phạm Văn Đồng, Khu phố 9, Phường Hiệp Bình Chánh, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM Chi nhánh: QUANG TRUNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 170C, Đường Quang Trung, Phường 10, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "gồm quyền đòi nợ và toàn bộ các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên bảo đảm ký kết với bất kỳ bên thứ ba nào (bao gồm các phụ lục, văn bản có liên quan kèm theo các hợp đồng, thỏa thuận đó)",
+                    "CanCuPhatSinhQuyen": "Hợp đồng mua bán số 76/HĐMB/QNaPC-EMJ-BHT ký ngày 07/05/2025 hiệu lực ngày 07/05/2025 giữa CÔNG TY ĐIỆN LỰC QUẢNG NAM – CHI NHÁNH TỔNG CÔNG TY ĐIỆN LỰC MIỀN TRUNG và LIÊN DANH CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI XÂY DỰNG ĐIỆN BÍCH HẠNH và CÔNG TY TNHH MTV VẬT LIỆU ĐIỆN VÀ CƠ KHÍ ĐÀ NẴNG"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

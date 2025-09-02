@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331564309/TB-TT3",
+            "SoDon": "9331564309",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT Công an Tỉnh Thanh Hóa",
+            "DiaChi": "Đường Tránh Phía Bắc QL 1A, Phường Hạc Thành, Tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu: HONDA, số loại: CR-V, màu sơn: Xám có số khung: 3853FY500323; biển số: 36A-133.38",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "89 Láng Hạ, phường Láng Hạ, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HONDA màu Xám",
+                    "SoKhung": "3853FY500323",
+                    "SoMay": null,
+                    "BienSo": "36A-133.38",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

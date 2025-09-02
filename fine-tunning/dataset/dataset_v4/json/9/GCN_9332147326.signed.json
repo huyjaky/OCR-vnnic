@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332147326/TB-TT3",
+            "SoDon": "9332147326",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông công an tỉnh Thanh Hóa",
+            "DiaChi": "đường tránh phía Bắc, QL1A, phường Hàm Rồng, tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu CNHTC màu đỏ, biển số 36H-156.14; 01 xe mô tô nhãn hiệu YUNLI màu nâu, biển số 36RM-025.36",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Tiên Phong Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "13, 14 Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CNHTC màu đỏ",
+                    "SoKhung": "LZZ1CLWC7SJ400388",
+                    "SoMay": "MC114650250417203757",
+                    "BienSo": "36H-156.14",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Mô tô",
+                    "NhanHieuMauSon": "YUNLI màu nâu",
+                    "SoKhung": "LA9SZ80M5SGLYL548",
+                    "SoMay": null,
+                    "BienSo": "36RM-025.36",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

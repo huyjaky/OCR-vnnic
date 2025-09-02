@@ -1,0 +1,42 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332176706/TB-TT3",
+            "SoDon": "9332176706",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-09T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: 8JTSHXX20137, số máy: J08EUF21116, biển số: 29H-237.54",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Trung Hòa Nhân Chính",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1, tòa nhà 29T1, khu chung cư N05 Đông Nam Trần Duy Hưng, phường Trung Hòa, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "8JTSHXX20137",
+                    "SoMay": "J08EUF21116",
+                    "BienSo": "29H-237.54",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

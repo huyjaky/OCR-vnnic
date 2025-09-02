@@ -1,0 +1,85 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0203",
+            "SoDon": "2079966542",
+            "SoDangKyLanDau": "1572393307",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10 09:49:00",
+            "SoHopDong": "241224-17308335-01-SME/TC",
+            "NgayCoHieuLucHopDong": "2025-01-06",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-01-07 09:21:00",
+            "NoiDungThayDoi": "RÚT BỚT TÀI SẢN BẢO ĐẢM LÀ 4 XE SỐ KHUNG RLLV3F5D5SH771995 RLLVAGND8SH769105 RLLV1MTC0SH758334 RLNVBL9K7SH742693",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ Ô TÔ VIỆT PHÚ",
+                        "MaSoThue": "0105689556",
+                        "DiaChi": "Thôn Khê Hồi, Xã Hồng Vân, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Trung Hòa Nhân Chính",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1, tòa nhà 29T1, khu chung cư N05 Đông Nam Trần Duy Hưng, phường Trung Hòa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Vinfast",
+                    "SoKhung": "RLLV3F5D5SH771995",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Vinfast",
+                    "SoKhung": "RLLVAGND8SH769105",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Vinfast",
+                    "SoKhung": "RLLV1MTC0SH758334",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Vinfast",
+                    "SoKhung": "RLNVBL9K7SH742693",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

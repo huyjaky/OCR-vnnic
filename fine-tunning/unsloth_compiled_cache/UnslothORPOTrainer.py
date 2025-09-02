@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
+2025.8.5
+2025.8.6
 4.53.3
-0.19.1
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -638,6 +638,11 @@ class _UnslothORPOTrainer(Trainer):
             optimizers=optimizers,
             preprocess_logits_for_metrics=preprocess_logits_for_metrics,
         )
+
+        # Gradient accumulation requires scaled loss. Normally, loss scaling in the parent class depends on whether the
+        # model accepts loss-related kwargs. Since we compute our own loss, this check is irrelevant. We set
+        # self.model_accepts_loss_kwargs to False to enable scaling.
+        self.model_accepts_loss_kwargs = False
 
         # Add tags for models that have been loaded with the correct transformers version
         if hasattr(self.model, "add_model_tags"):
@@ -1376,7 +1381,7 @@ class _UnslothORPOTrainer(Trainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="ORPO",
             trainer_citation=citation,
@@ -1403,7 +1408,7 @@ class UnslothORPOTrainer(_UnslothORPOTrainer):
             The dataset to use for training.
         eval_dataset (`datasets.Dataset`):
             The dataset to use for evaluation.
-        processing_class (`PreTrainedTokenizerBase` or `BaseImageProcessor` or `FeatureExtractionMixin` or `ProcessorMixin`, *optional*):
+        processing_class ([`~transformers.PreTrainedTokenizerBase`], [`~transformers.BaseImageProcessor`], [`~transformers.FeatureExtractionMixin`] or [`~transformers.ProcessorMixin`], *optional*, defaults to `None`):
             Processing class used to process the data. If provided, will be used to automatically process the inputs
             for the model, and it will be saved along the model to make it easier to rerun an interrupted training or
             reuse the fine-tuned model.
@@ -1550,6 +1555,14 @@ class UnslothORPOTrainer(_UnslothORPOTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

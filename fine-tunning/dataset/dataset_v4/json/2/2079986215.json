@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0600",
+            "SoDon": "2079986215",
+            "SoDangKyLanDau": "1564956421",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T14:14:00",
+            "SoHopDong": "221124-9837136-01-SME/TC",
+            "NgayCoHieuLucHopDong": "2024-11-22",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-11-22T16:33:00",
+            "NoiDungThayDoi": "RÚT BỚT TÀI SẢN BẢO ĐẢM LÀ 02 XE SỐ KHUNG RLUGU41DBST011297 RLUJH81DBSN022290",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN THÀNH AN LAI CHÂU",
+                        "MaSoThue": "6200100676",
+                        "DiaChi": "Số nhà 207, đường 19/8, Tổ 3, phường Đoàn Kết, tỉnh Lai Châu, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Lào Cai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lào Cai",
+                    "DiaChi": "Số nhà 109 đường Hoàng Liên, phường Lào Cai, tỉnh Lào Cai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HUYNDAI",
+                    "SoKhung": "RLUGU41DBST011297",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HUYNDAI",
+                    "SoKhung": "RLUJH81DBSN022290",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1123",
+            "SoDon": "4223496071",
+            "SoDangKyLanDau": "1301890529",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2018-09-28T16:21:00",
+            "SoHopDong": "2018.0552.HĐTC.681",
+            "NgayCoHieuLucHopDong": "2018-09-28",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T18:23:00",
+            "ThoiDiemDKLanDau": "2018-09-28T16:21:00",
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LỤC THỊ TÌNH",
+                        "CCCD": "281020749",
+                        "DiaChi": "36/13A, khu phố Thống Nhất, Dĩ An, thị xã Dĩ An, Bình Dương, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP QUỐC TẾ VIỆT NAM - CHI NHÁNH BÌNH DƯƠNG - PHÒNG GIAO DỊCH DĨ AN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "Số 212 Nguyễn An Ninh, khu phố Bình Minh 2, Phường Dĩ An,, thị xã Dĩ An, Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0192",
+            "SoDon": "2079965602",
+            "SoDangKyLanDau": "1566008928",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T09:46:00",
+            "SoHopDong": "191124-702255-01-SME/TC",
+            "NgayCoHieuLucHopDong": "2024-11-27",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-11-28T16:42:00",
+            "NoiDungThayDoi": "rút bớt 02 xe số khung RLNVBL9K4SH780902 RLNVBL9KXSH757186",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN Ô TÔ THẮNG LỢI QUẢNG TRỊ",
+                        "MaSoThue": "3200489577",
+                        "DiaChi": "133 Lê Duẩn, xã Triệu Phong, tỉnh Quảng Trị, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "(4) Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Quảng Trị",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "(4) Số 38 Quốc Lộ 9B, Khu Phố 8, Phường Đông Hà, tỉnh Quảng Trị, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô vinfast",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLNVBL9K4SH780902",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô vinfast",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLNVBL9KXSH757186",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

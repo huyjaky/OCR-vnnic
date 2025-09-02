@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331389083/TB-TT3",
+            "SoDon": "9331389083",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RNYTF51A4NC273878; số máy: G4LANP085449, biển số: 79A-421.36",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Đông Nam Á Chi nhánh Nha Trang Phòng giao dịch Vĩnh Hải",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "Số 411 đường 2/4, phường Vĩnh Hải, Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "",
+                    "SoKhung": "RNYTF51A4NC273878",
+                    "SoMay": "G4LANP085449",
+                    "BienSo": "79A-421.36",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

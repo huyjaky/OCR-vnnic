@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1091",
+            "SoDon": "4223492104",
+            "SoDangKyLanDau": "1459839911",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T17:49:00",
+            "SoHopDong": "LN2205195810413",
+            "NgayCoHieuLucHopDong": "2022-05-31",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2022-06-01T13:44:00",
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "BÙI MẠNH CHUYỀN",
+                        "CCCD": "033095001637",
+                        "DiaChi": "Thôn Tân Nhuế, Xã Lạc Đạo, Văn Lâm, Hưng Yên, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Sở Giao Dịch",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và tầng 3, tòa nhà số 34, phố Hai Bà Trưng, Phường Tràng Tiền, Hoàn Kiếm, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

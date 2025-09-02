@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332112055/TB-TT3",
+            "SoDon": "9332112055",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG RẠCH GIÁ",
+            "DiaChi": "PHƯỜNG RẠCH GIÁ, TỈNH AN GIANG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST có số khung: RLNV5JSE2SH754430; thông tin khác (số máy: VFCAFB254180102, biển số: 68H-087.14)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": null,
+                        "MaSoThue": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô VINFAST",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNV5JSE2SH754430",
+                    "SoMay": "VFCAFB254180102",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

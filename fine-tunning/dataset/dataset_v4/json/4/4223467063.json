@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0900",
+            "SoDon": "4223467063",
+            "SoDangKyLanDau": "1488707088",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2023-02-15T15:01:00",
+            "SoHopDong": "LN2302138342604/HĐTC",
+            "NgayCoHieuLucHopDong": "2023-02-14",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN VĂN QUANG",
+                        "CCCD": "024092014126",
+                        "DiaChi": "THÔN ĐỒNG SAU, Xã BỐ HẠ, tỉnh Bắc Ninh, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "DƯƠNG THỊ NHẬT LINH",
+                        "CCCD": "024192005275",
+                        "DiaChi": "THÔN ĐỒNG SAU, Xã BỐ HẠ, tỉnh Bắc Ninh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG - CHI NHÁNH BẮC GIANG- ĐỊA ĐIỂM KD PHÒNG GIAO DỊCH LẠNG GIANG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Lô SH2.16, N64+SH2.17, N64+SH2.18, N64+SH2.19,N64 Khu đô thị mới phía Tây , Xã Lạng Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

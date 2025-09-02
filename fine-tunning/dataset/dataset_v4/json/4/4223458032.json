@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0836",
+            "SoDon": "4223458032",
+            "SoDangKyLanDau": "1468698000",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T15:42:00",
+            "SoHopDong": "238/2022/HĐBĐ/PVB-HUE",
+            "NgayCoHieuLucHopDong": "2022-08-12",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2022-08-12T10:27:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TỐNG THỊ PHƯỚC THANH",
+                        "CCCD": "046190010131",
+                        "DiaChi": "Thôn Nam Phước, xã Lộc An, Phú Lộc, Thừa Thiên Huế, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Đại Chúng Việt Nam Chi Nhánh Huế",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thừa Thiên Huế",
+                    "DiaChi": "48 Hùng Vương, phường Phú Nhuận, Thành phố Huế, Thừa Thiên Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

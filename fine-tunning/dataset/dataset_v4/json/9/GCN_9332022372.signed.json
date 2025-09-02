@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332022372/TB-TT3",
+            "SoDon": "9332022372",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công an tỉnh Khánh Hòa (Đội đăng ký xe)",
+            "DiaChi": "14 Võ Văn Ký, Phường Tây Nha Trang, Khánh Hòa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Ô tô MG, số khung LSKK4BC15SD055658, số máy 15C4EFGSS1080299, biển số 79H-09585.",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Đà Lạt",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "37 Phan Bội Châu, Phường Xuân Hương, tỉnh Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MG",
+                    "SoKhung": "LSKK4BC15SD055658",
+                    "SoMay": "15C4EFGSS1080299",
+                    "BienSo": "79H-09585",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

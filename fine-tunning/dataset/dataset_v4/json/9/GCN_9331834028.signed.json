@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331834028/TB-TT3",
+            "SoDon": "9331834028",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công An Phường Bắc Nha Trang",
+            "DiaChi": "Số 23, Đường Mai Xuân Thưởng, Phường Bắc Nha Trang, Tỉnh Khánh Hòa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô có số khung: RL2LMFF80MCR13558; thông tin khác (số máy: P4AT4001601, biển số: 79C-186.38)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM – CN KHÁNH HÒA",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "Số 17 Quang Trung, phường Vạn Thạnh, Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RL2LMFF80MCR13558",
+                    "SoMay": "P4AT4001601",
+                    "BienSo": "79C-186.38",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

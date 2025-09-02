@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332175303/TB-TT3",
+            "SoDon": "9332175303",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH QUẢNG NINH",
+            "DiaChi": "ĐƯỜNG NGUYỄN VĂN CỪ, PHƯỜNG HẠ LONG, QUẢNG NINH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-09T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô có số khung: 41A6LC193065, số máy: G4FGLH706970, biển số: 14A-495.62",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Quốc tế Việt Nam - Chi nhánh Quảng Ninh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ninh",
+                    "DiaChi": "Số 88 Lê Thánh Tông, P.Hồng Gai, Quảng Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "41A6LC193065",
+                    "SoMay": "G4FGLH706970",
+                    "BienSo": "14A-495.62",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331612132/TB-TT3",
+            "SoDon": "9331612132",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "ĐỘI CSGT-CÔNG AN PHƯỜNG LIÊN CHIỂU",
+            "DiaChi": "LẠC LONG QUÂN,HÒA KHÁNH BẮC,LIÊN CHIỂU, ĐÀ NẴNG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô KIA có số khung: RNYGE44A6SC357091, số máy: G4NANH623178, biển số: 43C-361.93",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Số 112 Phan Châu Trinh, Phường Hải Châu, thành phố Đà Nẵng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô KIA",
+                    "NhanHieuMauSon": "KIA",
+                    "SoKhung": "RNYGE44A6SC357091",
+                    "SoMay": "G4NANH623178",
+                    "BienSo": "43C-361.93",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

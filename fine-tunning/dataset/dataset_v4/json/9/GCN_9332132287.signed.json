@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332132287/TB-TT3",
+            "SoDon": "9332132287",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Hàng Gòn, tỉnh Đồng Nai",
+            "DiaChi": "Số 25, Quốc lộ 56, khu phố Cẩm Tân, phường Hàng Gòn, Tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô FORD RANGER có số khung: RL2UMFC30SAR24162; thông tin khác (số máy: P02SRSA24162, biển số: 60K-699.44)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP QUỐC TẾ VIỆT NAM - Chi nhánh ĐỒNG NAI - PHÒNG GIAO DỊCH HỐNAI",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số 97/5 Quốc lộ 1, Khu phố 20A, Phường Long Bình, tỉnh Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD RANGER",
+                    "SoKhung": "RL2UMFC30SAR24162",
+                    "SoMay": "P02SRSA24162",
+                    "BienSo": "60K-699.44",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

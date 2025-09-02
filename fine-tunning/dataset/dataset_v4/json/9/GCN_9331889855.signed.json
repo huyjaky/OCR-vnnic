@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331889855/TB-TT3",
+            "SoDon": "9331889855",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "công an phường trần phú",
+            "DiaChi": "phường trần phú, tp hà tĩnh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RL2UMFC50PYR52281; thông tin khác (số máy: P02SRPY52281, biển số: 38C-199.93)",
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quốc Tế Việt Nam Chi Nhánh Vinh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Tầng 1 nhà B, khu trung tâm thương mại dịch vụ, đường Quang Trung, Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RL2UMFC50PYR52281",
+                    "SoMay": "P02SRPY52281",
+                    "BienSo": "38C-199.93",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

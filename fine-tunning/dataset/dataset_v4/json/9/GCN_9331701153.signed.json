@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331701153/TB-TT3",
+            "SoDon": "9331701153",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô có số khung: 31DGHCB00248; thông tin khác (số máy: LBNA17002452, biển số: 98C-182.79)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN VĂN HƯỞNG",
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPbank)",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Giang",
+                    "DiaChi": "Số 303 đường Lê Lợi, phường Hoàng Văn Thụ, Bắc Giang, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "31DGHCB00248",
+                    "SoMay": "LBNA17002452",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

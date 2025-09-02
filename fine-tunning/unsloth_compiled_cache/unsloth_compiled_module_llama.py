@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
+2025.8.5
+2025.8.6
 4.53.3
-0.19.1
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 
@@ -34,6 +34,8 @@ from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
 import math
 
 UNSLOTH_ENABLE_LOGGING = os.environ.get("UNSLOTH_ENABLE_LOGGING", "0") == "1"
+UNSLOTH_ENABLE_CCE = os.environ.get("UNSLOTH_ENABLE_CCE", "1") == "1"
+UNSLOTH_COMPILE_DISABLE = os.environ.get("UNSLOTH_COMPILE_DISABLE", "0") == "1"
 
 import logging
 logger_compiler = logging.getLogger(__name__)
@@ -55,8 +57,7 @@ pass
 
 from unsloth_zoo.loss_utils import (
     fused_linear_cross_entropy,
-    unsloth_compiled_ce_loss_function,
-    unsloth_compiled_fused_ce_loss_function,
+    unsloth_fused_ce_loss,
 )
 
 if UNSLOTH_STUDIO_ENABLED:
@@ -96,7 +97,7 @@ else:
 pass
 
 
-torch_compile_options = {'epilogue_fusion': True, 'max_autotune': False, 'shape_padding': True, 'trace.enabled': False, 'triton.cudagraphs': False, 'debug': False, 'dce': True, 'memory_planning': True, 'coordinate_descent_tuning': False, 'trace.graph_diagram': False, 'compile_threads': 6, 'combo_kernels': False, 'group_fusion': True, 'disable_progress': True, 'verbose_progress': False, 'triton.multi_kernel': 0, 'triton.use_block_ptr': False, 'triton.enable_persistent_tma_matmul': True, 'triton.autotune_at_compile_time': True}
+torch_compile_options = {'epilogue_fusion': True, 'max_autotune': False, 'shape_padding': True, 'trace.enabled': False, 'triton.cudagraphs': False, 'debug': False, 'dce': True, 'memory_planning': True, 'coordinate_descent_tuning': False, 'trace.graph_diagram': False, 'compile_threads': 6, 'group_fusion': True, 'disable_progress': True, 'verbose_progress': False, 'triton.multi_kernel': 0, 'triton.use_block_ptr': False, 'triton.enable_persistent_tma_matmul': True, 'triton.autotune_at_compile_time': False, 'triton.cooperative_reductions': False, 'cuda.compile_opt_level': '-O2', 'cuda.enable_cuda_lto': True, 'combo_kernels': False, 'benchmark_combo_kernel': True, 'combo_kernel_foreach_dynamic_shapes': True}
 
 from torch.nn import CrossEntropyLoss
 
@@ -314,7 +315,7 @@ def eager_attention_forward(
         causal_mask = attention_mask[:, :, :, : key_states.shape[-2]]
         attn_weights = attn_weights + causal_mask
 
-    attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype=torch.float32).to(query.dtype)
+    attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype = torch.float32).to(attn_weights.dtype).to(query.dtype)
     attn_weights = nn.functional.dropout(attn_weights, p=dropout, training=module.training)
     attn_output = torch.matmul(attn_weights, value_states)
     attn_output = attn_output.transpose(1, 2).contiguous()
@@ -529,17 +530,7 @@ def LlamaForCausalLM_forward(
         INFERENCE_RUNS += 1
     
         logits = self.lm_head(hidden_states[:, slice_indices, :])
-    elif (UNSLOTH_STUDIO_ENABLED and NOT_RETURN_LOGITS and labels is not None) and not requires_grad_:
-        loss = fast_linear_cross_entropy(
-            hidden_states        = hidden_states[:, slice_indices, :],
-            lm_head              = self.lm_head,
-            labels               = labels,
-            num_items_in_batch   = n_items,
-            logit_softcapping    = None if () == () else (),
-            logit_scale_multiply = None if () == () else (),
-            logit_scale_divide   = None if () == () else (),
-        )
-    elif (() == () and () == ()) and NOT_RETURN_LOGITS and self.loss_function.__name__.endswith("ForCausalLMLoss") and labels is not None and not requires_grad_:
+    elif (() == () and () == ()) and (UNSLOTH_ENABLE_CCE) and NOT_RETURN_LOGITS and self.loss_function.__name__.endswith("ForCausalLMLoss") and labels is not None and not requires_grad_:
         loss = fused_linear_cross_entropy(
             hidden_states      = hidden_states[:, slice_indices, :],
             lm_weight          = self.lm_head.weight,
@@ -555,34 +546,21 @@ def LlamaForCausalLM_forward(
         _hidden_states = hidden_states[:, slice_indices, :]
         torch._dynamo.mark_dynamic(_hidden_states, 1)
         torch._dynamo.mark_dynamic(labels, 1)
-        loss = unsloth_compiled_fused_ce_loss_function(
+        loss = unsloth_fused_ce_loss(
+            trainer              = None,
             hidden_states        = _hidden_states,
             lm_head_weight       = lm_head_weight,
             lm_head_bias         = lm_head_bias,
-            output_labels        = labels,
+            labels               = labels,
+            mask                 = None,
+            n_items              = n_items,
+            scaling              = getattr(self, "accelerator_scaler"),
+            target_gb            = 1,
+            torch_compile        = not UNSLOTH_COMPILE_DISABLE,
             logit_scale_multiply = () if () != () else 0,
             logit_scale_divide   = () if () != () else 0,
-            logit_softcapping    = () if () not in (None, (),) else 0,
-            vocab_size           = (self.config.vocab_size),
-            n_items              = n_items if n_items is not None else 0,
-            requires_grad_       = requires_grad_,
+            logit_softcapping    = () if () != () else 0,
         )
-    
-    
-        # ========= OLD non fused =========
-        # logits = self.lm_head(hidden_states[:, slice_indices, :].to(lm_head_weight.device))
-        # torch._dynamo.mark_dynamic(logits, 1)
-        # torch._dynamo.mark_dynamic(labels, 1)
-        # loss = unsloth_compiled_ce_loss_function(
-        #     output_logits        = logits,
-        #     output_labels        = labels,
-        #     logit_scale_multiply = () if () != () else 0,
-        #     logit_scale_divide   = () if () != () else 0,
-        #     logit_softcapping    = () if () not in (None, (),) else 0,
-        #     vocab_size           = (self.config.vocab_size),
-        #     n_items              = n_items if n_items is not None else 0,
-        #     requires_grad_       = requires_grad_,
-        # )
     else:
         logits = self.lm_head(hidden_states[:, slice_indices, :])
         if () != ():

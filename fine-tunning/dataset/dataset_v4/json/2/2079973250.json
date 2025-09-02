@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0345",
+            "SoDon": "2079973250",
+            "SoDangKyLanDau": "1597736361",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiHopDongName": null,
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-07-10T08:12:00",
+            "SoHopDong": "318830.25.331.38736632.BD",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T10:59:00",
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "Sửa chữa sai sót: * Từ:CO ngày 03/07/2025 thành CO ngày 05/07/2025. Không làm thay đổi giá trị tài sản đảm bảo.",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công ty TNHH Ilsong Vina",
+                        "MaSoThue": "4001118611",
+                        "DiaChi": "Lô D1, KCN Tam Thăng, Phường Bàn Thạch, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP QUÂN ĐỘI –CHI NHÁNH QUẢNG NAM",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "284 Phan Chu Trinh –Phường Tam Kỳ, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

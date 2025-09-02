@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331375702/TB-TT3",
+            "SoDon": "9331375702",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ PƠNG DRANG, TỈNH ĐẮK LẮK",
+            "DiaChi": "XÃ PƠNG DRANG, TỈNH ĐẮK LẮK",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": null,
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô ISUZU D-MAX, MÀU BẠC, số khung MPATFR87JMT002095, số máy RZ4EWS5387, biển số 47A-972.23",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 56-58 đường Y Jút, Phường Buôn Ma Thuột, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "ISUZU D-MAX MÀU BẠC",
+                    "SoKhung": "MPATFR87JMT002095",
+                    "SoMay": "RZ4EWS5387",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

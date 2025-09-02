@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331688365/TB-TT3",
+            "SoDon": "9331688365",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông Công an Phường Tuy Hòa",
+            "DiaChi": "233 Nguyễn Tất Thành, Phường Tuy Hòa, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô MITSUBISHI XPANDER, màu sơn trắng, số khung MK2XRNC1WSN020563, biển số 78F-005.78",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Á Châu Chi Nhánh Phú Yên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "194-196 Đại lộ Hùng Vương, Phường Tuy Hòa, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI XPANDER màu trắng",
+                    "SoKhung": "MK2XRNC1WSN020563",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331679633/TB-TT3",
+            "SoDon": "9331679633",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Thuận Giao, thành phố Hồ Chí Minh",
+            "DiaChi": "09 Đại Lộ Bình Dương, Khu phố Hòa Lân 1, phường Thuận Giao, Thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô ISUZU QKR, màu trắng có số khung: RLE1MR77HS5101037; số máy: 279L14, biển số: 50E-316.51",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "Ô 11-12, Lô SH2 - Khu phức hợp Charm Plaza 1, phường Dĩ An, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô ISUZU QKR",
+                    "NhanHieuMauSon": "ISUZU QKR, màu trắng",
+                    "SoKhung": "RLE1MR77HS5101037",
+                    "SoMay": "279L14",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

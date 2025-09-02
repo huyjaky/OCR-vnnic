@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331583572/TB-TT3",
+            "SoDon": "9331583572",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Đồng Việt, tỉnh Bắc Ninh",
+            "DiaChi": "xã Đồng Việt, tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu: FORD có số khung: RL05CYD7MSAR24936; thông tin khác (số máy: , biển số: 98A-795.66)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG (VPBANK)",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "89 Láng Hạ, Phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD",
+                    "SoKhung": "RL05CYD7MSAR24936",
+                    "SoMay": null,
+                    "BienSo": "98A-795.66",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

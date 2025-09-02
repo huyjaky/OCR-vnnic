@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331644712/TB-TT3",
+            "SoDon": "9331644712",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công an xã Định Quán, tỉnh Đồng Nai",
+            "DiaChi": "Khu phố Hiệp Lợi, xã Định Quán, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: 2SAAMW614160; thông tin khác (số máy: P520665789, biển số: 60A-787.78)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam - Chi nhánh Đồng Nai - Phòng giao dịch Trảng Bom",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Khu hành chính, ngã tư Quốc lộ 1, đường 30/4, Thị trấn Trảng Bom, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "2SAAMW614160",
+                    "SoMay": "P520665789",
+                    "BienSo": "60A-78778",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331335831/TB-TT3",
+            "SoDon": "9331335831",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG NAM ĐỊNH",
+            "DiaChi": "Phường Nam Định, Tỉnh Ninh Bình",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu MG, số loại MG.G50 1.5T, số khung: LSKK4BC17SD045990, số máy: 15C4EGTSS1150159, biển số: 35A-662.05",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Nam Định",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Số 69 Lê Hồng Phong, Phường Nam Định, tỉnh Ninh Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MG",
+                    "SoKhung": "LSKK4BC17SD045990",
+                    "SoMay": "15C4EGTSS1150159",
+                    "BienSo": "35A-662.05",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331549478/TB-TT3",
+            "SoDon": "9331549478",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN Tỉnh LẠNG SƠN",
+            "DiaChi": "01 Trần Phú, Phường Kỳ Lừa, Tỉnh Lạng Sơn",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu FORLAND, số loại THACO FD150 có số khung: RNHF16FYANT064392; số máy: YC4D15048D59M1N00537, biển số: 12A-301.20",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": null,
+                        "MaSoThue": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Lạng Sơn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lạng Sơn",
+                    "DiaChi": "125 và 127 đường Lê Lợi, Phường Vĩnh Trại, Lạng Sơn, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô tải",
+                    "NhanHieuMauSon": "FORLAND THACO FD150",
+                    "SoKhung": "RNHF16FYANT064392",
+                    "SoMay": "YC4D15048D59M1N00537",
+                    "BienSo": "12A-30120",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

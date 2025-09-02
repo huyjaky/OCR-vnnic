@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1013",
+            "SoDon": "4223479948",
+            "SoDangKyLanDau": "1571723588",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:58:00",
+            "SoHopDong": "31/12/VCB.NH",
+            "NgayCoHieuLucHopDong": "2024-12-31",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-12-31T14:17:00",
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH MỘT THÀNH VIÊN NHƯ HÀ - GIA LAI",
+                        "MaSoThue": "5901009222",
+                        "DiaChi": "190 Quyết Tiến, P. Ia Kring, Thành phố Pleiku , Gia Lai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Chi Nhánh NH TMCP Ngoại Thương Gia Lai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "33 Quang Trung, Thành phố Pleiku , Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

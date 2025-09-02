@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331705521/TB-TT3",
+            "SoDon": "9331705521",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ QUỲNH ANH",
+            "DiaChi": "XÃ QUỲNH ANH, TỈNH NGHỆ AN",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "CHENGLONG có số khung: LGGX5D655ML304720; thông tin khác (số máy: YC6L33050LG2L9M00163, biển số: 37H-013.56)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": null,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Nghệ An",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Nhà A, Khu Thương mại dịch vụ nhà ở C1, đường Quang Trung, Phường Quang Trung, Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "CHENGLONG",
+                    "NhanHieuMauSon": "CHENGLONG",
+                    "SoKhung": "LGGX5D655ML304720",
+                    "SoMay": "YC6L33050LG2L9M00163",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

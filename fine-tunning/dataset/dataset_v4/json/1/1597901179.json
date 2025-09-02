@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0993",
+            "SoDon": "1597901179",
+            "SoDangKyLanDau": "1597901179",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:47:00",
+            "SoHopDong": "LN2506275915352",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:47:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Xe ô tô Nhãn hiệu: FORD, Ranger",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "ĐỖ DUY HOÀN",
+                        "CCCD": "025094011696",
+                        "DiaChi": "PHÚC ĐÌNH, TÂY CỐC, tỉnh Phú Thọ, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÒ THỊ HUỆ",
+                        "CCCD": "014198008615",
+                        "DiaChi": "PHÚC ĐÌNH, TÂY CỐC, tỉnh Phú Thọ, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD, Ranger",
+                    "SoKhung": "RL2UMFC30PER46641",
+                    "SoMay": "P02SRPE46641",
+                    "BienSo": "26A-276.66",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

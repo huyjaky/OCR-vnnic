@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331983625/TB-TT3",
+            "SoDon": "9331983625",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công An Tỉnh Quảng Trị",
+            "DiaChi": "577 Lý Thường Kiệt – Phường Đồng Thuận, Tỉnh Quảng Trị",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Nhãn hiệu: MITSUBISHI, Màu sơn: Trắng có số khung: MK2LRNC1WSN026772; thông tin khác (số máy: , biển số: 73A-466.95)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG NÔNG NGHIỆP VÀ PHÁT TRIỂN NÔNG THÔN VIỆT NAM - CHI NHÁNH LÝ THÁI TỔ QUẢNG BÌNH",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "98 Lý Thái Tổ – phường Đồng Sơn, tỉnh Quảng Trị, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MITSUBISHI màu Trắng",
+                    "SoKhung": "MK2LRNC1WSN026772",
+                    "SoMay": null,
+                    "BienSo": "73A-466.95",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

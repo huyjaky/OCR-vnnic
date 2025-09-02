@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331976462/TB-TT3",
+            "SoDon": "9331976462",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Xã Phúc Thọ Lâm Hà",
+            "DiaChi": "Xã Phúc Thọ Lâm Hà, Tỉnh Lâm Đồng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô mới Ford Ranger, màu ghi có số khung: RL2UMFC30SRR18893; số máy: P02SRSR18893, biển số: 49C-374.14",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Lâm Đồng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "56-58 Khu Hòa Bình, Phường Xuân Hương - Đà Lạt, tỉnh Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô mới Ford Ranger",
+                    "NhanHieuMauSon": "Ford Ranger màu ghi",
+                    "SoKhung": "RL2UMFC30SRR18893",
+                    "SoMay": "P02SRSR18893",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

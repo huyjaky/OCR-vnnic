@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331904976/TB-TT3",
+            "SoDon": "9331904976",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ NAM ĐÀ",
+            "DiaChi": "THÔN NAM NGHĨA, XÃ NAM ĐÀ, TỈNH LÂM ĐỒNG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu MERCEDES có số khung: RLMAF4CX6NV000468; thông tin khác (số máy: 254915V0087737, biển số: 48A-294.16)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, Số 292 Hồ Tùng Mậu, tổ dân phố số 12, phường Phú Diễn, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MERCEDES",
+                    "SoKhung": "RLMAF4CX6NV000468",
+                    "SoMay": "254915V0087737",
+                    "BienSo": "48A-294.16",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

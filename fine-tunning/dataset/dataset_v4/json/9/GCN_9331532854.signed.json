@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331532854/TB-TT3",
+            "SoDon": "9331532854",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ TÂN LỢI",
+            "DiaChi": "XÃ TÂN LỢI, T ĐỒNG NAI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST có số khung: RLLVAGND0SH783130; thông tin khác (số máy: VFCAJB257010007, biển số: 93H-084.77)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Bình Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "TP. Hồ Chí Minh",
+                    "DiaChi": "Số 557 Đại lộ Bình Dương, Phường Thủ Dầu Một, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLLVAGND0SH783130",
+                    "SoMay": "VFCAJB257010007",
+                    "BienSo": "93H-084.77",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

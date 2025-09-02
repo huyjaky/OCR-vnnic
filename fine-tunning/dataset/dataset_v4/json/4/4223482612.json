@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1041",
+            "SoDon": "4223482612",
+            "SoDangKyLanDau": "1512735435",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2023-10-09T15:46:00",
+            "SoHopDong": "338/2023/HDBD/BMT",
+            "NgayCoHieuLucHopDong": "2023-10-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN HỮU PHÚ",
+                        "CCCD": "040087038491",
+                        "DiaChi": "Tổ dân phố 11, Phường Ea Tam, Thành phố Buôn Ma Thuột, Đắk Lắk, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRƯƠNG THỊ KIỀU OANH",
+                        "CCCD": "066189010199",
+                        "DiaChi": "Tổ dân phố 11, Phường Ea Tam, Thành phố Buôn Ma Thuột, Đắk Lắk, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 56-58 đường Y Jut, phường Thống Nhất, Buôn Ma Thuột, Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

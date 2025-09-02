@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0953",
+            "SoDon": "4223472915",
+            "SoDangKyLanDau": "1574899706",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:29:00",
+            "SoHopDong": "25120002/2025/HĐBĐ/NHCT62298-01",
+            "NgayCoHieuLucHopDong": "2025-01-21",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-01-22T10:26:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ TỐ QUYÊN",
+                        "CCCD": "068186005072",
+                        "DiaChi": "70A Trần Cao Vân, Phường Lộc Tiến, Thành phố Bảo Lộc, Lâm Đồng, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN PHƯƠNG BÌNH",
+                        "CCCD": "068078004731",
+                        "DiaChi": "70A Trần Cao Vân, Phường Lộc Tiến, Thành phố Bảo Lộc, Lâm Đồng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Bảo Lộc",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "Số 01-03 Đường 28/03, Phường 1, Thành phố Bảo Lộc, Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

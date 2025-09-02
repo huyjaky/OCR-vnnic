@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331611920/TB-TT3",
+            "SoDon": "9331611920",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô MAZDA, màu Đỏ - 46V có số khung: RN2KA2WLARM151291, biển số: 61K-555.39",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Xuất Nhập Khẩu Việt Nam Chi Nhánh Đồng Nai Phòng Giao Dịch Tân Biên",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số 437, Quốc lộ 1A, KP 9, phường Tân Biên, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MAZDA, màu Đỏ - 46V",
+                    "SoKhung": "RN2KA2WLARM151291",
+                    "SoMay": null,
+                    "BienSo": "61K-555.39",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

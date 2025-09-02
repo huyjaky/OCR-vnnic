@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331860152/TB-TT3",
+            "SoDon": "9331860152",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT - Công An Tỉnh Hưng Yên",
+            "DiaChi": "45 Đường Hải Thượng Lãn Ông, P. Phố Hiến, Tỉnh Hưng Yên",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô nhãn hiệu VINFAST có số khung: RLLVAG8CXSH761073; thông tin khác (số máy: VFBALB255050021, biển số: 89H-087.11)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Hưng Yên Địa điểm kinh doanh Phòng giao dịch Điện Biên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hưng Yên",
+                    "DiaChi": "Số 260 Điện Biên và 01A Trưng Trắc, Phường Phố Hiến, tỉnh Hưng Yên, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLLVAG8CXSH761073",
+                    "SoMay": "VFBALB255050021",
+                    "BienSo": "89H-087.11",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

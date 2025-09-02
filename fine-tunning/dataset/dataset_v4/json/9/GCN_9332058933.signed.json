@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332058933/TB-TT3",
+            "SoDon": "9332058933",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Phường Phú Thọ",
+            "DiaChi": "Khu An Ninh Hạ,Phường Phú Thọ, Tỉnh Phú Thọ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô, nhãn hiệu BYD có số khung: LGXCE4DB4R2103198; số máy: null, biển số: 19B-022.00",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Phú Thọ - Địa Điểm Kinh Doanh Phòng Giao Dịch Hùng Vương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Phú Thọ",
+                    "DiaChi": "Số 1274 Hùng Vương, phường Thanh Miếu, tỉnh Phú Thọ, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "BYD",
+                    "SoKhung": "LGXCE4DB4R2103198",
+                    "SoMay": null,
+                    "BienSo": "19B-022.00",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

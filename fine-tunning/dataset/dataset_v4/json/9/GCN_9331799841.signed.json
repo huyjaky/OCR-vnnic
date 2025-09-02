@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331799841/TB-TT3",
+            "SoDon": "9331799841",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công An Thành Phố Hồ Chí Minh",
+            "DiaChi": "341 Trần Hưng Đạo, Phường Cầu Ông Lãnh, Thành Phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MITSUBISHI có số khung: MK2XRNC1WSN016742; thông tin khác (biển số: 51L-881.25) đã được xóa đăng ký",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ THANH NGÂN",
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Bình Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "557 Đại lộ Bình Dương, Phường Hiệp Thành, Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI",
+                    "SoKhung": "MK2XRNC1WSN016742",
+                    "SoMay": null,
+                    "BienSo": "51L-881.25",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

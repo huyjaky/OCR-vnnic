@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331989036/TB-TT3",
+            "SoDon": "9331989036",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN THÀNH PHỐ HUẾ",
+            "DiaChi": "50 TRẦN CAO VÂN, PHƯỜNG THUẬN HÓA, TP HUẾ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MG có số khung: LSJA36E38RZ170311; thông tin khác (số máy: 15S4C9KGR1291253, biển số: 75H-053.51)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Quảng Trị",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "Số 38 Quốc lộ 9B, Phường Đông Hà, tỉnh Quảng Trị, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MG",
+                    "SoKhung": "LSJA36E38RZ170311",
+                    "SoMay": "15S4C9KGR1291253",
+                    "BienSo": "75H-05351",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

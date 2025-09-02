@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331514371/TB-TT3",
+            "SoDon": "9331514371",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ CẨM XUYÊN",
+            "DiaChi": "XÃ CẨM XUYÊN, TỈNH HÀ TĨNH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô 01 XE Ô TÔ CON 05 CHỖ NHÃN HIỆU HYUNDAI, HIỆU XE TUCSON, SX NĂM 2024, MÀU TRẮNG có số khung: RLUJG81DBRN016848; thông tin khác (số máy: G4NLRW677014, biển số: 38A-69393)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Hà Tĩnh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Tĩnh",
+                    "DiaChi": "SỐ 02 ĐƯỜNG NGUYỄN THỊ MINH KHAI - PHƯỜNG THÀNH SEN - TỈNH HÀ TĨNH"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Hyundai Tucson màu trắng",
+                    "SoKhung": "RLUJG81DBRN016848",
+                    "SoMay": "G4NLRW677014",
+                    "BienSo": "38A-69393",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

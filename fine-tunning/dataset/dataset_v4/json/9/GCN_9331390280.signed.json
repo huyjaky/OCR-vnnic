@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331390280/TB-TT3",
+            "SoDon": "9331390280",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT – Công an tỉnh Khánh Hoà",
+            "DiaChi": "14 Võ Văn Ký, phường Tây Nha Trang, Khánh Hoà",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô FORD TERRITORY, màu bạc, 5 chỗ ngồi, mới 100%, sản xuất năm 2025, biển số 79A-621.81",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Khánh Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "17 Quang Trung, phường Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô FORD TERRITORY",
+                    "NhanHieuMauSon": "FORD TERRITORY màu bạc",
+                    "SoKhung": "RL05CYD7MSRR19173",
+                    "SoMay": "S4G033891",
+                    "BienSo": "79A-621.81",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

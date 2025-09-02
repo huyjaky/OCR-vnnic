@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331795210/TB-TT3",
+            "SoDon": "9331795210",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 6,
+            "LoaiDonName": "Xóa đăng ký bởi cơ quan có thẩm quyền",
+            "LoaiDonCode": "XĐDKBQCTQ",
+            "TenCongAn": "Phòng cảnh sát giao thông công an tỉnh Đồng Nai ( điểm đăng ký Bình Phước)",
+            "DiaChi": "Trần Hưng Đạo, phường Bình Phước, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RLUPC812EPT001025; thông tin khác (số máy: G4FLPQ187975, biển số: 93A-399.62)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam Chi nhánh Biên Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Tầng trệt, Tòa nhà Thanh Bình Plaza, số 5 đường Cách Mạng Tháng Tám, phường Thanh Bình, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLUPC812EPT001025",
+                    "SoMay": "G4FLPQ187975",
+                    "BienSo": "93A-399.62",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

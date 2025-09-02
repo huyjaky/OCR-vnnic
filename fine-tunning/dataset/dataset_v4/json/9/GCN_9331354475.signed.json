@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331354475/TB-TT3",
+            "SoDon": "9331354475",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An xã Ninh Phước",
+            "DiaChi": "Quốc Lộ 1A, thôn 5, xã Ninh Phước, tỉnh Khánh Hòa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Kia Frontier K200.E5, màu xanh, có số khung: RNHA39KHGST014415, số máy: SD599943D4CB, biển số: 85C-061.69",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Công thương Việt Nam - Chi nhánh Ninh Thuận-PGD Tháp Chàm",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "Số 704 đường 21/08, phường Đô Vinh, tỉnh Khánh Hòa"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Kia Frontier K200.E5 màu xanh",
+                    "SoKhung": "RNHA39KHGST014415",
+                    "SoMay": "SD599943D4CB",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

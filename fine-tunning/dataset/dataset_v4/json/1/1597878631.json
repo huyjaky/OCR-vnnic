@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0850",
+            "SoDon": "1597878631",
+            "SoDangKyLanDau": "1597878631",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:47:00",
+            "SoHopDong": "LN2506255905211",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T15:47:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Xe ô tô nhãn hiệu BYD, SEALION 6 DYNAMIC, 1.5L, AT",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM THỊ HỒNG HÀ",
+                        "CCCD": "031300011177",
+                        "DiaChi": "THÔN YÊN, Xã Hùng Thắng, thành phố Hải Phòng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi Nhánh HảiPhòng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Số 31 - 33 Phạm Ngũ Lão, Phường Gia Viên, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô nhãn hiệu BYD, SEALION 6 DYNAMIC, 1.5L, AT",
+                    "NhanHieuMauSon": "BYD, SEALION 6 DYNAMIC, 1.5L, AT",
+                    "SoKhung": "LGXC74C45SG020000",
+                    "SoMay": "BYD472QA425008044",
+                    "BienSo": "15K-521.58",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

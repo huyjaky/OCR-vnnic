@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332145635/TB-TT3",
+            "SoDon": "9332145635",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe máy chuyên dùng nhãn hiệu Zoomlion ZD160-3 của CÔNG TY TNHH XÂY DỰNG CẦU ĐƯỜNG HOÀNG NAM",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH XÂY DỰNG CẦU ĐƯỜNG HOÀNG NAM",
+                        "MaSoThue": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP ĐT&PT Việt Nam Chi Nhánh Đắk Lắk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "17 Nguyễn Tất Thành, Buôn Ma Thuột, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_KhongCoSoKhung",
+                    "TenPhuongTienNhanHieu": "Zoomlion ZD160-3",
+                    "TenChuPhuongTien": "CÔNG TY TNHH XÂY DỰNG CẦU ĐƯỜNG HOÀNG NAM",
+                    "SoDangKyCoQuanCC": "02808/XMCD ngày 27/12/2023 do Sở Giao thông vận tải tỉnh Đắk Lắk cấp",
+                    "CapPhuongTien": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

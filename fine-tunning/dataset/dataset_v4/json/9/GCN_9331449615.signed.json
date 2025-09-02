@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331449615/TB-TT3",
+            "SoDon": "9331449615",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Bắc Gianh",
+            "DiaChi": "Phường Bắc Gianh, tỉnh Quảng Trị",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: 8EM2G3223843; số máy: 1TRA211002, biển số: 73A-070.76",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Quảng Bình - Phòng giao dịch Ba Đồn",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "Số 375 Quang Trung, Phường Ba Đồn, tỉnh Quảng Trị, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "8EM2G3223843",
+                    "SoMay": "1TRA211002",
+                    "BienSo": "73A-070.76",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

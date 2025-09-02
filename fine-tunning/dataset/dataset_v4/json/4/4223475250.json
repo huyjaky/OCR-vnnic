@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0972",
+            "SoDon": "4223475250",
+            "SoDangKyLanDau": "1420271246",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T16:38:00",
+            "SoHopDong": "7667146.21",
+            "NgayCoHieuLucHopDong": "2021-06-21",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2021-06-24T14:53:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH MỘT THÀNH VIÊN CƯỜNG QUỐC PHÁT",
+                        "MaSoThue": "3603064827",
+                        "DiaChi": "Số 548, thôn Đông Bình, ấp Bùi Chu, xã Bắc Sơn, Trảng Bom, Đồng Nai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam Chi nhánh Đồng Nai Phòng giao dịch Trảng Bom",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số B1-B2 đường 29/4, khu phố 5, thị trấn Trảng Bom, Trảng Bom, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

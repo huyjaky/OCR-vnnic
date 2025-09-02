@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0464",
+            "SoDon": "2079978612",
+            "SoDangKyLanDau": "1399957466",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T12:06:00",
+            "SoHopDong": "TAL202113302903/HĐTC",
+            "NgayCoHieuLucHopDong": "2021-01-11",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": "TAL202113302903/HĐTC/PL3354536",
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2021-01-11T08:30:00",
+            "NoiDungThayDoi": "Kê khai nội dung thay đổi khác: Bổ sung thêm tài sản bảo đảm là: Hạt nhựa: PROPYLENE COPOLYMER GRADE NO.K8025 với số lượng 25 Tấn, đơn giá 25,000,000 VND/Tấn, giá trị 625,000,000 VND.",
+            "MoTaChungTaiSan": "Tài sản bảo đảm là hàng hóa luân chuyển trong quá trình sản xuất, kinh doanh, kho hàng không phải là phương tiện giao thông cơ giới đường bộ. Tài sản bảo đảm bao gồm: Toàn bộ nguyên liệu, vật liệu (Hạt nhựa: PROPYLENE COPOLYMER GRADE NO.K8025) hiện tại hoặc tương lai (cho dù được hình thành từ nguồn vốn nào); Toàn bộ các sản phẩm thành phẩm (Hạt nhựa: PROPYLENE COPOLYMER GRADE NO.K8025); Toàn bộ các sản phẩm đang sản xuất dở, sơ chế (Hạt nhựa: PROPYLENE COPOLYMER GRADE NO.K8025); Toàn bộ các tài sản được hình thành, các phế liệu, phế phẩm do chế biến, gia công, sản xuất, lắp ráp v.v từ các tài sản trên; Toàn bộ các tài sản được hình thành, có được do việc chuyển đổi, mua bán các tài sản trên; Toàn bộ các khoản thu nhập thu được từ bán tài sản trên; Các quyền, lợi ích, các khoản giá trị gia tăng có trước, trong và sau thời điểm thế chấp mà chưa được ghi nhận trong Hợp Đồng Bảo Đảm do Tài Sản Bảo Đảm được đầu tư, nâng cấp, các khoản bồi thường, đền bù và các khoản thanh toán khác gắn liền với Tài Sản Bảo Đảm mà Bên Bảo Đảm được nhận; Các hợp đồng bảo hiểm và toàn bộ các quyền của Bên Bảo Đảm phát sinh từ các hợp đồng bảo hiểm trong trường hợp Tài Sản Bảo Đảm được mua bảo hiểm. Địa điểm lô hàng thế chấp: “Kho Tài Sản” theo quy định tại các Phụ lục v/v giám sát tài sản thế chấp của Hợp đồng bảo đảm. Các giấy tờ chứng minh quyền sở hữu: Proforma Invoice số 25025 ngày 29/05/2025; Bộ chứng từ theo Invoice số 3A256023X ngày 29/06/2025; Tờ khai hải quan bổ sung sau. Hợp đồng bảo đảm là Hợp đồng thế chấp số TAL202113302903/HĐTC ngày 11/01/2021 và Phụ lục số TAL202113302903/HĐTC/PL3354536 ngày 10/07/2025. Tài sản trên không phải là chứng khoán đã đăng ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam. Trừ tàu bay, tàu biển và quyền sử dụng đất, tài sản gắn liền với đất thuộc thẩm quyền đăng ký của Văn phòng đăng ký quyền sử dụng đất.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TRÁCH NHIỆM HỮU HẠN CÔNG NGHIỆP BILLION ASCENT VIỆT NAM",
+                        "MaSoThue": "0314117626",
+                        "DiaChi": "Tầng 3, Toà nhà Đại Thanh Bình, 911-913-915-917 Nguyễn Trãi, Phường Chợ Lớn, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM Chi nhánh: Chợ Lớn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 78 - 80 - 82 Hậu Giang, Phường Bình Tây, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "Hạt nhựa",
+                    "DiaChiKhoHang": "“Kho Tài Sản” theo quy định tại các Phụ lục v/v giám sát tài sản thế chấp của Hợp đồng bảo đảm.",
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

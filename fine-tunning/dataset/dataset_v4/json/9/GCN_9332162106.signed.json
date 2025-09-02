@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332162106/TB-TT3",
+            "SoDon": "9332162106",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công an Tp Hồ Chí Minh",
+            "DiaChi": "Số 341 Trần Hưng Đạo, phường Cầu Ông Lãnh, TP.HCM",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Nhãn hiệu: VOLVO, số loại: S90L ULTRA, Màu sơn: Trắng có số khung: PNVPT06T0S5460724; thông tin khác (số máy: , biển số: 51M-052.83)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 89 Láng Hạ, phường Láng Hạ, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VOLVO màu Trắng",
+                    "SoKhung": "PNVPT06T0S5460724",
+                    "SoMay": null,
+                    "BienSo": "51M-052.83",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

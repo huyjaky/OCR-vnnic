@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1004",
+            "SoDon": "1597903630",
+            "SoDangKyLanDau": "1597903630",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:53:00",
+            "SoHopDong": "LN2506055747774",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:53:00",
+            "ThoiDiemDKLanDau": "2025-07-10T16:53:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô nhãn hiệu VINFAST, VF3, Động cơ điện, AT",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "ĐÀO THỊ HOA HIỀN",
+                        "CCCD": "062193001217",
+                        "DiaChi": "706A1 CHUNG CƯ C5, P. HẠC THÀNH, tỉnh Thanh Hóa, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN KHẮC TUẤN",
+                        "CCCD": "038084012236",
+                        "DiaChi": "706A1 CHUNG CƯ C5, P. HẠC THÀNH, tỉnh Thanh Hóa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 05 + 06 Đường Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST VF3",
+                    "SoKhung": "RLNVBL9K6SH772011",
+                    "SoMay": "TZ160X30G25031900035",
+                    "BienSo": "36K-693.62",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

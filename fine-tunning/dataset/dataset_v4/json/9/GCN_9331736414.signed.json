@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331736414/TB-TT3",
+            "SoDon": "9331736414",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Lê Thanh Nghị",
+            "DiaChi": "3 Thống Nhất, P. Lê Thanh Nghị, TP Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô VINFAST, VF5 - PLUS (xe điện), Động cơ điện, AT có số khung: RLNV5JSE2SH772264; thông tin khác (số máy: VFCAFB255290229, biển số: 34C-111.83)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Sở Giao Dịch",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "34 Hai Bà Trưng, phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô VINFAST, VF5 - PLUS (xe điện)",
+                    "NhanHieuMauSon": "VINFAST VF5 - PLUS (xe điện)",
+                    "SoKhung": "RLNV5JSE2SH772264",
+                    "SoMay": "VFCAFB255290229",
+                    "BienSo": "34C-111.83",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

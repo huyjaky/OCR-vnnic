@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331304280/TB-TT3",
+            "SoDon": "9331304280",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Vị Xuyên - Công an tỉnh Tuyên Quang",
+            "DiaChi": "Tổ 1, xã Vị Xuyên, tỉnh Tuyên Quang",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô CNHTC màu Nâu, số khung LZZ1CLVB6SD368380, số máy MC114450250417231237, biển số 23H-023.85",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Tuyên Quang",
+                    "DiaChi": "Số nhà 63, đường Nguyễn Trãi, phường Hà Giang 1, tỉnh Tuyên Quang, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô CNHTC",
+                    "NhanHieuMauSon": "CNHTC màu Nâu",
+                    "SoKhung": "LZZ1CLVB6SD368380",
+                    "SoMay": "MC114450250417231237",
+                    "BienSo": "23H-023.85",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

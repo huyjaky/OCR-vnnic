@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332057628/TB-TT3",
+            "SoDon": "9332057628",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Xuân Lập",
+            "DiaChi": "xã Xuân Lập, tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu SUZUKI XL7 HYBRID màu sơn ĐEN, biển số 36H-112.01, số khung MHYANC32SSJ805238, số máy K15BT1670774",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Tiên Phong Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "13, 14 Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "SUZUKI XL7 HYBRID, MÀU SƠN ĐEN",
+                    "SoKhung": "MHYANC32SSJ805238",
+                    "SoMay": "K15BT1670774",
+                    "BienSo": "36H-112.01",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

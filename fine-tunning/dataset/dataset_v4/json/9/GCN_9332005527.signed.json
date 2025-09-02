@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332005527/TB-TT3",
+            "SoDon": "9332005527",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông công an Thành phố Huế",
+            "DiaChi": "Đường Âu Lạc, Khu Quy Hoạch Đông Nam Thủy An, Phường An Cựu, Thành phố Huế",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Mercedes – Benz có số khung: RLMZF7GX3NV011488, biển số: 75A-373.79",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP HÀNG HẢI VIỆT NAM – CHI NHÁNH HUẾ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Huế",
+                    "DiaChi": "14B Lý Thường Kiệt, phường Thuận Hóa, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Mercedes – Benz",
+                    "SoKhung": "RLMZF7GX3NV011488",
+                    "SoMay": null,
+                    "BienSo": "75A-373.79",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

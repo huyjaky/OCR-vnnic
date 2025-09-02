@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332052143/TB-TT3",
+            "SoDon": "9332052143",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An phường Thuận Giao",
+            "DiaChi": "Số 9 Đại lộ Bình Dương, KP Hòa Lân 1, phường Thuận Giao, TP. Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô mới Mazda CX5, màu trắng có số khung: RN2KE2W7ASM166840; thông tin khác (số máy: PE50447979, biển số: 61K-627.12)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Địa điểm kinh doanh Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Bình Dương Phòng giao dịch Tân Uyên",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "TP. Hồ Chí Minh",
+                    "DiaChi": "Số 162 Đường DT 746, phường Tân Khánh, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Mazda CX5, màu trắng",
+                    "SoKhung": "RN2KE2W7ASM166840",
+                    "SoMay": "PE50447979",
+                    "BienSo": "61K-627.12",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

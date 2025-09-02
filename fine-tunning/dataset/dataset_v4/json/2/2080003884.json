@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0971",
+            "SoDon": "2080003884",
+            "SoDangKyLanDau": "1538916872",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:37:00",
+            "SoHopDong": "0026/TDN/23TC",
+            "NgayCoHieuLucHopDong": "2023-08-16",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-05-21T10:27:00",
+            "NoiDungThayDoi": "* Bổ sung TSBĐ là hàng hóa luân chuyển trong quá trình sản xuất kinh doanh, chi tiết như sau:\n1. Ngày đơn hàng: 10/07/2025; Mã kiểu loại: TEK6eb73afc; Miêu tả: FORD EVEREST 2.0L ST5 10AT 4x4 TITA; Mã màu: PMYE9; Miêu tả màu: Trắng; Giá trị (VNĐ): 1.260.454.545\n2. Ngày đơn hàng: 10/07/2025; Mã kiểu loại: TRAee227f40; Miêu tả: FORD RANGER 2.0L 10AT 4x4 WILDTRAK; Mã màu: PNZAT; Miêu tả màu: Đen; Giá trị (VNĐ): 836.600.000\n3. Ngày đơn hàng: 10/07/2025; Mã kiểu loại: TRAee227f40; Miêu tả: FORD RANGER 2.0L 10AT 4x4 WILDTRAK; Mã màu: PAED7; Miêu tả màu: Đỏ; Giá trị (VNĐ): 842.581.818\n4. Ngày đơn hàng: 10/07/2025; Mã kiểu loại: TRAe18c5aae; Miêu tả: FORD RANGER 2.0L ST5 10AT 4X4 RAPTOR; Mã màu: PMYFU; Miêu tả màu: Trắng; Giá trị (VNĐ): 1.110.054.545\n5. Ngày đơn hàng: 10/07/2025; Mã kiểu loại: TRAe18c5aae; Miêu tả: FORD RANGER 2.0L ST5 10AT 4X4 RAPTOR; Mã màu: PMYFU; Miêu tả màu: Trắng; Giá trị (VNĐ): 1.110.054.545",
+            "MoTaChungTaiSan": "Tài sản bảo đảm là hàng hóa luân chuyển trong quá trình sản xuất, kinh doanh, kho hàng không phải là phương tiện giao thông cơ giới đường bộ",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công ty Cổ phần Thương mại Dịch vụ Ô tô Đà Lạt",
+                        "MaSoThue": "5801378392",
+                        "DiaChi": "108 đường Hùng Vương, phường Xuân Trường - Đà Lạt, tỉnh Lâm Đồng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Ngoại thương Việt Nam - Chi nhánh Lâm Đồng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "33 Nguyễn Văn Cừ, phường Xuân Hương - Đà Lạt, tỉnh Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "5.159.745.453 VNĐ; FORD EVEREST 2.0L ST5 10AT 4x4 TITA; FORD RANGER 2.0L 10AT 4x4 WILDTRAK; FORD RANGER 2.0L ST5 10AT 4X4 RAPTOR",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

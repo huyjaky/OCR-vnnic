@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331616004/TB-TT3",
+            "SoDon": "9331616004",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "",
+            "TenCongAn": "Phòng CSGT - Công An BẮC NINH",
+            "DiaChi": "PHƯỜNG VÕ CƯỜNG, TỈNH BẮC NINH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu MAZDA, số loại 3, số khung RN2B14AA6MM062318, số máy P520738646, biển số 99A-479.98",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi Nhánh Bắc Ninh - Địa Điểm Kinh Doanh Phòng Giao Dịch Quế võ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Khu phố Mao Dộc, Phường Phương Liễu, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MAZDA",
+                    "SoKhung": "RN2B14AA6MM062318",
+                    "SoMay": "P520738646",
+                    "BienSo": "99A-479.98",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

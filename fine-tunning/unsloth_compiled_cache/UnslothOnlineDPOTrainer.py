@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
+2025.8.5
+2025.8.6
 4.53.3
-0.19.1
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from trl.trainer.online_dpo_trainer import (Any, BaseImageProcessor, BasePairwiseJudge, Callable, DPODataCollatorWithPadding, DataCollator, DataLoader, Dataset, EvalPrediction, F, FeatureExtractionMixin, GenerationConfig, IterableDataset, LLM, OnlineDPOConfig, OnlineDPOTrainer, OptimizerNames, Optional, Path, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, SIMPLE_CHAT_TEMPLATE, SamplingParams, Trainer, TrainerCallback, Union, apply_chat_template, create_reference_model, datasets, disable_dropout_in_model, empty_cache, generate_model_card, get_comet_experiment_url, get_reward, is_conversational, is_peft_available, is_wandb_available, jinja2, logging, maybe_apply_chat_template, nn, os, prepare_deepspeed, seed_worker, textwrap, torch, truncate_right, unwrap_model_for_generation, version, wandb, warnings, wraps, F, is_conversational, os, torch, F, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, torch)
+from trl.trainer.online_dpo_trainer import (Any, AutoModelForCausalLM, BaseImageProcessor, BasePairwiseJudge, Callable, DPODataCollatorWithPadding, DataCollator, DataLoader, Dataset, EvalPrediction, F, FeatureExtractionMixin, GenerationConfig, IterableDataset, OnlineDPOConfig, OnlineDPOTrainer, OptimizerNames, Optional, Path, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, SIMPLE_CHAT_TEMPLATE, Trainer, TrainerCallback, Union, apply_chat_template, create_reference_model, datasets, disable_dropout_in_model, empty_cache, generate_model_card, get_comet_experiment_url, get_reward, is_conversational, is_peft_available, is_wandb_available, jinja2, logging, maybe_apply_chat_template, nn, os, prepare_deepspeed, seed_worker, textwrap, torch, truncate_right, unwrap_model_for_generation, version, wandb, warnings, wraps, F, is_conversational, os, torch, F, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, torch)
 
 
 import os
@@ -101,12 +101,19 @@ class UnslothOnlineDPOConfig(OnlineDPOConfig):
             Whether to disable dropout in the model and reference model.
         use_vllm (`bool`, *optional*, defaults to `False`):
             Whether to use vLLM for generating completions. Requires vLLM to be installed (`pip install vllm`).
+        vllm_model_impl (`str`, *optional*, defaults to `"vllm"`):
+            Model implementation to use for vLLM. Must be one of `"transformers"` or `"vllm"`. `"transformers"`: Use
+            the `transformers` backend for model implementation. `"vllm"`: Use the `vllm` library for model
+            implementation.
         gpu_memory_utilization (`float`, *optional*, defaults to `0.55`):
             The vLLM memory utilization. The default value is 0.55.
         ds3_gather_for_generation (`bool`, *optional*, defaults to `True`):
             This setting applies to DeepSpeed ZeRO-3. If enabled, the policy model weights are gathered for generation,
             improving generation speed. However, disabling this option allows training models that exceed the VRAM
             capacity of a single GPU, albeit at the cost of slower generation.
+        model_init_kwargs (`dict[str, Any]` or `None`, *optional*, defaults to `None`):
+            Keyword arguments to pass to `AutoModelForCausalLM.from_pretrained` when instantiating the model from a
+            string.
     
     """
     vllm_sampling_params: Optional[Any] = field(
@@ -257,8 +264,10 @@ class UnslothOnlineDPOConfig(OnlineDPOConfig):
         dataset_num_proc = None,
         disable_dropout = True,
         use_vllm = False,
+        vllm_model_impl = 'vllm',
         gpu_memory_utilization = 0.55,
         ds3_gather_for_generation = True,
+        model_init_kwargs = None,
         vllm_sampling_params = None,
         unsloth_num_chunks = -1,
         **kwargs,
@@ -416,8 +425,10 @@ class UnslothOnlineDPOConfig(OnlineDPOConfig):
             dataset_num_proc = dataset_num_proc,
             disable_dropout = disable_dropout,
             use_vllm = use_vllm,
+            vllm_model_impl = vllm_model_impl,
             gpu_memory_utilization = gpu_memory_utilization,
-            ds3_gather_for_generation = ds3_gather_for_generation,**kwargs)
+            ds3_gather_for_generation = ds3_gather_for_generation,
+            model_init_kwargs = model_init_kwargs,**kwargs)
         self.vllm_sampling_params = vllm_sampling_params
         self.unsloth_num_chunks = unsloth_num_chunks
 pass
@@ -429,7 +440,7 @@ class _UnslothOnlineDPOTrainer(Trainer):
 
     def __init__(
         self,
-        model: Union[PreTrainedModel, nn.Module],
+        model: Union[PreTrainedModel, nn.Module, str],
         ref_model: Union[PreTrainedModel, nn.Module, None] = None,
         reward_model: Union[PreTrainedModel, nn.Module, None] = None,
         judge: Optional[BasePairwiseJudge] = None,
@@ -472,7 +483,6 @@ class _UnslothOnlineDPOTrainer(Trainer):
         self.reward_model = reward_model
         self.reward_processing_class = reward_processing_class
         self.judge = judge
-        self.is_encoder_decoder = model.config.is_encoder_decoder
 
         if args.missing_eos_penalty is not None and judge is not None:
             raise ValueError("`missing_eos_penalty` is not supported when `judge` is provided.")
@@ -483,6 +493,32 @@ class _UnslothOnlineDPOTrainer(Trainer):
         # Check that the processing_class is provided
         if processing_class is None:
             raise ValueError("`processing_class` must be provided.")
+
+        model_init_kwargs = args.model_init_kwargs or {}
+        if isinstance(model, str):
+            model_id = model
+
+            # Handle torch_dtype in model_init_kwargs
+            torch_dtype = model_init_kwargs.get("torch_dtype")
+            if isinstance(torch_dtype, torch.dtype) or torch_dtype == "auto" or torch_dtype is None:
+                pass
+            elif isinstance(torch_dtype, str):
+                torch_dtype = getattr(torch, torch_dtype)
+                model_init_kwargs["torch_dtype"] = torch_dtype
+            else:
+                raise ValueError(
+                    "Invalid `torch_dtype` passed to `OnlineDPOConfig`. Expected either 'auto' or a string "
+                    f"representing a `torch.dtype` (e.g., 'float32'), but got {torch_dtype}."
+                )
+
+            model = AutoModelForCausalLM.from_pretrained(model_id, **model_init_kwargs)
+        else:
+            if args.model_init_kwargs is not None:
+                raise ValueError(
+                    "You passed `model_init_kwargs` to the `OnlineDPOConfig`, but your model is already instantiated. "
+                    "This argument can only be used when the `model` argument is a string."
+                )
+        self.is_encoder_decoder = model.config.is_encoder_decoder
 
         # Convert to PEFT model if peft_config is provided
         if False:
@@ -791,7 +827,9 @@ class _UnslothOnlineDPOTrainer(Trainer):
         output = model(prompt_completion_ids, attention_mask=prompt_completion_mask)
 
         # There is 1 offset, because the model predict the next token
-        logits = output.logits[:, prompt_ids.size(1) - 1 : -1]
+        prompt_len = prompt_ids.size(1)
+        start_idx = prompt_len - 1 if prompt_len > 0 else 0
+        logits = output.logits[:, start_idx:-1]
 
         # Take the completion tokens logprob
         logprobs = torch.take_along_dim(logits.log_softmax(dim=-1), completion_ids.unsqueeze(-1), dim=2).squeeze(-1)
@@ -1081,7 +1119,7 @@ class _UnslothOnlineDPOTrainer(Trainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="Online DPO",
             trainer_citation=citation,
@@ -1095,8 +1133,15 @@ class UnslothOnlineDPOTrainer(_UnslothOnlineDPOTrainer):
     Initialize OnlineDPOTrainer.
 
     Args:
-        model (`transformers.PreTrainedModel` or `torch.nn.Module`):
-            The model to train, preferably an `AutoModelForCausalLM`.
+        model (`Union[str, nn.Module, PreTrainedModel]`):
+            Model to be trained. Can be either:
+
+            - A string, being the *model id* of a pretrained model hosted inside a model repo on huggingface.co, or a
+              path to a *directory* containing model weights saved using
+              [`~transformers.PreTrainedModel.save_pretrained`], e.g., `'./my_model_directory/'`. The model is loaded
+              using [`~transformers.AutoModelForCausalLM.from_pretrained`] with the keyword arguments in
+              `args.model_init_kwargs`.
+            - A [`~transformers.PreTrainedModel`] object. Only causal language models are supported.
         ref_model (`transformers.PreTrainedModel` or `torch.nn.Module` or `None`):
             The reference model to use for training. If None is specified, the reference model will be created from the
             model.
@@ -1114,7 +1159,7 @@ class UnslothOnlineDPOTrainer(_UnslothOnlineDPOTrainer):
             The dataset to use for training.
         eval_dataset (`datasets.Dataset`):
             The dataset to use for evaluation.
-        processing_class (`PreTrainedTokenizerBase` or `BaseImageProcessor` or `FeatureExtractionMixin` or `ProcessorMixin`, *optional*):
+        processing_class ([`~transformers.PreTrainedTokenizerBase`], [`~transformers.BaseImageProcessor`], [`~transformers.FeatureExtractionMixin`] or [`~transformers.ProcessorMixin`], *optional*, defaults to `None`):
             Processing class used to process the data. If provided, will be used to automatically process the inputs
             for the model, and it will be saved along the model to make it easier to rerun an interrupted training or
             reuse the fine-tuned model.
@@ -1263,6 +1308,14 @@ class UnslothOnlineDPOTrainer(_UnslothOnlineDPOTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

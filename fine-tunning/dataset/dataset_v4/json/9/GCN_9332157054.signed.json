@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332157054/TB-TT3",
+            "SoDon": "9332157054",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT CA tỉnh Khánh Hòa",
+            "DiaChi": "14 Võ Văn Ký, phường Tây Nha Trang, Khánh Hòa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô con 5 chỗ ngồi, nhãn hiệu: HYUNDAI, mã kiểu loại: Accent BN7I, năm sản xuất: 2025, mới 100%, xuất xứ: Việt Nam, màu sơn: Trắng có số khung: RLUGU41DBST012409; số máy: G4FLSQ485687, biển số: 79A-704.20",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Chủ sở hữu không xác định",
+                        "CCCD": "000000000",
+                        "DiaChi": "Địa chỉ không xác định"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Khánh Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "17 Quang Trung, phường Nha Trang, tỉnh Khánh Hoà, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HYUNDAI màu Trắng",
+                    "SoKhung": "RLUGU41DBST012409",
+                    "SoMay": "G4FLSQ485687",
+                    "BienSo": "79A-704.20",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

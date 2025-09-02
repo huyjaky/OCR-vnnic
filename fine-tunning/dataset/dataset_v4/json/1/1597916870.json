@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1120",
+            "SoDon": "1597916870",
+            "SoDangKyLanDau": "1597916870",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:19:00",
+            "SoHopDong": "LN2506195854588",
+            "NgayCoHieuLucHopDong": "2025-07-01",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T18:19:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô nhãn hiệu VINFAST",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "MAI THỊ BÍCH PHƯỢNG",
+                        "CCCD": "048195001408",
+                        "DiaChi": "TỔ 6, Phường Liên Chiểu, thành phố Đà Nẵng, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "MAI VĂN QUỐC NHÂN",
+                        "CCCD": "048095009149",
+                        "DiaChi": "Số Nhà H12/03, Kiệt 75 Đồng Kè Tổ 45, Phường Liên Chiểu, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Số 112 Phan Châu Trinh, Phường Hải Châu, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô nhãn hiệu VINFAST",
+                    "SoKhung": "RLNV5JSE7SH771160",
+                    "SoMay": "VFCAFB255270002",
+                    "BienSo": "43H - 172.45",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

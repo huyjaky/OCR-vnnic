@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331445652/TB-TT3",
+            "SoDon": "9331445652",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Hoàn Long",
+            "DiaChi": "xã Hoàn Long, tỉnh Hưng Yên",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "TOYOTA có số khung: RL4B23F37N5161754; thông tin khác (số máy: 2NRX912610, biển số: 89A-352.96)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Sở Giao Dịch",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và tầng 3, tòa nhà số 34, phố Hai Bà Trưng, Phường Tràng Tiền"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "TOYOTA",
+                    "SoKhung": "RL4B23F37N5161754",
+                    "SoMay": "2NRX912610",
+                    "BienSo": "89A-352.96",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331751041/TB-TT3",
+            "SoDon": "9331751041",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công An tỉnh Đắk Lắk-Cơ Sở 2",
+            "DiaChi": "Km3 Quốc lộ 25, Khu phố Ân Niên, Phường Tuy Hòa, Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "05 xe ô tô DAEWOO màu TRẮNG với các số khung KL3K4DEF1FK003153, KL3K4DEF1FK003140, KL3K4DEF1FK003130, KL3K4DEF1FK003115, KL3K4DEF1FK002934 và các biển số tương ứng 47A-944.12, 47A-943.93, 47A-941.36, 78A-274.08, 47A-940.20.",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Thương mại Cổ phần Quân đội (MB) - Chi nhánh Phú Yên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "99A-101 Hùng Vương, Phường Tuy Hòa, Tỉnh Đắk Lắk"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô DAEWOO",
+                    "NhanHieuMauSon": "DAEWOO TRẮNG",
+                    "SoKhung": "KL3K4DEF1FK003153",
+                    "SoMay": "DE12TIS544347CA",
+                    "BienSo": "47A-944.12",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô DAEWOO",
+                    "NhanHieuMauSon": "DAEWOO TRẮNG",
+                    "SoKhung": "KL3K4DEF1FK003140",
+                    "SoMay": "DE12TIS544349C",
+                    "BienSo": "47A-943.93",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô DAEWOO",
+                    "NhanHieuMauSon": "DAEWOO TRẮNG",
+                    "SoKhung": "KL3K4DEF1FK003130",
+                    "SoMay": "DE12TIS544488CA",
+                    "BienSo": "47A-941.36",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô DAEWOO",
+                    "NhanHieuMauSon": "DAEWOO TRẮNG",
+                    "SoKhung": "KL3K4DEF1FK003115",
+                    "SoMay": "DE12TIS544687CA",
+                    "BienSo": "78A-274.08",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô DAEWOO",
+                    "NhanHieuMauSon": "DAEWOO TRẮNG",
+                    "SoKhung": "KL3K4DEF1FK002934",
+                    "SoMay": "DE12TIS542961CA",
+                    "BienSo": "47A-940.20",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

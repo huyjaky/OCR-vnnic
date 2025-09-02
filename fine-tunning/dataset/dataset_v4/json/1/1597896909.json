@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0965",
+            "SoDon": "1597896909",
+            "SoDangKyLanDau": "1597896909",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:36:00",
+            "SoHopDong": "LN2506255902600",
+            "NgayCoHieuLucHopDong": "2025-07-03",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:36:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 XE Ô TÔ NHÃN HIỆU TOYOTA",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN VĂN NHƯỢNG",
+                        "CCCD": "024081030843",
+                        "DiaChi": "SỐ 47 XUÂN ĐỈNH TDP SỐ 2, Phường Xuân Đỉnh, thành phố Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ HÒA",
+                        "CCCD": "001179008433",
+                        "DiaChi": "SỐ 47 XUÂN ĐỈNH TDP SỐ 2, Phường Xuân Đỉnh, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "TOYOTA",
+                    "SoKhung": "MR2KUAAG6N0039223",
+                    "SoMay": "2ZRY846012",
+                    "BienSo": "30M-518.00",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

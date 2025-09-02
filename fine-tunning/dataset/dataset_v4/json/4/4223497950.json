@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1147",
+            "SoDon": "4223497950",
+            "SoDangKyLanDau": "1309161212",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T18:50:00",
+            "SoHopDong": "LN1811281096989",
+            "NgayCoHieuLucHopDong": "2018-11-30",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2018-11-30T16:03:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HOÀNG THỊ THU TRANG ( HOÀNG THU TRANG)",
+                        "CCCD": "073110654",
+                        "DiaChi": "Thôn Bó Củng, Thị Trấn Yên Phú, Bắc Mê, Hà Giang, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VŨ ĐỨC CHÍNH",
+                        "CCCD": "073553535",
+                        "DiaChi": "Thôn Bó Củng, Thị Trấn Yên Phú, Bắc Mê, Hà Giang, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG (VPBANK) - CHI NHÁNH THĂNG LONG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tòa nhà M3-M4 đường Nguyễn Chí Thanh, Phường Láng Hạ, Đống Đa, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

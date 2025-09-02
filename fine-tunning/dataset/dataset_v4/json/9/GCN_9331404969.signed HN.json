@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331404969/TB-TT3",
+            "SoDon": "9331404969",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TP HÀ NỘI",
+            "DiaChi": "86 Lý Thường Kiệt, P. Cửa Nam,TP Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST, VF3, Động cơ điện, AT có số khung: RLNVBL9KXSH775722; thông tin khác (số máy: TZ160X30G25031800107, biển số: 30M-428.26)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, Số 292 Hồ Tùng Mậu, tổ dân phố số 12, phường Phú Diễn, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST VF3 Động cơ điện",
+                    "SoKhung": "RLNVBL9KXSH775722",
+                    "SoMay": "TZ160X30G25031800107",
+                    "BienSo": "30M-428.26",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

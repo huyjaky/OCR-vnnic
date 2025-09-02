@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250225-0517",
+            "SoDon": "3013785307",
+            "SoDangKyLanDau": "1577711975",
+            "LoaiDonID": 3,
+            "LoaiDonName": "Sửa chữa sai sót",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-02-25T14:01:00",
+            "SoHopDong": "56099/2025/HĐBĐ/NHCT484/PGA-TLST",
+            "NgayCoHieuLucHopDong": "2025-02-24",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-02-24T16:45:00",
+            "NoiDungThayDoi": "SỬA CHỮA SAI SÓT",
+            "MoTaChungTaiSan": "Tên quyền tài sản được dùng để bảo đảm : Các quyền tài sản (bao gồm: quyền đòi nợ và thụ hưởng số tiền đòi nợ; quyền được phân chia và sử dụng, khai thác và/hoặc sở hữu sản phẩm được phân chia; quyền yêu cầu hoàn trả tiền ứng trước, tiền phạt vi phạm, tiền bồi thường thiệt hại và thụ hưởng số tiền này; các quyền, tài sản khác) của Bên Thế Chấp.\n(i) Quyền tài sản phát sinh từ hợp đồng :\n- Hợp đồng mua bán căn hộ số F-1609/2025/HĐMBCH/TL-TLST ký ngày 14/02/2025.\n- Thời điểm có hiệu lực : ngày 14 tháng 02 năm 2025\n- Các bên tham gia xác lập hợp đồng: Bên bảo đảm đã ký với Công ty TNHH Đầu Tư Tháp Lụa Đà Nẵng.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN LÊ SƠN TRƯỜNG",
+                        "CCCD": "079082015410",
+                        "DiaChi": "675, Tổ 37, KP3, Thạnh Xuân, Quận 12, Hồ Chí Minh, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM GIA ANH",
+                        "CCCD": "079182025944",
+                        "DiaChi": "55 Phan Xích Long, P.03, Phú Nhuận, Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP CÔNG THƯƠNG VIỆT NAM – CHI NHÁNH HỘI AN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Nam",
+                    "DiaChi": "Số 04 Hoàng Diệu, thành phố Hội An, Quảng Nam, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Các quyền tài sản (bao gồm: quyền đòi nợ và thụ hưởng số tiền đòi nợ; quyền được phân chia và sử dụng, khai thác và/hoặc sở hữu sản phẩm được phân chia; quyền yêu cầu hoàn trả tiền ứng trước, tiền phạt vi phạm, tiền bồi thường thiệt hại và thụ hưởng số tiền này; các quyền, tài sản khác) của Bên Thế Chấp.",
+                    "CanCuPhatSinhQuyen": "- Hợp đồng mua bán căn hộ số F-1609/2025/HĐMBCH/TL-TLST ký ngày 14/02/2025.\n- Thời điểm có hiệu lực : ngày 14 tháng 02 năm 2025\n- Các bên tham gia xác lập hợp đồng: Bên bảo đảm đã ký với Công ty TNHH Đầu Tư Tháp Lụa Đà Nẵng."
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

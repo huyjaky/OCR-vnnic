@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331337076/TB-TT3",
+            "SoDon": "9331337076",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Thái Hòa",
+            "DiaChi": "Khối Long Thượng, phường Thái Hòa, Nghệ An",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô THACO, Cam có số khung: RN5B36SGMSN010210; thông tin khác (số máy: WP12H400E50B924L002447, biển số: 37H-103.08)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam Chi nhánh Tây Nghệ An",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Dự án Khu đô thị Long Sơn 2, Phường Thái Hòa, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "THACO màu cam",
+                    "SoKhung": "RN5B36SGMSN010210",
+                    "SoMay": "WP12H400E50B924L002447",
+                    "BienSo": "37H-10308",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

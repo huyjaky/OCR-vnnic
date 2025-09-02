@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332032608/TB-TT3",
+            "SoDon": "9332032608",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công An tỉnh Đồng Nai",
+            "DiaChi": "161 Đường Phạm Văn Thuận, Tam Hiệp, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MK2XNNC1WKN014928; thông tin khác (số máy: 4A91HQ8299, biển số: 60A-790.86)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TNHH Một Thành Viên Shinhan Việt Nam Chi Nhánh Biên Hòa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Tầng 9 và Tầng 10, Tòa nhà Sonadezi, số 1, Đường số 1, KCN Biên Hòa 1, Phường An Bình, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MK2XNNC1WKN014928",
+                    "SoMay": "4A91HQ8299",
+                    "BienSo": "60A-790.86",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

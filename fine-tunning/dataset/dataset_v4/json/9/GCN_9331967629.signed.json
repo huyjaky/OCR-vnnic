@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331967629/TB-TT3",
+            "SoDon": "9331967629",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Cư Jút",
+            "DiaChi": "25A Nguyễn Đình Chiểu, Xã Cư Jút, Tỉnh Lâm Đồng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô BMW, Màu sơn: Trắng, có số khung: RN215HL06SYZ05329; số máy: 16867722B48B20P, biển số: 47A-896.99",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Đầu tư và Phát triển Việt Nam Chi nhánh Buôn Hồ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "476 Hùng Vương, Phường Buôn Hồ, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "BMW màu trắng",
+                    "SoKhung": "RN215HL06SYZ05329",
+                    "SoMay": "16867722B48B20P",
+                    "BienSo": "47A-89699",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

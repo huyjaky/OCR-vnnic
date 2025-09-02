@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331674007/TB-TT3",
+            "SoDon": "9331674007",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCBSA",
+            "TenCongAn": "Công an Phường Thanh Điền",
+            "DiaChi": "số 18, hẻm 10, đường số 6, Lạc Long Quân, khu phố Hiệp Hòa, phường Thanh Điền, tỉnh Tây Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu HONDA màu Đen, số khung RLHGN2661SY302246, số máy L15ZC4009136, biển số 70A-643.83",
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Chi nhánh Tây Ninh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "L4-L5 khu Shophouse MBland, đường 30/4, khu phố 22, phường Tân Ninh, tỉnh Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HONDA màu Đen",
+                    "SoKhung": "RLHGN2661SY302246",
+                    "SoMay": "L15ZC4009136",
+                    "BienSo": "70A-643.83",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331524815/TB-TT3",
+            "SoDon": "9331524815",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông, Công an Thành phố Đà Nẵng",
+            "DiaChi": "Khu E1 Võ An Ninh, Hòa Xuân, Đà Nẵng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô PEUGEOT có số khung: RN2PMJEP6SM157947; số máy: 583157010UF205G02, biển số: 43A-862.56",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Số 112 Phan Châu Trinh, Phường Hải Châu, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "PEUGEOT",
+                    "SoKhung": "RN2PMJEP6SM157947",
+                    "SoMay": "583157010UF205G02",
+                    "BienSo": "43A-86256",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0914",
+            "SoDon": "1597891053",
+            "SoDangKyLanDau": "1597891053",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:17:00",
+            "SoHopDong": "REF2511310307/HDTC/QDN/292759/2",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:17:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "* Hàng hóa luân chuyển trong quá trình sản xuất kinh doanh:\nTên hàng hóa: Cá ngừ theo Hợp đồng mua bán (Sales Contract) số 012HMP-PF25 ký ngày 01/07/2025 giữa CÔNG TY TNHH HMP KHÁNH HÒA và PEARLMARK FOOD INC và các Văn bản đính kèm hợp đồng này (nếu có)\nLoại hàng hóa: Là toàn bộ Hàng hóa đã, đang và sẽ hình thành trong tương lai của Bên bảo đảm, bao gồm:\nHàng hóa theo hợp đồng mua bán (sales contract) số 012HMP-PF25 ngày 01/07/2025\n** Tên quyền tài sản được dùng để bảo đảm:\n- Toàn bộ Quyền đòi nợ (bao gồm toàn bộ quyền đòi tiền) của Bên bảo đảm phát sinh từ Hợp đồng mua bán (Sales Contract) số 012HMP-PF25 ký ngày 01/07/2025 giữa CÔNG TY TNHH HMP KHÁNH HÒA và PEARLMARK FOOD INC và Phụ lục đính kèm (nếu có) (Gọi tắt là Hợp đồng đầu ra).\n- Các quyền tài sản và quyền lợi khác phát sinh từ Hợp đồng đầu ra.\n(i) Quyền tài sản phát sinh từ hợp đồng\n- Hợp đồng mua bán (Sales Contract) số 012HMP-PF25 ký ngày 01/07/2025 và Phụ lục đính kèm (nếu có)\n- Thời điểm có hiệu lực: ngày 01/07/2025\n- Các bên tham gia xác lập hợp đồng: CÔNG TY TNHH HMP KHÁNH HÒA và PEARLMARK FOOD INC\n*** Toàn bộ khoản tiền, lãi và lợi ích của Bên bảo đảm đối với (các) Tài khoản thanh toán chuyên dụng và tài khoản thanh toán khác của Bên bảo đảm mở tại Bên nhận bảo đảm phát sinh từ Hợp đồng mua bán (Sales Contract) số 012HMP-PF25 ký ngày 01/07/2025 giữa CÔNG TY TNHH HMP KHÁNH HÒA và PEARLMARK FOOD INC và Phụ lục đính kèm (nếu có).",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH HMP KHÁNH HÒA",
+                        "MaSoThue": "4201593156",
+                        "DiaChi": "Hương lộ 62, thôn Đồng Bé, Xã Diên Thọ, tỉnh Khánh Hòa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Đông Nam Á Chi Nhánh Nha Trang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "82 Lý Thánh Tôn, phường Tây Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "Cá ngừ theo Hợp đồng mua bán (Sales Contract) số 012HMP-PF25 ký ngày 01/07/2025 giữa CÔNG TY TNHH HMP KHÁNH HÒA và PEARLMARK FOOD INC và các Văn bản đính kèm hợp đồng này (nếu có)",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "- Toàn bộ Quyền đòi nợ (bao gồm toàn bộ quyền đòi tiền) của Bên bảo đảm phát sinh từ Hợp đồng mua bán (Sales Contract) số 012HMP-PF25 ký ngày 01/07/2025 giữa CÔNG TY TNHH HMP KHÁNH HÒA và PEARLMARK FOOD INC và Phụ lục đính kèm (nếu có) (Gọi tắt là Hợp đồng đầu ra).\n- Các quyền tài sản và quyền lợi khác phát sinh từ Hợp đồng đầu ra.",
+                    "CanCuPhatSinhQuyen": "- Hợp đồng mua bán (Sales Contract) số 012HMP-PF25 ký ngày 01/07/2025 và Phụ lục đính kèm (nếu có)\n- Thời điểm có hiệu lực: ngày 01/07/2025\n- Các bên tham gia xác lập hợp đồng: CÔNG TY TNHH HMP KHÁNH HÒA và PEARLMARK FOOD INC"
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Toàn bộ khoản tiền, lãi và lợi ích của Bên bảo đảm đối với (các) Tài khoản thanh toán chuyên dụng và tài khoản thanh toán khác của Bên bảo đảm mở tại Bên nhận bảo đảm phát sinh từ Hợp đồng mua bán (Sales Contract) số 012HMP-PF25 ký ngày 01/07/2025 giữa CÔNG TY TNHH HMP KHÁNH HÒA và PEARLMARK FOOD INC và Phụ lục đính kèm (nếu có).",
+                    "CanCuPhatSinhQuyen": "Hợp đồng mua bán (Sales Contract) số 012HMP-PF25 ký ngày 01/07/2025 giữa CÔNG TY TNHH HMP KHÁNH HÒA và PEARLMARK FOOD INC và Phụ lục đính kèm (nếu có)"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

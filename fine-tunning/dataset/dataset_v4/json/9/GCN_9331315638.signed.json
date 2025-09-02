@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331315638/TB-TT3",
+            "SoDon": "9331315638",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Tân An",
+            "DiaChi": "Số 24 Trương Quang Giao, Phường Tân An, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Nhãn hiệu MAZDA màu Đỏ, có số khung: MM7DM2W7ATW126718, số máy: PE50447044, biển số: 47A-916.58",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "27 đường Nguyễn Tất Thành, phường Buôn Ma Thuột, , tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MAZDA Màu Đỏ",
+                    "SoKhung": "MM7DM2W7ATW126718",
+                    "SoMay": "PE50447044",
+                    "BienSo": "47A-916.58",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

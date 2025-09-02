@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0948",
+            "SoDon": "1597894377",
+            "SoDangKyLanDau": "1597894377",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:27:00",
+            "SoHopDong": "REF2517476014/HDTC/HH/292798/1",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": 14239260001,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:27:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Hàng hóa luân chuyển trong quá trình sản xuất kinh doanh: 21 (hai mươi mốt) xe ô tô con nhãn hiệu Honda theo Hợp đồng Phân phối và Dịch vụ Ôtô Honda ký ngày 01/04/2024 và Thỏa thuận sửa đổi, bổ sung Hợp đồng phân phối ngày 27/02/2025, Đơn đặt hàng ngày 09/07/2025 và/hoặc các văn bản có liên quan được ký kết giữa Công Ty TNHH Dịch Vụ Ô Tô Quang Trung (Bên mua) và CÔNG TY HONDA VIỆT NAM (Bên bán)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công Ty TNHH Dịch Vụ Ô Tô Quang Trung",
+                        "MaSoThue": "2802150758",
+                        "DiaChi": "Số 92 Đại lộ Lê Lợi, Phường Đông Hương, Thành phố Thanh Hóa (Nay là Số 92 Đại lộ Lê Lợi, Phường Hạc Thành), tỉnh Thanh Hóa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Đông Nam Á Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô số 03+04, số 19 Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "21 (hai mươi mốt) xe ô tô con nhãn hiệu Honda theo Hợp đồng Phân phối và Dịch vụ Ôtô Honda ký ngày 01/04/2024 và Thỏa thuận sửa đổi, bổ sung Hợp đồng phân phối ngày 27/02/2025, Đơn đặt hàng ngày 09/07/2025 và/hoặc các văn bản có liên quan được ký kết giữa Công Ty TNHH Dịch Vụ Ô Tô Quang Trung (Bên mua) và CÔNG TY HONDA VIỆT NAM (Bên bán). Giá trị hàng hóa: 14,239,260,001 VND",
+                    "DiaChiKhoHang": "Số 92 Đại lộ Lê Lợi, phường Đông Hương, Thành phố Thành Hóa, Tỉnh Thanh Hóa (nay là Số 92 Đại lộ Lê Lợi, Phường Hạc Thành, Tỉnh Thanh Hóa)",
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": null
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

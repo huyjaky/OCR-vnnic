@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0992",
+            "SoDon": "1597900750",
+            "SoDangKyLanDau": "1597900750",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10 16:46:00",
+            "SoHopDong": "TCU2025CFMG16155357/HDTC",
+            "NgayCoHieuLucHopDong": "2025-06-19",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10 16:46:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "- Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán số D1.19.06/LUMIERE BOULEVARD/HĐMB ký và có hiệu lực ngày 01/12/2023 giữa Doanh nghiệp kinh Doanh Bất động sản là Công ty TNHH phát triển bất động sản Masterise Homes với ông/bà Lê Thị Huyền Linh; Hợp đồng chuyển nhượng Hợp Đồng Mua Bán số 014929, quyển số 06/2025 TP/CC-SCC/HĐGD ký và có hiệu lực ngày 19/06/2025 giữa ông/bà Lê Thị Huyền Linh và ông/bà Nguyễn Thị Mai Hương về việc mua bán Căn Hộ số: D1.19.06 thuộc Dự án Khu chung cư cao tầng thuộc ô quy hoạch B7 Dự án khu dân cư và Công viên Phước Thiện (tên thương mại là LUMIERE BOULEVARD hoặc tên gọi khác theo quyết định của Chủ đầu tư hoặc Cơ quan có thẩm quyền tùy từng thời điểm) tại phường Long Bình, phường Long Thạnh Mỹ, thành phố Thủ Đức (Quận 9 cũ), thành phố Hồ Chí Minh được cơ quan có thẩm quyền phê duyệt.\n- Thế chấp Quyền tài sản khác theo quy định của pháp luật phát sinh theo Hợp Đồng Mua Bán trên (trừ Quyền sử dụng đất và tài sản gắn liền với đất thuộc thẩm quyền đăng ký của văn phòng đăng ký quyền sử dụng đất)\n- Các khoản lợi tức thu được từ việc khai thác, kinh doanh tài sản thế chấp phát sinh từ hợp đồng mua bán trên.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ MAI HƯƠNG",
+                        "CCCD": "036181000001",
+                        "DiaChi": "Căn hộ chung cư số 0507, Nhà T02, KĐT Vinhomes Times City, 458 Minh Khai, phường Vĩnh Tuy, thành phố Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN VĂN KIỀU",
+                        "CCCD": "042082000001",
+                        "DiaChi": "Căn hộ chung cư số 0507, Nhà T02, KĐT Vinhomes Times City, 458 Minh Khai, phường Vĩnh Tuy, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM - TRUNG TÂM GIAO DỊCH HỘI SỞ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 6 Phố Quang Trung, Phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Quyền tài sản",
+                    "CanCuPhatSinhQuyen": "Hợp Đồng Mua Bán số D1.19.06/LUMIERE BOULEVARD/HĐMB ký và có hiệu lực ngày 01/12/2023 giữa Doanh nghiệp kinh Doanh Bất động sản là Công ty TNHH phát triển bất động sản Masterise Homes với ông/bà Lê Thị Huyền Linh; Hợp đồng chuyển nhượng Hợp Đồng Mua Bán số 014929, quyển số 06/2025 TP/CC-SCC/HĐGD ký và có hiệu lực ngày 19/06/2025 giữa ông/bà Lê Thị Huyền Linh và ông/bà Nguyễn Thị Mai Hương về việc mua bán Căn Hộ số: D1.19.06"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

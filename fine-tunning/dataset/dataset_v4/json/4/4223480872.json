@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1023",
+            "SoDon": "4223480872",
+            "SoDangKyLanDau": "1471847274",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T17:04:00",
+            "SoHopDong": "0316/2022/BĐ",
+            "NgayCoHieuLucHopDong": "2022-09-13",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2022-09-13T08:29:00",
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHAN VĂN HÀ",
+                        "CCCD": "241391643",
+                        "DiaChi": "Tổ Dân Phố 3, Phường Ea Tam, Thành phố Buôn Ma Thuột, Đắk Lắk, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ DIỄM NGỌC",
+                        "CCCD": "241265948",
+                        "DiaChi": "Liên Gia 7, Tổ Dân Phố 9, Phường Tân Lập, Thành phố Buôn Ma Thuột, Đắk Lắk, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Phương Đông Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "269 Lê Hồng Phong, Phường Thống Nhất, Thành phố Buôn Ma Thuột, Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

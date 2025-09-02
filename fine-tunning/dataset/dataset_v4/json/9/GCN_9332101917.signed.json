@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332101917/TB-TT3",
+            "SoDon": "9332101917",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TB_CCA",
+            "TenCongAn": "công an xã Nga Sơn",
+            "DiaChi": "xã Nga Sơn, tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu ISUZU màu trắng, biển số 36C-501.39",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Tiên Phong Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 13+14 Phan Chu Trinh, phường Điện Biên, Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "ISUZU màu trắng",
+                    "SoKhung": "RLE1MR77HRV104337",
+                    "SoMay": "273B29",
+                    "BienSo": "36C-501.39",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

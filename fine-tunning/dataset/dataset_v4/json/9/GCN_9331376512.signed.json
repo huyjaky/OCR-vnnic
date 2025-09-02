@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331376512/TB-TT3",
+            "SoDon": "9331376512",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Phú Mỹ",
+            "DiaChi": "Đường 81, khu phố Vạn Hạnh, phường Phú Mỹ, thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô hiệu VINFAST, màu trắng có số khung: RLNVBL9K2SH780266; số máy: TZ160X30G24121300644, biển số: 72A-823.58",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi Nhánh Vũng Tàu",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Hồ Chí Minh",
+                    "DiaChi": "473 Nguyễn An Ninh, phường Tam Thắng, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST màu trắng",
+                    "SoKhung": "RLNVBL9K2SH780266",
+                    "SoMay": "TZ160X30G24121300644",
+                    "BienSo": "72A-823.58",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

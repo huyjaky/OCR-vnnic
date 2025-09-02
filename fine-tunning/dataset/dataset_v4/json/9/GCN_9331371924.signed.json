@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331371924/TB-TT3",
+            "SoDon": "9331371924",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG HỘI AN",
+            "DiaChi": "06 NGÔ GIA TỰ, HỘI AN, ĐÀ NẴNG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô TRẮNG có số khung: RLNVBL9K9SH746101; thông tin khác (số máy: TZ160X30G25022000646, biển số: 92C-266.13)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP ĐT&PT Việt Nam Chi Nhánh Quảng Nam",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "112 PHAN BỘI CHÂU, BÀN THẠCH, ĐÀ NẴNG, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "màu TRẮNG",
+                    "SoKhung": "RLNVBL9K9SH746101",
+                    "SoMay": "TZ160X30G25022000646",
+                    "BienSo": "92C-266.13",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

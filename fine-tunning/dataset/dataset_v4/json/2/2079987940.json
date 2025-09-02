@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0615",
+            "SoDon": "2079987940",
+            "SoDangKyLanDau": "1586304370",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T14:22:00",
+            "SoHopDong": "01.3013942035/2025/HĐBĐ/NHCT488-A TU PRO",
+            "NgayCoHieuLucHopDong": "2025-04-24",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-04-24T17:02:00",
+            "NoiDungThayDoi": "Rút bớt Xe ô tô tải thùng kín, hiệu HINO, tải trọng 13.150 kg, màu trắng, Biển đăng ký: 43C-218.82",
+            "MoTaChungTaiSan": "Xe ô tô tải thùng kín, hiệu HINO, tải trọng 13.150 kg, màu trắng, Biển đăng ký: 43C-218.82",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH A TỨ PRO",
+                        "MaSoThue": "0401459048",
+                        "DiaChi": "Số 2 đường Hòa Mỹ 2, Phường Hoà Khánh, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Bắc Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Lô 03 & 04 Khu A2, Khu phức hợp đô thị, thương mại cao tầng Phương Trang, phường Hòa Khánh, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "ô tô tải thùng kín, hiệu HINO, màu trắng",
+                    "SoKhung": "RNJFL8JW7KXX10121",
+                    "SoMay": "J08EWD10565",
+                    "BienSo": "43C-218.82",
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

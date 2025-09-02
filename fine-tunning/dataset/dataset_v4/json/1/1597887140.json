@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0897",
+            "SoDon": "1597887140",
+            "SoDangKyLanDau": "1597887140",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:09:00",
+            "SoHopDong": "100725-17076051-AUTO-1/HĐ",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:09:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu: TOYOTA, số loại: HILUX",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN ATI MILK",
+                        "MaSoThue": "0109474907",
+                        "DiaChi": "Lô 23, Khu đấu giá Đông Mỹ, Xã Đông Mỹ, Huyện Thanh Trì, Hà Nội (Nay là: Lô 23,Khu đấu giá Đông Mỹ, Xã Nam Phù), thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG (VPBANK)",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "(1*)Số 89Láng Hạ, Phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "TOYOTA",
+                    "SoKhung": "MR0JB3DD501907979",
+                    "SoMay": null,
+                    "BienSo": "30L-928.97",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331994973/TB-TT3",
+            "SoDon": "9331994973",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Ea M’Droh, tỉnh Đắk Lắk",
+            "DiaChi": "Thôn Hiệp Hưng, xã Ea M'Droh, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo xử lý tài sản bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô con có số khung: MMSDZC63SNR903697; thông tin khác (số máy: K12MS1067760, biển số: 47A-586.27)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Đăk Lăk Phòng Giao Dịch Thành Công",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 389 Phan Chu Trinh, Phường Tân Lợi, Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MMSDZC63SNR903697",
+                    "SoMay": "K12MS1067760",
+                    "BienSo": "47A-586.27",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332086735/TB-TT3",
+            "SoDon": "9332086735",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Xã Kiến Xương, tỉnh Hưng Yên",
+            "DiaChi": "Xã Kiến Xương, tỉnh Hưng Yên",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu FORD số khung MNCLMFF80MW156618, biển số 17C-15011; Toàn bộ 02 căn LK2-09 + LK2-10 có địa chỉ tại Dự án phát triển nhà ở thương mại khu dân cư Phường Thái Bình, tỉnh Hưng Yên, Việt Nam",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thái Bình",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thái Bình",
+                    "DiaChi": null
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "FORD",
+                    "SoKhung": "MNCLMFF80MW156618",
+                    "SoMay": null,
+                    "BienSo": "17C-15011",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

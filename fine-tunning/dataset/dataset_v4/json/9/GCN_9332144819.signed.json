@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332144819/TB-TT3",
+            "SoDon": "9332144819",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Phú Thiện",
+            "DiaChi": "số 09 Chu Văn An, Tổ dân phố 4, Xã Phú Thiện, tỉnh Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MG,MÀU BẠC có số khung: LSJA36E34RZ197103; thông tin khác (số máy: 15S4C9KGR3220124 , biển số: 81A - 341.28)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "67 Nguyễn Tất Thành, Phường Pleiku, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MG,MÀU BẠC",
+                    "SoKhung": "LSJA36E34RZ197103",
+                    "SoMay": "15S4C9KGR3220124",
+                    "BienSo": "81A-34128",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

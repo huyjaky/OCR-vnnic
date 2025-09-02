@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331674271/TB-TT3",
+            "SoDon": "9331674271",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Xã Lạc Sơn",
+            "DiaChi": "Xã Lạc Sơn, Tỉnh Phú Thọ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô nhãn hiệu KIA MORNING, số khung 51M5HC106644, số máy G4LAHP002849, biển số 28A-054.30",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Thương mại Cổ phần Việt Nam Thịnh Vượng Chi nhánh Hòa Bình Phòng giao dịch Sông Đà",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hòa Bình",
+                    "DiaChi": "TỔ 13, ĐẠI LỘ THỊNH LANG, PHƯỜNG TÂN THỊNH, Hòa Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "XE Ô TÔ",
+                    "NhanHieuMauSon": "KIA MORNING",
+                    "SoKhung": "51M5HC106644",
+                    "SoMay": "G4LAHP002849",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

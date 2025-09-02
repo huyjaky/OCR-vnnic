@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331469535/TB-TT3",
+            "SoDon": "9331469535",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung XMAWAKY20787, số máy YMWQAY20787, biển số 49A-298.73",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quân Đội Chi nhánh Lâm Đồng Phòng giao dịch Đức Trọng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "Số 691 Quốc lộ 20, Khu phố 1, thị trấn Liên Nghĩa, Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "XMAWAKY20787",
+                    "SoMay": "YMWQAY20787",
+                    "BienSo": "49A-298.73",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

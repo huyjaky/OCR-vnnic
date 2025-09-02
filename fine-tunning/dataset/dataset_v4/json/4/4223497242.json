@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1139",
+            "SoDon": "4223497242",
+            "SoDangKyLanDau": "1501402284",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2023-06-20 16:30:00",
+            "SoHopDong": "5484149.23.698",
+            "NgayCoHieuLucHopDong": "2023-06-20",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ YẾN TRINH",
+                        "CCCD": "080199007237",
+                        "DiaChi": "40 Đường 49, Tổ 5, Ấp Tiền, Xã Tân Thông Hội, Củ Chi, Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP QUỐC TẾ VIỆT NAM - CHI NHÁNH BÌNH DƯƠNG - PHÒNG GIAO DỊCH THUẬN AN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "Số 59 Đường Nguyễn Văn Tiết, Phường Lái Thiêu, thành phố Thuận An, Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

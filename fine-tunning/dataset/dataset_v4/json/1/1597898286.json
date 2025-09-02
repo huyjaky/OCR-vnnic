@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0974",
+            "SoDon": "1597898286",
+            "SoDangKyLanDau": "1597898286",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:40:00",
+            "SoHopDong": "HPG20253304838/HĐTC",
+            "NgayCoHieuLucHopDong": "2025-07-01",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:40:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con, nhãn hiệu: TOYOTA, số loại: COROLLA",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TRÁCH NHIỆM HỮU HẠN XÂY DỰNG CÔNG TRÌNH ĐẠI VIỆT",
+                        "MaSoThue": "0201799350",
+                        "DiaChi": "Số 661 Trần Nhân Tông, Phường Kiến An, thành phố Hải Phòng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Kỹ Thương Việt Nam Chi Nhánh Hải Phòng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Số 5 Lý Tự Trọng, phường Hồng Bàng, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "TOYOTA, COROLLA",
+                    "SoKhung": "MR2KBAAG200106754",
+                    "SoMay": "MR2KBAAG200106754",
+                    "BienSo": "15K-544.98",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331814529/TB-TT3",
+            "SoDon": "9331814529",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 6,
+            "LoaiDonName": "Xóa đăng ký bởi cơ quan có thẩm quyền",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Bù Đăng, tỉnh Đồng Nai",
+            "DiaChi": "Khu phố Đức Lập, xã Bù Đăng, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe FORD có số khung: RL2UMFC30PYR52742, số máy: P02SRPY52742, biển số: 93C-169.30",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam Chi nhánh Biên Hòa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Tầng trệt, Tòa nhà Thanh Bình Plaza, số 5 đường Cách Mạng Tháng Tám, phường Thanh Bình, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "FORD",
+                    "NhanHieuMauSon": "FORD",
+                    "SoKhung": "RL2UMFC30PYR52742",
+                    "SoMay": "P02SRPY52742",
+                    "BienSo": "93C-169.30",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332179802/TB-TT3",
+            "SoDon": "9332179802",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT – Công an tỉnh Hưng Yên",
+            "DiaChi": "433 Trần Hưng Đạo, P.Trần Hưng Đạo, tỉnh Hưng Yên",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-09T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "CHENG LONG có số khung: LGGX5D655ML313188; thông tin khác (số máy: YC6L33050LG2L9M00451, biển số: 17H-006.24)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thái Bình Phòng Giao Dịch Trần Lãm",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thái Bình",
+                    "DiaChi": "Số 588 Phố Lý Bôn, Phường Kỳ Bá, Thái Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "CHENG LONG",
+                    "NhanHieuMauSon": "CHENG LONG",
+                    "SoKhung": "LGGX5D655ML313188",
+                    "SoMay": "YC6L33050LG2L9M00451",
+                    "BienSo": "17H-006.24",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

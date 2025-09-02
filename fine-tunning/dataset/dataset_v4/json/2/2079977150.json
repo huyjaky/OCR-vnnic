@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0436",
+            "SoDon": "2079977150",
+            "SoDangKyLanDau": "1528893311",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T11:45:00",
+            "SoHopDong": "ST23036754/2023/BĐ",
+            "NgayCoHieuLucHopDong": "2024-02-20",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": "ST23036754.01/2025/SĐBS-HĐBĐ",
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-02-20T17:01:00",
+            "NoiDungThayDoi": "Bổ sung hợp đồng sửa đổi, bổ sung số ST23036754.01/2025/SĐBS-HĐBĐ ngày 10/07/2025 (Sửa đổi, bổ sung hợp đồng thế chấp hàng hóa luân chuyển số ST23036754/2023/BĐ ngày 20/02/2024) và không thay đổi nội dung khác đã đăng ký.",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN HÀNG TIÊU DÙNG BIÊN HÒA",
+                        "MaSoThue": "3600495818",
+                        "DiaChi": "KCN Biên Hòa 1, phường Trấn Biên, tỉnh Đồng Nai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Phương Đông Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 269 đường Lê Hồng Phong, Phường Buôn Ma Thuột"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

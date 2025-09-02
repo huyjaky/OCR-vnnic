@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331646230/TB-TT3",
+            "SoDon": "9331646230",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TP HÀ NỘI",
+            "DiaChi": "Số 86 Lý Thường Kiệt, Phường Cửa Nam, Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô TOYOTA có số khung: JTNACAAH708013279; thông tin khác (số máy: 6344953A25A, biển số: 30G-888.86)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Thường Tín",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Khu đất kinh doanh dịch vụ, Xã Thường Tín, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "TOYOTA",
+                    "SoKhung": "JTNACAAH708013279",
+                    "SoMay": "6344953A25A",
+                    "BienSo": "30G-888.86",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

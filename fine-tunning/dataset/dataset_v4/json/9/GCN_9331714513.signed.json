@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331714513/TB-TT3",
+            "SoDon": "9331714513",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG TIÊN SƠN, TỈNH NINH BÌNH.",
+            "DiaChi": "PHƯỜNG TIÊN SƠN, TỈNH NINH BÌNH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô nhãn hiệu VINFAST, VF3, Động cơ điện, AT có số khung: RLNVBL9K1SH774846; thông tin khác (số máy: TZ160X30G25031900425, biển số: 90A-351.60)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng Chi nhánh Hà Nam",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Nhà thấp tầng số PG1 - 05A, Vincom Shophouse Hà Nam, 60, đường Biên Hòa, PhườngPhủ Lý, tỉnh Ninh Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST VF3",
+                    "SoKhung": "RLNVBL9K1SH774846",
+                    "SoMay": "TZ160X30G25031900425",
+                    "BienSo": "90A-351.60",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

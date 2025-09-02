@@ -71,7 +71,7 @@ def take_file_from_cache(
                     reader = pypdf.PdfReader(local_file_path)
 
                     # WARNING: just getting first 2 pages if the pdf have more than 7 pages
-                    if len(reader.pages) > 7:
+                    if len(reader.pages) > 3:
                         writer = pypdf.PdfWriter()
 
                         for page_num in range(min(2, len(reader.pages))):

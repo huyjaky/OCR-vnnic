@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331880044/TB-TT3",
+            "SoDon": "9331880044",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CA Xã Phú Lâm, Tỉnh Đồng Nai",
+            "DiaChi": "Ấp Phú Lâm 3, Xã Phú Lâm, Tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu FORD màu Xám, số khung MPBAMFE60SX700322, số máy YN2RSX700322, biển số 60K-794.79",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Bảo Lộc",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "Số 01-03, Đường 28 tháng 03, phường 1, TP Bảo Lộc (nay là số 01-03, Đường 28 tháng 03, phường 1 Bảo Lộc), tỉnh Lâm Đồng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD Màu sơn: Xám",
+                    "SoKhung": "MPBAMFE60SX700322",
+                    "SoMay": "YN2RSX700322",
+                    "BienSo": "60K-794.79",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

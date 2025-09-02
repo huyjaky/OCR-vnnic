@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332121255/TB-TT3",
+            "SoDon": "9332121255",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công An xã Hải Ninh",
+            "DiaChi": "Thôn Hải Xuân, xã Hải Ninh, tỉnh Lâm Đồng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu HINO màu Trắng, số khung RNJFL8JTSFXX15397, số máy J08EUF15326, biển số 86C-054.00; 01 xe ô tô nhãn hiệu HINO màu Trắng, số khung RNJFL8JTSFXX17667, số máy J08EUF17786, biển số 86C-072.24",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG NÔNG NGHIỆP VÀ PHÁT TRIỂN NÔNG THÔN VIỆT NAM - CHI NHÁNH PHAN RÍ CỬA BÌNH THUẬN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Thuận",
+                    "DiaChi": "Số 137 Thống Nhất, thị trấn Phan Rí Cửa, huyện Tuy Phong, tỉnh Bình Thuận"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HINO màu Trắng",
+                    "SoKhung": "RNJFL8JTSFXX15397",
+                    "SoMay": "J08EUF15326",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HINO màu Trắng",
+                    "SoKhung": "RNJFL8JTSFXX17667",
+                    "SoMay": "J08EUF17786",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

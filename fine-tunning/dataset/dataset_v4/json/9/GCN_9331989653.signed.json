@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331989653/TB-TT3",
+            "SoDon": "9331989653",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Ngãi Giao, thành phố Hồ Chí Minh",
+            "DiaChi": "354 Hùng Vương, xã Ngãi Giao, Thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "MAZDA 3 có số khung: RN2BN5AA6KM010147; thông tin khác (số máy: P520581704, biển số: 72A-322.23)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Vũng Tàu Phòng giao dịch Nam Kỳ Khởi Nghĩa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tp.Hồ Chí Minh",
+                    "DiaChi": "190 Nam Kỳ Khởi Nghĩa, phường Vũng Tàu, Tp.Hồ Chí Minh, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "MAZDA 3",
+                    "NhanHieuMauSon": "MAZDA 3",
+                    "SoKhung": "RN2BN5AA6KM010147",
+                    "SoMay": "P520581704",
+                    "BienSo": "72A-32223",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

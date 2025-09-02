@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331855872/TB-TT3",
+            "SoDon": "9331855872",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT - CA Xã Nghĩa Trụ",
+            "DiaChi": "xã Nghĩa Trụ, Hưng Yên",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST có số khung: RLNV5JSE4SH780382; thông tin khác (số máy: VFCAFB256120301, biển số: 89H-080.76)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Sở Giao Dịch",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "34 Hai Bà Trưng, phường Cửa Nam, thành phố Hà Nội"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNV5JSE4SH780382",
+                    "SoMay": "VFCAFB256120301",
+                    "BienSo": "89H-080.76",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

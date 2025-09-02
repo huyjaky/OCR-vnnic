@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1111",
+            "SoDon": "4223495078",
+            "SoDangKyLanDau": "1494585700",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T18:12:00",
+            "SoHopDong": "LN2304048820390/02",
+            "NgayCoHieuLucHopDong": "2023-04-11",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2023-04-12T09:51:00",
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN HẢI BÌNH",
+                        "CCCD": "015092008377",
+                        "DiaChi": "Thôn Thanh Bình, Xã Phú Thịnh, Yên Bình, Yên Bái, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRIỆU THỊ HÀ",
+                        "CCCD": "015192007258",
+                        "DiaChi": "Thôn Thanh Bình, Xã Phú Thịnh, Yên Bình, Yên Bái, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "292 đường Tây Sơn, phường Ngã Tư Sở, Đống Đa, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

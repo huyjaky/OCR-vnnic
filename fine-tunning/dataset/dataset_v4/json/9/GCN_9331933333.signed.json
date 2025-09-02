@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331933333/TB-TT3",
+            "SoDon": "9331933333",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG HÀNG GÒN",
+            "DiaChi": "PHƯỜNG HÀNG GÒN, Tỉnh ĐỒNG NAI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST có số khung: RLNV5JSE3SH770197; thông tin khác (số máy: VFCAFB255260133, biển số: 60A-62207)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Đồng Nai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "K19, Võ Thị Sáu, Phường Trấn Biên, tỉnh Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNV5JSE3SH770197",
+                    "SoMay": "VFCAFB255260133",
+                    "BienSo": "60A-62207",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

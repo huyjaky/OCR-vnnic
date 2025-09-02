@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331921880/TB-TT3",
+            "SoDon": "9331921880",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG HỒNG BÀNG",
+            "DiaChi": "HỒNG BÀNG, HẢI PHÒNG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu MITSUBISHI, Xpander Cross, 1.5L, AT có số khung: MK2XRNC1WSN020070; thông tin khác (số máy: 4A91KDC3388, biển số: 15K-648.67)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Hải Phòng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Số 31 - 33 Phạm Ngũ Lão, Phường Gia Viên, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI Xpander Cross 1.5L AT",
+                    "SoKhung": "MK2XRNC1WSN020070",
+                    "SoMay": "4A91KDC3388",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

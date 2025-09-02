@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
+2025.8.5
+2025.8.6
 4.53.3
-0.19.1
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -388,35 +388,7 @@ class _UnslothIterativeSFTTrainer(Trainer):
         ),
         preprocess_logits_for_metrics: Optional[Callable[[torch.Tensor, torch.Tensor], torch.Tensor]] = None,
         compute_metrics: Optional[Callable[[EvalLoopOutput], dict]] = None,
-        # Deprecated parameters
-        max_length: Optional[int] = None,
-        truncation_mode: Optional[str] = None,
-        optimize_device_cache: Optional[bool] = None,
     ):
-        # Handle deprecated parameters
-        deprecated_params = {}
-        if max_length is not None:
-            deprecated_params["max_length"] = max_length
-            warnings.warn(
-                "The `max_length` parameter is deprecated and will be removed in version 0.20. "
-                "Pass it through the `args` parameter using `IterativeSFTConfig(max_length=...)` instead.",
-                DeprecationWarning,
-            )
-        if truncation_mode is not None:
-            deprecated_params["truncation_mode"] = truncation_mode
-            warnings.warn(
-                "The `truncation_mode` parameter is deprecated and will be removed in version 0.20. "
-                "Pass it through the `args` parameter using `IterativeSFTConfig(truncation_mode=...)` instead.",
-                DeprecationWarning,
-            )
-        if optimize_device_cache is not None:
-            deprecated_params["optimize_device_cache"] = optimize_device_cache
-            warnings.warn(
-                "The `optimize_device_cache` parameter is deprecated and will be removed in version 0.20  "
-                "Pass it through the `args` parameter using `IterativeSFTConfig(optimize_device_cache=...)` instead.",
-                DeprecationWarning,
-            )
-
         # Args
         model_id = model if isinstance(model, str) else model.config._name_or_path
         if args is None:
@@ -427,11 +399,6 @@ class _UnslothIterativeSFTTrainer(Trainer):
             dict_args["hub_token"] = args.hub_token  # to_dict hides the hub_token
             dict_args.pop("push_to_hub_token")
             args = IterativeSFTConfig(**dict_args)
-
-        # Update args with deprecated parameters if provided
-        if deprecated_params:
-            for key, value in deprecated_params.items():
-                setattr(args, key, value)
 
         # Handle the tokenizer
         if processing_class is None:
@@ -795,7 +762,7 @@ class _UnslothIterativeSFTTrainer(Trainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="Iterative SFT",
         )
@@ -825,7 +792,7 @@ class UnslothIterativeSFTTrainer(_UnslothIterativeSFTTrainer):
             tokenizer.
         eval_dataset (`datasets.Dataset`):
             The dataset to use for evaluation.
-        processing_class ([`~transformers.PreTrainedTokenizerBase`], *optional*, defaults to `None`):
+        processing_class ([`~transformers.PreTrainedTokenizerBase`], [`~transformers.BaseImageProcessor`], [`~transformers.FeatureExtractionMixin`] or [`~transformers.ProcessorMixin`], *optional*, defaults to `None`):
             Processing class used to process the data. If `None`, the processing class is loaded from the model's name
             with [`~transformers.AutoTokenizer.from_pretrained`].
         optimizers (`tuple[torch.optim.Optimizer, torch.optim.lr_scheduler.LambdaLR]`):
@@ -835,12 +802,6 @@ class UnslothIterativeSFTTrainer(_UnslothIterativeSFTTrainer):
         compute_metrics (`Callable[[EvalPrediction], dict]`, *optional*):
             The function to use to compute the metrics. Must take a `EvalPrediction` and return a dictionary string to
             metric values.
-        max_length (`int`, *optional*, deprecated):
-            Maximum length of the tokenized sequence. Use `args.max_length` instead.
-        truncation_mode (`str`, *optional*, deprecated):
-            The truncation mode to use. Use `args.truncation_mode` instead.
-        optimize_device_cache (`bool`, *optional*, deprecated):
-            Whether to optimize accelerator cache. Use `args.optimize_device_cache` instead.
     
     """
     def __init__(
@@ -852,9 +813,6 @@ class UnslothIterativeSFTTrainer(_UnslothIterativeSFTTrainer):
         processing_class = None,
         preprocess_logits_for_metrics = None,
         compute_metrics = None,
-        max_length = None,
-        truncation_mode = None,
-        optimize_device_cache = None,
         **kwargs
     ):
         if args is None: args = UnslothIterativeSFTConfig()
@@ -941,15 +899,20 @@ class UnslothIterativeSFTTrainer(_UnslothIterativeSFTTrainer):
             eval_dataset = eval_dataset,
             processing_class = processing_class,
             preprocess_logits_for_metrics = preprocess_logits_for_metrics,
-            compute_metrics = compute_metrics,
-            max_length = max_length,
-            truncation_mode = truncation_mode,
-            optimize_device_cache = optimize_device_cache,**kwargs)
+            compute_metrics = compute_metrics,**kwargs)
         if hasattr(self, 'neftune_hook_handle'):
             self.neftune_hook_handle.remove()
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

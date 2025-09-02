@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332146278/TB-TT3",
+            "SoDon": "9332146278",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Vũng Tàu, thành phố Hồ Chí Minh",
+            "DiaChi": "171 Hoàng Hoa Thám, phường Vũng Tàu, Thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo xử lý tài sản bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô SUZUKI có số khung: MHYANC22SLJ909506; số máy: K15BT1217107, biển số: 72A-474.74",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Quốc Tế Việt Nam Chi nhánh Vũng Tàu Phòng Giao Dịch Nam Kỳ Khởi Nghĩa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "TP.HCM",
+                    "DiaChi": "190 Nam Kỳ Khởi Nghĩa, phường Vũng Tàu, TP.HCM"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "SUZUKI",
+                    "SoKhung": "MHYANC22SLJ909506",
+                    "SoMay": "K15BT1217107",
+                    "BienSo": "72A-474.74",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,44 @@
+[
+	{
+		"output": {
+			"MaHoSo": "0000218G15-250804-0134",
+			"SoDon": "4225592667",
+			"SoDangKyLanDau": "1390506206",
+			"LoaiDonID": 4,
+			"LoaiDonName": "Xóa đơn đăng ký",
+			"LoaiDonCode": "XDD",
+			"LoaiHinhGDID": 2,
+			"LoaiHinhGDName": "Hợp đồng",
+			"LoaiHopDongID": 1,
+			"LoaiHopDongName": "Hợp đồng cho thuê tài chính",
+			"ThoiDiemDangKy": "2025-08-04T09:35:00Z",
+			"SoHopDong": "1361197.20",
+			"NgayCoHieuLucHopDong": null,
+			"GiaTriKhoanVay": null,
+			"SoPhuLuc": null,
+			"ThoiDiemKHDangKy": null,
+			"ThoiDiemDKLanDau": "2020-11-13T18:21:00Z",
+			"NoiDungThayDoi": null,
+			"MoTaChungTaiSan": null,
+			"BenGiao": [
+				{
+					"LoaiChuTheID": 1,
+					"ThongTinChuThe": {
+						"HoTen": "LÊ QUỐC LONG",
+						"CCCD": "276115373",
+						"DiaChi": "Ấp Trà Cổ, Bình Minh, Trảng Bom, Đồng Nai, Việt Nam"
+					}
+				}
+			],
+			"BenNhan": [
+				{
+					"Ten": "NGÂN HÀNG TMCP QUỐC TẾ VIỆT NAM - CHI NHÁNH BIÊN HÒA",
+					"QuocGia": "Việt Nam",
+					"Tinh": "Đồng Nai",
+					"DiaChi": "Tầng Trệt, Tòa nhà Thanh Bình Plaza, Số 5 đường Cách Mạng Tháng Tám, Phường Thanh Bình, Biên Hòa, Đồng Nai, Việt Nam"
+				}
+			],
+			"TaiSan": []
+		}
+	}
+]

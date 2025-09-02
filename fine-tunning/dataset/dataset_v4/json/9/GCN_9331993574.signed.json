@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331993574/TB-TT3",
+            "SoDon": "9331993574",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "",
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN TP HÀ NỘI",
+            "DiaChi": "86 LÝ THƯỜNG KIỆT, PHƯỜNG CỬA NAM, HÀ NỘI.",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Phương tiện TERACO TERA250, số khung: RM0TE17HLHC000356; số máy: D4BHG824279, biển số: 29H-08930",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "",
+                        "CCCD": "",
+                        "DiaChi": ""
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Hà Nội Phòng Giao Dịch Khâm Thiên",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 180-182 Khâm Thiên, phường Thổ Quan, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "TERACO TERA250",
+                    "NhanHieuMauSon": "TERACO TERA250",
+                    "SoKhung": "RM0TE17HLHC000356",
+                    "SoMay": "D4BHG824279",
+                    "BienSo": "29H-08930",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

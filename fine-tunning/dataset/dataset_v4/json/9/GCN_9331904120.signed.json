@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331904120/TB-TT3",
+            "SoDon": "9331904120",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "CÔNG AN XÃ TÂN CHI",
+            "DiaChi": "XÃ TÂN CHI, TỈNH BẮC NINH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "CNHTC có số khung: LZZ5EXSB2GN194350; thông tin khác (số máy: WD61547161107033287, biển số: 99C-218.43)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 đường Tây Sơn, Phường Trung Liệt, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "CNHTC",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "LZZ5EXSB2GN194350",
+                    "SoMay": "WD61547161107033287",
+                    "BienSo": "99C-218.43",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

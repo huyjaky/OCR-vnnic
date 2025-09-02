@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331657428/TB-TT3",
+            "SoDon": "9331657428",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con Vinfast Lux A2.0 màu Trắng Xanh, số khung RPXAB1RSFMV002772, số máy 210810001VF20SED, biển số 47A-39838",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Đăk Lăk Phòng Giao Dịch Lê Hồng Phong",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "253 Lê Hồng Phong, Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Vinfast Lux A2.0 Trắng Xanh",
+                    "SoKhung": "RPXAB1RSFMV002772",
+                    "SoMay": "210810001VF20SED",
+                    "BienSo": "47A-39838",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331796206/TB-TT3",
+            "SoDon": "9331796206",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT Công an TP Hải Phòng",
+            "DiaChi": "14 Phan Chu Chinh, Phường Hồng Bàng, TP Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "04 xe ô tô nhãn hiệu CIMC với các số khung LJRC12273S4033322, LJRC12275S4033323, LJRC12272S4033313, LJRC12273S4033319 và các biển số 15RM-057.92, 15RM-058.11, 15RM-058.72, 15RM-058.02.",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Hải Phòng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "31 - 33 Phạm Ngũ Lão, Phường Gia Viên, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CIMC",
+                    "SoKhung": "LJRC12273S4033322",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CIMC",
+                    "SoKhung": "LJRC12275S4033323",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CIMC",
+                    "SoKhung": "LJRC12272S4033313",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CIMC",
+                    "SoKhung": "LJRC12273S4033319",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331513218/TB-TT3",
+            "SoDon": "9331513218",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "ĐỘI CSGT-CÔNG AN XÃ MỸ THẠNH",
+            "DiaChi": "ẤP VÀM KINH, XÃ MỸ THẠNH, TỈNH TÂY NINH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST có số khung: RLNV5JSE5SH775014; thông tin khác (số máy: VFCAFB256040135, biển số: 62H-073.41)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Long An",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "Số 6 Lê Cao Dõng, Phường Long An, tỉnh Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNV5JSE5SH775014",
+                    "SoMay": "VFCAFB256040135",
+                    "BienSo": "62H-073.41",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

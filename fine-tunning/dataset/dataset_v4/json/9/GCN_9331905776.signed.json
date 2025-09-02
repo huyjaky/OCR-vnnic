@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331905776/TB-TT3",
+            "SoDon": "9331905776",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN TỈNH NINH BÌNH",
+            "DiaChi": "TẠI ĐƯỜNG 30/6 PHƯỜNG HOA LƯ, TỈNH NINH BÌNH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô FORD có số khung: RL05DYD7MSAR25104; thông tin khác (số máy: S6G058650, biển số: 18A-503.96)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô FORD",
+                    "NhanHieuMauSon": "FORD",
+                    "SoKhung": "RL05DYD7MSAR25104",
+                    "SoMay": "S6G058650",
+                    "BienSo": "18A-50396",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1118",
+            "SoDon": "1597916738",
+            "SoDangKyLanDau": "1597916738",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:18:00",
+            "SoHopDong": "LN2506265906917",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T18:18:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô, nhãn hiệu VINFAST, VF3, Động cơ điện, AT",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN VĂN THANH",
+                        "CCCD": "026096004890",
+                        "DiaChi": "THÔN CHÙA,Xã Tam Dương, tỉnh Phú Thọ, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHÙNG THỊ LÀNH",
+                        "CCCD": "026199000297",
+                        "DiaChi": "THÔN CHÙA, Xã Tam Dương, tỉnh Phú Thọ, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Vĩnh Phúc",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Phú Thọ",
+                    "DiaChi": "Số nhà 01, Đường Mê Linh, Phường Vĩnh Phúc, tỉnh Phú Thọ, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô, nhãn hiệu VINFAST, VF3, Động cơ điện, AT",
+                    "SoKhung": "RLNVBL9K9SH744848",
+                    "SoMay": null,
+                    "BienSo": "19A-852.37",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

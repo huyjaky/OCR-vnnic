@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331416362/TB-TT3",
+            "SoDon": "9331416362",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Xã Hà Trung",
+            "DiaChi": "Xã Hà Trung, Tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Phương tiện (hoặc tài sản khác): Ô tô Xe ô tô có số khung: T7KALN000267; thông tin khác (số máy: D4GAKJ279940, biển số: 36C-322.51) đã được xóa đăng ký tại Trung tâm đăng ký giao dịch, tài sản tại TP. Đà Nẵng.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH LONG THỊNH",
+                        "MaSoThue": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Công Thương Việt Nam Chi nhánh Bắc Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Số 169 đường Trần Phú, phường Ba Đình, Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "T7KALN000267",
+                    "SoMay": "D4GAKJ279940",
+                    "BienSo": "36C-322.51",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

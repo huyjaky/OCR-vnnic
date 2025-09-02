@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331917787/TB-TT3",
+            "SoDon": "9331917787",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Phường Thuận Giao, Công An Thành phố Hồ Chí Minh",
+            "DiaChi": "Phường Thuận Giao, Thành phố Hồ Chí Minh.",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô KIA CARNIVAL KA4 PE HEV 1.6T AT FH7 màu Đen, số khung: RNYN85AA6SC371358; số máy: G4FTSH519109, biển số: 51M-388.90",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TNHH MTV Shinhan Việt Nam Chi Nhánh Bình Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Hồ Chí Minh",
+                    "DiaChi": "888 Đại lộ Bình Dương, Thuận Giao, TPHCM, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô KIA CARNIVAL KA4 PE HEV 1.6T AT FH7",
+                    "NhanHieuMauSon": "KIA CARNIVAL KA4 PE HEV 1.6T AT FH7, Màu Đen",
+                    "SoKhung": "RNYN85AA6SC371358",
+                    "SoMay": "G4FTSH519109",
+                    "BienSo": "51M-388.90",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

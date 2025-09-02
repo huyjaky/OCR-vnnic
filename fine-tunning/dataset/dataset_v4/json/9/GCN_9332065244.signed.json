@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332065244/TB-TT3",
+            "SoDon": "9332065244",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Xã Phước Hậu, Tỉnh Khánh Hòa",
+            "DiaChi": "Thôn Phước Thiện 1, Xã Phước Hậu, Tỉnh Khánh Hòa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MK2LRNC1WPN033438; thông tin khác (số máy: , biển số: 85A-127.02)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Ngoại thương Việt Nam Chi nhánh Ninh Thuận Phòng giao dịch Ninh Phước",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ninh Thuận",
+                    "DiaChi": "Đường Nguyễn Huệ, Khu phố 4, Thị trấn Phước Dân, Ninh Thuận, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MK2LRNC1WPN033438",
+                    "SoMay": null,
+                    "BienSo": "85A-127.02",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

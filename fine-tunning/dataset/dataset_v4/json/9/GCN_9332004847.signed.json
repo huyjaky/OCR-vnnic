@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332004847/TB-TT3",
+            "SoDon": "9332004847",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Lâm Đồng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "Số 56-58 Khu Hòa Bình, phường 1, Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RNYFK46A6MC235384",
+                    "SoMay": "G4FGMH708763",
+                    "BienSo": "49A-434.40",
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "SoDangKyLanDau": null,
+            "TenCongAn": "Công An Xã Tân Hội, tỉnh Lâm đồng",
+            "DiaChi": "Xã Tân Hội, Tỉnh Lâm Đồng",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RNYFK46A6MC235384; số máy: G4FGMH708763, biển số: 49A-434.40"
+        }
+    }
+]

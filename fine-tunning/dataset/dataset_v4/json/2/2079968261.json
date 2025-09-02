@@ -1,0 +1,76 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0256",
+            "SoDon": "2079968261",
+            "SoDangKyLanDau": "1580056672",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T10:11:00",
+            "SoHopDong": "120325-323407-01-SME /TC",
+            "NgayCoHieuLucHopDong": "2025-03-15",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-03-15T12:12:00",
+            "NoiDungThayDoi": "rút bớt 03 xe số khung RLNV5JSE5SH766328 RLLVAGND5SH782734 RLNVBL9K6SH751210",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN TM BT KIM NGÂN",
+                        "MaSoThue": "3000345338",
+                        "DiaChi": "Số 24-26 Đường Phan Đình Phùng, Phường Nam Hà, tỉnh Hà Tĩnh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "(4)Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Hà Tĩnh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Tĩnh",
+                    "DiaChi": "(4)Số 17, đường Trần Phú, Phường Thành Sen, tỉnh Hà Tĩnh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "vinfast",
+                    "SoKhung": "RLNV5JSE5SH766328",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "vinfast",
+                    "SoKhung": "RLLVAGND5SH782734",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "vinfast",
+                    "SoKhung": "RLNVBL9K6SH751210",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1113",
+            "SoDon": "1597916159",
+            "SoDangKyLanDau": "1597916159",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:14:00",
+            "SoHopDong": "100725-7983016-AUTO-1/HĐ",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T18:14:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu: FORD, số loại: RANGER TRABCH2P0C 3CXKL1",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN ĐẦU TƯ XÂY DỰNG HTC",
+                        "MaSoThue": "0106018053",
+                        "DiaChi": "Số 31 ngõ Chùa Mỹ Quang, phố Chợ Khâm Thiên, Phường Khâm Thiên, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG (VPBANK)",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "(1*)Số 89 Láng Hạ, Phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Nhãn hiệu: FORD",
+                    "SoKhung": "RL2UMFC50SRR18167",
+                    "SoMay": null,
+                    "BienSo": "30M-465.59",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

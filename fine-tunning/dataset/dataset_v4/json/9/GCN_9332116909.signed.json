@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332116909/TB-TT3",
+            "SoDon": "9332116909",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công an Tp Hồ Chí Minh",
+            "DiaChi": "Số 341 Trần Hưng Đạo, phường Cầu Ông Lãnh, thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô MITSUBISHI có số khung: MMBJLLB10SH042135; số máy: 4N16UAY5422, biển số: 51L-926.16",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": null,
+                    "ThongTinChuThe": null
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Bình Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "Số 557 Đại lộ Bình Dương, Phường Thủ Dầu Một, Thành phố Thủ Dầu Một, Tỉnh Bình Dương"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI",
+                    "SoKhung": "MMBJLLB10SH042135",
+                    "SoMay": "4N16UAY5422",
+                    "BienSo": "51L-926.16",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

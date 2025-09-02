@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0246",
+            "SoDon": "2079968039",
+            "SoDangKyLanDau": "1585357664",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-04-18T19:02:00",
+            "SoHopDong": "040425-18030786-01- SME/TC",
+            "NgayCoHieuLucHopDong": "2025-04-18",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "rút bớt 01 xe số khung RLNV5JSE8SH769577",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH PHƯƠNG ĐÔNG HÀ NỘI",
+                        "MaSoThue": "0101074946",
+                        "DiaChi": "Số 207, Đường Quán Gánh, xã Thường Tín, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "(4) NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG - CHI NHÁNH HÀ NỘI – PHÒNG GIAO DỊCH THÀNH ĐÔ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "(4) Tầng 1, tầng 2, tầng 3, tòa nhà số 4 Dã Tượng, Phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "vinfast",
+                    "SoKhung": "RLNV5JSE8SH769577",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

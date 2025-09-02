@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331726602/TB-TT3",
+            "SoDon": "9331726602",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công An tỉnh Bắc Ninh",
+            "DiaChi": "Q05, Hoàng Văn Thụ, Phường Bắc Giang, Tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo xử lý tài sản bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Bắc Giang",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bắc Giang",
+                    "DiaChi": "303 đường Lê Lợi, Phường Hoàng Văn Thụ, Bắc Giang, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Sơ mi rơ moóc",
+                    "NhanHieuMauSon": "FUSHI",
+                    "SoKhung": "LEB39VRP8N0001035",
+                    "SoMay": null,
+                    "BienSo": "98R-035.33",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

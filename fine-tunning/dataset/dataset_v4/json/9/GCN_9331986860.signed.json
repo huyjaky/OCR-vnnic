@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331986860/TB-TT3",
+            "SoDon": "9331986860",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông tỉnh Tuyên Quang",
+            "DiaChi": "tổ 10, phường An Tường, Tỉnh Tuyên Quang",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu HYUNDAI, số loại GRAND I10, màu trắng có số khung: MALA851CBHM489261; thông tin khác (số máy: G4LAGM122061, biển số: 23A-236.16)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Lộc Phát Việt Nam - Chi nhánh Hà Giang - Phòng giao dịch Bắc Mê",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tuyên Quang",
+                    "DiaChi": "Tổ 1, xã Bắc Mê, tỉnh Tuyên Quang"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HYUNDAI màu trắng",
+                    "SoKhung": "MALA851CBHM489261",
+                    "SoMay": "G4LAGM122061",
+                    "BienSo": "23A-23616",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

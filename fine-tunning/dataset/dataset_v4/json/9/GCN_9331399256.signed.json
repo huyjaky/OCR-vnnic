@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331399256/TB-TT3",
+            "SoDon": "9331399256",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBS_TBCA",
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH ĐẮK LẮK",
+            "DiaChi": "21 HÀ HUY TẬP, P. BUÔN MA THUẬT, ĐẮK LẮK",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô MERCEDES BENZ, GLC 200, 2.0L, AT có số khung: RLM0G8AB3NV018871; số máy: 26492080238350, biển số: 47A-889.81",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, Số 292 Hồ Tùng Mậu, tổ dân phố số 12, phường Phú Diễn, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MERCEDES BENZ GLC 200",
+                    "SoKhung": "RLM0G8AB3NV018871",
+                    "SoMay": "26492080238350",
+                    "BienSo": "47A-889.81",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

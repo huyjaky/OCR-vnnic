@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250306-0358",
+            "SoDon": "3013785766",
+            "SoDangKyLanDau": "1578928968",
+            "LoaiDonID": 3,
+            "LoaiDonName": "Sửa chữa sai sót",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-03-06 13:19:00",
+            "SoHopDong": "1600HĐBĐ202511064",
+            "NgayCoHieuLucHopDong": "2025-03-06",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-03-06 10:47:00",
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô con 07 chỗ ngồi, nhãn hiệu MITSUBISHI, số loại XPANDER AT, màu sơn Trắng",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VŨ THỊ THANH THỦY",
+                        "CCCD": "048181004449",
+                        "DiaChi": "Số Nhà 22 Đường Phạm Ngũ Lão, Tổ 12, Phường Hải Châu, Hải Châu, Đà Nẵng, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN LÊ NHẬT HÙNG",
+                        "CCCD": "048081006107",
+                        "DiaChi": "Số Nhà 22 Đường Phạm Ngũ Lão, Tổ 12, Phường Hải Châu, Hải Châu, Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP XUẤT NHẬP KHẨU VIỆT NAM",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hồ Chí Minh",
+                    "DiaChi": "Tầng 8, Văn phòng số L8-01-11+16 Tòa nhà Vincom Center, Số 72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI, XPANDER AT, màu sơn Trắng",
+                    "SoKhung": "RLA2LRNC1R1000489",
+                    "SoMay": null,
+                    "BienSo": "43H-084.27",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

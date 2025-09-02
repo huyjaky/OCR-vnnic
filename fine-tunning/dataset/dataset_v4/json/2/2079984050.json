@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0561",
+            "SoDon": "2079984050",
+            "SoDangKyLanDau": "1583755605",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T13:59:00",
+            "SoHopDong": "LN2503245214975",
+            "NgayCoHieuLucHopDong": "2025-04-08",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-04-09T15:06:00",
+            "NoiDungThayDoi": "Thay đổi số máy xe từ số máy cũ VFCAFB253230125 sang Số máy mới VFCAFB254090033",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM THỊ THÚY HỒNG",
+                        "CCCD": "038190052788",
+                        "DiaChi": "THÔN TÂN GIANG, Xã ĐỨC BÌNH, tỉnh Đắk Lắk, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM QUỐC THOẠI",
+                        "CCCD": "054090001510",
+                        "DiaChi": "THÔN TÂN GIANG, Xã ĐỨC BÌNH, tỉnh Đắk Lắk, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Phú Yên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 182 Đại lộ Hùng Vương, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô nhãn hiệu VINFAST, số loại VINFAST, VF5 - PLUS (xe điện), Động cơ điện, AT",
+                    "SoKhung": "RLNV5JSE5SH737122",
+                    "SoMay": "VFCAFB254090033",
+                    "BienSo": "78C-121.33",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

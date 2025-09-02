@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331334546/TB-TT3",
+            "SoDon": "9331334546",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 6,
+            "LoaiDonName": "Xóa đăng ký bởi cơ quan có thẩm quyền",
+            "LoaiDonCode": null,
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: 4D23Z0021783; thông tin khác (số máy: YD25703942T, biển số: 48C-048.37)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN SÀI GÒN HÀ NỘI (SHB) - CHI NHÁNH ĐẮK LẮK",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "90A Trần Phú, P. Thành Công, Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "4D23Z0021783",
+                    "SoMay": "YD25703942T",
+                    "BienSo": "48C-048.37",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

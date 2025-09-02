@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331357354/TB-TT3",
+            "SoDon": "9331357354",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH BẮC NINH",
+            "DiaChi": "Đường Hoàng Quốc Việt, P. Bắc Giang, Tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST, VF6 - ECO, Động cơ điện, AT có số khung: RLLVAGND0SH755943; thông tin khác (số máy: VFCAJB254220008, biển số: 98A-737.39)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, Số 292 Hồ Tùng Mậu, tổ dân phố số 12, phường Phú Diễn, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST VF6 - ECO",
+                    "SoKhung": "RLLVAGND0SH755943",
+                    "SoMay": "VFCAJB254220008",
+                    "BienSo": "98A-73739",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

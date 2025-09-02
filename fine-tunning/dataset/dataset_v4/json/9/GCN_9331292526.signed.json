@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331292526/TB-TT3",
+            "SoDon": "9331292526",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN phường Lang Biang",
+            "DiaChi": "phường Lang Biang - Đà Lạt - tỉnh Lâm Đồng",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo xử lý tài sản bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RL3DLT6MMNUR23161; thông tin khác (số máy: N4P31704DURATORQ4D225H, biển số: 49F-002.71)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Lâm Đồng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "56-58 Khu Hòa Bình, Phường 01, Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RL3DLT6MMNUR23161",
+                    "SoMay": "N4P31704DURATORQ4D225H",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

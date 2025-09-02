@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331345379/TB-TT3",
+            "SoDon": "9331345379",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Trần Thương",
+            "DiaChi": "Thôn Nha Tiến, xã Trần Thương, tỉnh Ninh Bình",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô WAW , WZ4.98 (tải ben) , Tải trọng 4,98 tấn, 4x2, tải ben có số khung: RLDTD41YNSDA00194; số máy: YN27CRE1BPCZ0000130, biển số: 90A-370.50",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, Số 292 Hồ Tùng Mậu, tổ dân phố số 12, phường Phú Diễn, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô WAW , WZ4.98 (tải ben) , Tải trọng 4,98 tấn, 4x2, tải ben",
+                    "NhanHieuMauSon": "WAW , WZ4.98 (tải ben)",
+                    "SoKhung": "RLDTD41YNSDA00194",
+                    "SoMay": "YN27CRE1BPCZ0000130",
+                    "BienSo": "90A-370.50",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

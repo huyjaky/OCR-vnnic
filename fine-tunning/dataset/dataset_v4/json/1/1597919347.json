@@ -1,0 +1,59 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1157",
+            "SoDon": "1597919347",
+            "SoDangKyLanDau": "1597919347",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10 19:16:00",
+            "SoHopDong": "BSO.BĐCN.279.100725",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": 4000000000,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10 19:16:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Toàn bộ số dư bao gồm số vốn gốc và lãi phát sinh của Thẻ tiết kiệm có kỳ hạn số KL 892634, số tài khoản 0000932627 do Ngân hàng TMCP Kiên Long - Chi nhánh Bình Định - PGD Tam Quan phát hành ngày 17/02/2025, số vốn gốc 1.000.000.000 đồng\nToàn bộ số dư bao gồm số vốn gốc và lãi phát sinh của Thẻ tiết kiệm có kỳ hạn số KL 938524, số tài khoản 0000998527 do Ngân hàng TMCP Kiên Long - Chi nhánh Bình Định - PGD Tam Quan phát hành ngày 01/04/2025, số vốn gốc 3.000.000.000 đồng",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRỊNH THỊ THÚY KIỀU",
+                        "CCCD": "052190017032",
+                        "DiaChi": "Khu phố Tấn Thạnh 2, Phường Hoài Nhơn Tây, tỉnh Gia Lai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP Á CHÂU - PGD BỒNG SƠN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "2839 Quang Trung, Phường Bồng Sơn,, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Thẻ tiết kiệm có kỳ hạn số KL 892634",
+                    "CanCuPhatSinhQuyen": "do Ngân hàng TMCP Kiên Long - Chi nhánh Bình Định - PGD Tam Quan phát hành ngày 17/02/2025"
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Thẻ tiết kiệm có kỳ hạn số KL 938524",
+                    "CanCuPhatSinhQuyen": "do Ngân hàng TMCP Kiên Long - Chi nhánh Bình Định - PGD Tam Quan phát hành ngày 01/04/2025"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

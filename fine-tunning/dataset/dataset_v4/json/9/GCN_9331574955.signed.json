@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331574955/TB-TT3",
+            "SoDon": "9331574955",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông - Công an tỉnh Thanh Hóa",
+            "DiaChi": "Đường tránh phía Bắc QL1A, phường Hàm Rồng, tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu HYUNDAI màu ĐEN, số khung RLULM41BBNT002190, số máy G4FGNU011209, biển số 36K-975.24",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Tiên Phong Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "13, 14 Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HYUNDAI màu ĐEN",
+                    "SoKhung": "RLULM41BBNT002190",
+                    "SoMay": "G4FGNU011209",
+                    "BienSo": "36K-975.24",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

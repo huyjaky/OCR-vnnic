@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0970",
+            "SoDon": "1597897571",
+            "SoDangKyLanDau": "1597897571",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:37:00",
+            "SoHopDong": "312/2025/HDCVXE/HCU/01",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:37:00",
+            "ThoiDiemDKLanDau": "2025-07-10T16:37:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe Ô tô con Toyota Vios",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM PHÚ PHONG",
+                        "CCCD": "048073003330",
+                        "DiaChi": "Số nhà K75/16A, Đường Lê Hồng Phong, Tổ 30, Phường Hải Châu, thành phố Đà Nẵng, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "BÙI THỊ HỒNG TRANG",
+                        "CCCD": "048174003474",
+                        "DiaChi": "Số nhà K75/16A, Đường Lê Hồng Phong, Tổ 30, Phường Hải Châu, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Số 155 Nguyễn Văn Linh, Phường Thanh Khê, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe Ô tô con Toyota Vios",
+                    "SoKhung": "RL4B28F34S535",
+                    "SoMay": "0810",
+                    "BienSo": "43A-981.08",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

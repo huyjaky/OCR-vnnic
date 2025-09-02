@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1022",
+            "SoDon": "1597906376",
+            "SoDangKyLanDau": "1597906376",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:03:00",
+            "SoHopDong": "HP1-90/HLCP/2025/HĐBĐ/NHCT169",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:03:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Các quyền tài sản là quyền đòi nợ và thụ hưởng số tiền đòi nợ; quyền yêu cầu thanh toán; quyền được bồi thường thiệt hại và thụ hưởng số tiền này; quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán Nhà Ở Riêng Lẻ số HP1-90/HLCP/HĐMBNO ký ngày 18/06/2025 giữa ông Vũ Duy Quang với Chủ đầu tư là Công ty Cổ phần Cổ phần Đầu tư Hồng Bàng",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VŨ DUY QUANG",
+                        "CCCD": "031074004599",
+                        "DiaChi": "xã Kiến Thụy, thành phố Hải Phòng"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN THỊ MÃO",
+                        "CCCD": "031175004446",
+                        "DiaChi": "xã Kiến Thụy, thành phố Hải Phòng"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP CÔNG THƯƠNG VIỆT NAM – CHI NHÁNH KIẾN AN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "số 129 Trần Thành Ngọ, phường Kiến An, thành phố Hải Phòng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Các quyền tài sản là quyền đòi nợ và thụ hưởng số tiền đòi nợ; quyền yêu cầu thanh toán; quyền được bồi thường thiệt hại và thụ hưởng số tiền này; quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán Nhà Ở Riêng Lẻ số HP1-90/HLCP/HĐMBNO ký ngày 18/06/2025 giữa ông Vũ Duy Quang với Chủ đầu tư là Công ty Cổ phần Cổ phần Đầu tư Hồng Bàng",
+                    "CanCuPhatSinhQuyen": "(i) Quyền tài sản phát sinh từ hợp đồng - Hợp đồng: Hợp đồng Mua Bán Nhà Ở Riêng Lẻ số HP1-90/HLCP/HĐMBNO ký ngày 18/06/2025 giữa ông Vũ Duy Quang với Chủ đầu tư là Công ty Cổ phần Cổ phần Đầu tư Hồng Bàng Thời điểm có hiệu lực: ngày 18 tháng 06 năm 2025 - Các bên tham gia xác lập hợp đồng: Ông Vũ Duy Quang và Chủ đầu tư là Công ty Cổ phần Cổ phần Đầu tư Hồng Bàng"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

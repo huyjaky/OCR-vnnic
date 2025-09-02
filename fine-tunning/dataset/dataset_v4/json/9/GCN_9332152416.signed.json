@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332152416/TB-TT3",
+            "SoDon": "9332152416",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN THÀNH PHỐ HUẾ",
+            "DiaChi": "50 TRẦN CAO VÂN, PHƯỜNG THUẬN HÓA, THÀNH PHỐ HUẾ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Ô tô MG có số khung: LSJA36E38RZ170308; số máy: 15S4C9KGR1300014, biển số: 75H-053.57.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Huế Phòng Giao Dịch Vỹ Dạ",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thành phố Huế",
+                    "DiaChi": "212 Nguyễn Sinh Cung, phường Vỹ Dạ, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MG",
+                    "SoKhung": "LSJA36E38RZ170308",
+                    "SoMay": "15S4C9KGR1300014",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

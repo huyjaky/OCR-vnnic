@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331802163/TB-TT3",
+            "SoDon": "9331802163",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Đào Duy Từ",
+            "DiaChi": "tổ dân phố Sa Thôn, phường Đào Duy Từ, tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu HYUNDAI màu Xanh, số khung RLUZFX7KASN021887, biển số 36K-556.27",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam - Chi nhánh Nghi Sơn Nam Thanh Hóa - Phòng giao dịch Xuân Lâm",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "tổ dân phố Dự Quần 1, phường Đào Duy Từ, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HYUNDAI màu Xanh",
+                    "SoKhung": "RLUZFX7KASN021887",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

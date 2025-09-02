@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331315181/TB-TT3",
+            "SoDon": "9331315181",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "ĐỘI CSGT - CÔNG AN XÃ PHÚ LỘC, TP. CẦN THƠ",
+            "DiaChi": "XÃ PHÚ LỘC, TP CẦN THƠ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MHYHDC61TMJ910219; thông tin khác (số máy: K15BT1269945, biển số: 83C-097.51)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM- CHI NHÁNH SÓC TRĂNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Sóc Trăng",
+                    "DiaChi": "Số PG01-01 đường Trần Hưng Đạo, khóm 1, phường 2, Sóc Trăng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MHYHDC61TMJ910219",
+                    "SoMay": "K15BT1269945",
+                    "BienSo": "83C-09751",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

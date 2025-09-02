@@ -1,0 +1,58 @@
+[
+	{
+		"output": {
+			"MaHoSo": "000.02.18.G15-220215-0175",
+			"SoDon": "1445880654",
+			"SoDangKyLanDau": "1445880654",
+			"LoaiDonID": 1,
+			"LoaiDonName": "Đăng ký lần đầu",
+			"LoaiDonCode": "ĐKLD",
+			"TenCongAn": null,
+			"DiaChi": null,
+			"LoaiHinhGDID": 1,
+			"LoaiHinhGDName": "Biện pháp bảo đảm",
+			"LoaiBienPhapID": null,
+			"LoaiBienPhapName": null,
+			"LoaiHopDongID": null,
+			"LoaiHopDongName": null,
+			"ThoiDiemDangKy": "2022-02-15T10:14:00Z",
+			"SoHopDong": "14022022-2046627-01-SME/TC",
+			"NgayCoHieuLucHopDong": "2022-02-11",
+			"GiaTriKhoanVay": null,
+			"SoPhuLuc": null,
+			"ThoiDiemKHDangKy": null,
+			"ThoiDiemDKLanDau": "2022-02-15T10:14:00Z",
+			"NoiDungThayDoi": null,
+			"MoTaChungTaiSan": "01 XE FORD",
+			"BenGiao": [
+				{
+					"LoaiChuTheID": 2,
+					"ThongTinChuThe": {
+						"TenToChuc": "CÔNG TY TNHH IN ẢNH KỸ THUẬT SỐ LÊ HOÀNG",
+						"MaSoThue": "0105431236",
+						"DiaChi": "Số 127 phố Kim Mã, Phường Kim Mã, Ba Đình, Hà Nội, Việt Nam"
+					}
+				}
+			],
+			"BenNhan": [
+				{
+					"Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Thăng Long Phòng giao dịch Phạm Văn Đồng",
+					"QuocGia": "Vietnam",
+					"Tinh": "Hà Nội",
+					"DiaChi": "(1)Nhà ở số B1-03 và B1-05A, loại nhà ở thấp tầng, Lô TT01, KĐT thành phố xanh(Vinhome Gardenia), đường Hàm Nghi, phường Cầu Diễn, Nam Từ Liêm, Hà Nội, Việt Nam"
+				}
+			],
+			"TaiSan": [
+				{
+					"LoaiTaiSan": "TaiSan_CoSoKhung",
+					"PhuongTien": "Xe ô tô",
+					"NhanHieuMauSon": "Ford",
+					"SoKhung": "MNCAXXMAWAKK70349",
+					"SoMay": "YMWQAK70349",
+					"BienSo": "30H-426.51",
+					"CanCuThayDoi": 1
+				}
+			]
+		}
+	}
+]

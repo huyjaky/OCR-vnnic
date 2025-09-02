@@ -1,0 +1,55 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331556556/TB-TT3",
+            "SoDon": "9331556556",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TB",
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công an Tp Hồ Chí Minh",
+            "DiaChi": "Số 341 Trần Hưng Đạo, phường Cầu Ông Lãnh, thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô HYUNDAI có số khung: MF3NA81DESJ074227; thông tin khác (số máy: G4FLSQ477461, biển số: 61K-624.28)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": null,
+                        "MaSoThue": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Bình Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 557 Đại lộ Bình Dương, Phường Thủ Dầu Một, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô HYUNDAI",
+                    "NhanHieuMauSon": "HYUNDAI",
+                    "SoKhung": "MF3NA81DESJ074227",
+                    "SoMay": "G4FLSQ477461",
+                    "BienSo": "61K-62428",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

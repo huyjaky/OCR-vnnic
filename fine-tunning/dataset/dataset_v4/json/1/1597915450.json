@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1104",
+            "SoDon": "1597915450",
+            "SoDangKyLanDau": "1597915450",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:07:00",
+            "SoHopDong": "CLC-49652-19193560-HDTC-01",
+            "NgayCoHieuLucHopDong": "2025-07-08",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T18:07:00",
+            "ThoiDiemDKLanDau": "2025-07-10T18:07:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Xe Tải pickup cabin kép, nhãn hiệu: Ford, số loại: Ranger, màu sơn: Trắng; bks:29LD-047.89\n01 Xe Ô tô con, nhãn hiệu: Toyota, số loại: Fortune, màu sơn: Đen; bks:30F-701.65",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công Ty TNHH Gattner Việt Nam",
+                        "MaSoThue": "0104638654",
+                        "DiaChi": "Cụm công nghiệp Thanh Oai, Xã Bích Hòa, Huyện Thanh Oai, Hà Nội, Việt Nam (Nay: Cụm Công Nghiệp Thanh Oai, Xã Bình Minh), thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Ngô Quyền Phòng Giao Dịch Thái Hà",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "(1)Tầng 1 và Tầng 2, ngôi nhà số 78A, tổ 4A, Phường Trung Liệt, Quận Đống Đa, Thành phố Hà Nội (Nay:Tầng 1 và Tầng 2, ngôi nhà số 78A, tổ 4A, Phường Đống Đa), thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe Tải pickup cabin kép",
+                    "NhanHieuMauSon": "Ford, số loại: Ranger, màu sơn: Trắng",
+                    "SoKhung": "FF40KW040159",
+                    "SoMay": null,
+                    "BienSo": "29LD-047.89",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe Ô tô con",
+                    "NhanHieuMauSon": "Toyota, số loại: Fortune, màu sơn: Đen",
+                    "SoKhung": "3GS3K1102448",
+                    "SoMay": null,
+                    "BienSo": "30F-701.65",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

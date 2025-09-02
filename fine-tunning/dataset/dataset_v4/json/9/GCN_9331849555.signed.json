@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331849555/TB-TT3",
+            "SoDon": "9331849555",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Liên Bão",
+            "DiaChi": "Xã Liên Bão, Tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô VINFAST VF3 Động cơ điện AT, số khung RLNVBL9K3SH779093, số máy TZ160X30G25032200131, biển số 99B-064.93",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Một phần diện tích tại tầng 1 và tầng 5 tòa nhà Plaschem, số 562 đường Nguyễn Văn Cừ, phường Bồ Đề, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST VF3 Động cơ điện AT",
+                    "SoKhung": "RLNVBL9K3SH779093",
+                    "SoMay": "TZ160X30G25032200131",
+                    "BienSo": "99B-064.93",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

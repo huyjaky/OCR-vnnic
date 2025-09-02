@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1093",
+            "SoDon": "1597913629",
+            "SoDangKyLanDau": "1597913629",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:50:00",
+            "SoHopDong": "HSO2025CFMG16414449/HDTC",
+            "NgayCoHieuLucHopDong": "2025-07-08",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:50:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "- Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán số C2Z1-20-01/HĐMB-CT-02-MASTERI TRINITY SQUARE ký và có hiệu lực ngày 09/06/2025 giữa Doanh nghiệp kinh Doanh Bất động sản là Công ty TNHH đầu tư và phát triển BĐS Trường Minh với ông/bà Nguyễn Thị Thu Hương về việc mua bán Căn Hộ số: C2Z1-20-01 thuộc Dự án Khu nhà ở cao tầng thuộc các lô đất CT-02, CT-03, CT-04 Khu đô thị sinh thái Dream City tại xã Long Hưng, huyện Văn Giang, tỉnh Hưng Yên được cơ quan có thẩm quyền phê duyệt.\n- Thế chấp Quyền tài sản khác theo quy định của pháp luật phát sinh theo Hợp Đồng Mua Bán trên (trừ Quyền sử dụng đất và tài sản gắn liền với đất thuộc thẩm quyền đăng ký của văn phòng đăng ký quyền sử dụng đất)\n- Các khoản lợi tức thu được từ việc khai thác, kinh doanh tài sản thế chấp phát sinh từ hợp đồng mua bán trên.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HOÀNG LINH",
+                        "CCCD": "001087000866",
+                        "DiaChi": "52 + 54 Ngõ 43 Nguyễn Phong Sắc, Phường Cầu Giấy, thành phố Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ THU HƯƠNG",
+                        "CCCD": "022187015153",
+                        "DiaChi": "44/108 Đội Cấn, Phường Ba Đình, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM - TRUNG TÂM GIAO DỊCH HỘI SỞ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 6 Phố Quang Trung, Phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Quyền tài sản",
+                    "CanCuPhatSinhQuyen": "Hợp Đồng Mua Bán số C2Z1-20-01/HĐMB-CT-02-MASTERI TRINITY SQUARE ký và có hiệu lực ngày 09/06/2025 giữa Doanh nghiệp kinh Doanh Bất động sản là Công ty TNHH đầu tư và phát triển BĐS Trường Minh với ông/bà Nguyễn Thị Thu Hương về việc mua bán Căn Hộ số: C2Z1-20-01"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

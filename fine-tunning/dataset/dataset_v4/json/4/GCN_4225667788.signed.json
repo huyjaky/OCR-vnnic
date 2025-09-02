@@ -1,0 +1,56 @@
+[
+	{
+		"output": {
+			"MaHoSo": "0000218G15-250804-0782",
+			"SoDon": "4225667788",
+			"SoDangKyLanDau": "1526115386",
+			"LoaiDonID": 4,
+			"LoaiDonName": "Xóa đơn đăng ký",
+			"LoaiDonCode": "XDD",
+			"LoaiHinhGDID": 1,
+			"LoaiHinhGDName": "Biện pháp bảo đảm",
+			"LoaiBienPhapID": 1,
+			"LoaiBienPhapName": "Thế chấp",
+			"LoaiHopDongID": null,
+			"LoaiHopDongName": null,
+			"ThoiDiemDangKy": "2025-08-04T15:51:00Z",
+			"SoHopDong": "057TC22",
+			"NgayCoHieuLucHopDong": "2022-02-08",
+			"GiaTriKhoanVay": null,
+			"SoPhuLuc": null,
+			"ThoiDiemKHDangKy": null,
+			"ThoiDiemDKLanDau": "2024-01-22T15:26:00Z",
+			"NoiDungThayDoi": null,
+			"MoTaChungTaiSan": null,
+			"BenGiao": [
+				{
+					"LoaiChuTheID": 2,
+					"ThongTinChuThe": {
+						"TenToChuc": "CÔNG TY CỔ PHẦN AUTO BÌNH PHƯỚC",
+						"MaSoThue": "3801183960",
+						"DiaChi": "Tổ 3, Khu Phố Tân Trà, Phường Tân Xuân, thành phố Đồng Xoài, Bình Phước, Việt Nam"
+					}
+				}
+			],
+			"BenNhan": [
+				{
+					"Ten": "Ngân hàng Tmcp Ngoại thương Việt Nam Chi nhánh Bình Phước",
+					"QuocGia": "Việt Nam",
+					"Tinh": "Bình Phước",
+					"DiaChi": "Số 744 đường Phú Riềng Đỏ, phường Tân Xuân, thành phố Đồng Xoài, Bình Phước, Việt Nam"
+				}
+			],
+			"TaiSan": [
+				{
+					"LoaiTaiSan": "TaiSan_CoSoKhung",
+					"PhuongTien": null,
+					"NhanHieuMauSon": null,
+					"SoKhung": null,
+					"SoMay": null,
+					"BienSo": null,
+					"CanCuThayDoi": 2
+				}
+			]
+		}
+	}
+]

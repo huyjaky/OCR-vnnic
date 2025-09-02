@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332170664/TB-TT3",
+            "SoDon": "9332170664",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Ninh Điền, Tỉnh Tây Ninh",
+            "DiaChi": "đường ĐT 781, ấp Thành Tây, xã Ninh Điền, tỉnh Tây Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-09T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MK2LRNC1WLN009809; thông tin khác (số máy: 4A91HS4000, biển số: 70A-285.62)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP QUỐC TẾ VIỆT NAM - CHI NHÁNH TÂY NINH",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "L4, L5 khu Shophouse MBLAND, đường 30/04, khu phố 1, Phường 1, Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MK2LRNC1WLN009809",
+                    "SoMay": "4A91HS4000",
+                    "BienSo": "70A-285.62",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

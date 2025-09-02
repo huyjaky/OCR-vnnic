@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1077",
+            "SoDon": "4223489128",
+            "SoDangKyLanDau": "1501815222",
+            "LoaiDonID": 4,
+            "LoaiDonName": "XÓA ĐƠN ĐĂNG KÝ",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T17:39:00",
+            "SoHopDong": "TTC2023CFMG9690643/HDTC",
+            "NgayCoHieuLucHopDong": "2023-06-20",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2023-06-24T10:51:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VŨ THU HÀ",
+                        "CCCD": "030176021692",
+                        "DiaChi": "A6 - Khu dự án nhà ở Tổ 54 Phường Mai Dịch, Cầu Giấy, Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRƯƠNG VĂN VINH",
+                        "CCCD": "025071019581",
+                        "DiaChi": "A6 - Khu dự án nhà ở Tổ 54 Phường Mai Dịch, Cầu Giấy, Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM - Chi nhánh Hai Bà Trưng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 57A Phan Chu Trinh, phường Phan Chu Trinh, quận Hoàn Kiếm, thành phố Hà Nội., Hoàn Kiếm, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

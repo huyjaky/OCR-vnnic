@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331742573/TB-TT3",
+            "SoDon": "9331742573",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông Công an thành phố Hải Phòng",
+            "DiaChi": "Số 14 Phan Chu Trinh, phường Hồng Bàng, thành phố Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xanh có số khung: RN2MJEP6ZNM078866; thông tin khác (số máy: 582159810UF205G02, biển số: 15K-450.50)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam Chi nhánh Hải Phòng Phòng giao dịch Đồ Sơn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "85 Lý Thánh Tông, phường Đồ Sơn, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "màu Xanh",
+                    "SoKhung": "RN2MJEP6ZNM078866",
+                    "SoMay": "582159810UF205G02",
+                    "BienSo": "15K-450.50",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

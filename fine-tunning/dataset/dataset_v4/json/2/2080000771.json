@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0876",
+            "SoDon": "2080000771",
+            "SoDangKyLanDau": "1542279356",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:01:00",
+            "SoHopDong": "040624-7871653-01-SME/TC",
+            "NgayCoHieuLucHopDong": "2024-06-14",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-06-14T18:32:00",
+            "NoiDungThayDoi": "RÚT BỚT TÀI SẢN BẢO ĐẢM LÀ 02 XE SỐ KHUNG RLA2LRNC1S1001294 MK2XRNC1WSN020177",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH Ô TÔ AN DÂN VĨNH PHÚC",
+                        "MaSoThue": "2500639158",
+                        "DiaChi": "thôn Phổ, xã Bình Nguyên, tỉnh Phú Thọ, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG (VPBANK) – CHI NHÁNH VĨNH PHÚC",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Phú Thọ",
+                    "DiaChi": "Số nhà 01, Đường Mê Linh, Phường Vĩnh Phúc, tỉnh Phú Thọ, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLA2LRNC1S1001294",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "MK2XRNC1WSN020177",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

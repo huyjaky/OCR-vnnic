@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1135",
+            "SoDon": "2080012064",
+            "SoDangKyLanDau": "1433647480",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T18:39:00",
+            "SoHopDong": "2130500458/HĐTC",
+            "NgayCoHieuLucHopDong": "2021-11-23",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2021-11-23T14:59:00",
+            "NoiDungThayDoi": "Rút bớt 02 Somi – romooc, nhãn hiệu FUSHI",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN VIENCO VIỆT NAM",
+                        "MaSoThue": "0107489094",
+                        "DiaChi": "Số 33, đường 18M, Khu dịch vụ Mộ Lao, phường Hà Đông, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP ĐÔNG NAM Á (SEABANK) – CHI NHÁNH HÀ ĐÔNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "150 Trần Phú, phường Hà Đông, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Somi – romooc",
+                    "NhanHieuMauSon": "FUSHI",
+                    "SoKhung": "LEB39VRT8R0001538",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Somi – romooc",
+                    "NhanHieuMauSon": "FUSHI",
+                    "SoKhung": "LEB39VRP8S0000012",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

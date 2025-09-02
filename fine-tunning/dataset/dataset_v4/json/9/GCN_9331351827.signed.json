@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331351827/TB-TT3",
+            "SoDon": "9331351827",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "CSCA",
+            "TenCongAn": "Phòng CSGT - Công an tỉnh Đồng Nai",
+            "DiaChi": "1160 Phạm Văn Thuận, phường Tam Hiệp - Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe Ô tô tải, nhãn hiệu DOTHANH, số loại: IZ49 có số khung: RPPMA17APHD000412; thông tin khác (số máy: JE493ZLQ432057023, biển số: 60C-379.98)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null,
+                        "TenToChuc": "Công ty Cổ phần MBN Jupiter",
+                        "MaSoThue": null,
+                        "SoHoChieu": null,
+                        "QuocGiaCap": null,
+                        "QuocGia": null,
+                        "Tinh": null,
+                        "Ten": null,
+                        "TheCuTru": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": null,
+                    "QuocGia": null,
+                    "Tinh": null,
+                    "DiaChi": null
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe Ô tô tải",
+                    "NhanHieuMauSon": "DOTHANH",
+                    "SoKhung": "RPPMA17APHD000412",
+                    "SoMay": "JE493ZLQ432057023",
+                    "BienSo": "60C-37998",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

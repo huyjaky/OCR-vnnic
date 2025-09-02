@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331691438/TB-TT3",
+            "SoDon": "9331691438",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Hàm Thuận, tỉnh Lâm Đồng",
+            "DiaChi": "215 đường 08/4, khu phố Lâm Hòa, xã Hàm Thuận, tỉnh Lâm Đồng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Hyundai, màu trắng có số khung: RLUD581KBSN004997; thông tin khác (số máy: G4NNRW698666, biển số: 86C-204.77)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam Chi nhánh Biên Hòa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Tầng trệt, Tòa nhà Thanh Bình Plaza, Số 5 đường Cách Mạng Tháng Tám, phường Trấn Biên, tỉnh Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Hyundai, màu trắng",
+                    "SoKhung": "RLUD581KBSN004997",
+                    "SoMay": "G4NNRW698666",
+                    "BienSo": "86C-204.77",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

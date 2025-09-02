@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331466468/TB-TT3",
+            "SoDon": "9331466468",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công an xã Long Hòa",
+            "DiaChi": "Ấp Long Điền, xã Long Hòa, Thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MMBSNA13ANH005317; thông tin khác (số máy: 3A92UKL5831, biển số: 61A-992.87)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quốc Tế Việt Nam Chi Nhánh Bình Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "306 Đại lộ Bình Dương, Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MMBSNA13ANH005317",
+                    "SoMay": "3A92UKL5831",
+                    "BienSo": "61A-992.87",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

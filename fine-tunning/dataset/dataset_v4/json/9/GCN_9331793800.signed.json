@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331793800/TB-TT3",
+            "SoDon": "9331793800",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TB",
+            "TenCongAn": "Phòng Cảnh sát giao thông, Công an tỉnh Quảng Ngãi",
+            "DiaChi": "200 - Đường Trường Chinh, phường Cẩm Thành, tỉnh Quảng Ngãi",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu: MITSUBISHI, số loại: TRITON, màu sơn: Trắng có số khung: MMBJLKL10PH057161; thông tin khác (số máy: , biển số: 82A-177.26)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Gia Lai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "30 Trần Phú, Phường Pleiku, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI màu Trắng",
+                    "SoKhung": "MMBJLKL10PH057161",
+                    "SoMay": null,
+                    "BienSo": "82A-177.26",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

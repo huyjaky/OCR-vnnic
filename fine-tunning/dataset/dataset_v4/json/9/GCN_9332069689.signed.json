@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332069689/TB-TT3",
+            "SoDon": "9332069689",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT tỉnh Tuyên Quang",
+            "DiaChi": "TDP Đồng Chằm, Xã Yên Sơn, Tỉnh Tuyên Quang",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô, nhãn hiệu VINFAST có số khung: RLNV5JSE3SH767249; thông tin khác (số máy: , biển số: 22H-016.36)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Phú Thọ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Phú Thọ",
+                    "DiaChi": "Số nhà 2269, đường Hùng Vương, phường Nông Trang, tỉnh Phú Thọ, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNV5JSE3SH767249",
+                    "SoMay": null,
+                    "BienSo": "22H-016.36",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

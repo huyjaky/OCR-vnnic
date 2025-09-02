@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331807345/TB-TT3",
+            "SoDon": "9331807345",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH THANH HÓA",
+            "DiaChi": "QL1A, PHÍA BẮC ĐƯỜNG TRÁNH, PHƯỜNG HÀM RỒNG, TỈNH THANH HÓA.",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST, VF3, Động cơ điện, AT có số khung: RLNVBL9K9SH734224; số máy: TZ160X30G24123101267, biển số: 36K-833.54",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 05 + 06, đường Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST VF3 Động cơ điện",
+                    "SoKhung": "RLNVBL9K9SH734224",
+                    "SoMay": "TZ160X30G24123101267",
+                    "BienSo": "36K-833.54",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

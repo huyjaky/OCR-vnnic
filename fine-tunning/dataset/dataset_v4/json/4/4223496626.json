@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1130",
+            "SoDon": "4223496626",
+            "SoDangKyLanDau": "1589158038",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:29:00",
+            "SoHopDong": "2504.0062/2025/HĐBĐ/NHCT430",
+            "NgayCoHieuLucHopDong": "2025-05-15",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T18:29:00",
+            "ThoiDiemDKLanDau": "2025-05-15T17:06:00",
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công ty Cổ phần Thương mại I Hà Tĩnh",
+                        "MaSoThue": "3000353850",
+                        "DiaChi": "Số 15, đường Trần Phú, Phường Thành Sen, tỉnh Hà Tĩnh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Công thương Việt Nam – Chi nhánh Hà Tĩnh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Tĩnh",
+                    "DiaChi": "Số 82, đường Phan Đình Phùng, Phường Thành Sen, tỉnh Hà Tĩnh, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

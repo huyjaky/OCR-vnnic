@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332014436/TB-TT3",
+            "SoDon": "9332014436",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Đường Bộ - Công An Tỉnh Cà Mau",
+            "DiaChi": "Số 119, Đường Nguyễn Văn Cừ, Phường Bạc Liêu, Tỉnh Cà Mau",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RNJFG8JPSFXX16028; thông tin khác (số máy: , biển số: 94H-008.64)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Đầu tư và phát triển Việt Nam Chi nhánh Bạc Liêu Phòng giao dịch Hoàng Văn Thụ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bạc Liêu",
+                    "DiaChi": "Số 50 đường Hoàng Văn Thụ, phường 3, Bạc Liêu, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RNJFG8JPSFXX16028",
+                    "SoMay": null,
+                    "BienSo": "94H-008.64",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0810",
+            "SoDon": "4223454052",
+            "SoDangKyLanDau": "1560681721",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:30:00",
+            "SoHopDong": "TTC2024CFMG13957797/HDTC",
+            "NgayCoHieuLucHopDong": "2024-10-04",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2024-10-28T19:16:00",
+            "ThoiDiemDKLanDau": "2024-10-28T19:16:00",
+            "NoiDungThayDoi": "Xoá đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HOÀNG MINH VỶ",
+                        "CCCD": "044083013609",
+                        "DiaChi": "Khu phố 6, phường An Thới, thành phố Phú Quốc, Kiên Giang, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM - Chi nhánh Đông Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và toàn bộ tầng 2 thuộc tòa tháp C của tổ hợp Starcity Center tại ô đất ký hiệu HH khu đô thị Đông Nam Trần Duy Hưng, phường Trung Hòa,, Cầu Giấy, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

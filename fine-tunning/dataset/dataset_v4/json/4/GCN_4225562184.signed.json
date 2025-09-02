@@ -1,0 +1,56 @@
+[
+	{
+		"output": {
+			"MaHoSo": "000.02.18.G15-250802-0201",
+			"SoDon": "4225562184",
+			"SoDangKyLanDau": "1547375969",
+			"LoaiDonID": 4,
+			"LoaiDonName": "Xóa đơn đăng ký",
+			"LoaiDonCode": "XDD",
+			"TenCongAn": null,
+			"DiaChi": null,
+			"LoaiHinhGDID": 1,
+			"LoaiHinhGDName": "Biện pháp bảo đảm",
+			"LoaiBienPhapID": 1,
+			"LoaiBienPhapName": "Thế chấp",
+			"LoaiHopDongID": null,
+			"LoaiHopDongName": null,
+			"ThoiDiemDangKy": "2025-08-02T11:40:00Z",
+			"SoHopDong": "LN2407243291807",
+			"NgayCoHieuLucHopDong": "2024-07-25",
+			"GiaTriKhoanVay": null,
+			"SoPhuLuc": null,
+			"ThoiDiemKHDangKy": null,
+			"ThoiDiemDKLanDau": "2024-07-26T10:29:00Z",
+			"NoiDungThayDoi": null,
+			"MoTaChungTaiSan": null,
+			"BenGiao": [
+				{
+					"LoaiChuTheID": 1,
+					"ThongTinChuThe": {
+						"HoTen": "NGUYỄN VĂN TƯỚC",
+						"CCCD": "033089000715",
+						"DiaChi": "Thượng Bùi, Xã Trung Hòa, Yên Mỹ, Hưng Yên, Việt Nam"
+					}
+				},
+				{
+					"LoaiChuTheID": 1,
+					"ThongTinChuThe": {
+						"HoTen": "NGUYỄN THỊ TRANG",
+						"CCCD": "033189015604",
+						"DiaChi": "Thượng Bùi, Xã Trung Hòa, Yên Mỹ, Hưng Yên, Việt Nam"
+					}
+				}
+			],
+			"BenNhan": [
+				{
+					"Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG - Chi Nhánh Hưng Yên",
+					"QuocGia": "Việt Nam",
+					"Tinh": "Hưng Yên",
+					"DiaChi": "Khu công nghiệp Phố Nối B, Xã Nghĩa Hiệp, Yên Mỹ, Hưng Yên, Việt Nam"
+				}
+			],
+			"TaiSan": []
+		}
+	}
+]

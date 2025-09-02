@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331482611/TB-TT3",
+            "SoDon": "9331482611",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô có số khung: 6GJ5G3310435; số máy: 21616F047412, biển số: 81C-153.85",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Đại Chúng Việt Nam Chi Nhánh Quy Nhơn Phòng Giao Dịch Đập Đá",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Định",
+                    "DiaChi": "322 Lê Duẩn, phường Đập Đá, Bình Định, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "6GJ5G3310435",
+                    "SoMay": "21616F047412",
+                    "BienSo": "81C-153.85",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

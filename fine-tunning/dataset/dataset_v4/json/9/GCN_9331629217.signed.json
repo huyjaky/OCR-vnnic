@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331629217/TB-TT3",
+            "SoDon": "9331629217",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "P.CSGT - CÔNG AN TỈNH ĐỒNG NAI",
+            "DiaChi": "SỐ 161 ĐƯỜNG PHẠM VĂN THUẬN, P TAM HIỆP, TỈNH ĐỒNG NAI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô có số khung: RNYFK46A6NC291155; thông tin khác (số máy: G4FGNE019149, biển số: 60K-220.69)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tnhh Mtv Woori Việt Nam Chi nhánh Đồng Nai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Đường Tôn Đức Thắng, KCN Nhơn Trạch 3, Thị trấn Hiệp Phước, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RNYFK46A6NC291155",
+                    "SoMay": "G4FGNE019149",
+                    "BienSo": "60K-220.69",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

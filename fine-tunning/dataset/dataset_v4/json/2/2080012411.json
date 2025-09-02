@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1150",
+            "SoDon": "2080012411",
+            "SoDangKyLanDau": "1587172216",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:55:00",
+            "SoHopDong": "0056.10/24/TC/BB/052",
+            "NgayCoHieuLucHopDong": "2025-04-29",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-04-29T11:28:00",
+            "NoiDungThayDoi": "Rút bớt tài sản bảo đảm là hàng hóa, chi tiết như sau: Xe ô tô Volkswagen màu Trắng nóc đen có số khung LSVUW7CA6SN011505",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH TREND MOTOR VIỆT NAM",
+                        "MaSoThue": "0313590854",
+                        "DiaChi": "Lầu 7, Tòa Nhà HPL, Số 60 Nguyễn Văn Thủ, phường Đa Kao, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP AN BÌNH - CHI NHÁNH TP. HỒ CHÍ MINH",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Hồ Chí Minh",
+                    "DiaChi": "170 Hai Bà Trưng, phường Đakao, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "Volkswagen màu Trắng nóc đen",
+                    "SoKhung": "LSVUW7CA6SN011505",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

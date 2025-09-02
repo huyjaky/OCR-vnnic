@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332165752/TB-TT3",
+            "SoDon": "9332165752",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông Công an Hà Nội",
+            "DiaChi": "86 P.Lý Thường Kiệt, Cửa Nam, Hoàn Kiếm, Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu SUZUKI màu trắng, số khung: MHYHDC61TMJ910072, số máy: K15BT1268038, biển số: 29H-531.76",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Hòa Bình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Phú Thọ",
+                    "DiaChi": "Số 555 đường Cù Chính Lan, tổ 13 ,phường Hòa Bình, tỉnh Phú Thọ, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "SUZUKI màu trắng",
+                    "SoKhung": "MHYHDC61TMJ910072",
+                    "SoMay": "K15BT1268038",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

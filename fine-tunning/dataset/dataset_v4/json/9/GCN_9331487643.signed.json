@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331487643/TB-TT3",
+            "SoDon": "9331487643",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ THƯỢNG LONG",
+            "DiaChi": "KHU TÂN TIẾN, XÃ THƯỢNG LONG, PHÚ THỌ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu OMODA, C5 PREMIUM, 1.5L, 4x2 TURBO có số khung: MF7ED21B8RJ900379; thông tin khác (số máy: SQRE4T15CCERL00094, biển số: 19C-253.01)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG - Chi Nhánh Thăng Long - Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, số 292 Hồ Tùng Mậu, tổ dân phố số 12 Phường Phú Diễn, quận Bắc Từ Liêm, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "OMODA, C5 PREMIUM",
+                    "SoKhung": "MF7ED21B8RJ900379",
+                    "SoMay": "SQRE4T15CCERL00094",
+                    "BienSo": "19C-25301",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

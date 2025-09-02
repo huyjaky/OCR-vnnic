@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332101158/TB-TT3",
+            "SoDon": "9332101158",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công an Tp Hồ Chí Minh",
+            "DiaChi": "341 Trần Hưng Đạo, phường Cầu Ông Lãnh, TP.HCM",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu: VINFAST, số loại: VF7 ECO 55DF02, bao gồm pin, màu sơn đen có số khung: RLLV3F5D0SH768308; thông tin khác (số máy: , biển số: 51L-732.36) đã được đăng ký tại Trung tâm đăng ký giao dịch, tài sản tại TP. Đà Nẵng.",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 89 Láng Hạ, phường Láng Hạ, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST màu đen",
+                    "SoKhung": "RLLV3F5D0SH768308",
+                    "SoMay": null,
+                    "BienSo": "51L-732.36",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

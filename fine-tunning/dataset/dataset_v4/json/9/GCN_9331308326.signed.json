@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331308326/TB-TT3",
+            "SoDon": "9331308326",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TB",
+            "TenCongAn": "Phòng CSGT Công an tỉnh Đăk Lăk",
+            "DiaChi": "21 Hà Huy Tập, Phường Buôn Ma Thuột, tỉnh Đăk Lăk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô, nhãn hiệu FORD EVEREST màu bạc, số khung: MNCRXXMAWRSR40431, số máy: P0WSRSR40431, biển số: 47A-74799",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP ĐT&PT Việt Nam Chi Nhánh Ban Mê",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "41 Nguyễn Tất Thành, Phường Tân An, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "FORD EVEREST màu bạc",
+                    "SoKhung": "MNCRXXMAWRSR40431",
+                    "SoMay": "P0WSRSR40431",
+                    "BienSo": "47A-74799",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1015",
+            "SoDon": "4223480168",
+            "SoDangKyLanDau": "1578931942",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-03-06T10:55:00",
+            "SoHopDong": "HĐTC60120250009",
+            "NgayCoHieuLucHopDong": "2025-03-05",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:59:00",
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÊ ANH DỤC",
+                        "CCCD": "054087012593",
+                        "DiaChi": "Thôn Phú Diễn Ngoài, xã Hòa Đồng, Tây Hoà, Phú Yên, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HUỲNH THỊ TUYẾT LY",
+                        "CCCD": "054187000503",
+                        "DiaChi": "Thôn Phú Diễn Ngoài, xã Hòa Đồng, Tây Hoà, Phú Yên, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Phú Yên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Phú Yên",
+                    "DiaChi": "Số 197-199 Đại lộ Hùng Vương, Phường 5, thành phố Tuy Hòa, Phú Yên, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331636187/TB-TT3",
+            "SoDon": "9331636187",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Phòng Cảnh sát Giao thông – CA Tỉnh Khánh Hòa",
+            "DiaChi": "14 Võ Văn Ký, Phường Nha Trang, Khánh Hòa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RNYED51D7MC217356; thông tin khác (số máy: G4LDM1006610, biển số: 79A-337.73)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Khánh Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "Số 17 Quang Trung - phường Vạn Thạnh, Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RNYED51D7MC217356",
+                    "SoMay": "G4LDM1006610",
+                    "BienSo": "79A-337.73",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0629",
+            "SoDon": "2079988622",
+            "SoDangKyLanDau": "1576748981",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T14:29:00",
+            "SoHopDong": "261224-4505264-01-SME/TC",
+            "NgayCoHieuLucHopDong": "2025-02-13",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-02-14T10:54:00",
+            "NoiDungThayDoi": "RÚT BỚT TÀI SẢN BẢO ĐẢM LÀ 01 XE SỐ KHUNG RLNVBL9K2SH768828",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ ĐẦU TƯ Ô TÔ QUỐC TẾ",
+                        "MaSoThue": "0106604530",
+                        "DiaChi": "Số 948 đường Quang Trung kéo dài, Phường Yên Nghĩa, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "(4)Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Hà Nội",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "(4)Tầng 1 và 2 tòa nhà số 05 Điện Biên Phủ, phường Văn Miếu - Quốc Tử Giám., thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNVBL9K2SH768828",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

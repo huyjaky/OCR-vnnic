@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1029",
+            "SoDon": "1597907364",
+            "SoDangKyLanDau": "1597907364",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:09:00",
+            "SoHopDong": "202528248206/HĐTC1",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:09:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô tải Pickup cabin kép số loại TRITON GLX nhãn hiệu MITSUBISHI, màu sơn Trắng, số máy: 4N15UKD8640, số khung: MMBJLKK10PH076395, Biển số đăng ký: 90C-146.07, theo Chứng nhận Đăng ký xe ô tô số 90 002377 do Phòng Cảnh sát giao thông Công an tỉnh Hà Nam cấp cho công ty TNHH NHỰA TÙNG TÁN ngày 09/05/2024.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH NHỰA TÙNG TÁN",
+                        "MaSoThue": "0700880254",
+                        "DiaChi": "Đường Lê Chân, Khu CN Châu Sơn, phường Châu Sơn, tỉnh Ninh Bình, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Sài Gòn Thương tín Chi nhánh Nam Định",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Số 466-470, đường Trần Hưng Đạo, phường Quang Trung, thành phố Nam Định, tỉnh Nam Định (Nay là Số 466-470, đường Trần Hưng Đạo, phường Nam Định, tỉnh Ninh Bình), tỉnh Ninh Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI/TRẮNG",
+                    "SoKhung": "MMBJLKK10PH076395",
+                    "SoMay": "4N15UKD8640",
+                    "BienSo": "90C-146.07",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332086908/TB-TT3",
+            "SoDon": "9332086908",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT - Công an tỉnh Tuyên Quang",
+            "DiaChi": "Phường Minh Xuân, Tuyên Quang",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô KIA, Sorento Luxury (all new), Động cơ dầu 2.2L, AT có số khung: RNYRW5BD8SC368691; thông tin khác (số máy: D4HENH332982, biển số: 22A-26265)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Một phần diện tích tại tầng 1 và tầng 5 tòa nhà Plaschem, số 562 đường Nguyễn Văn Cừ, phường Bồ Đề, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "KIA Sorento Luxury (all new)",
+                    "SoKhung": "RNYRW5BD8SC368691",
+                    "SoMay": "D4HENH332982",
+                    "BienSo": "22A-26265",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331785765/TB-TT3",
+            "SoDon": "9331785765",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Thuận Giao",
+            "DiaChi": "09 Đại Lộ Bình Dương, KP. Hòa Lân 1, phường Thuận Giao, Thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô có số khung: RL4B23F37K5068566; thông tin khác (số máy: 2NRX460557, biển số: 61A-624.80)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Đồng Nai Phòng Giao Dịch Tân Mai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "864-866 Phạm Văn Thuận, phường Tân Mai, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RL4B23F37K5068566",
+                    "SoMay": "2NRX460557",
+                    "BienSo": "61A-624.80",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

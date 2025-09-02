@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0894",
+            "SoDon": "4223465789",
+            "SoDangKyLanDau": "1456206066",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10 16:08:00",
+            "SoHopDong": "THA202291396161/HDTC",
+            "NgayCoHieuLucHopDong": "2022-05-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2022-05-09 08:16:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VŨ ĐÌNH TUẤN",
+                        "CCCD": "038078002592",
+                        "DiaChi": "Thôn Hà Bắc, Xã Hải Hà, thị xã Nghi Sơn, Thanh Hóa, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ THẢO",
+                        "CCCD": "038178004054",
+                        "DiaChi": "Thôn Hà Bắc, Xã Hải Hà, thị xã Nghi Sơn, Thanh Hóa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Kỹ Thương Việt Nam Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "180 Tống Duy Tân, Thanh Hóa, Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331890950/TB-TT3",
+            "SoDon": "9331890950",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Tam Sơn, tỉnh Bắc Ninh",
+            "DiaChi": "Phường Tam Sơn, tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu: CNHTC có số khung: LZZPBCKK2SJ383445; thông tin khác (số máy: , biển số: 99H-071.28)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Bắc Ninh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Một phần tầng 1 và một phần tầng 2, tòa nhà Việt Long, số 34, đường Lý Thái Tổ, phường Kinh Bắc, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CNHTC",
+                    "SoKhung": "LZZPBCKK2SJ383445",
+                    "SoMay": null,
+                    "BienSo": "99H-071.28",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

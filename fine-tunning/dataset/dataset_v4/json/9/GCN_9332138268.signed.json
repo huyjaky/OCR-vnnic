@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332138268/TB-TT3",
+            "SoDon": "9332138268",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Triệu Lộc",
+            "DiaChi": "xã Triệu Lộc, Tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con KIA K3 có số khung: RNYFL4FA6MC242110; thông tin khác (số máy: G4NAMH156200, biển số: 36A-735.36)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Tiên Phong Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 13+14 Phan Chu Trinh, phường Điện Biên, Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "KIA K3",
+                    "SoKhung": "RNYFL4FA6MC242110",
+                    "SoMay": "G4NAMH156200",
+                    "BienSo": "36A-735.36",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

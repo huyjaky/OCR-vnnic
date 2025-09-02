@@ -1,0 +1,73 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331573269/TB-TT3",
+            "SoDon": "9331573269",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Đăk Hà, tỉnh Quảng Ngãi",
+            "DiaChi": "Đường Nguyễn Trãi, xã Đăk Hà, tỉnh Quảng Ngãi",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu CIMC màu vàng, số khung: LJRC12389S4034983, biển số: 82R-00420; 01 xe ô tô nhãn hiệu CIMC màu vàng, số khung: LJRC12387S4034982, biển số: 82R-00424; 01 xe ô tô nhãn hiệu CIMC màu vàng, số khung: LJRC12380S4034984, biển số: 82R-00425; 01 xe ô tô nhãn hiệu CIMC màu vàng, số khung: LJRC12382S4034985, biển số: 82R-00428",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN VIỆT NAM",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tháp BIDV, số 194 Trần Quang Khải, Phường Hoàn Kiếm, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CIMC màu vàng",
+                    "SoKhung": "LJRC12389S4034983",
+                    "SoMay": null,
+                    "BienSo": "82R-00420",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CIMC màu vàng",
+                    "SoKhung": "LJRC12387S4034982",
+                    "SoMay": null,
+                    "BienSo": "82R-00424",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CIMC màu vàng",
+                    "SoKhung": "LJRC12380S4034984",
+                    "SoMay": null,
+                    "BienSo": "82R-00425",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CIMC màu vàng",
+                    "SoKhung": "LJRC12382S4034985",
+                    "SoMay": null,
+                    "BienSo": "82R-00428",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

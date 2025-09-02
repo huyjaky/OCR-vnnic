@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331547159/TB-TT3",
+            "SoDon": "9331547159",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN TỈNH GIA LAI",
+            "DiaChi": "PHƯỜNG QUY NHƠN BẮC, TỈNH GIA LAI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST có số khung: RLLVAG8C9SH766071; thông tin khác (số máy: VFBALB255120074, biển số: 77H-101.58)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Nha Trang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "26 Yersin , Phường Nha Trang, Tỉnh Khánh Hòa"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLLVAG8C9SH766071",
+                    "SoMay": "VFBALB255120074",
+                    "BienSo": "77H-10158",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

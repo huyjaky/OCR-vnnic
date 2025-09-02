@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331622546/TB-TT3",
+            "SoDon": "9331622546",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT Tỉnh Bắc Ninh",
+            "DiaChi": "Q05, Đường Hoàng VĂn Thụ, Phường Bắc Giang, Tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô nhãn hiệu HYUNDAI có số khung: RLUA741BBMN065982; thông tin khác (số máy: G4LCMG023867, biển số: 98A-437.89)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Bắc Giang Phòng giao dịch Lê Lợi",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bắc Giang",
+                    "DiaChi": "208 đường Lê Lợi, Phường Lê Lợi, Bắc Giang, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "HYUNDAI",
+                    "SoKhung": "RLUA741BBMN065982",
+                    "SoMay": "G4LCMG023867",
+                    "BienSo": "98A-437.89",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

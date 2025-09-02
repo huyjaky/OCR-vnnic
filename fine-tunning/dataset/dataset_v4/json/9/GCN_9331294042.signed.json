@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331294042/TB-TT3",
+            "SoDon": "9331294042",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công an tỉnh Gia Lai (Đội đăng ký xe)",
+            "DiaChi": "267A Trần Phú, Phường Diên Hồng, Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "CHENGLONG có số khung: D052LL774871; thông tin khác (số máy: 0LG1L9L00210, biển số: 81H-001.36) đã được xóa đăng ký.",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Gia Lai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "30 Trần Phú, Phường Tây Sơn, Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô tải",
+                    "NhanHieuMauSon": "CHENGLONG",
+                    "SoKhung": "D052LL774871",
+                    "SoMay": "0LG1L9L00210",
+                    "BienSo": "81H-001.36",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

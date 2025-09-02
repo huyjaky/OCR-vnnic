@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331494172/TB-TT3",
+            "SoDon": "9331494172",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "CSCA",
+            "TenCongAn": "Phòng CSGT CA tỉnh Bắc Ninh",
+            "DiaChi": "Q05, ĐƯờng Hoàng Văn Thụ, Phường Bắc Giang, Tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô, nhãn hiệu VINFAST, số khung RPXCA2FACNV002475, biển số 98A-499.35",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng - Chi nhánh Bắc Giang - Địa điểm kinh doanh Phòng giao dịch Lạng Giang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Lô SH2.16, N46+SH2.17, N46+SH2.18, N46+SH2.19, N46 Khu đô Thị Mới Phía Tây, Xã Lạng Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RPXCA2FACNV002475",
+                    "SoMay": null,
+                    "BienSo": "98A-499.35",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

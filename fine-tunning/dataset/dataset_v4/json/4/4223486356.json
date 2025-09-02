@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1059",
+            "SoDon": "4223486356",
+            "SoDangKyLanDau": "1314072223",
+            "LoaiDonID": 4,
+            "LoaiDonName": "XÓA ĐƠN ĐĂNG KÝ",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T17:31:00",
+            "SoHopDong": "TTC201959478925/HDTC",
+            "NgayCoHieuLucHopDong": "2019-01-11",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2019-01-14T09:25:00",
+            "ThoiDiemDKLanDau": "2019-01-14T09:25:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "ĐINH MINH KẾ",
+                        "CCCD": "012705521",
+                        "DiaChi": "43 Ngõ 151 đường Hồng Hà, phường Phúc Xá, Ba Đình, Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Kỹ Thương Việt Nam Chi Nhánh Hai Bà Trưng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 9 Tô Hiến Thành, phường Bùi Thị Xuân, Hai Bà Trưng, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332107902/TB-TT3",
+            "SoDon": "9332107902",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Sầm Sơn",
+            "DiaChi": "phường Sầm Sơn, tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu FORD EVEREST màu trắng, biển số 36K-970.40 có số khung MNCRXXMAWRSR40479, số máy P0WSRSR40479",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Tiên Phong Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "13, 14 Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "FORD EVEREST, MÀU SƠN TRẮNG",
+                    "SoKhung": "MNCRXXMAWRSR40479",
+                    "SoMay": "P0WSRSR40479",
+                    "BienSo": "36K-970.40",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

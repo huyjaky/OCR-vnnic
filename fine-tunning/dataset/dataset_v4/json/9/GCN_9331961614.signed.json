@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331961614/TB-TT3",
+            "SoDon": "9331961614",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông Công An Tỉnh Gia Lai",
+            "DiaChi": "KM2+285 QL1D, Phường Quy Nhơn Bắc, Tỉnh Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu CNHTC màu xanh, số khung RRT11085DS2B00278, số máy WP41Q150E50E425E010967, biển số 77H-094.01",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quân Đội Chi Nhánh Bình Định",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "Tầng 1,2,3 Tòa nhà NHTMCP Quân Đội, Số 322 Nguyễn Thái Học, Phường Quy Nhơn Nam, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CNHTC màu xanh",
+                    "SoKhung": "RRT11085DS2B00278",
+                    "SoMay": "WP41Q150E50E425E010967",
+                    "BienSo": "77H-094.01",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1032",
+            "SoDon": "1597907574",
+            "SoDangKyLanDau": "1597907574",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:09:00",
+            "SoHopDong": "74",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:09:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô con",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÊ THỊ DIỆU ĐỨC",
+                        "CCCD": "046183004065",
+                        "DiaChi": "38 Ngô Hà, Phường Thủy Xuân, thành phố Huế, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Thương Tín - CN Thừa Thiên Huế - PGD Hương Trà",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thừa Thiên Huế",
+                    "DiaChi": "45 Cách Mạng Tháng Tám, phường Hương Trà, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MERCEDES-BENZ, Màu đen",
+                    "SoKhung": "RLMKM4HX6RV003153",
+                    "SoMay": "254920V0629953",
+                    "BienSo": "75A-230.68",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

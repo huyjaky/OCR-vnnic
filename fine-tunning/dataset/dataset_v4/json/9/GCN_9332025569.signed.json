@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332025569/TB-TT3",
+            "SoDon": "9332025569",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Xã Canh Vinh, tỉnh Gia Lai",
+            "DiaChi": "Xã Canh Vinh, tỉnh Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Hiệu Thaco Linker T2-6.5, Màu Trắng, biển số 81A-69473",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Bình Định",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "Số 22 đường Nguyễn Tất Thành, phường Quy Nhơn, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Thaco Linker T2-6.5, Màu Trắng",
+                    "SoKhung": "RNHC65TWAST009063",
+                    "SoMay": "WP23Q140E50D225A002270",
+                    "BienSo": "81A-69473",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

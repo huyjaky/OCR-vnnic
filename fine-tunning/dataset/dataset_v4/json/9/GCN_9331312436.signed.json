@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331312436/TB-TT3",
+            "SoDon": "9331312436",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Tây Sơn",
+            "DiaChi": "Thôn Tân Hội, Xã Tây Sơn, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: XNF97A186471; thông tin khác (số máy: , biển số: 78C-049.4 3)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam - Chi nhánh Sơn Hòa Phú Yên",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "33 Nguyễn Thị Minh Khai, Xã Sơn Hòa, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "XNF97A186471",
+                    "SoMay": null,
+                    "BienSo": "78C-04943",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

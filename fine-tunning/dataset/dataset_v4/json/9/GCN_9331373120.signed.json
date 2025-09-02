@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331373120/TB-TT3",
+            "SoDon": "9331373120",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Rạch Dừa",
+            "DiaChi": "Phường Rạch Dừa, thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô BYD có số khung: LGXC74C46SG025724; số máy: BYD472QA425008312, biển số: 72A-909.79",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Vũng Tàu Phòng giao dịch Bà Rịa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "thành phố Hồ Chí Minh",
+                    "DiaChi": "44 Bạch Đằng, Khu Phố 2, Phường Bà Rịa, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô BYD",
+                    "NhanHieuMauSon": "BYD",
+                    "SoKhung": "LGXC74C46SG025724",
+                    "SoMay": "BYD472QA425008312",
+                    "BienSo": "72A-909.79",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

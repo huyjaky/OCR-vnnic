@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331434007/TB-TT3",
+            "SoDon": "9331434007",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công an Phường Thành Nhất",
+            "DiaChi": "Phường Thành Nhất, tỉnh Đăk Lăk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Tài sản bảo đảm là xe ô tô con mang nhãn hiệu Toyota Fortuner; Màu trắng có số khung: RL4ZR69G9G4029937; thông tin khác (số máy: 2KDU910407, biển số: 47A-650.93)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 56-58 đường Y Jut, phường Thống Nhất, Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "xe ô tô con",
+                    "NhanHieuMauSon": "Toyota Fortuner màu trắng",
+                    "SoKhung": "RL4ZR69G9G4029937",
+                    "SoMay": "2KDU910407",
+                    "BienSo": "47A-65093",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

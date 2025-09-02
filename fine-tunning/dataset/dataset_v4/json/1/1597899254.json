@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0981",
+            "SoDon": "1597899254",
+            "SoDangKyLanDau": "1597899254",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:42:00",
+            "SoHopDong": "TBH2025CFAL16340725/HDTC",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:42:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu Vinfast, số khung: RLNVBL9K1SH706384",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HOÀNG THỊ NGUYỄN",
+                        "CCCD": "034188005801",
+                        "DiaChi": "Thôn Nghĩa Khê, Xã Vũ Thư, tỉnh Hưng Yên, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM - Chi nhánh Thái Bình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hưng Yên",
+                    "DiaChi": "Vincom phố Lý Bôn, số 460 Lý Bôn, Phường Trần Hưng Đạo, tỉnh Hưng Yên, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Vinfast",
+                    "SoKhung": "RLNVBL9K1SH706384",
+                    "SoMay": "TZ160X30G24121302746",
+                    "BienSo": "89A-668.87",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

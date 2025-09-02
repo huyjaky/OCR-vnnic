@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332158935/TB-TT3",
+            "SoDon": "9332158935",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Tiên Du - Công an tỉnh Bắc Ninh",
+            "DiaChi": "xã Tiên Du, tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST, Hồng Tím có số khung: RLNVBL9K1SH771526; thông tin khác (số máy: TZ160X30G25031700937, biển số: 99A-817.66)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam Chi nhánh Bắc Ninh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Tòa nhà Phoenix Tower, Số 25 đường Lý Thái Tổ, phường Võ Cường, tỉnh Bắc Ninh"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST, Hồng Tím",
+                    "SoKhung": "RLNVBL9K1SH771526",
+                    "SoMay": "TZ160X30G25031700937",
+                    "BienSo": "99A-81766",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

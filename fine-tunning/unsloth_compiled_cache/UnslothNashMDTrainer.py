@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
+2025.8.5
+2025.8.6
 4.53.3
-0.19.1
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -211,8 +211,10 @@ class UnslothNashMDConfig(NashMDConfig):
         dataset_num_proc = None,
         disable_dropout = True,
         use_vllm = False,
+        vllm_model_impl = 'vllm',
         gpu_memory_utilization = 0.55,
         ds3_gather_for_generation = True,
+        model_init_kwargs = None,
         vllm_sampling_params = None,
         unsloth_num_chunks = -1,
         **kwargs,
@@ -370,8 +372,10 @@ class UnslothNashMDConfig(NashMDConfig):
             dataset_num_proc = dataset_num_proc,
             disable_dropout = disable_dropout,
             use_vllm = use_vllm,
+            vllm_model_impl = vllm_model_impl,
             gpu_memory_utilization = gpu_memory_utilization,
-            ds3_gather_for_generation = ds3_gather_for_generation,**kwargs)
+            ds3_gather_for_generation = ds3_gather_for_generation,
+            model_init_kwargs = model_init_kwargs,**kwargs)
         self.vllm_sampling_params = vllm_sampling_params
         self.unsloth_num_chunks = unsloth_num_chunks
 pass
@@ -814,7 +818,7 @@ class _UnslothNashMDTrainer(OnlineDPOTrainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="Nash-MD",
             trainer_citation=citation,
@@ -849,7 +853,7 @@ class UnslothNashMDTrainer(_UnslothNashMDTrainer):
             The dataset to use for training.
         eval_dataset (`datasets.Dataset`):
             The dataset to use for evaluation.
-        processing_class (`PreTrainedTokenizerBase` or `BaseImageProcessor` or `FeatureExtractionMixin` or `ProcessorMixin`, *optional*):
+        processing_class ([`~transformers.PreTrainedTokenizerBase`], [`~transformers.BaseImageProcessor`], [`~transformers.FeatureExtractionMixin`] or [`~transformers.ProcessorMixin`], *optional*, defaults to `None`):
             Processing class used to process the data. If provided, will be used to automatically process the inputs
             for the model, and it will be saved along the model to make it easier to rerun an interrupted training or
             reuse the fine-tuned model.
@@ -996,6 +1000,14 @@ class UnslothNashMDTrainer(_UnslothNashMDTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

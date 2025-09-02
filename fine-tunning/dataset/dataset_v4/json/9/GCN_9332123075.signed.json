@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332123075/TB-TT3",
+            "SoDon": "9332123075",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông, Công an Thành phố Đà Nẵng",
+            "DiaChi": "Võ An Ninh, Hòa Xuân, Đà Nẵng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Ford Ranger có số khung: RL2AMFE60SBR16886; thông tin khác (số máy: YN2SRSB16886, biển số: 43A-963.55)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP VIỆT NAM THƯƠNG TÍN - CHI NHÁNH ĐÀ NẴNG",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "119 – 121 Nguyễn Văn Linh, Phường Hải Châu, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Ford Ranger",
+                    "SoKhung": "RL2AMFE60SBR16886",
+                    "SoMay": "YN2SRSB16886",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

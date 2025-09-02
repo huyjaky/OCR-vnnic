@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0637",
+            "SoDon": "2079988866",
+            "SoDangKyLanDau": "1494739504",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T14:31:00",
+            "SoHopDong": "040423-464137-01-SME/TC",
+            "NgayCoHieuLucHopDong": "2023-04-12",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2023-04-13T09:20:00",
+            "NoiDungThayDoi": "BỔ SUNG TÀI SẢN BẢO ĐẢM LÀ 01 XE SỐ KHUNG RLUJH81CBSN021519",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TRÁCH NHIỆM HỮU HẠN TOÀN THẮNG",
+                        "MaSoThue": "0800265622",
+                        "DiaChi": "Số nhà 245A, Đường Nguyễn Lương Bằng, phường Lê Thanh Nghị, thành phố Hải Phòng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG (VPBANK) - CHI NHÁNH HẢI DƯƠNG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "11 Trần Hưng Đạo, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HUYNDAI",
+                    "SoKhung": "RLUJH81CBSN021519",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0352",
+            "SoDon": "2079973536",
+            "SoDangKyLanDau": "1488707088",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T11:03:00",
+            "SoHopDong": "LN2302138342604/HĐTC",
+            "NgayCoHieuLucHopDong": "2023-02-14",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T11:03:00",
+            "ThoiDiemDKLanDau": "2023-02-15T15:01:00",
+            "NoiDungThayDoi": "Thay đổi tên Bên nhận bảo đảm từ:\nNGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG – CHI NHÁNH BẮC GIANG-PHÒNG GIAO DỊCH NGÔ GIA TỰ\nĐịa chỉ: Số 43-Nguyễn Văn Cừ -Ngô Quyền –Bắc Giang-Bắc Giang\nThành:\nNGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG - CHI NHÁNH BẮC GIANG- ĐỊA ĐIỂM KD PHÒNG GIAO DỊCH LẠNG GIANG\nĐịa chỉ: Lô SH2.16, N64+SH2.17, N64+SH2.18, N64+SH2.19,N64 Khu đô thị mới phía Tây , Xã Lạng Giang, Tỉnh Bắc Ninh.",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN VĂN QUANG",
+                        "CCCD": "024092014126",
+                        "DiaChi": "THÔN ĐỒNG SAU, Xã BỐ HẠ, tỉnh Bắc Ninh, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "DƯƠNG THỊ NHẬT LINH",
+                        "CCCD": "024192005275",
+                        "DiaChi": "THÔN ĐỒNG SAU, Xã BỐ HẠ, tỉnh Bắc Ninh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG - CHI NHÁNH BẮC GIANG- ĐỊA ĐIỂM KD PHÒNG GIAO DỊCH LẠNG GIANG",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Lô SH2.16, N64+SH2.17, N64+SH2.18, N64+SH2.19,N64 Khu đô thị mới phía Tây , Xã Lạng Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "XE Ô TÔ nhãn hiệu HYUNDAI SỐ LOẠI TUCSON",
+                    "SoKhung": "W14BKN014155",
+                    "SoMay": "D4HAKU017852",
+                    "BienSo": "98A-270.62",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

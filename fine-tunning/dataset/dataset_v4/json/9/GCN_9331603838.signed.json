@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331603838/TB-TT3",
+            "SoDon": "9331603838",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Xã Thu Bồn, TP Đà Nẵng",
+            "DiaChi": "Thôn Phú Lạc,Công An Xã Thu Bồn, TP Đà Nẵng",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo xử lý tài sản bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MNCUMFF60LW052741; số máy: YN2QW052741, biển số: 92C-174.66",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN ĐỨC PHƯỚC",
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "155 Nguyễn Văn Linh, phường Vĩnh Trung, Đà Nẵng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MNCUMFF60LW052741",
+                    "SoMay": "YN2QW052741",
+                    "BienSo": "92C-174.66",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

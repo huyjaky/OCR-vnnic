@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0856",
+            "SoDon": "4223460739",
+            "SoDangKyLanDau": "1349587305",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T15:51:00",
+            "SoHopDong": "01/2019/6255820/HĐBĐ",
+            "NgayCoHieuLucHopDong": "2019-11-15",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2019-11-15T15:12:00",
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ THANH THÚY",
+                        "CCCD": "191322124",
+                        "DiaChi": "Tổ 3, KV1, P.Thủy Xuân, thành phố Huế, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "ĐẶNG QUANG NHẬT TÂN",
+                        "CCCD": "191297763",
+                        "DiaChi": "Tổ 3, KV1, P.Thủy Xuân, thành phố Huế, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP ĐT&PT Việt Nam Chi Nhánh Huế",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thừa Thiên Huế",
+                    "DiaChi": "41 đường Hùng Vương, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

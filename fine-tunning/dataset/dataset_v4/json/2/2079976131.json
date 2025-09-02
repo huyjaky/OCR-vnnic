@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0412",
+            "SoDon": "2079976131",
+            "SoDangKyLanDau": "1560755809",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T11:33:00",
+            "SoHopDong": "241024-16498430-01-SME/TC",
+            "NgayCoHieuLucHopDong": "2024-10-28",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-10-29T11:04:00",
+            "NoiDungThayDoi": "BỔ SUNG TÀI SẢM BẢO ĐẢM LÀ 01 XE SỐ KHUNG RLLVAG8C5SH789363",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN Ô TÔ BẮC TÂY NGUYÊN",
+                        "MaSoThue": "6101264218",
+                        "DiaChi": "377B Phan Đình Phùng, Phường Đawk Cấm, tỉnh Quảng Ngãi, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "(4) Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Gia Lai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "(4) 30 Trần Phú, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLLVAG8C5SH789363",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

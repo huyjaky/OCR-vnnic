@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331756841/TB-TT3",
+            "SoDon": "9331756841",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Thuận Hóa",
+            "DiaChi": "138 Trần Phú, phường Thuận Hóa, TP Huế",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Mô tô HONDA SH 150 2013 Màu sơn: trắng đen có số khung: 1419DY081359; số máy: KF14E0071349, biển số: 75F1-324.96",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Trần Thị Lan Anh",
+                        "CCCD": null,
+                        "DiaChi": "82 Nguyễn Trãi, phường Phú Xuân, thành phố Huế, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Hộ kinh doanh Nam Anh VTN",
+                        "MaSoThue": null,
+                        "DiaChi": "82 Nguyễn Trãi, phường Phú Xuân, thành phố Huế, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": null,
+                    "QuocGia": null,
+                    "Tinh": null,
+                    "DiaChi": null
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Mô tô",
+                    "NhanHieuMauSon": "HONDA SH 150 2013 Màu sơn: trắng đen",
+                    "SoKhung": "1419DY081359",
+                    "SoMay": "KF14E0071349",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

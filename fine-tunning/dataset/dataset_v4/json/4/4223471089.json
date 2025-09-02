@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0936",
+            "SoDon": "4223471089",
+            "SoDangKyLanDau": "1394970785",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T16:23:00",
+            "SoHopDong": "DTP202079178571/HDTC",
+            "NgayCoHieuLucHopDong": "2020-12-11",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2020-12-11T13:37:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ THÙY LINH",
+                        "CCCD": "341190374",
+                        "DiaChi": "Ấp An Định, Xã An Bình, Cao Lãnh, Đồng Tháp, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM - CN ĐỒNG THÁP",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Tháp",
+                    "DiaChi": "PG1 - 24 Dự án Trung tâm thương mại và Shophouse Cao Lãnh - Đồng Tháp, phường 1, Thành phố Cao Lãnh, Đồng Tháp, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

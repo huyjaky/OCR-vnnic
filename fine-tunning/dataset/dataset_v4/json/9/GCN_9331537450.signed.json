@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331537450/TB-TT3",
+            "SoDon": "9331537450",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công An Tỉnh Đắk Lắk",
+            "DiaChi": "Kp Ân Niên, phường Tuy Hòa, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "SoDangKyLanDau": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Đầu kéo nhãn hiệu CNHTC màu Xám, Bạc biển số 47H-088.80; 01 xe ô tô SMRM tải tự đổ nhãn hiệu JUNTON màu Xanh biển số 47RM-016.80",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Phú Yên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 197-199 Đại lộ Hùng Vương, phường Tuy Hòa, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Đầu kéo",
+                    "NhanHieuMauSon": "CNHTC màu Xám, Bạc",
+                    "SoKhung": "LZZ1CLVBXSD368639",
+                    "SoMay": "MC114450250517212997",
+                    "BienSo": "47H-088.80",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô SMRM tải tự đổ",
+                    "NhanHieuMauSon": "JUNTON màu Xanh",
+                    "SoKhung": "LY9BC40Z7S0JTC179",
+                    "SoMay": null,
+                    "BienSo": "47RM-016.80",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

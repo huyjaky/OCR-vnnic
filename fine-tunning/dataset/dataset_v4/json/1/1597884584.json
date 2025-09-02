@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0884",
+            "SoDon": "1597884584",
+            "SoDangKyLanDau": "1597884584",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:03:00",
+            "SoHopDong": "LN2506095771814",
+            "NgayCoHieuLucHopDong": "2025-07-02",
+            "GiaTriKhoanVay": 0,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:03:00",
+            "ThoiDiemDKLanDau": "2025-07-10T16:03:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu BMW",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HUỲNH THỊ TÚ UYÊN",
+                        "CCCD": "079191035878",
+                        "DiaChi": "Số nhà 174 đường Thạch Lam Tổ 23 Khu phố 2, Phường Phú Thạnh, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "BMW",
+                    "SoKhung": "WBAYH31080EA97141",
+                    "SoMay": "F557H685B48A20A",
+                    "BienSo": "51M-047.33",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332083376/TB-TT3",
+            "SoDon": "9332083376",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Xã Hương Sơn",
+            "DiaChi": "Xã Hương Sơn, Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu: FORD có số khung: RL2UMFC30NAR32935; thông tin khác (số máy: , biển số: 29H-666.25)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Kinh Đô Phòng giao dịch Hà Thành",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Ô số L1-01, Tầng 1, Tòa nhà R6, Khu trung tâm thương mại Vincom Mega Mall, Số 72A Nguyễn Trãi, Phường Thanh Xuân, thành phố Hà Nội"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD",
+                    "SoKhung": "RL2UMFC30NAR32935",
+                    "SoMay": null,
+                    "BienSo": "29H-666.25",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

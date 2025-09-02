@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0653",
+            "SoDon": "2079989359",
+            "SoDangKyLanDau": "1382868789",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T14:36:00",
+            "SoHopDong": "1047/2020/HĐTC/CNTHANHHOA",
+            "NgayCoHieuLucHopDong": "2020-09-23",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2020-09-23T13:05:00",
+            "NoiDungThayDoi": "Thay đổi bên nhân bảo đảm từ Ngân hàng TMCP Bưu điện Liên Việt (LienVietPostBank) - Chi nhánh Thanh Hóa thangh Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Thanh Hóa",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công Ty TNHH Xây dựng và Thương mại Hồng Đạt",
+                        "MaSoThue": "2802830471",
+                        "DiaChi": "Số 04-06/02 Ngọc Giao, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam- Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "280 Trần Phú phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

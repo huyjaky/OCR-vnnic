@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331709559/TB-TT3",
+            "SoDon": "9331709559",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Trần Hưng Đạo",
+            "DiaChi": "phường Trần Hưng Đạo, tỉnh Hưng Yên",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST có số khung: RLNVBL9K8SH729130; thông tin khác (số máy: TZ160X30G25011003133, biển số: 89A-669.31)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thái Bình",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thái Bình",
+                    "DiaChi": null
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNVBL9K8SH729130",
+                    "SoMay": "TZ160X30G25011003133",
+                    "BienSo": "89A-669.31",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331976307/TB-TT3",
+            "SoDon": "9331976307",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An phường Vũng Tàu",
+            "DiaChi": "133 Trương Công Định, phường Vũng Tàu, thành Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Vinfast, màu xám có số khung: RLNVBL9K6SH743141; số máy: TZ160X30G25020502940, biển số: 72B-073.05",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Ngoại thương Việt Nam Chi nhánh Vũng Tàu",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hồ Chí Minh",
+                    "DiaChi": "27 Trần Hưng Đạo, Phường Vũng Tàu, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Vinfast",
+                    "NhanHieuMauSon": "Vinfast, màu xám",
+                    "SoKhung": "RLNVBL9K6SH743141",
+                    "SoMay": "TZ160X30G25020502940",
+                    "BienSo": "72B-073.05",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

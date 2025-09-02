@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
+2025.8.5
+2025.8.6
 4.53.3
-0.19.1
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from typing import Any, List, Optional, Tuple, Union, Dict, Set, Callable
-from trl.trainer.dpo_trainer import (Any, AutoModelForCausalLM, AutoTokenizer, BaseImageProcessor, Callable, DPOConfig, DPOTrainer, DataCollator, DataCollatorForPreference, DataLoader, Dataset, EvalLoopOutput, F, FDivergenceConstants, FDivergenceType, FeatureExtractionMixin, IterableDataset, Literal, MODEL_FOR_VISION_2_SEQ_MAPPING_NAMES, Optional, PartialState, Path, PeftConfig, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, RunningMoments, SyncRefModelCallback, Trainer, TrainerCallback, Union, autocast, cap_exp, contextmanager, create_reference_model, dataclass, defaultdict, disable_dropout_in_model, empty_cache, flush_left, flush_right, generate_model_card, get_comet_experiment_url, get_peft_model, inspect, is_comet_available, is_liger_kernel_available, is_peft_available, is_wandb_available, log_table_to_comet_experiment, maybe_apply_chat_template, maybe_extract_prompt, nn, nullcontext, os, pad, pad_to_length, pd, peft_module_casting_to_bf16, prepare_deepspeed, prepare_fsdp, prepare_model_for_kbit_training, random, selective_log_softmax, shift_tokens_right, textwrap, torch, tqdm, wandb, warnings, F, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, torch)
+from trl.trainer.dpo_trainer import (Any, AutoModelForCausalLM, AutoTokenizer, BaseImageProcessor, Callable, DPOConfig, DPOTrainer, DataCollator, DataCollatorForPreference, DataLoader, Dataset, EvalLoopOutput, F, FDivergenceConstants, FDivergenceType, FeatureExtractionMixin, IterableDataset, Literal, MODEL_FOR_VISION_2_SEQ_MAPPING_NAMES, Optional, PartialState, Path, PeftConfig, PeftModel, PreTrainedModel, PreTrainedTokenizerBase, ProcessorMixin, RunningMoments, SyncRefModelCallback, Trainer, TrainerCallback, Union, autocast, cap_exp, contextmanager, create_reference_model, dataclass, defaultdict, disable_dropout_in_model, empty_cache, flush_left, flush_right, generate_model_card, get_comet_experiment_url, get_peft_model, inspect, is_comet_available, is_liger_kernel_available, is_mlflow_available, is_peft_available, is_wandb_available, log_table_to_comet_experiment, maybe_apply_chat_template, maybe_extract_prompt, nn, nullcontext, os, pad, pad_to_length, pd, peft_module_casting_to_bf16, prepare_deepspeed, prepare_fsdp, prepare_model_for_kbit_training, random, selective_log_softmax, shift_tokens_right, textwrap, torch, tqdm, wandb, warnings, F, Optional, PeftModel, PreTrainedModel, Trainer, is_peft_available, os, torch)
 
 
 import os
@@ -122,7 +122,7 @@ class UnslothDPOConfig(DPOConfig):
 
         > Parameters that control the training
 
-        loss_type (`str`, *optional*, defaults to `"sigmoid"`):
+        loss_type (`str` or `list[str]`, *optional*, defaults to `"sigmoid"`):
             Type of loss to use. Possible values are:
 
                 - `"sigmoid"`: sigmoid loss from the original [DPO](https://huggingface.co/papers/2305.18290) paper.
@@ -143,6 +143,11 @@ class UnslothDPOConfig(DPOConfig):
                   [DiscoPOP](https://huggingface.co/papers/2406.08414) paper.
                 - `"apo_zero"`: APO-zero loss from the [APO](https://huggingface.co/papers/2408.06266) paper.
                 - `"apo_down"`: APO-down loss from the [APO](https://huggingface.co/papers/2408.06266) paper.
+                - `"sft"`: Negative log-likelihood loss (standard supervised fine-tuning loss).
+
+            Multiple loss types can be combined using comma separation (e.g., `["sigmoid", "bco_pair", "sft"]` for
+            [MPO](https://huggingface.co/papers/2411.10442)). The `loss_weights` parameter can be used to specify
+            corresponding weights for each loss type.
 
         use_liger_loss (`bool`, *optional*, defaults to `False`):
             Whether to use Liger loss.
@@ -177,9 +182,13 @@ class UnslothDPOConfig(DPOConfig):
         discopop_tau (`float`, *optional*, defaults to `0.05`):
             τ/temperature parameter from the [DiscoPOP](https://huggingface.co/papers/2406.08414) paper, which controls
             the shape of log ratio modulated loss. The paper recommends the default value `discopop_tau=0.05`.
+        loss_weights (`list[float]` or `None`, *optional*, defaults to `None`):
+            List of loss weights for multi-loss combinations. Used when combining multiple loss types.
+            Example: `[0.8, 0.2, 1.0]` for [MPO](https://huggingface.co/papers/2411.10442). If not provided, defaults
+            to equal weights (`1.0`) for all loss types.
         sync_ref_model (`bool`, *optional*, defaults to `False`):
             Whether to synchronize the reference model with the active model every `ref_model_sync_steps` steps, using
-            the `ref_model_mixup_alpha` parameter. This synchronization originites from the
+            the `ref_model_mixup_alpha` parameter. This synchronization originates from the
             [TR-DPO](https://huggingface.co/papers/2404.09656) paper.
         ref_model_mixup_alpha (`float`, *optional*, defaults to `0.6`):
             α parameter from the [TR-DPO](https://huggingface.co/papers/2404.09656) paper, which controls the mix
@@ -354,7 +363,6 @@ class UnslothDPOConfig(DPOConfig):
         precompute_ref_log_probs = False,
         precompute_ref_batch_size = None,
         tools = None,
-        loss_type = 'sigmoid',
         use_liger_loss = False,
         base_model_attribute_name = 'model',
         beta = 0.1,
@@ -365,6 +373,7 @@ class UnslothDPOConfig(DPOConfig):
         rpo_alpha = None,
         ld_alpha = None,
         discopop_tau = 0.05,
+        loss_weights = None,
         sync_ref_model = False,
         ref_model_mixup_alpha = 0.6,
         ref_model_sync_steps = 512,
@@ -529,7 +538,6 @@ class UnslothDPOConfig(DPOConfig):
             precompute_ref_log_probs = precompute_ref_log_probs,
             precompute_ref_batch_size = precompute_ref_batch_size,
             tools = tools,
-            loss_type = loss_type,
             use_liger_loss = use_liger_loss,
             base_model_attribute_name = base_model_attribute_name,
             beta = beta,
@@ -540,6 +548,7 @@ class UnslothDPOConfig(DPOConfig):
             rpo_alpha = rpo_alpha,
             ld_alpha = ld_alpha,
             discopop_tau = discopop_tau,
+            loss_weights = loss_weights,
             sync_ref_model = sync_ref_model,
             ref_model_mixup_alpha = ref_model_mixup_alpha,
             ref_model_sync_steps = ref_model_sync_steps,
@@ -622,10 +631,10 @@ class _UnslothDPOTrainer(Trainer):
         # PEFT configuration and model wrapping
         model = self._prepare_peft_model(model, ref_model, peft_config, args)
 
-        if args.generate_during_eval and not (is_wandb_available() or is_comet_available()):
+        if args.generate_during_eval and not (is_wandb_available() or is_comet_available() or is_mlflow_available()):
             raise ValueError(
-                "`generate_during_eval=True` requires Weights and Biases or Comet to be installed."
-                " Please install `wandb` or `comet-ml` to resolve."
+                "`generate_during_eval=True` requires Weights and Biases, MLFlow or Comet to be installed."
+                " Please install `wandb`, `mlflow` or `comet-ml` to resolve."
             )
 
         self.is_encoder_decoder = model.config.is_encoder_decoder
@@ -712,21 +721,10 @@ class _UnslothDPOTrainer(Trainer):
         self._precomputed_train_ref_log_probs = False
         self._precomputed_eval_ref_log_probs = False
 
-        if (
-            args.loss_type in ["hinge", "ipo", "bco_pair", "sppo_hard", "nca_pair", "apo_zero", "apo_down"]
-            and args.label_smoothing > 0
-        ):
-            warnings.warn(
-                f"You are using the {args.loss_type} loss type that does not support label smoothing. The "
-                "`label_smoothing` parameter will be ignored. Set `label_smoothing` to `0.0` to remove this warning.",
-                UserWarning,
-            )
-        if args.loss_type == "kto_pair":
-            raise ValueError("Support for kto_pair has been removed in DPOTrainer. Please use KTOTrainer.")
-
         self.beta = args.beta
         self.label_smoothing = args.label_smoothing
-        self.loss_type = args.loss_type
+        self.loss_type = args.loss_type if isinstance(args.loss_type, list) else [args.loss_type]
+        self.loss_weights = args.loss_weights
         self.aux_loss_enabled = getattr(model.config, "output_router_logits", False)
         self.use_weighting = args.use_weighting
         self.aux_loss_coef = getattr(model.config, "router_aux_loss_coef", 0.0)
@@ -738,6 +736,18 @@ class _UnslothDPOTrainer(Trainer):
                 "loss.",
                 UserWarning,
             )
+        for loss_type in self.loss_type:
+            if (
+                loss_type in ["hinge", "ipo", "bco_pair", "sppo_hard", "nca_pair", "apo_zero", "apo_down"]
+                and args.label_smoothing > 0
+            ):
+                warnings.warn(
+                    f"You are using the {loss_type} loss type that does not support label smoothing. The "
+                    "`label_smoothing` parameter will be ignored. Set `label_smoothing` to `0.0` to remove this warning.",
+                    UserWarning,
+                )
+            if loss_type == "kto_pair":
+                raise ValueError("Support for kto_pair has been removed in DPOTrainer. Please use KTOTrainer.")
 
         self._stored_metrics = defaultdict(lambda: defaultdict(list))
         self.f_divergence_type = args.f_divergence_type
@@ -815,7 +825,7 @@ class _UnslothDPOTrainer(Trainer):
 
             self.add_callback(SyncRefModelCallback(ref_model=self.ref_model, accelerator=self.accelerator))
 
-        if self.loss_type == "bco_pair":
+        if "bco_pair" in self.loss_type:
             self.running = RunningMoments(self.accelerator)
 
     def _create_model_from_path(self, model_path: str, args: DPOConfig, is_ref: bool = False) -> PreTrainedModel:
@@ -962,7 +972,13 @@ class _UnslothDPOTrainer(Trainer):
         return dataset
 
     @staticmethod
-    def tokenize_row(features, processing_class, max_prompt_length, max_completion_length, add_special_tokens):
+    def tokenize_row(
+        features: dict[str, str],
+        processing_class: PreTrainedTokenizerBase,
+        max_prompt_length: Optional[int] = None,
+        max_completion_length: Optional[int] = None,
+        add_special_tokens: bool = True,
+    ) -> dict[str, list[int]]:
         """
         Tokenize a row of the dataset.
 
@@ -1025,7 +1041,13 @@ class _UnslothDPOTrainer(Trainer):
         }
 
     @staticmethod
-    def process_row(features, processing_class, max_prompt_length, max_completion_length, add_special_tokens):
+    def process_row(
+        features: dict[str, str],
+        processing_class: PreTrainedTokenizerBase,
+        max_prompt_length: Optional[int] = None,
+        max_completion_length: Optional[int] = None,
+        add_special_tokens: bool = True,
+    ) -> dict[str, list[int]]:
         """
         Same as `tokenize_row` but for vision models. Please refer to `tokenize_row` for more information.
         """
@@ -1193,7 +1215,7 @@ class _UnslothDPOTrainer(Trainer):
             if self.ref_adapter_name:
                 self.model.set_adapter(self.model_adapter_name or "default")
 
-    def compute_ref_log_probs(self, batch: dict[str, torch.LongTensor]) -> dict:
+    def compute_ref_log_probs(self, batch: dict[str, torch.LongTensor]) -> tuple[torch.Tensor, torch.Tensor]:
         """Computes log probabilities of the reference model for a single padded batch of a DPO specific dataset."""
         compte_ref_context_manager = (
             autocast(self.accelerator.device.type) if self._peft_has_been_casted_to_bf16 else nullcontext()
@@ -1289,6 +1311,8 @@ class _UnslothDPOTrainer(Trainer):
         rejected_logps: torch.FloatTensor,
         ref_chosen_logps: torch.FloatTensor,
         ref_rejected_logps: torch.FloatTensor,
+        loss_type: str = "sigmoid",
+        model_output: dict[str, torch.FloatTensor] = None,
     ) -> tuple[torch.FloatTensor, torch.FloatTensor, torch.FloatTensor]:
         """
         Compute the DPO loss for a batch of policy and reference model log probabilities.
@@ -1348,19 +1372,19 @@ class _UnslothDPOTrainer(Trainer):
         # The beta is a temperature parameter for the DPO loss, typically something in the range of 0.1 to 0.5.
         # We ignore the reference model as beta -> 0. The label_smoothing parameter encodes our uncertainty about the
         # labels and calculates a conservative DPO loss.
-        if self.loss_type == "sigmoid":
+        if loss_type == "sigmoid":
             losses = (
                 -F.logsigmoid(self.beta * logits) * (1 - self.label_smoothing)
                 - F.logsigmoid(-self.beta * logits) * self.label_smoothing
             )
 
-        elif self.loss_type == "robust":
+        elif loss_type == "robust":
             losses = (
                 -F.logsigmoid(self.beta * logits) * (1 - self.label_smoothing)
                 + F.logsigmoid(-self.beta * logits) * self.label_smoothing
             ) / (1 - 2 * self.label_smoothing)
 
-        elif self.loss_type == "exo_pair":
+        elif loss_type == "exo_pair":
             # eqn (16) of the EXO paper: https://huggingface.co/papers/2402.00856
             import math
 
@@ -1370,14 +1394,14 @@ class _UnslothDPOTrainer(Trainer):
                 F.logsigmoid(self.beta * logits) - math.log(1 - self.label_smoothing)
             ) + (-self.beta * logits).sigmoid() * (F.logsigmoid(-self.beta * logits) - math.log(self.label_smoothing))
 
-        elif self.loss_type == "hinge":
+        elif loss_type == "hinge":
             losses = torch.relu(1 - self.beta * logits)
 
-        elif self.loss_type == "ipo":
+        elif loss_type == "ipo":
             # eqn (17) of the paper where beta is the regularization parameter for the IPO loss, denoted by tau in the paper.
             losses = (logits - 1 / (2 * self.beta)) ** 2
 
-        elif self.loss_type == "bco_pair":
+        elif loss_type == "bco_pair":
             chosen_logratios = chosen_logps - ref_chosen_logps
             rejected_logratios = rejected_logps - ref_rejected_logps
             chosen_rewards = self.beta * chosen_logratios
@@ -1389,7 +1413,7 @@ class _UnslothDPOTrainer(Trainer):
                 -(self.beta * rejected_logratios - delta)
             )
 
-        elif self.loss_type == "sppo_hard":
+        elif loss_type == "sppo_hard":
             # In the paper (https://huggingface.co/papers/2405.00675), SPPO employs a soft probability approach,
             # estimated using the PairRM score. The probability calculation is conducted outside of the trainer class.
             # The version described here is the hard probability version, where P in Equation (4.7) of Algorithm 1 is
@@ -1398,7 +1422,7 @@ class _UnslothDPOTrainer(Trainer):
             b = rejected_logps - ref_rejected_logps
             losses = (a - 0.5 / self.beta) ** 2 + (b + 0.5 / self.beta) ** 2
 
-        elif self.loss_type == "nca_pair":
+        elif loss_type == "nca_pair":
             chosen_rewards = (chosen_logps - ref_chosen_logps) * self.beta
             rejected_rewards = (rejected_logps - ref_rejected_logps) * self.beta
             losses = (
@@ -1407,7 +1431,7 @@ class _UnslothDPOTrainer(Trainer):
                 - 0.5 * F.logsigmoid(-rejected_rewards)
             )
 
-        elif self.loss_type == "aot_pair":
+        elif loss_type == "aot_pair":
             chosen_logratios = chosen_logps - ref_chosen_logps
             rejected_logratios = rejected_logps - ref_rejected_logps
             chosen_logratios_sorted, _ = torch.sort(chosen_logratios, dim=0)
@@ -1418,7 +1442,7 @@ class _UnslothDPOTrainer(Trainer):
                 - F.logsigmoid(-self.beta * delta) * self.label_smoothing
             )
 
-        elif self.loss_type == "aot":
+        elif loss_type == "aot":
             logratios = chosen_logps - rejected_logps
             ref_logratios = ref_chosen_logps - ref_rejected_logps
             logratios_sorted, _ = torch.sort(logratios, dim=0)
@@ -1429,14 +1453,14 @@ class _UnslothDPOTrainer(Trainer):
                 - F.logsigmoid(-self.beta * delta) * self.label_smoothing
             )
 
-        elif self.loss_type == "apo_zero":
+        elif loss_type == "apo_zero":
             # Eqn (7) of the APO paper (https://huggingface.co/papers/2408.06266)
             # Use this loss when you believe the chosen outputs are better than your model's default output
             losses_chosen = 1 - F.sigmoid(self.beta * chosen_logratios)  # Increase chosen likelihood
             losses_rejected = F.sigmoid(self.beta * rejected_logratios)  # Decrease rejected likelihood
             losses = losses_chosen + losses_rejected
 
-        elif self.loss_type == "apo_down":
+        elif loss_type == "apo_down":
             # Eqn (8) of the APO paper (https://huggingface.co/papers/2408.06266)
             # Use this loss when you believe the chosen outputs are worse than your model's default output.
             # Decrease chosen likelihood and decrease rejected likelihood more
@@ -1444,7 +1468,7 @@ class _UnslothDPOTrainer(Trainer):
             losses_rejected = 1 - F.sigmoid(self.beta * (chosen_logratios - rejected_logratios))
             losses = losses_chosen + losses_rejected
 
-        elif self.loss_type == "discopop":
+        elif loss_type == "discopop":
             # Eqn (5) of the DiscoPOP paper (https://huggingface.co/papers/2406.08414)
             # This loss was discovered with LLM discovery
             logratios = chosen_logps - rejected_logps
@@ -1458,10 +1482,22 @@ class _UnslothDPOTrainer(Trainer):
             # Blend between logistic and exponential component based on log ratio modulation
             losses = logistic_component * (1 - log_ratio_modulation) + exp_component * log_ratio_modulation
 
+        elif loss_type == "sft":
+            # SFT loss is the negative log likelihood loss on chosen responses
+            # This acts as the generation loss component in MPO
+            sft_loss = model_output["nll_loss"]
+            # Create losses tensor with same shape as other losses (per-sample)
+            batch_size = chosen_logps.shape[0]
+            losses = sft_loss.expand(batch_size)
+            # For SFT, we don't have preference rewards, so use zeros
+            chosen_rewards = torch.zeros_like(chosen_logps)
+            rejected_rewards = torch.zeros_like(rejected_logps)
+
         else:
             raise ValueError(
                 f"Unknown loss type: {self.loss_type}. Should be one of ['sigmoid', 'hinge', 'ipo', 'exo_pair', "
-                "'nca_pair', 'robust', 'bco_pair', 'sppo_hard', 'aot', 'aot_pair', 'discopop', 'apo_zero', 'apo_down']"
+                "'nca_pair', 'robust', 'bco_pair', 'sppo_hard', 'aot', 'aot_pair', 'discopop', 'apo_zero', "
+                "'apo_down', 'sft']"
             )
 
         chosen_rewards = self.beta * (chosen_logps.to(device) - ref_chosen_logps.to(device)).detach()
@@ -1469,7 +1505,9 @@ class _UnslothDPOTrainer(Trainer):
 
         return losses, chosen_rewards, rejected_rewards
 
-    def _compute_loss_liger(self, model: nn.Module, batch: dict[str, Union[list, torch.LongTensor]]):
+    def _compute_loss_liger(
+        self, model: nn.Module, batch: dict[str, Union[list, torch.LongTensor]]
+    ) -> dict[str, torch.Tensor]:
         unwrapped_model = self.accelerator.unwrap_model(model)
         concatenated_batch = self.concatenated_inputs(batch, padding_value=self.padding_value)
 
@@ -1700,7 +1738,7 @@ class _UnslothDPOTrainer(Trainer):
 
     def concatenated_forward(
         self, model: nn.Module, batch: dict[str, Union[list, torch.LongTensor]], is_ref_model: bool = False
-    ):
+    ) -> dict[str, torch.Tensor]:
         """
         Runs the given model on the given batch of inputs, concatenating the chosen and rejected inputs together.
 
@@ -1860,8 +1898,8 @@ class _UnslothDPOTrainer(Trainer):
                 rejected_weights = all_weights[num_examples:]
                 output["policy_weights"] = torch.clamp(torch.exp(chosen_weights + rejected_weights), max=1)
 
-        if self.args.rpo_alpha is not None:
-            # Only use the chosen logits for the RPO loss
+        if self.args.rpo_alpha is not None or "sft" in self.loss_type:
+            # Only use the chosen logits for the RPO loss or SFT loss
             chosen_logits = logits[:num_examples, :-1] if not self.is_encoder_decoder else logits[:num_examples]
             chosen_labels = labels[:num_examples, :-1] if not self.is_encoder_decoder else labels[:num_examples]
 
@@ -1870,7 +1908,7 @@ class _UnslothDPOTrainer(Trainer):
                 torch.flatten(chosen_logits, end_dim=1), torch.flatten(chosen_labels, end_dim=1), ignore_index=0
             )
 
-        if self.loss_type == "ipo":
+        if "ipo" in self.loss_type:
             all_logps = all_logps / loss_mask.sum(-1)
 
         if self.args.ld_alpha is not None and not is_ref_model:
@@ -1921,10 +1959,10 @@ class _UnslothDPOTrainer(Trainer):
 
     def get_batch_loss_metrics(
         self,
-        model,
+        model: Union[PreTrainedModel, nn.Module],
         batch: dict[str, Union[list, torch.LongTensor]],
         train_eval: Literal["train", "eval"] = "train",
-    ):
+    ) -> tuple[torch.Tensor, dict[str, float]]:
         """Compute the DPO loss and other metrics for the given batch of inputs for train or test."""
         metrics = {}
 
@@ -1943,9 +1981,29 @@ class _UnslothDPOTrainer(Trainer):
             else:
                 ref_chosen_logps, ref_rejected_logps = self.compute_ref_log_probs(batch)
 
-            losses, chosen_rewards, rejected_rewards = self.dpo_loss(
-                model_output["chosen_logps"], model_output["rejected_logps"], ref_chosen_logps, ref_rejected_logps
-            )
+            # Initialize combined losses
+            losses = 0
+            chosen_rewards = 0
+            rejected_rewards = 0
+
+            # Compute losses for each loss type
+            for idx, loss_type in enumerate(self.loss_type):
+                # Compute individual loss using standard DPO loss function
+                _losses, _chosen_rewards, _rejected_rewards = self.dpo_loss(
+                    model_output["chosen_logps"],
+                    model_output["rejected_logps"],
+                    ref_chosen_logps,
+                    ref_rejected_logps,
+                    loss_type,
+                    model_output,
+                )
+
+                # Add weighted contributions
+                weight = self.loss_weights[idx] if self.loss_weights else 1.0
+                losses = losses + _losses * weight
+                chosen_rewards = chosen_rewards + _chosen_rewards * weight
+                rejected_rewards = rejected_rewards + _rejected_rewards * weight
+
         reward_accuracies = (chosen_rewards > rejected_rewards).float()
 
         if self.args.rpo_alpha is not None:
@@ -1976,7 +2034,7 @@ class _UnslothDPOTrainer(Trainer):
         metrics[f"{prefix}logits/rejected"] = (
             self.accelerator.gather_for_metrics(model_output["mean_rejected_logits"]).detach().mean().item()
         )
-        if self.args.rpo_alpha is not None:
+        if self.args.rpo_alpha is not None or "sft" in self.loss_type:
             metrics[f"{prefix}nll_loss"] = (
                 self.accelerator.gather_for_metrics(model_output["nll_loss"]).detach().mean().item()
             )
@@ -1993,7 +2051,7 @@ class _UnslothDPOTrainer(Trainer):
         inputs: dict[str, Union[torch.Tensor, Any]],
         return_outputs=False,
         num_items_in_batch=None,
-    ) -> Union[torch.Tensor, tuple[torch.Tensor, dict[str, torch.Tensor]]]:
+    ) -> Union[torch.Tensor, tuple[torch.Tensor, dict[str, float]]]:
         compute_loss_context_manager = (
             autocast(self.accelerator.device.type) if self._peft_has_been_casted_to_bf16 else nullcontext()
         )
@@ -2064,7 +2122,7 @@ class _UnslothDPOTrainer(Trainer):
         inputs: dict[str, Union[torch.Tensor, Any]],
         prediction_loss_only: bool,
         ignore_keys: Optional[list[str]] = None,
-    ):
+    ) -> tuple[torch.Tensor, Optional[torch.Tensor], Optional[torch.Tensor]]:
         if ignore_keys is None:
             if hasattr(model, "config"):
                 ignore_keys = getattr(model.config, "keys_to_ignore_at_inference", [])
@@ -2144,6 +2202,9 @@ class _UnslothDPOTrainer(Trainer):
                     name="game_log.csv",
                     table=table,
                 )
+
+            if "mlflow" in self.args.report_to and self.accelerator.is_main_process:
+                mlflow.log_table(data=table, artifact_file="game_log.json")
 
         # Base evaluation
         initial_output = super().evaluation_loop(
@@ -2235,7 +2296,7 @@ class _UnslothDPOTrainer(Trainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="DPO",
             trainer_citation=citation,
@@ -2279,7 +2340,7 @@ class UnslothDPOTrainer(_UnslothDPOTrainer):
               and content).
         eval_dataset ([`~datasets.Dataset`], [`~datasets.IterableDataset`] or `dict[str, Union[Dataset, IterableDataset]]`):
             Dataset to use for evaluation. It must meet the same requirements as `train_dataset`.
-        processing_class ([`~transformers.PreTrainedTokenizerBase`], *optional*, defaults to `None`):
+        processing_class ([`~transformers.PreTrainedTokenizerBase`], [`~transformers.BaseImageProcessor`], [`~transformers.FeatureExtractionMixin`] or [`~transformers.ProcessorMixin`], *optional*, defaults to `None`):
             Processing class used to process the data. If `None`, the processing class is loaded from the model's name
             with [`~transformers.AutoTokenizer.from_pretrained`].
         compute_metrics (`Callable[[EvalPrediction], dict]`, *optional*):
@@ -2446,6 +2507,14 @@ class UnslothDPOTrainer(_UnslothDPOTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331672211/TB-TT3",
+            "SoDon": "9331672211",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBSA",
+            "TenCongAn": "Phòng Cảnh sát Giao thông, Công an Quảng Ninh",
+            "DiaChi": "Phường Hạ Long, Tỉnh Quảng Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu VINFAST, VF3, Động cơ điện, AT có số khung: RLNVBL9K4SH792984; số máy: TZ160X30G25032200310, biển số: 14K-102.43",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Quảng Ninh Phòng Giao Dịch Cẩm Phả",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ninh",
+                    "DiaChi": "Số nhà 308, đường Trần Phú, phường Cẩm phả, tỉnh Quảng Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST VF3",
+                    "SoKhung": "RLNVBL9K4SH792984",
+                    "SoMay": "TZ160X30G25032200310",
+                    "BienSo": "14K-102.43",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

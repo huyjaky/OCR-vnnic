@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331824986/TB-TT3",
+            "SoDon": "9331824986",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Phường Cam Ranh",
+            "DiaChi": "04 Phạm Hùng, phường Cam Phú, tỉnh Khánh Hòa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu SUZUKI màu sơn: CAM có số khung: MHYANC22SLJ907846; thông tin khác (số máy: , biển số: 79A-528.95)",
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN LỘC PHÁT VIỆT NAM - CHI NHÁNH KHÁNH HOÀ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "Số 69-71 Thống Nhất, Phường Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "SUZUKI màu CAM",
+                    "SoKhung": "MHYANC22SLJ907846",
+                    "SoMay": null,
+                    "BienSo": "79A-528.95",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

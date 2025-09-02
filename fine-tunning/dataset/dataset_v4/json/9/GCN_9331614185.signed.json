@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331614185/TB-TT3",
+            "SoDon": "9331614185",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Cam Ranh",
+            "DiaChi": "Số 04 Phạm Hùng, phường Cam Ranh, tỉnh Khánh Hòa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô KIA, màu trắng có số khung: RNY0E49M5SC368187; số máy: G4LCN1066888, biển số: 79C-223.78",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Nha Trang Phòng giao dịch Phước Hải",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "số 49 – 51 Thích Quảng Đức, phường Nam Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô KIA",
+                    "NhanHieuMauSon": "KIA màu trắng",
+                    "SoKhung": "RNY0E49M5SC368187",
+                    "SoMay": "G4LCN1066888",
+                    "BienSo": "79C-223.78",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332048082/TB-TT3",
+            "SoDon": "9332048082",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN TỈNH QUẢNG NGÃI",
+            "DiaChi": "200 TRƯỜNG CHINH, PHƯỜNG CẨM THÀNH,TỈNH QUẢNG NGÃI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô HYUNDAI có số khung: RLUJG81DBSN023760; thông tin khác (số máy: G4NLSW642092, biển số: 76A-477.48)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Quảng Ngãi",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ngãi",
+                    "DiaChi": "444-446 Đường Quang Trung, Phường Cẩm Thành, tỉnh Quảng Ngãi, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HYUNDAI",
+                    "SoKhung": "RLUJG81DBSN023760",
+                    "SoMay": "G4NLSW642092",
+                    "BienSo": "76A-477.48",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

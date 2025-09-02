@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331291056/TB-TT3",
+            "SoDon": "9331291056",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT – Công An Thành Phố Hà Nội",
+            "DiaChi": "Số 86 Lý Thường Kiệt, Phường Cửa Nam, Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Phương tiện TOYOTA có số khung: MR0HZ8CD4F0502297; số máy: 1KDU803556, biển số: 29C-823.44",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": null,
+                    "ThongTinChuThe": null
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Hà Nội Phòng Giao Dịch Ba Đình",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 Tòa nhà Việt Hải, Lô C2-H Cụm tiểu thủ công nghiệp và công nghiệp nhỏ Cầu Giấy, Phường Dịch Vọng Hậu, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "TOYOTA",
+                    "SoKhung": "MR0HZ8CD4F0502297",
+                    "SoMay": "1KDU803556",
+                    "BienSo": "29C-823.44",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

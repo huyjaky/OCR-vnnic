@@ -1,0 +1,64 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0903",
+            "SoDon": "1597888828",
+            "SoDangKyLanDau": "1597888828",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:12:00",
+            "SoHopDong": "2141/HĐCĐ",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:12:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "XE MÁY HONDA SH 125 2022 MÀU SƠN : TRẮNG XE ĐÃ QUA SỬ DỤNG",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Nguyễn Thị Hoàng Thư",
+                        "CCCD": "046301006293",
+                        "DiaChi": "TDP Đồng Dương, Thị Trấn Lăng Cô, Phú Lộc, thành phố Huế, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Hoàng Thị Hiền",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Huế",
+                    "DiaChi": "03 Tỉnh Lộ 10, Phú Thượng, thành phố Huế, Việt Nam"
+                },
+                {
+                    "Ten": "Hộ Kinh Doanh DNM HT",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Huế",
+                    "DiaChi": "03 Tỉnh Lộ 10, Phú Thượng, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Mô tô Xe máy",
+                    "NhanHieuMauSon": "nhãn hiệu : SH - HONDA , màu trắng",
+                    "SoKhung": "RLHJF9501NY171624",
+                    "SoMay": "JF95E0186723",
+                    "BienSo": "75K1-638.64",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

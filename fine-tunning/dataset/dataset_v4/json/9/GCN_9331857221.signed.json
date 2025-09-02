@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331857221/TB-TT3",
+            "SoDon": "9331857221",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông - Công An Thành Phố Hồ Chí Minh",
+            "DiaChi": "Số 99 Đường Lê Hồng Phong Nối Dài, Khu Phố 1, Phường Chánh Hiệp, Thành Phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: 192644; thông tin khác (số máy: , biển số: 61A-014.84)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Ngoại Thương Việt Nam Chi Nhánh Bình Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "Số 1 ấp Long Bình, xã Khánh Bình, tỉnh Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "192644",
+                    "SoMay": null,
+                    "BienSo": "61A-014.84",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

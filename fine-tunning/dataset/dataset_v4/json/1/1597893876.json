@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0943",
+            "SoDon": "1597893876",
+            "SoDangKyLanDau": "1597893876",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:25:00",
+            "SoHopDong": "CLC-50505-3942111-HDTC-01",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:25:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô , nhãn hiệu: CNHTC, số loại: ZZ4257, màu sơn: Cam\n01 sơ mi rơ moóc, Nhãn hiệu: SOOSAN, Số loại: DUMP-25B-2B, màu sơn: Cam",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH MTV XÂY DỰNG VÀ VẬN TẢI SƠN HÀ",
+                        "MaSoThue": "2400739670",
+                        "DiaChi": "Tổ dân phố Tam Tầng, Phường Quang Châu, Thị Xã Việt Yên, Bắc Giang, ViệtNam (Nay là: Tổ dân phố Tam Tầng, Phường Nếnh), tỉnh Bắc Ninh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Bắc Giang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "(1)Số 303 đường Lê Lợi, Phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CNHTC, Cam",
+                    "SoKhung": "LZZ1CLVB5SD369794",
+                    "SoMay": null,
+                    "BienSo": "98H-058.42",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Sơ mi rơ moóc",
+                    "NhanHieuMauSon": "SOOSAN, Cam",
+                    "SoKhung": "RR225BXTZSBSS0481",
+                    "SoMay": null,
+                    "BienSo": "98RM-018.45",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

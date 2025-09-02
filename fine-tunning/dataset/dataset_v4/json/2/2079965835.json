@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0193",
+            "SoDon": "2079965835",
+            "SoDangKyLanDau": "1594251959",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T09:46:00",
+            "SoHopDong": "25/2025/HĐTC-PN/SHB.131800",
+            "NgayCoHieuLucHopDong": "2025-06-17",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-06-17T10:04:00",
+            "NoiDungThayDoi": "Rút 01 xe ô tô Toyota VELOZ CROSS",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH MTV TOYOTA TÂY NINH",
+                        "MaSoThue": "3901343230",
+                        "DiaChi": "Số 50 đường Hoàng Lê Kha, khu phố 3, phường Tân Ninh, tỉnh Tây Ninh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Sài Gòn Hà Nội Chi nhánh Tây Ninh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "409 đường 30 tháng 4, khu phố 22, phường Tân Ninh, tỉnh Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô con nhãn hiệu TOYOTA VELOZ CROSS, màu bạc",
+                    "SoKhung": "RL4AB1BB0S6613207",
+                    "SoMay": "2NRY432467",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

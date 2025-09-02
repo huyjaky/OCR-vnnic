@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331338727/TB-TT3",
+            "SoDon": "9331338727",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBSA",
+            "TenCongAn": "Công an Phường Việt Hưng",
+            "DiaChi": "Số 1 Vạn Hạnh, Phường Việt Hưng, Thành phố Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô nhãn hiệu VINFAST, VF3 có số khung: RLNVBL9K8SH785858; thông tin khác (số máy: TZ160X30G25032200669, biển số: 30M-800.20)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Sở Giao Dịch",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và tầng 3, tòa nhà số 34, phố Hai Bà Trưng, Phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST VF3",
+                    "SoKhung": "RLNVBL9K8SH785858",
+                    "SoMay": "TZ160X30G25032200669",
+                    "BienSo": "30M-80020",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

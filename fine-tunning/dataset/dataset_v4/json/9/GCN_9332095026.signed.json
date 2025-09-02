@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332095026/TB-TT3",
+            "SoDon": "9332095026",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông-Công an tỉnh Quảng Trị",
+            "DiaChi": "577 Lý Thường Kiệt, phường Đồng Hới, tỉnh Quảng Trị",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe Ô tô con, nhãn hiệu: VINFAST, số loại: VF 5 PLUS, màu sơn: Đỏ có số khung: RLNV5JSE1SH795728; thông tin khác (số máy: VFCAFB257080114, biển số: 73H-042.71)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP LỘC PHÁT VIỆT NAM – CHI NHÁNH QUẢNG BÌNH",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "Số 06A Trần Hưng Đạo, Phường Đồng Hới, tỉnh Quảng Trị, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST màu Đỏ",
+                    "SoKhung": "RLNV5JSE1SH795728",
+                    "SoMay": "VFCAFB257080114",
+                    "BienSo": "73H-042.71",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

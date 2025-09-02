@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1140",
+            "SoDon": "1597918327",
+            "SoDangKyLanDau": "1597918327",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:42:00",
+            "SoHopDong": "170069/2025/HĐBĐ/NHCT422",
+            "NgayCoHieuLucHopDong": "2025-07-08",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T18:42:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Tải thùng kín",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH THƯƠNG MẠI VÀ XÂY DỰNG TÙNG LÂM ANH",
+                        "MaSoThue": "2802963979",
+                        "DiaChi": "27 Tống Duy Tân, phường Lam Sơn, thành phố Thanh Hóa (Nay là 27 Tống Duy Tân, phường Hạc Thành), tỉnh Thanh Hóa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Sầm Sơn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "02 Đoàn Thị Điểm, phường Sầm Sơn, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "TERACO, màu sơn: trắng",
+                    "SoKhung": "RM0KB175LSC000054",
+                    "SoMay": "JE493ZLQ540031412",
+                    "BienSo": "36K-696.61",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

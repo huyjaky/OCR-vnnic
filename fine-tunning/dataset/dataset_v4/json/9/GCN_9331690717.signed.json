@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331690717/TB-TT3",
+            "SoDon": "9331690717",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông, Công an Tỉnh Nghệ An",
+            "DiaChi": "số 108, đường Hoàng Phan Thái, Phường Vinh Phú, Nghệ An",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu HYUNDAI màu trắng, biển số 37H-16873, số khung RLUUD37RPSB002212, số máy SD404894D4CB",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quốc Tế Việt Nam Chi Nhánh Vinh Phòng Giao Dịch Hưng Bình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 03, Đường Mai Hắc Đế, Phường Vinh Hưng, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HYUNDAI Màu trắng",
+                    "SoKhung": "RLUUD37RPSB002212",
+                    "SoMay": "SD404894D4CB",
+                    "BienSo": "37H-16873",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

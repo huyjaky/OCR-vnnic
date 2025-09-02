@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331689586/TB-TT3",
+            "SoDon": "9331689586",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT Công an xã Diễn Châu- tỉnh Nghệ An",
+            "DiaChi": "xã Diễn Châu, tỉnh Nghệ An",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô CHEVROLET COLORADO, MÀU ĐEN có số khung: MMM148EL0KH623975, số máy: LKHG182141166, biển số: 37C-309.59.",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Đông Nam Á Chi nhánh Nghệ An Phòng giao dịch Hưng Bình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Liền kề số 11, khu nhà ở Trường Thịnh phát III, phường Thành Vinh, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe tải",
+                    "NhanHieuMauSon": "CHEVROLET COLORADO MÀU ĐEN",
+                    "SoKhung": "MMM148EL0KH623975",
+                    "SoMay": "LKHG182141166",
+                    "BienSo": "37C-309.59",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250206-0005",
+            "SoDon": "3013784328",
+            "SoDangKyLanDau": "1471953952",
+            "LoaiDonID": 3,
+            "LoaiDonName": "Sửa chữa sai sót",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-02-06T08:07:00",
+            "SoHopDong": "47/2022/HĐTC/BACABANK.791",
+            "NgayCoHieuLucHopDong": "2022-09-13",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2022-09-13T14:22:00",
+            "NoiDungThayDoi": "SỬA CHỮA SAI SÓT",
+            "MoTaChungTaiSan": "Xe ô tô con, nhãn hiệu: PEUGEOT",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN HÀ THỤC UYỂN",
+                        "CCCD": "056180010900",
+                        "DiaChi": "34/02/60 (34/02/13 cũ) Nguyễn Thiện Thuật, phường Tân Lập, thành phố Nha Trang, Khánh Hòa, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÊ THẾ THĂNG",
+                        "CCCD": "008076013271",
+                        "DiaChi": "34/02/60 (34/02/13 cũ) Nguyễn Thiện Thuật, phường Tân Lập, thành phố Nha Trang, Khánh Hòa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Bắc Á Chi nhánh Khánh Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "Số 38-40 Đường Thống Nhất, Phường Vạn Thạnh, thành phố Nha Trang, Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "PEUGEOT",
+                    "SoKhung": "RN2MJEP6ZNM095867",
+                    "SoMay": "582694310UF205G02",
+                    "BienSo": "79A-421.98",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

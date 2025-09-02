@@ -1,0 +1,83 @@
+Mã hồ sơ TTHC 000.02.18.G15-250710-0876
+
+ CỤC ĐĂNG KÝ GIAO DỊCH BẢO ĐẢM VÀ BỒI THƯỜNG NHÀ NƯỚC **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG**
+
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc**
+
+*Đà Nẵng, ngày 10 tháng 07 năm 2025*
+
+### **VĂN BẢN CHỨNG NHẬN ĐĂNG KÝ BIỆN PHÁP BẢO ĐẢM, THÔNG BÁO XỬ LÝ TÀI SẢN BẢO ĐẢM**
+
+### **TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN TẠI TP. ĐÀ NẴNG CHỨNG NHẬN**
+
+**1.** Nội dung của Phiếu yêu cầu đăng ký đã được cập nhật vào Cơ sở dữ liệu tại thời điểm 16 giờ 01 phút, ngày 10 tháng 07 năm 2025, số đăng ký **2080000771**
+
+**1.1.** Bên nhận thế chấp
+
+ **(4)NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG (VPBANK) – CHI NHÁNH VĨNH PHÚC**
+
+ Địa chỉ: (4)Số nhà 01, Đường Mê Linh, Phường Vĩnh Phúc, tỉnh Phú Thọ, Việt Nam **1.2.** Bên thế chấp
+
+ **CÔNG TY TNHH Ô TÔ AN DÂN VĨNH PHÚC**
+
+Mã số thuế: : **2500639158** 
+
+**1.3.** Mã PIN:
+
+*(Người yêu cầu đăng ký hoàn toàn chịu trách nhiệm về việc bảo mật thông tin liên quan đến Mã PIN do cơ quan đăng ký cấp)*
+
+**2.** Phiếu yêu cầu đăng ký *(đối với trường hợp yêu cầu đăng ký bằng văn bản giấy),* chi tiết thông tin thể hiện trên giao diện đăng ký trực tuyến *(đối với trường hợp yêu cầu đăng ký qua hệ thống đăng ký trực tuyến)* kèm theo Văn bản chứng nhận này là một phần không thể tách rời của Văn bản chứng nhận.
+
+![](_page_0_Picture_16.jpeg)
+
+## **NGƯỜI CÓ THẨM QUYỀN CỦA TRUNG TÂM ĐĂNG KÝ GIAO DỊCH, TÀI SẢN**
+
+ *(Ký, ghi rõ họ và tên, chức danh, đóng dấu)*
+
+![](_page_0_Picture_19.jpeg)
+
+## **CHI TIẾT THÔNG TIN ĐĂNG KÝ**
+
+Số đăng ký lần đầu: 1542279356 Thời điểm đăng ký: 14-06-2024 18:32 Loại hình giao dịch: Biện pháp bảo đảm Loại biện pháp: Thế chấp
+
+# **ĐĂNG KÝ THAY ĐỔI**
+
+Số hợp đồng: 040624-7871653-01-SME/TC Ngày có hiệu lực của hợp đồng : 14/06/2024
+
+| Số đơn đăng ký | Thời điểm đăng ký |
+|----------------|-------------------|
+| 2080000771     | 10-07-2025 16:01  |
+
+### **Bên thế chấp**
+
+| Loại chủ thể<br>Số giấy tờ chứng |                   | Tên          | Địa chỉ                        |  |
+|----------------------------------|-------------------|--------------|--------------------------------|--|
+|                                  | minh tư cách pháp |              |                                |  |
+|                                  | lý                |              |                                |  |
+|                                  |                   |              |                                |  |
+| Tổ chức có đăng ký               | Mã số thuế:       | CÔNG TY TNHH | thôn Phổ, xã Bình Nguyên, tỉnh |  |
+| kinh doanh trong nước            | 2500639158        | Ô TÔ AN DÂN  | Phú Thọ, Việt Nam              |  |
+|                                  |                   | VĨNH PHÚC    |                                |  |
+
+### **Bên nhận thế chấp**
+
+| Tên                                                                            | Địa chỉ                                                                  |
+|--------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| (4)NGÂN HÀNG TMCP<br>VIỆT NAM THỊNH<br>VƯỢNG (VPBANK) – CHI<br>NHÁNH VĨNH PHÚC | (4)Số nhà 01, Đường Mê Linh, Phường Vĩnh Phúc, tỉnh Phú Thọ,<br>Việt Nam |
+
+#### **Nội dung thay đổi**
+
+RÚT BỚT TÀI SẢN BẢO ĐẢM LÀ 02 XE SỐ KHUNG RLA2LRNC1S1001294 MK2XRNC1WSN020177
+
+#### **Số khung**
+
+|    | Tên phương | Nhãn hiệu, | Số khung  | Số máy | Biển số | Căn cứ thay  |
+|----|------------|------------|-----------|--------|---------|--------------|
+| ST | tiện       | màu sơn    |           |        |         | đổi          |
+| T  |            |            |           |        |         |              |
+| 1  | Ô tô       | VINFAST    | RLA2LRNC  |        |         | Xóa thế chấp |
+|    |            |            | 1S1001294 |        |         | / cầm cố     |
+| 2  | Ô tô       | VINFAST    | MK2XRNC1  |        |         | Xóa thế chấp |
+|    |            |            | WSN020177 |        |         | / cầm cố     |
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

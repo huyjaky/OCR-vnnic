@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331963855/TB-TT3",
+            "SoDon": "9331963855",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Minh Hóa, tỉnh Quảng Trị",
+            "DiaChi": "Thôn Yên Thắng, xã Minh Hóa, tỉnh Quảng Trị",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu HYUNDAI, màu sơn Đỏ, số khung: RLUB351ABST004158, số máy: G3LCSM331781, biển số: 73A-389.33.",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Nông nghiệp và phát triển nông thôn Việt Nam - Chi nhánh Minh Hóa Bắc Quảng Bình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "TDP 4, xã Minh Hóa, tỉnh Quảng Trị, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HYUNDAI màu Đỏ",
+                    "SoKhung": "RLUB351ABST004158",
+                    "SoMay": "G3LCSM331781",
+                    "BienSo": "73A-38933",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

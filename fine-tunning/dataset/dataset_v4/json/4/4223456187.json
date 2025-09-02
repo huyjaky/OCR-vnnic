@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0822",
+            "SoDon": "4223456187",
+            "SoDangKyLanDau": "1443164729",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2022-01-20T10:07:00",
+            "SoHopDong": "01/2022/3035060/HĐBĐ",
+            "NgayCoHieuLucHopDong": "2022-01-20",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "DOANH NGHIỆP TƯ NHÂN MINH HƯƠNG",
+                        "MaSoThue": "5900428453",
+                        "DiaChi": "293A Phan Đình Phùng, phường Yên Đỗ, Thành phố Pleiku , Gia Lai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP ĐT&PT Việt Nam Chi Nhánh Phố Núi",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "242 Nguyễn Tất Thành, phường Phù Đổng, Thành phố Pleiku , Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

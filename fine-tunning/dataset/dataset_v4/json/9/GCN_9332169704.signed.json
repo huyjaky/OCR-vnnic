@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332169704/TB-TT3",
+            "SoDon": "9332169704",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 6,
+            "LoaiDonName": "Xóa đăng ký bởi cơ quan có thẩm quyền",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công an phường Hạc Thành",
+            "DiaChi": "Đường Hà Văn Nho, phường Hạc Thành, tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-09T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung LZZPEXVBXNJ235980, số máy MC114050220217209077, biển số 36H-049.35",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "280 Trần Phú, phường Hạc Thành, tỉnh Thanh Hóa"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "LZZPEXVBXNJ235980",
+                    "SoMay": "MC114050220217209077",
+                    "BienSo": "36H-049.35",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

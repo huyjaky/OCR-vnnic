@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331815333/TB-TT3",
+            "SoDon": "9331815333",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường An Tịnh-QL22",
+            "DiaChi": "khu phố An Bình, phường An Tịnh, tỉnh Tây Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe KIA FRONTIER K250 có số khung RNHA49KHALT025328, số máy LD524725D4CB, biển số 70H-006.05",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam - Chi Nhánh Đồng Nai - Phòng Giao Dịch Hố Nai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số 97/5, khu phố 9, quốc lộ 1, phường Tân Biên, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "KIA",
+                    "SoKhung": "RNHA49KHALT025328",
+                    "SoMay": "LD524725D4CB",
+                    "BienSo": "70H-006.05",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

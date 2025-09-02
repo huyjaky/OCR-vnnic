@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332014948/TB-TT3",
+            "SoDon": "9332014948",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông-Công An Tỉnh Lâm Đồng",
+            "DiaChi": "53 Hùng Vương, phường Xuân Hương- Đà Lạt, tỉnh Lâm Đồng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu MAZDA màu trắng, số khung RN2KE2W7ASM169020, số máy PE50446677, biển số 49A-373.86",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Công Thương Việt Nam Chi nhánh Lâm Đồng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "Số 05 Lê Đại Hành, Phường Xuân Hương - Đà Lạt, tỉnh Lâm Đồng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MAZDA màu trắng",
+                    "SoKhung": "RN2KE2W7ASM169020",
+                    "SoMay": "PE50446677",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

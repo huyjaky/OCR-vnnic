@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250520-0375",
+            "SoDon": "3013788258",
+            "SoDangKyLanDau": "1414034981",
+            "LoaiDonID": 3,
+            "LoaiDonName": "Sửa chữa sai sót",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-05-20T10:51:00",
+            "SoHopDong": "LN2104193634989",
+            "NgayCoHieuLucHopDong": "2021-05-05",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2021-05-06T11:10:00",
+            "NoiDungThayDoi": "Thay đổi bên nhận bảo đảm",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM TIẾN KHANH",
+                        "CCCD": "026080000120",
+                        "DiaChi": "Thôn Chung 2, Xã Ngũ Kiên, Vĩnh Tường, Vĩnh Phúc, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ CHÂM",
+                        "CCCD": "026183000323",
+                        "DiaChi": "Thôn Chung 2, Xã Ngũ Kiên, Vĩnh Tường, Vĩnh Phúc, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Công ty TNHH mua bán nợ Galaxy",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hồ Chí Minh",
+                    "DiaChi": "Tầng 5, khối E, tòa nhà Cộng hòa Garden, số 20 Cộng Hòa, phường 12, Tân Bình, Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "TERACO",
+                    "SoKhung": "RM0BH17GLMC000562",
+                    "SoMay": "4G13S1MAMTS01491",
+                    "BienSo": "88C-205.24",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

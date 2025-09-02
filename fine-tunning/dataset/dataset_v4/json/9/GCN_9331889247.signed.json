@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331889247/TB-TT3",
+            "SoDon": "9331889247",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TB-TT3",
+            "TenCongAn": "Công An Phường Tuy Hòa, Tỉnh Đắk Lắk",
+            "DiaChi": "233 Nguyễn Tất Thành, phường Tuy Hòa, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo xử lý tài sản bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MK2XRNC1WKN060601; thông tin khác (số máy: 4A91HJ2491 , biển số: 78A- 079.80)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Đầu Tư Và Phát Triển Việt Nam Chi Nhánh Phú Yên Phòng Giao Dịch Tây Tuy Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Phú Yên",
+                    "DiaChi": "06 Lê Lợi, Phường 1, Phú Yên, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MK2XRNC1WKN060601",
+                    "SoMay": "4A91HJ2491",
+                    "BienSo": "78A-07980",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

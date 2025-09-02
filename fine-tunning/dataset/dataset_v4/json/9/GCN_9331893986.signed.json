@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331893986/TB-TT3",
+            "SoDon": "9331893986",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông – Công an Thành Phố Đà Nẵng",
+            "DiaChi": "Võ An Ninh, Hòa Xuân, Đà Nẵng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô khách Ford Transit có số khung: RL3EPT7MMSRR22755; thông tin khác (số máy: , biển số: 43H-172.48)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "155 Nguyễn Văn Linh, Phường Thanh Khê, thành phố Đà Nẵng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô khách Ford Transit",
+                    "NhanHieuMauSon": "Ford Transit",
+                    "SoKhung": "RL3EPT7MMSRR22755",
+                    "SoMay": null,
+                    "BienSo": "43H-172.48",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

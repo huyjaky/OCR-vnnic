@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331334362/TB-TT3",
+            "SoDon": "9331334362",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG HÀM RỒNG",
+            "DiaChi": "Phường Hàm Rồng, T. Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Ô tô KIA có số khung: RNYXG54C0SC371047, số máy: G4FLSV125942, biển số: 36K-870.02",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Bình Dương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 557 Đại lộ Bình Dương, Phường Thủ Dầu Một, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô KIA",
+                    "NhanHieuMauSon": "KIA",
+                    "SoKhung": "RNYXG54C0SC371047",
+                    "SoMay": "G4FLSV125942",
+                    "BienSo": "36K-870.02",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

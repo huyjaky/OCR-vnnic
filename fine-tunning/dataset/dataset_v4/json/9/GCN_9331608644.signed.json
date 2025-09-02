@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331608644/TB-TT3",
+            "SoDon": "9331608644",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông công an thành phố Hồ Chí Minh",
+            "DiaChi": "Số 03 Yersin, phường Thủ Dầu Một , thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MHRDD1890KJ050361; số máy: L12B32451728, biển số: 61A-651.60",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Đông Nam Á Chi Nhánh Bình Dương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "203 Yersin, p.Hiệp Thành, Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MHRDD1890KJ050361",
+                    "SoMay": "L12B32451728",
+                    "BienSo": "61A-651.60",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

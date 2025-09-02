@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331838480/TB-TT3",
+            "SoDon": "9331838480",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG NAM ĐỊNH",
+            "DiaChi": "PHƯỜNG NAM ĐỊNH, TỈNH NINH BÌNH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô MG (MORRIS GARAGES) có số khung MMLW74U6XSG014645, số máy 15S4CCTTS3070051, biển số 18B-03231",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MG (MORRIS GARAGES)",
+                    "SoKhung": "MMLW74U6XSG014645",
+                    "SoMay": "15S4CCTTS3070051",
+                    "BienSo": "18B-03231",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

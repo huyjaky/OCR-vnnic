@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332015314/TB-TT3",
+            "SoDon": "9332015314",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBS-TBCA",
+            "TenCongAn": "Công an xã Xuân Lộc, tỉnh Đồng Nai",
+            "DiaChi": "Ấp Việt Kiều, xã Xuân Lộc, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RNYED51D7NC248578; thông tin khác (số máy: G4LDMD202830, biển số: 60K-093.71)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Chủ sở hữu xe (không rõ)",
+                        "CCCD": "000000000000",
+                        "DiaChi": "Địa chỉ không rõ"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Đồng Nai",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số 14K Võ Thị Sáu, phường Thống Nhất, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RNYED51D7NC248578",
+                    "SoMay": "G4LDMD202830",
+                    "BienSo": "60K-09371",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

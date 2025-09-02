@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0558",
+            "SoDon": "2079983948",
+            "SoDangKyLanDau": "1453446240",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T13:59:00",
+            "SoHopDong": "063/2022-HĐTC/OCEANBANK.CNNHATRANG",
+            "NgayCoHieuLucHopDong": "2022-04-15",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T13:59:00",
+            "ThoiDiemDKLanDau": "2022-04-15T16:26:00",
+            "NoiDungThayDoi": "đổi tên ngân hàng: từ : Ngân Hàng TM TNHH MTV Đại Dương Chi Nhánh Nha Trang thành: Ngân hàng TNHH một thành viên Việt Nam Hiện đại - Chi nhánh Khánh Hòa các thông tin khác không đổi",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "BÙI TÁ HOÀNG TUẤN",
+                        "CCCD": "056089014152",
+                        "DiaChi": "30/1 Đặng Tất, Phường Bắc Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TNHH một thành viên Việt Nam Hiện đại - Chi nhánh Khánh Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "11 Lý Thánh Tôn, phường Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô TOYOTA FORTUNER",
+                    "NhanHieuMauSon": "Trắng",
+                    "SoKhung": "3GS3J0490956",
+                    "SoMay": "2GDC425358",
+                    "BienSo": "79A-210.60",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

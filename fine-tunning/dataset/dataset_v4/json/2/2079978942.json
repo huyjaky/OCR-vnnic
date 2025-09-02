@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0470",
+            "SoDon": "2079978942",
+            "SoDangKyLanDau": "1525627109",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T12:19:00",
+            "SoHopDong": "CLN2023TSDB1530161/HDTC",
+            "NgayCoHieuLucHopDong": "2024-01-17",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": "CLN2023TSDB1530161/HDTC/PL3354576",
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-01-18T08:58:00",
+            "NoiDungThayDoi": "Kê khai nội dung thay đổi khác: bổ sung tài sản là:\nTài Sản Bảo Đảm bao gồm quyền đòi nợ và toàn bộ các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên bảo đảm ký kết với bất kỳ bên thứ ba nào (bao gồm các phụ lục, văn bản có liên quan kèm theo các hợp đồng, thỏa thuận đó) được hình thành và/hoặc có nguồn gốc từ bất kỳ nguồn vốn nào do Techcombank tài trợ (cấp tín dụng). Chi tiết các hợp đồng/thỏa thuận phát sinh quyền đòi nợ và các khoản phải thu được thế chấp cho Techcombank cụ thể như sau\nTài Sản Bảo Đảm còn bao gồm: (i) Toàn bộ số dư trong Tài Khoản số 19129994224038; (ii) Toàn bộ các quyền, lợi ích, các khoản bồi thường, đền bù, hoa lợi, lợi tức và các khoản thanh toán khác phát sinh từ hoặc có liên quan đến Tài Sản Bảo Đảm mà Bên bảo đảm có thể được nhận.",
+            "MoTaChungTaiSan": "Tài Sản Bảo Đảm bao gồm quyền đòi nợ và toàn bộ các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên bảo đảm ký kết với bất kỳ bên thứ ba nào (bao gồm các phụ lục, văn bản có liên quan kèm theo các hợp đồng, thỏa thuận đó) được hình thành và/hoặc có nguồn gốc từ bất kỳ nguồn vốn nào do Techcombank tài trợ (cấp tín dụng). Chi tiết các hợp đồng/thỏa thuận phát sinh quyền đòi nợ và các khoản phải thu được thế chấp cho Techcombank cụ thể như sau\nTài Sản Bảo Đảm còn bao gồm: (i) Toàn bộ số dư trong Tài Khoản số 19129994224038; (ii) Toàn bộ các quyền, lợi ích, các khoản bồi thường, đền bù, hoa lợi, lợi tức và các khoản thanh toán khác phát sinh từ hoặc có liên quan đến Tài Sản Bảo Đảm mà Bên bảo đảm có thể được nhận.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH THƯƠNG MẠI VIỄN THÔNG VIỆT HỒNG HÀ",
+                        "MaSoThue": "0303083478",
+                        "DiaChi": "4531-4533-4535 Khu phố 4 Nguyễn Cửu Phú, Phường Tân Tạo, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM Chi nhánh: CHỢ LỚN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 78 - 80 - 82, Đường Hậu Giang, Phường Bình Tây, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "quyền đòi nợ và toàn bộ các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên bảo đảm ký kết với bất kỳ bên thứ ba nào (bao gồm các phụ lục, văn bản có liên quan kèm theo các hợp đồng, thỏa thuận đó) được hình thành và/hoặc có nguồn gốc từ bất kỳ nguồn vốn nào do Techcombank tài trợ (cấp tín dụng)",
+                    "CanCuPhatSinhQuyen": "Hợp đồng kinh tế số 202506-91/HĐKT/SCTV-VHH ngày 27/06/2025, có hiệu lực ngày 27/06/2025 giữa Công ty TNHH Truyền hình cáp Saigontourist và Công Ty TNHH Thương Mại Viễn Thông Việt Hồng Hà cùng các phụ lục, thành phần kèm theo"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

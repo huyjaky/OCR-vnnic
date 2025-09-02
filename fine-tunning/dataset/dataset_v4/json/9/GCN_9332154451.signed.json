@@ -1,0 +1,55 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332154451/TB-TT3",
+            "SoDon": "9332154451",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "BS_TBXD",
+            "TenCongAn": "CÔNG AN PHƯỜNG TRÀNG DÀI",
+            "DiaChi": "246 BÙI TRỌNG NGHĨA KP2, Phường Trảng Dài, Tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung MMBSTA13APH006664, số máy 3A92ULK6330, biển số 60K-333.22",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Đồng Nai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "K 19 đường Võ Thị Sáu, KP 7, Phường Thống Nhất, Đồng Nai"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MMBSTA13APH006664",
+                    "SoMay": "3A92ULK6330",
+                    "BienSo": "60K-333.22",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

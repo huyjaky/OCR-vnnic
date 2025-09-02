@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332178185/TB-TT3",
+            "SoDon": "9332178185",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT Công An Thành phố Hồ Chí Minh",
+            "DiaChi": "341 Trần Hưng Đạo, Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-09T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô BMW có số khung: RN255DS02RYZ04457; thông tin khác (số máy: 13467535B48B20B, biển số: 51M-512.18)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Kỹ Thương Việt Nam Chi Nhánh Gia Định",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "TP.HCM",
+                    "DiaChi": "Một phần tầng trệt, tầng lửng và tầng 2 Tòa nhà Q.Mobile, Số 36 Phan Đăng Lưu, Phường Gia Định, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "BMW",
+                    "SoKhung": "RN255DS02RYZ04457",
+                    "SoMay": "13467535B48B20B",
+                    "BienSo": "51M-512.18",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

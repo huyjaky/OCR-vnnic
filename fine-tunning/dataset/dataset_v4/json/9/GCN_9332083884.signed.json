@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332083884/TB-TT3",
+            "SoDon": "9332083884",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TB",
+            "TenCongAn": "CÔNG AN PHƯỜNG VIỆT HƯNG",
+            "DiaChi": "PHƯỜNG VIỆT HƯNG, QUẢNG NINH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu VINFAST, VF6 - PLUS, Động cơ điện, AT, biển số 14H-10218",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi nhánh Móng Cái - Địa điểm kinh doanh Phòng giao dịch Bãi Cháy",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ninh",
+                    "DiaChi": "Số 551 đường Hạ Long, phường Bãi Cháy, tỉnh Quảng Ninh"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST VF6 PLUS",
+                    "SoKhung": "RLLVAG8C5SH712024",
+                    "SoMay": "VFBALB251140166",
+                    "BienSo": "14H-10218",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

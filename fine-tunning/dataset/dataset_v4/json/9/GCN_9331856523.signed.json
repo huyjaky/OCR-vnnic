@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331856523/TB-TT3",
+            "SoDon": "9331856523",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Phòng CSGT Công an TP Hà Nội",
+            "DiaChi": "86 Lý Thường Kiệt, Phường Cửa Nam,TP Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: 4KX7GV001187; thông tin khác (số máy: , biển số: 30E-407.23)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "",
+                        "CCCD": "",
+                        "DiaChi": ""
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Thăng Long Phòng giao dịch Phạm Văn Đồng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "1 Nhà ở số B1-03 và B1-05A, loại nhà ở thấp tầng, Lô TT01, KĐT thành phố Xanh Vinhome Gardenia), đường Hàm Nghi, phường Cầu Diễn, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "4KX7GV001187",
+                    "SoMay": null,
+                    "BienSo": "30E-40723",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

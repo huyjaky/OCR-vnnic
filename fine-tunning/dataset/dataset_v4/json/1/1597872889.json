@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0817",
+            "SoDon": "1597872889",
+            "SoDangKyLanDau": "1597872889",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:33:00",
+            "SoHopDong": "70/TC25-NAN",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T15:33:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Xe ô tô tải thùng kín, nhãn hiệu HYUNDAI, màu Xanh, số khung RLUNHT7HAPN001063, Biển kiểm soát 37C - 146.18",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH THƯƠNG MẠI NAM LONG",
+                        "MaSoThue": "2900326960",
+                        "DiaChi": "Số 19 Phạm Nguyễn Du, Phường Trường Vinh, tỉnh Nghệ An, tỉnh Nghệ An, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Ngoại Thương Việt Nam - Chi Nhánh Nghệ An",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 21, đường Quang Trung, phường Thành Vinh, tỉnh Nghệ An, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô tải thùng kín",
+                    "NhanHieuMauSon": "HYUNDAI, màu Xanh",
+                    "SoKhung": "RLUNHT7HAPN001063",
+                    "SoMay": null,
+                    "BienSo": "37C - 146.18",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

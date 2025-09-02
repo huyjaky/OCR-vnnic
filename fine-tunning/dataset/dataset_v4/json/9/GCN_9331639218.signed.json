@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331639218/TB-TT3",
+            "SoDon": "9331639218",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường An Hải",
+            "DiaChi": "số 47 đường Bạch Mai, TDP Bạch Mai, phường An Hải, thành phố Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô VINFAST, số khung: RLNVBL9K5SH750159, số máy: TZ160X30G25030500911, biển số: 15K-639.32",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Sở Giao Dịch",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và tầng 3, tòa nhà số 34, phố Hai Bà Trưng, Phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNVBL9K5SH750159",
+                    "SoMay": "TZ160X30G25030500911",
+                    "BienSo": "15K-639.32",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331722130/TB-TT3",
+            "SoDon": "9331722130",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "CSCTBCA",
+            "TenCongAn": "Công an phường Biên Hòa, tỉnh Đồng Nai",
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Xe ô tô có số khung: RNHA85SPANT055668; số máy: 4P10F16667, biển số: 60H-10770",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Bùi Hữu Nghĩa",
+                        "CCCD": null,
+                        "DiaChi": "khu phố 2, phường Biên Hòa, tỉnh Đồng Nai"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Đăk Lăk Phòng Giao Dịch Buôn Ma Thuột",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 39-41 Quang Trung, Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RNHA85SPANT055668",
+                    "SoMay": "4P10F16667",
+                    "BienSo": "60H-10770",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

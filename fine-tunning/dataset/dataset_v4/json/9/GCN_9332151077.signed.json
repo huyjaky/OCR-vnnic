@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332151077/TB-TT3",
+            "SoDon": "9332151077",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công An Tỉnh Đắk Lắk",
+            "DiaChi": "Kp Ân Niên, phường Tuy Hòa, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Ô tô con, nhãn hiệu VINFAST, màu Trắng, số khung: RLLV3F5DXSH784323, số máy: VFCAJB256150125, biển số: 47A-941.23",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Phú Yên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 197-199 Đại lộ Hùng Vương, phường Tuy Hòa, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST, màu Trắng",
+                    "SoKhung": "RLLV3F5DXSH784323",
+                    "SoMay": "VFCAJB256150125",
+                    "BienSo": "47A-941.23",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

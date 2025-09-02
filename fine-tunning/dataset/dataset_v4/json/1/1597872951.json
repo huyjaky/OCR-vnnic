@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0818",
+            "SoDon": "1597872951",
+            "SoDangKyLanDau": "1597872951",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 3,
+            "LoaiBienPhapName": "Cầm cố",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:33:00",
+            "SoHopDong": "01/VPB-TSH",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": 1900000000,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T15:33:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Số dư tiền và lợi ích vật chất khác phát sinh từ Hợp đồng tiền gửi có kỳ hạn thuộc sở hữu của Bên bảo đảm.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN TÂN SƠN HÀ",
+                        "MaSoThue": "0101918808",
+                        "DiaChi": "Số nhà 32, ngõ 293 Tam Trinh, Phường Hoàng Văn Thụ, Quận Hoàng Mai, Thành phố Hà Nội, Việt Nam ( Nay là : Số nhà 32, ngõ 293 Tam Trinh, Phường Tương Mai), thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - chi nhánh Trần Hưng Đạo",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Hà Nội",
+                    "DiaChi": "(1)Một phần diện tích Tầng 1 và tầng 2 tại tòa nhà Asashi – Hinode City, Số 201 đường Minh Khai, phường Minh Khai, Quận Hai Bà Trưng, Thành phố Hà Nội, Việt Nam ( Nay là : Một phần diện tích Tầng 1 và tầng 2 tại tòa nhà Asashi – Hin, phường Minh Khai), thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Số dư tiền và lợi ích vật chất khác phát sinh từ Hợp đồng tiền gửi có kỳ hạn",
+                    "CanCuPhatSinhQuyen": "Tên gọi (Chứng chỉ tiền gửi/Kỳ phiếu): Hợp đồng tiền gửi có kỳ hạn, Ký hiệu, số sê-ri phát hành: VPBFC/TGCKH-4673/2025, Ngày phát hành: 09/07/2025, Ngày đến hạn: 09/07/2026, Tổ chức phát hành: Công ty Tài chính TNHH Ngân hàng Việt Nam Thịnh Vượng SMBC (VPB SMBC FC)"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

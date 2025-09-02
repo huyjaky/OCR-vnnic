@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332167067/TB-TT3",
+            "SoDon": "9332167067",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Bồng Sơn",
+            "DiaChi": "Số 59 đường Trần Phú, phường Bồng Sơn, tỉnh Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu CNHTC, màu sơn Đỏ có số khung: LZZ1BGMJ6SJ409188; thông tin khác (số máy: , biển số: 77H-070.65)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam - Chi nhánh Hoài Nhơn Bình Định",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "số 02 Hai Bà Trưng, phường Bồng Sơn, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CNHTC, màu sơn Đỏ",
+                    "SoKhung": "LZZ1BGMJ6SJ409188",
+                    "SoMay": null,
+                    "BienSo": "77H-070.65",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

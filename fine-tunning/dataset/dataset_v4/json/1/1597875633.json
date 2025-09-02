@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0832",
+            "SoDon": "1597875633",
+            "SoDangKyLanDau": "1597875633",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:39:00",
+            "SoHopDong": "LN2506215872554",
+            "NgayCoHieuLucHopDong": "2025-07-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T15:39:00",
+            "ThoiDiemDKLanDau": "2025-07-10T15:39:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô, nhãn hiệu KIA",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN VĂN HÙNG",
+                        "CCCD": "077079006946",
+                        "DiaChi": "TỔ 55, THÔN QUẢNG TÂY, XÃ NGHĨA THÀNH, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HUỲNH THỊ VUÔNG",
+                        "CCCD": "083187000933",
+                        "DiaChi": "QUẢNG TÂY, Xã Nghĩa Thành, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Vũng Tàu Phòng giao dịch Bà Rịa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 44 Bạch Đằng, Phường Bà Rịa, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "KIA",
+                    "SoKhung": "RNYHC54C0SC370219",
+                    "SoMay": null,
+                    "BienSo": "72A-946.59",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

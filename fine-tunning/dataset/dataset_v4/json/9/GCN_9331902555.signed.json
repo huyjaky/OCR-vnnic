@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331902555/TB-TT3",
+            "SoDon": "9331902555",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông, Công an TỈNH NINH BÌNH",
+            "DiaChi": "Phố Trung Thành , Phường Hoa Lư, Ninh Bình",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": null,
+                    "ThongTinChuThe": null
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi Nhánh NinhBình",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Số 91, Đường Lê Hồng Phong, Phường Hoa Lư, tỉnh Ninh Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST, VF6 - ECO",
+                    "SoKhung": "RLLVAGND5SH803016",
+                    "SoMay": "VFCAJB257180080",
+                    "BienSo": "35H-060.49",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

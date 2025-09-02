@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331448160/TB-TT3",
+            "SoDon": "9331448160",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBSCA",
+            "TenCongAn": "Công an xã Linh Sơn",
+            "DiaChi": "Xã Linh Sơn, Tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu MAZDA CX-5 màu ĐỎ, số khung: RN2KE2W7ASM169908, số máy: PE50447927, biển số: 36K-89294",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Tiên Phong Chi nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "13, 14 Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MAZDA CX-5 màu ĐỎ",
+                    "SoKhung": "RN2KE2W7ASM169908",
+                    "SoMay": "PE50447927",
+                    "BienSo": "36K-89294",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

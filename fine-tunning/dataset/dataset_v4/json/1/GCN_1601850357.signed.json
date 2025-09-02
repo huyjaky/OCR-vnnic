@@ -1,0 +1,58 @@
+[
+	{
+		"output": {
+			"MaHoSo": "000.02.18.G15-250802-0206",
+			"SoDon": "1601850357",
+			"SoDangKyLanDau": "1601850357",
+			"LoaiDonID": 1,
+			"LoaiDonName": "Đăng ký lần đầu",
+			"LoaiDonCode": "ĐKLD",
+			"TenCongAn": null,
+			"DiaChi": null,
+			"LoaiHinhGDID": 1,
+			"LoaiHinhGDName": "Biện pháp bảo đảm",
+			"LoaiBienPhapID": 1,
+			"LoaiBienPhapName": "Thế chấp",
+			"LoaiHopDongID": null,
+			"LoaiHopDongName": null,
+			"ThoiDiemDangKy": "2025-08-02T11:46:00Z",
+			"SoHopDong": "LN2507216072907",
+			"NgayCoHieuLucHopDong": "2025-08-01",
+			"GiaTriKhoanVay": null,
+			"SoPhuLuc": null,
+			"ThoiDiemKHDangKy": null,
+			"ThoiDiemDKLanDau": null,
+			"NoiDungThayDoi": null,
+			"MoTaChungTaiSan": "01 xe ô tô nhãn hiệu VINFAST, VF5 - PLUS (xe điện), Động cơ điện, AT",
+			"BenGiao": [
+				{
+					"LoaiChuTheID": 1,
+					"ThongTinChuThe": {
+						"HoTen": "DƯƠNG CÔNG BÌNH",
+						"CCCD": "020095001147",
+						"DiaChi": "Số nhà 18B, Đường Trần Phú, Khối 6, Phường Kỳ Lừa, tỉnh Lạng Sơn, Việt Nam"
+					}
+				}
+			],
+			"BenNhan": [
+				{
+					"Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Ngô Quyền Phòng giao dịch Chương Dương",
+					"QuocGia": "Vietnam",
+					"Tinh": "Hà Nội",
+					"DiaChi": "Một phần diện tích tại tầng 1 và tầng 5 tòa nhà Plaschem, số 562 đường Nguyễn Văn Cừ,phường Bồ Đề, thành phố Hà Nội, Việt Nam"
+				}
+			],
+			"TaiSan": [
+				{
+					"LoaiTaiSan": "TaiSan_CoSoKhung",
+					"PhuongTien": "Ô tô",
+					"NhanHieuMauSon": "VINFAST, VF5 - PLUS (xe điện), Động cơ điện, AT",
+					"SoKhung": "RLNV5JSE9SH735194",
+					"SoMay": "VFCAFB253180041",
+					"BienSo": "12H-044.72",
+					"CanCuThayDoi": 1
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332012627/TB-TT3",
+            "SoDon": "9332012627",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Tây Thái Ninh",
+            "DiaChi": "Thôn Thanh Miếu, xã Tây Thái Ninh, tỉnh Hưng Yên, Việt Nam",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô xe ô tô MITSUBISHI Xpander, màu xám bạc có số khung: MK2LRNC1WSN005444; thông tin khác (số máy: 4A91KCH8783, biển số: 17A-437.93)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Thái Bình Phòng giao dịch Lê Quý Đôn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thái Bình",
+                    "DiaChi": "Số 170C, tổ 30, đường Lê Quý Đôn, phường Bồ Xuyên, Thái Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MITSUBISHI Xpander, màu xám bạc",
+                    "SoKhung": "MK2LRNC1WSN005444",
+                    "SoMay": "4A91KCH8783",
+                    "BienSo": "17A-437.93",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

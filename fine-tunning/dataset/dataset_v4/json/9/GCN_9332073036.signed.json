@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332073036/TB-TT3",
+            "SoDon": "9332073036",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An xã Đại Lộc, thành phố Đà Nẵng",
+            "DiaChi": "17 Hùng Vương, Xã Đại Lộc, TP Đà Nẵng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu ISUZU màu trắng, số khung RLE1MR77HS5A02176, số máy 295Y33, biển số 92A-428.71",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "155 Nguyễn Văn Linh, Phường Thanh Khê, thành phố Đà Nẵng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "ISUZU màu trắng",
+                    "SoKhung": "RLE1MR77HS5A02176",
+                    "SoMay": "295Y33",
+                    "BienSo": "92A-428.71",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,33 @@
+
+Ok, mình đã chỉnh lại số thứ tự đầy đủ và nhất quán cho bạn:
+
+1. `MaHoSo`: Mã hồ sơ (string)
+2. `SoDon`: Số đơn đăng ký (string)
+3. `SoDangKyLanDau`: Số đăng ký lần đầu (string)
+4. `LoaiDonID`: ID loại đơn (integer, ánh xạ enum)
+5. `LoaiDonName`: Tên loại đơn (string)
+6. `LoaiDonCode`: Mã loại đơn (string)
+7. `TenCongAn`: Tên công an được gửi khi `LoaiDonID` = 9 (string)
+8. `DiaChi`: Địa chỉ của công an (string)
+9. `LoaiHinhGDID`: ID loại hình giao dịch (integer, ánh xạ enum)
+10. `LoaiHinhGDName`: Tên loại hình giao dịch (string)
+11. `LoaiBienPhapID`: ID biện pháp bảo đảm (integer, ánh xạ enum)
+12. `LoaiBienPhapName`: Tên biện pháp bảo đảm (string)
+13. `LoaiHopDongID`: ID loại hợp đồng (integer hoặc null)
+14. `LoaiHopDongName`: Tên loại hợp đồng (string hoặc null)
+15. `ThoiDiemDangKy`: Thời điểm đăng ký (ISO 8601)
+16. `SoHopDong`: Số hợp đồng (string)
+17. `NgayCoHieuLucHopDong`: Ngày hiệu lực hợp đồng (YYYY-MM-DD)
+18. `GiaTriKhoanVay`: Giá trị khoản vay (number hoặc null)
+19. `SoPhuLuc`: Số phụ lục (string hoặc null)
+20. `ThoiDiemKHDangKy`: Thời điểm KH đăng ký (ISO 8601 hoặc null)
+21. `ThoiDiemDKLanDau`: Thời điểm đăng ký lần đầu (ISO 8601)
+22. `NoiDungThayDoi`: Nội dung thay đổi (string hoặc null)
+23. `MoTaChungTaiSan`: Mô tả chung tài sản (string)
+24. `BenGiao`: Mảng xuất hiện các đối tượng thuộc loại `CHỦ THỂ` (`BenNhan`) (ít nhất 1 item)
+25. `BenNhan`: Mảng xuất hiện các đối tượng thuộc loại `CHỦ THỂ` (`BenGiao`) (ít nhất 1 item)
+26. `TaiSan`: Mảng xuất hiện các đối tượng thuộc loại `TÀI SẢN` (ít nhất 1 item)
+
+👉 Giờ tổng cộng có **26 trường**, không bị nhảy số nữa.
+
+Bạn có muốn mình chuẩn hóa luôn thành **JSON Schema draft** để dễ dùng trong code không?

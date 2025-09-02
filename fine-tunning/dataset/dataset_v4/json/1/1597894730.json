@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0951",
+            "SoDon": "1597894730",
+            "SoDangKyLanDau": "1597894730",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:28:00",
+            "SoHopDong": "TLG2025TSDB3319884/HDTC",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": 4019049450,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:28:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Tài Sản Thế Chấp theo Hợp Đồng này bao gồm toàn bộ hàng hóa đã, đang và sẽ hình thành thuộc sở hữu của Bên Thế Chấp cùng toàn bộ các quyền đòi nợ và khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên Thế Chấp ký kết với bất kỳ bên thứ ba nào (bao gồm các phụ lục, văn bản có liên quan kèm theo các hợp đồng, thỏa thuận đó). Tài Sản Thế Chấp còn bao gồm cả các hàng hóa và quyền đòi nợ được hình thành từ các hàng hóa, quyền đòi nợ được nêu tại điểm a đến điểm b nêu trên. Tài Sản Bảo Đảm còn bao gồm: a) Toàn bộ số dư trong Tài Khoản; b) Toàn bộ các quyền, lợi ích, các khoản bồi thường, đền bù, hoa lợi, lợi tức và các khoản thanh toán khác phát sinh từ hoặc có liên quan đến Tài Sản Thế Chấp mà Bên Thế Chấp có thể được nhận; c) Toàn bộ nguyên liệu, vật liệu hiện tại hoặc tương lai (cho dù được hình thành từ phương án Techcombank tài trợ (cấp tín dụng)); d) Toàn bộ các sản phẩm thành phẩm; e) Toàn bộ các sản phẩm đang sản xuất dở, sơ chế; f) Toàn bộ các tài sản được hình thành, các phế liệu, phế phẩm do chế biến, gia công, sản xuất, lắp ráp v.v từ các tài sản trên; g) Toàn bộ các tài sản được hình thành và có được do việc chuyển đổi, mua bán các tài sản trên; h) Toàn bộ các khoản thu nhập thu được từ bán tài sản trên; i) Các quyền, lợi ích, các khoản giá trị gia tăng có trước, trong và sau thời điểm thế chấp mà chưa được ghi nhận trong Hợp Đồng này do Tài Sản Thế Chấp được đầu tư, nâng cấp, các khoản bồi thường, đền bù và các khoản thanh toán khác gắn liền với Tài Sản Thế Chấp mà Bên Thế Chấp được nhận; j) Các hợp đồng bảo hiểm và toàn bộ các quyền của Bên Thế Chấp phát sinh từ các hợp đồng bảo hiểm trong trường hợp Tài Sản Thế Chấp được mua bảo hiểm.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH MÁY TÍNH NÉT",
+                        "MaSoThue": "0100945911",
+                        "DiaChi": "Số 46A, ngõ 120 đường Trường Chinh, phường Kim Liên, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM Chi nhánh: Thăng Long",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 181 Nguyễn Lương Bằng, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Toàn bộ quyền đòi nợ và các khoản phải thu phát sinh từ các hợp đồng/thỏa thuận mà Bên Thế Chấp ký kết với bất kỳ bên thứ ba (bao gồm các phụ lục, văn bản/thỏa thuận có liên quan kèm theo) phát sinh trong hoạt động sản xuất, kinh doanh của Bên Thế Chấp được Techcombank tài trợ (cấp tín dụng).",
+                    "CanCuPhatSinhQuyen": "Hợp đồng nâng cấp máy chủ số 04/HĐ/2025/MTW-NET hiệu lực ngày 18/04/2025 và các văn bản, phụ lục bổ sung kèm theo (nếu có); Hợp đồng mua bán số 2605/HĐ/2025/DLTW-NET hiệu lực ngày 26/05/2025 và các văn bản, phụ lục bổ sung kèm theo (nếu có)"
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "Toàn bộ hàng hóa là Máy tính, tủ điện, cáp, ổ cắm,… của Bên Thế Chấp được đặt/quản lý tại tất cả các kho hàng khác thuộc quyền sở hữu/quản lý/sử dụng của Bên Thế Chấp mà Bên Thế Chấp đặt/quản lý Tài Sản Thế Chấp (trong hiện tại hoặc tương lai) được hình thành và/hoặc có nguồn gốc từ bất kỳ nguồn vốn nào do Techcombank tài trợ (cấp tín dụng)",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

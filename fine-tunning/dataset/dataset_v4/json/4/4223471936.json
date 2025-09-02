@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0945",
+            "SoDon": "4223471936",
+            "SoDangKyLanDau": "1388315425",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T16:26:00",
+            "SoHopDong": "834/TC",
+            "NgayCoHieuLucHopDong": "2020-10-30",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2020-10-30T13:23:00",
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH THƯƠNG MẠI SẢN XUẤT XÂY DỰNG SÔNG LAM",
+                        "MaSoThue": "3801203180",
+                        "DiaChi": "Tổ 9C, Khu phố 2, thị trấn Chơn Thành, Chơn Thành, Bình Phước, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Sài Gòn Thương Tín Chi nhánh Chơn Thành",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Phước",
+                    "DiaChi": "Tổ 1, Khu Phố 3 thị trấn Chơn Thành, Chơn Thành, Bình Phước, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

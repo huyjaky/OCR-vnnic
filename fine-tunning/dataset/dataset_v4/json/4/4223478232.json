@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0998",
+            "SoDon": "4223478232",
+            "SoDangKyLanDau": "1408521428",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2021-03-24T11:46:00",
+            "SoHopDong": "LN2102243409591",
+            "NgayCoHieuLucHopDong": "2021-03-24",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:50:00",
+            "ThoiDiemDKLanDau": "2021-03-24T11:46:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHAN HỮU QUỐC",
+                        "CCCD": "075095000358",
+                        "DiaChi": "5 Đường 115a, Tổ 10, Kp 2, P Phú Hữu, Quận 9, Hồ Chí Minh, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HUỲNH PHẠM PHƯƠNG GIAO",
+                        "CCCD": "079197010887",
+                        "DiaChi": "5 Đường 115a, Tổ 10, Kp 2, P Phú Hữu, Quận 9, Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Đồng Nai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "K 19 đường Võ Thị Sáu, KP 7, Phường Thống Nhất, thành phố Biên Hòa, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

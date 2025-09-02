@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331570211/TB-TT3",
+            "SoDon": "9331570211",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông, Công an Thành phố Huế",
+            "DiaChi": "50 Trần Cao Vân, Phường Thuận Hóa, Thành phố Huế",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu FORD, màu sơn: Trắng, có số khung: RL2UMFA30SUR07046, biển số: 75A–399.79",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Công Thương Việt Nam - Chi nhánh Nam Huế - Phòng giao dịch An Vân Dương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Huế",
+                    "DiaChi": "Lô A1 Khu đô thị mới An Cựu – Phường An Cựu, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD màu trắng",
+                    "SoKhung": "RL2UMFA30SUR07046",
+                    "SoMay": null,
+                    "BienSo": "75A–399.79",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250115-0234",
+            "SoDon": "3013783745",
+            "SoDangKyLanDau": "1573497758",
+            "LoaiDonID": 3,
+            "LoaiDonName": "Sửa chữa sai sót",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-01-15T09:54:00",
+            "SoHopDong": "1616HĐBĐ202511011",
+            "NgayCoHieuLucHopDong": "2025-01-14",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-01-14T16:45:00",
+            "NoiDungThayDoi": "Sửa chữa sai sót",
+            "MoTaChungTaiSan": "01 xe ô tô con mới 100% nhãn hiệu Hyundai, số loại: Tucson 1.6, màu sơn: Trắng",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "MAI NGỌC THIÊN ÂN",
+                        "CCCD": "042093010124",
+                        "DiaChi": "TDP Phú Nghĩa, TT.Lộc Hà, Thạch Hà, Hà Tĩnh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Xuất Nhập Khẩu Việt Nam Chi Nhánh Vinh Phòng Giao Dịch Bắc Vinh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "150 Nguyễn Trãi, P. Hà Huy Tập, thành phố Vinh, Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Hyundai,màu sơn: Trắng",
+                    "SoKhung": "RLUJF81BH",
+                    "SoMay": "SN019140",
+                    "BienSo": "38B-019.56",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

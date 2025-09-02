@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0358",
+            "SoDon": "2079973968",
+            "SoDangKyLanDau": "1592672364",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T11:08:00",
+            "SoHopDong": "REF2501388737/HDTC/HH/287608",
+            "NgayCoHieuLucHopDong": "2025-06-06",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-06-06T11:13:00",
+            "ThoiDiemDKLanDau": "2025-06-06T11:13:00",
+            "NoiDungThayDoi": "Bổ sung Hồ sơ, giấy tờ về Tài sản thế chấp như sau:\n- Hợp đồng mua bán (Sales Contract) số 1925/GNV-HUE và Phụ lục 01 (Annex 01) ký ngày 09/05/2025;\n- Commercial Invoice (Hóa đơn thương mại) số: YS127/25-067 ngày 16/06/2025;\n- Multimodal Transport Bill Of Lading (Vận đơn vận tải đa phương thức) số: SHYJ25060076 ngày 25/06/2025;\n- Detailed Packing List (Danh sách đóng gói chi tiết) số: YS127/25-067 ngày 16/06/2025;\n- Certificate Of Quality and Quantity (Giấy chứng nhận chất lượng và số lượng);\n- Certificate Of Origin (Giấy chứng nhận nguồn gốc) số: 25C4501M0021/00091, số Serial: CCPIT7732500002743 ngày 20/06/2025;\n- Cargo Transportation Insurance Policy (Chính sách bảo hiểm vận chuyển hàng hóa) số: ANANPNJ24225QAAAA56J ngày 24/06/2025;\n- Beneficiary's Certificate (Chứng nhận của người thụ hưởng) và Fax Report (Báo cáo fax) ngày 26/06/2025;\n- Bất kỳ văn bản gia hạn, sửa đổi hoặc bổ sung nào đối với các giấy tờ nêu trên ngay khi có các văn bản gia hạn, sửa đổi, bổ sung đó;\n- Các hồ sơ khác liên quan đến tài sản thế chấp (nếu có)",
+            "MoTaChungTaiSan": "Tài sản bảo đảm là hàng hóa luân chuyển trong quá trình sản xuất, kinh doanh, kho hàng không phải là phương tiện giao thông cơ giới đường bộ",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN CƠ KHÍ Ô TÔ THỐNG NHẤT THỪA THIÊN HUẾ",
+                        "MaSoThue": "3300337345",
+                        "DiaChi": "Đường số 1, Khu Công nghiệp Phú Bài, Phường Phú Bài, thành phố Huế, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP ĐÔNG NAM Á (SEABANK)- CHI NHÁNH HUẾ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Huế",
+                    "DiaChi": "Số 8-10 Nguyễn Huệ, Phường Vĩnh Ninh, quận Thuận Hóa, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "Tên hàng hóa: Linh kiện, phụ tùng không đồng bộ để lắp ráp, sản xuất xe buýt từ 24-47 chỗ Giá trị hàng hóa: 41,600.00 USD (Bằng chữ: Bốn mươi mốt nghìn sáu trăm Đô la Mỹ) Loại hàng hóa: Linh kiện, phụ tùng không đồng bộ để lắp ráp, sản xuất xe buýt từ 24-47 chỗ theo Hợp đồng mua bán (Sales Contract) số 1925/GNV-HUE và Phụ lục 01 (Annex 01) ký ngày 09/05/2025 giữa GUANGXI NANNING VISION MECHANICAL & ELECTRICAL CO.,LTD và CÔNG TY CỔ PHẦN CƠ KHÍ Ô TÔ THỐNG NHẤT THỪA THIÊN HUẾ",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

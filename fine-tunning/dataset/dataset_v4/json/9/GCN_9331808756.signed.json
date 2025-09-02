@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331808756/TB-TT3",
+            "SoDon": "9331808756",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông - Công an tỉnh Nghệ An",
+            "DiaChi": "108, Hoàng Phan Thái, phường Vinh Phú, tỉnh Nghệ An",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe tải thùng kín, nhãn hiệu: ISUZU, Số loại: QKR, màu sơn: Vàng có số khung: RLE1MR77HS5103767; thông tin khác (số máy: 305M54, biển số: 37H-169.09)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN CÔNG THƯƠNG VIỆT NAM - CHI NHÁNH CỬA LÒ",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 5 Đường Nguyễn Sinh Cung, phường Nghi Hương, thành phố Vinh, tỉnh Nghệ An (nay là phường Cửa Lò, tỉnh Nghệ An)"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe tải thùng kín",
+                    "NhanHieuMauSon": "ISUZU màu Vàng",
+                    "SoKhung": "RLE1MR77HS5103767",
+                    "SoMay": "305M54",
+                    "BienSo": "37H-169.09",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

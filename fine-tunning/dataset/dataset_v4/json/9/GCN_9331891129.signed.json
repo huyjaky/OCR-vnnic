@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331891129/TB-TT3",
+            "SoDon": "9331891129",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TB",
+            "TenCongAn": "Phòng Cảnh sát giao thông - Công an tỉnh Đắk Lắk",
+            "DiaChi": "21 Hà Huy Tập, phường Buôn Ma Thuột, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô HONDA BRIO; Màu sơn: Vàng có số khung: MHRDD1870LJ050002; thông tin khác (số máy: L12B33900020, biển số: 47A-365.74)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Tiên Phong Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "Số 56-58 đường Y Jút, Phường Buôn Ma Thuột, tỉnh Đắk Lắk"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HONDA BRIO; Màu sơn: Vàng",
+                    "SoKhung": "MHRDD1870LJ050002",
+                    "SoMay": "L12B33900020",
+                    "BienSo": "47A-36574",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

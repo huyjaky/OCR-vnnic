@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0838",
+            "SoDon": "1597876677",
+            "SoDangKyLanDau": "1597876677",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:42:00",
+            "SoHopDong": "BCLC-8463-01/HĐTCHH",
+            "NgayCoHieuLucHopDong": "2024-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T15:42:00",
+            "ThoiDiemDKLanDau": "2025-07-10T15:42:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Hàng hóa luân chuyển trong quá trình sản xuất kinh doanh, bao gồm các loại nguyên vật liệu và các loại hàng hóa phục vụ hoạt động sản xuất, kinh doanh ván sàn. Tài sản bảo đảm là hàng hóa luân chuyển trong quá trình sản xuất, kinh doanh, kho hàng không phải là phương tiện giao thông cơ giới đường bộ.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN SẢN XUẤT VÀ CÔNG NGHỆ NHỰA PHA LÊ",
+                        "MaSoThue": "0103018538",
+                        "DiaChi": "Lô đất CN4.3 Khu công nghiệp MP Đình Vũ,Khu kinh tế Đình Vũ – Cát Hải, Phường Đông Hải,, thành phố Hải Phòng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 89 Láng Hạ, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "Hàng hóa đầu vào là các loại nguyên vật liệu và các loại hàng hóa phục vụ hoạt động sản xuất, kinh doanh ván sàn (bao gồm cả tài sản đã hình thành/hình thành trong tương lai mà Bên Thế Chấp đã mua/sẽ mua) để hình thành lên Quyền đòi nợ phát sinh từ các Hợp đồng sau - Hợp đồng nguyên tắc (Principal Contract) số 01/PLP-FIO/2025 ngày 01/05/2025 và Sales Order số SO0299140625-01 ngày 14/06/2025, Sales Order số SO0299250625-01 ký ngày 25/06/2025 và phụ lục, văn bản sửa đổi bổ sung kèm theo (nếu có); ký giữa Bên Bảo đảm và Bên có nghĩa vụ thanh toán: Flooring International Outlet LLC.",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

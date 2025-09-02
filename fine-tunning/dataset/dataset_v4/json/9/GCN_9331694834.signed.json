@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331694834/TB-TT3",
+            "SoDon": "9331694834",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Nam Định, Tỉnh Ninh Bình",
+            "DiaChi": "phường Nam Định, Tỉnh Ninh Bình",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RNYYE42A6JC135949; thông tin khác (số máy: G4NAJH405109, biển số: 18A-125.96)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Nam Định",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nam Định",
+                    "DiaChi": "Số 69 Lê Hồng Phong, Phường Nguyễn Du, Nam Định, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RNYYE42A6JC135949",
+                    "SoMay": "G4NAJH405109",
+                    "BienSo": "18A-12596",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

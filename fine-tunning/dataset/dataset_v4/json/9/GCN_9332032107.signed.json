@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332032107/TB-TT3",
+            "SoDon": "9332032107",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Xã Chân Mộng",
+            "DiaChi": "Xã Chân Mộng, Tỉnh Phú Thọ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "SoDangKyLanDau": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô nhãn hiệu CNHTC có số khung: LZZ1CLWC3SD373415; biển số: 19H-071.19",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Người Giao Không Xác Định",
+                        "CCCD": "111111111111",
+                        "DiaChi": "Địa chỉ không xác định, Tỉnh không xác định, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng Chi nhánh Phú Thọ Địa điểm kinh doanh Phòng giao dịch Hùng Vương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Phú Thọ",
+                    "DiaChi": "Số 1274 Hùng Vương, phường Thanh Miếu, tỉnh Phú Thọ, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CNHTC",
+                    "SoKhung": "LZZ1CLWC3SD373415",
+                    "SoMay": null,
+                    "BienSo": "19H-071.19",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null
+        }
+    }
+]

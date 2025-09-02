@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331894074/TB-TT3",
+            "SoDon": "9331894074",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT - Công an TP Hồ Chí Minh",
+            "DiaChi": "341 Trần Hưng Đạo, phường Cầu Ông Lãnh, thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST, VF5 - PLUS (xe điện), Động cơ điện, AT có số khung: RLNV5JSEXSH760556; thông tin khác (số máy: VFCAFB255040081, biển số: 50E-153.26)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Ngô Quyền Phòng giao dịch Chương Dương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Một phần diện tích tại tầng 1 và tầng 5 tòa nhà Plaschem, số 562 đường Nguyễn Văn Cừ, phường Gia Thụy, quận Long Biên, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST, VF5 - PLUS (xe điện), Động cơ điện, AT",
+                    "SoKhung": "RLNV5JSEXSH760556",
+                    "SoMay": "VFCAFB255040081",
+                    "BienSo": "50E-153.26",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

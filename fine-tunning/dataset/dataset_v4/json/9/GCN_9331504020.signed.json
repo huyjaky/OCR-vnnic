@@ -1,0 +1,64 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331504020/TB-TT3",
+            "SoDon": "9331504020",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông Công an tỉnh Thanh Hóa",
+            "DiaChi": "Lô D, khu C, Khu đô thị Bắc Cầu Hạc, Phường Hàm Rồng, Tỉnh Thanh Hóa",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Hà Nội Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Trung tâm Thương mại Thanh Hóa, số 27-29 đại lộ Lê Lợi, Phường Lam SơN, Thanh Hóa, Việt Nam"
+                },
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN SÀI GÒN - HÀ NỘI (SHB)",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 77, phố Trần Hưng Đạo, Phường Trần Hưng Đạo, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RN5B36SBMPN005789",
+                    "SoMay": "WP12375E401423F040716",
+                    "BienSo": "36F-010.25",
+                    "CanCuThayDoi": 2
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RN5B36SBMPN005788",
+                    "SoMay": "WP12375E401423F040731",
+                    "BienSo": "36F-010.27",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

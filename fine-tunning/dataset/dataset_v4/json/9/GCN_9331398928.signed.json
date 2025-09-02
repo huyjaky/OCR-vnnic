@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331398928/TB-TT3",
+            "SoDon": "9331398928",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Phòng Cảnh sát Giao thông Công an tỉnh Đồng Nai",
+            "DiaChi": "161, đường Phạm Văn Thuận, phường Tam Hiệp, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RLUMDT7KAKN000917; thông tin khác (số máy: J654073D4CB, biển số: 60C-542.44)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Đồng Nai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số 14K Võ Thị Sáu, phường Thống Nhất, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLUMDT7KAKN000917",
+                    "SoMay": "J654073D4CB",
+                    "BienSo": "60C-54244",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

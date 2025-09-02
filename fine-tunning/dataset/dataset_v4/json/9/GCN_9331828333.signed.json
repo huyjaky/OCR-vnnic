@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331828333/TB-TT3",
+            "SoDon": "9331828333",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Xã Phú Giáo- Công An Thành Phố Hồ Chí Minh",
+            "DiaChi": "số 7, Trần Quang Diệu, Xã Phú Giáo, TP. Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Màu Xanh có số khung: RLNVBL9K3SH757191; thông tin khác (số máy: , biển số: 61K-162.39)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP SÀI GÒN THƯƠNG TÍN – CHI NHÁNH BÌNH DƯƠNG – PHÒNG GIAO DỊCH TÂN PHƯỚC KHÁNH",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "TP. Hồ Chí Minh",
+                    "DiaChi": "67/2 ĐT 746, Khu phố Bình Hòa 1, Phường Tân Khánh, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Màu Xanh",
+                    "SoKhung": "RLNVBL9K3SH757191",
+                    "SoMay": "",
+                    "BienSo": "61K-162.39",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

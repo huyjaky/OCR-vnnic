@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1152",
+            "SoDon": "4223498285",
+            "SoDangKyLanDau": "1333941802",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T19:00:00",
+            "SoHopDong": "21/19/164/VCB",
+            "NgayCoHieuLucHopDong": "2019-07-04",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2019-07-12T13:56:00",
+            "NoiDungThayDoi": "XÓA ĐƠN ĐĂNG KÝ",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công ty CP Du Lịch Biển Đảo",
+                        "MaSoThue": "4000901795",
+                        "DiaChi": "Khối Phước Tân, phường Cửa Đại, Hội An, Quảng Nam, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Ngoại thương Việt Nam - Chi nhánh Quảng Nam",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Nam",
+                    "DiaChi": "35 Trần Hưng Đạo, Tam Kỳ, Quảng Nam, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

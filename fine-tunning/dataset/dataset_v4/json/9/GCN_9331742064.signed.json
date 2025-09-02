@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331742064/TB-TT3",
+            "SoDon": "9331742064",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An phường An Nhơn",
+            "DiaChi": "327 Lê Duẩn, phường An Nhơn, tỉnh Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu CNHTC màu Cam, biển số 77H-042.94, số khung LZZ1CLVCXSD371260, số máy MC114450250517222857",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Thương Tín Chi Nhánh Bình Định Phòng Giao Dịch Đập Đá",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "133 - 135 Lê Duẩn, Phường An Nhơn, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CNHTC màu Cam",
+                    "SoKhung": "LZZ1CLVCXSD371260",
+                    "SoMay": "MC114450250517222857",
+                    "BienSo": "77H-042.94",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

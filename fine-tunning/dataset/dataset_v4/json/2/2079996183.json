@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0786",
+            "SoDon": "2079996183",
+            "SoDangKyLanDau": "1151966323",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T15:24:00",
+            "SoHopDong": "1140/HĐTC-HH/TCB",
+            "NgayCoHieuLucHopDong": "2013-10-17",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": "3355360",
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2013-11-22T09:49:00",
+            "NoiDungThayDoi": "Kê khai nội dung thay đổi khác: Bổ sung thêm tài sản bảo đảm",
+            "MoTaChungTaiSan": "a) Toàn bộ nguyên liệu, vật liệu (Hạt nhựa: LINEAR LOW DENSITY POLYETHYLENE (LLDPE) LLDPE JF19010, Hạt nhựa: LLDPE UF1002EN, Hạt nhựa: STYROLUTION PS 147F GR21, Hạt nhựa: POLYPROPYLENE (HOMOPOLYMER) PP H030SG) hiện tại hoặc tương lai (cho dù được hình thành từ nguồn vốn nào);\nb) Toàn bộ các sản phẩm thành phẩm (Hạt nhựa: LINEAR LOW DENSITY POLYETHYLENE (LLDPE) LLDPE JF19010, Hạt nhựa: LLDPE UF1002EN, Hạt nhựa: STYROLUTION PS 147F GR21, Hạt nhựa: POLYPROPYLENE (HOMOPOLYMER) PP H030SG);\nc) Toàn bộ các sản phẩm đang sản xuất dở, sơ chế (Hạt nhựa: LINEAR LOW DENSITY POLYETHYLENE (LLDPE) LLDPE JF19010, Hạt nhựa: LLDPE UF1002EN, Hạt nhựa: STYROLUTION PS 147F GR21, Hạt nhựa: POLYPROPYLENE (HOMOPOLYMER) PP H030SG);\nd) Toàn bộ các tài sản được hình thành, các phế liệu, phế phẩm do chế biến, gia công, sản xuất, lắp ráp v.v từ các tài sản trên;\ne) Toàn bộ các tài sản được hình thành, có được do việc chuyển đổi, mua bán các tài sản trên;\nf) Toàn bộ các khoản thu nhập thu được từ bán tài sản trên;\ng) Các quyền, lợi ích, các khoản giá trị gia tăng có trước, trong và sau thời điểm thế chấp mà chưa được ghi nhận trong Hợp Đồng Bảo Đảm do Tài Sản Bảo Đảm được đầu tư, nâng cấp, các khoản bồi thường, đền bù và các khoản thanh toán khác gắn liền với Tài Sản Bảo Đảm mà Bên Bảo Đảm được nhận;\nh) Các hợp đồng bảo hiểm và toàn bộ các quyền của Bên Bảo Đảm phát sinh từ các hợp đồng bảo hiểm trong trường hợp Tài Sản Bảo Đảm được mua bảo hiểm",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN Á ĐÔNG ADG",
+                        "MaSoThue": "0308113486",
+                        "DiaChi": "178/4L Phan Đăng Lưu, Phường 04, Quận Phú Nhuận, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM Chi nhánh: Chợ Lớn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 78 - 80 - 82 Hậu Giang, Phường Bình Tây, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "Hạt nhựa: LINEAR LOW DENSITY POLYETHYLENE (LLDPE) LLDPE JF19010, Hạt nhựa: LLDPE UF1002EN, Hạt nhựa: STYROLUTION PS 147F GR21, Hạt nhựa: POLYPROPYLENE (HOMOPOLYMER) PP H030SG",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

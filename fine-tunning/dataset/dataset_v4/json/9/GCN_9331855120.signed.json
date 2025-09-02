@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331855120/TB-TT3",
+            "SoDon": "9331855120",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN THÀNH PHỐ ĐÀ NẴNG",
+            "DiaChi": "KHU E1,VÕ AN NINH, HÒA XUÂN, ĐÀ NẴNG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "MAZDA có số khung: RN2B14AA6NM081060; thông tin khác (số máy: P520794450, biển số: 43A-666.20)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng Chi nhánh Đà Nẵng Phòng giao dịch Núi Thành",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "407 Núi Thành, Phường Hòa Cường Bắc, Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "MAZDA",
+                    "NhanHieuMauSon": "MAZDA",
+                    "SoKhung": "RN2B14AA6NM081060",
+                    "SoMay": "P520794450",
+                    "BienSo": "43A-66620",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

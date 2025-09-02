@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331903851/TB-TT3",
+            "SoDon": "9331903851",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Xã Bản Lầu",
+            "DiaChi": "xã Bản Lầu, Tỉnh Lào Cai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô nhãn hiệu HYUNDAI, CRETA 1.5 ĐẶC BIỆT, 1.5L, IVT , Màu sơn: Trắng có số khung: RLUPF812EST016098; thông tin khác (số máy: G4FLSQ506424, biển số: 24A-31428)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Lào Cai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lào Cai",
+                    "DiaChi": "Số nhà 109 đường Hoàng Liên, Phường Lào Cai, tỉnh Lào Cai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Xe ô tô",
+                    "NhanHieuMauSon": "HYUNDAI, CRETA 1.5 ĐẶC BIỆT, 1.5L, IVT , Màu sơn: Trắng",
+                    "SoKhung": "RLUPF812EST016098",
+                    "SoMay": "G4FLSQ506424",
+                    "BienSo": "24A-31428",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

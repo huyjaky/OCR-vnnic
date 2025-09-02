@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331725456/TB-TT3",
+            "SoDon": "9331725456",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ TÂN THÀNH",
+            "DiaChi": "XÃ TÂN THÀNH, TỈNH LÂM ĐỒNG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "nhãn hiệu MITSUBISHI, Xpander Cross, 1.5L, AT có số khung: MK2XRNC1WPN002271; thông tin khác (số máy: 4A91KBH2605, biển số: 86A-240.61)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bình Thuận",
+                    "DiaChi": "132 Trần Hưng Đạo, Phường Phú Thủy, Bình Thuận, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xpander Cross, 1.5L, AT",
+                    "NhanHieuMauSon": "MITSUBISHI",
+                    "SoKhung": "MK2XRNC1WPN002271",
+                    "SoMay": "4A91KBH2605",
+                    "BienSo": "86A-240.61",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

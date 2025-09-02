@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1050",
+            "SoDon": "2080009311",
+            "SoDangKyLanDau": "1562600801",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:25:00",
+            "SoHopDong": "30685.02/24MB/HĐBĐ",
+            "NgayCoHieuLucHopDong": "2024-11-07",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-11-08T14:02:00",
+            "NoiDungThayDoi": "Bổ sung tài sản là 1.492,5675m3 (+/-5%) Particle Board – E2 11N (Ván dăm) hình thành trong tương lai theo Hợp đồng kinh tế số 030/CI/SC/IV/25 ngày 16/04/2025 và các phụ lục kèm theo (nếu có) giữa Công ty cổ phần tập đoàn gỗ Minh Long và PT. Canang Indah Industri Particle Board. Chi tiết như sau:\n01. Particle Board – E2 11N (Ván dăm); Khối lượng (m3) (+/-5%): 921,0219; Mô tả chi tiết về hàng hoá (size): 17 x 1220 x 2440 MM\n02. Particle Board – E2 11N (Ván dăm); Khối lượng (m3) (+/-5%): 571,5456; Mô tả chi tiết về hàng hoá (size): 25 x 1220 x 2440 MM",
+            "MoTaChungTaiSan": "Tài sản bảo đảm là hàng hóa luân chuyển trong quá trình sản xuất, kinh doanh, kho hàng không phải là phương tiện giao thông cơ giới đường bộ",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN TẬP ĐOÀN GỖ MINH LONG",
+                        "MaSoThue": "0900283720",
+                        "DiaChi": "Thôn Như Lân, xã Nghĩa Trụ, tỉnh Hưng Yên, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Phát Triển Thành Phố Hồ Chí Minh Chi Nhánh Hoàn Kiếm",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 32 Trần Hưng Đạo, Phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "1.492,5675m3 (+/-5%) Particle Board – E2 11N (Ván dăm)",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

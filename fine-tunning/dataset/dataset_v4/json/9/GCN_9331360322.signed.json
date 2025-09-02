@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331360322/TB-TT3",
+            "SoDon": "9331360322",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBS_TBCA",
+            "TenCongAn": "Công an Thông Tây Hội",
+            "DiaChi": "09 Đường số 3, phường Thông Tây Hội, TP. Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MNTCC2D23Z0041317; thông tin khác (số máy: YD25777230T, biển số: 51D-412.61)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TNHH MTV Shinhan Việt Nam Chi Nhánh Bình Dương",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "Tầng 1, Tòa nhà Minh Sáng Plaza, 888 Đại lộ Bình Dương, Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MNTCC2D23Z0041317",
+                    "SoMay": "YD25777230T",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

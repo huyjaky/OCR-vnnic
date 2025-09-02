@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332114365/TB-TT3",
+            "SoDon": "9332114365",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "công an phường trường vinh",
+            "DiaChi": "phường trường vinh, tỉnh nghệ an",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu HYUNDAI-Màu sơn Trắng có số khung: RLUJG81DBSN023854; thông tin khác (số máy: G4NLSW640996, biển số: 37k-272.82)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Vinh Phòng giao dịch Chợ Vinh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 2, đường Trần Phú, Phường Trường Vinh, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HYUNDAI-Màu sơn Trắng",
+                    "SoKhung": "RLUJG81DBSN023854",
+                    "SoMay": "G4NLSW640996",
+                    "BienSo": null,
+                    "CanCuThayDoi": null
+                }
+            ]
+        }
+    }
+]

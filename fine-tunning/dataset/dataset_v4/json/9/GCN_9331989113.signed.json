@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331989113/TB-TT3",
+            "SoDon": "9331989113",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBS",
+            "TenCongAn": "CÔNG AN THÀNH PHỐ HỒ CHÍ MINH PHÒNG CẢNH SÁT GIAO THÔNG ĐỘI ĐĂNG KÝ QUẢN LÝ PHƯƠNG TIỆN GIAO THÔNG",
+            "DiaChi": "212 QL1A, phường Tăng Nhơn Phú, thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Ô tô CNHTC có số khung: LZZ1EXSB0SN092309; thông tin khác (số máy: D103850250507014917, biển số: 50E - 332.84)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Sài Gòn Thương Tín Chi nhánh Bà Rịa Vũng Tàu Phòng giao dịch Nguyễn An Ninh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "TP.HCM",
+                    "DiaChi": "300A-302 Nguyễn An Ninh, phường Tam Thắng, thành phố Hồ Chí Minh"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "CNHTC",
+                    "SoKhung": "LZZ1EXSB0SN092309",
+                    "SoMay": "D103850250507014917",
+                    "BienSo": "50E-33284",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331711683/TB-TT3",
+            "SoDon": "9331711683",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN PHƯỜNG MỸ TRÀ",
+            "DiaChi": "PHƯỜNG MỸ TRÀ , TỈNH ĐỒNG THÁP",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu HONDA có số khung: MHRDG3880SJ006012; thông tin khác (số máy: L15ZF1959490, biển số: 66A-357.78)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Bình Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "SỐ 557 ĐẠI LỘ BÌNH DƯƠNG, PHƯỜNG THỦ DẦU MỘT, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HONDA",
+                    "SoKhung": "MHRDG3880SJ006012",
+                    "SoMay": "L15ZF1959490",
+                    "BienSo": "66A-35778",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

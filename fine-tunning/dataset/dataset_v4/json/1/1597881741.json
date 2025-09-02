@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0860",
+            "SoDon": "1597881741",
+            "SoDangKyLanDau": "1597881741",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:54:00",
+            "SoHopDong": "149/2025/HĐTC-BAC A BANK",
+            "NgayCoHieuLucHopDong": "2025-07-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T15:54:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô con, nhãn hiệu: MAZDA, Số loại: 3, số khung: RN2B12SAAPM119045, số máy: P520923102, năm sản xuất: 2023, nước sản xuất : Việt Nam, biển số: 43A-981.25",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HỒ KHẮC BẢO PHONG",
+                        "CCCD": "048093001510",
+                        "DiaChi": "Tổ 127, Phường Hoà Khánh, thành phố Đà Nẵng, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "MẦU THỊ HƯƠNG NGUYÊN",
+                        "CCCD": "048193002926",
+                        "DiaChi": "Tổ 127, Phường Hoà Khánh, thành phố Đà Nẵng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN BẮC Á",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 117 Đường Quang Trung, Phường Thành Vinh, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MAZDA, MÀU ĐỎ",
+                    "SoKhung": "RN2B12SAAPM119045",
+                    "SoMay": "P520923102",
+                    "BienSo": "43A-981.25",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

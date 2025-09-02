@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331338339/TB-TT3",
+            "SoDon": "9331338339",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT Công an Tỉnh Ninh Bình",
+            "DiaChi": "Đường Trần Hưng Đạo, Phường Hoa Lư, Tỉnh Ninh Bình",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu: BMW, số loại: 320I, màu sơn: Trắng có số khung: 11010K669643; thông tin khác (số máy: , biển số: 35A-081.72)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Số 91, Đường Lê Hồng Phong, Phường Đông Thành, Ninh Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "BMW màu Trắng",
+                    "SoKhung": "11010K669643",
+                    "SoMay": null,
+                    "BienSo": "35A-081.72",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

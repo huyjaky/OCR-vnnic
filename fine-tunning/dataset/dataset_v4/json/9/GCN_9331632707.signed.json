@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331632707/TB-TT3",
+            "SoDon": "9331632707",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Xã Phú Giáo – Thành Phố Hồ Chí Minh",
+            "DiaChi": "Số 14, Đường Trần Quang Diệu ,xã Phú Giáo, Thành Phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô Xanh có số khung: RLLV3EHB6SH719537; thông tin khác (số máy: VFCAJB252140006/VFCAJB252150028, biển số: 61K-573.28)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Hà Nội Chi Nhánh Bình Phước",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "147 Đường Hùng Vương, Phường Bình Phước, tỉnh Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Ô tô Xanh",
+                    "SoKhung": "RLLV3EHB6SH719537",
+                    "SoMay": "VFCAJB252140006/VFCAJB252150028",
+                    "BienSo": "61K-573.28",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

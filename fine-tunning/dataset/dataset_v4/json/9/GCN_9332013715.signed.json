@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332013715/TB-TT3",
+            "SoDon": "9332013715",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công An Tỉnh Đồng Nai",
+            "DiaChi": "161 Phạm Văn Thuận, P Tam Hiệp, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô xe ô tô con mới 100%, 7 chỗ, nhãn hiệu HONDA-CR-V L-RS 38, màu ĐEN, sản xuất năm 2025 có số khung: RLHRS3844SY101024; thông tin khác (số máy: , biển số: 60B-011.37)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP CÔNG THƯƠNG VIỆT NAM-CHI NHÁNH ĐỒNG NAI",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "77D Hưng Đạo Vương, Phường Trấn Biên, Tỉnh Đồng Nai"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HONDA-CR-V L-RS 38, màu ĐEN",
+                    "SoKhung": "RLHRS3844SY101024",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

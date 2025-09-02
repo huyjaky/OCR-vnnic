@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1069",
+            "SoDon": "1597911834",
+            "SoDangKyLanDau": "1597911834",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:36:00",
+            "SoHopDong": "TTC2025CFMG16337996/HDTC",
+            "NgayCoHieuLucHopDong": "2025-07-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:36:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, Quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán số U38-18-12A/HĐMB-Masteri Lakeside ngày 16/06/2025 giữa doanh nghiệp kinh doanh bất động sản là CÔNG TY TNHH ĐẦU TƯ KINH DOANH VÀ PHÁT TRIỂN THƯƠNG MẠI VIỆT AN với ông/bà NGUYỄN THU HIỀN - PHẠM ĐỖ HOÀNG về việc mua bán Căn Hộ số: U38-18-12A thuộc Dự án Dự án tại Khu nhà ở cao tầng trên lô đất B6-CT01 và B6-CXDV01, có tên thương mại là Masteri Lakeside - Thị trấn Trâu Quỳ, huyện Gia Lâm, thành phố Hà Nội được cơ quan có thẩm quyền phê duyệt. Ngày hiệu lực của hợp đồng: 16/06/2025. Thế chấp Quyền tài sản khác theo quy định của pháp luật phát sinh theo Hợp đồng mua bán trên (trừ Quyền sử dụng đất và tài sản gắn liền với đất thuộc thẩm quyền đăng ký của văn phòng đăng ký quyền sử dụng đất). Trừ các loại tài sản theo quy định tại khoản 2, điều 44, Nghị định số 99/2022/NĐ-CP. Các khoản lợi tức thu được từ việc khai thác, kinh doanh tài sản thế chấp phát sinh từ hợp đồng mua bán trên.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THU HIỀN",
+                        "CCCD": "027192000015",
+                        "DiaChi": "HS11-46 KĐT Vinhomes Riverside, Phường Việt Hưng, thành phố Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM ĐỖ HOÀNG",
+                        "CCCD": "022091007726",
+                        "DiaChi": "HS11-46 KĐT Vinhomes Riverside, Phường Việt Hưng,, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Kỹ Thương Việt Nam Chi Nhánh Đông Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và toàn bộ tầng 2 thuộc tòa tháp C của tổ hợp Starcity Center tại ô đất ký hiệu HH khu đô thị Đông Nam Trần Duy Hưng, phường Yên Hòa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, Quyền thụ hưởng bảo hiểm",
+                    "CanCuPhatSinhQuyen": "Hợp Đồng Mua Bán số U38-18-12A/HĐMB-Masteri Lakeside ngày 16/06/2025 giữa doanh nghiệp kinh doanh bất động sản là CÔNG TY TNHH ĐẦU TƯ KINH DOANH VÀ PHÁT TRIỂN THƯƠNG MẠI VIỆT AN với ông/bà NGUYỄN THU HIỀN - PHẠM ĐỖ HOÀNG. Ngày hiệu lực của hợp đồng: 16/06/2025"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

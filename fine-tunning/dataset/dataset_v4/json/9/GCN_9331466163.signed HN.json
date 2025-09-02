@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331466163/TB-TT3",
+            "SoDon": "9331466163",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN TP HÀ NỘI",
+            "DiaChi": "86 LÝ THƯỜNG KIỆT, PHƯỜNG CỬA NAM, HÀ NỘI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô KIA có số khung: RNYNA54A8NC280451; thông tin khác (số máy: G6DUNA891843, biển số: 29K-313.33)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô KIA",
+                    "NhanHieuMauSon": "KIA",
+                    "SoKhung": "RNYNA54A8NC280451",
+                    "SoMay": "G6DUNA891843",
+                    "BienSo": "29K-313.33",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

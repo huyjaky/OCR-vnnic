@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332103621/TB-TT3",
+            "SoDon": "9332103621",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Xã Cẩm Khê",
+            "DiaChi": "Xã Cẩm Khê, Tỉnh Phú Thọ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Hà Nội - Phòng Giao Dịch Ba Đình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 Tòa nhà Việt Hải, Lô C2-H Cụm Tiểu thủ công nghiệp và công nghiệp nhỏ Cầu Giấy, Phường Dịch Vọng Hậu, Hà Nội"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MITSUBISHI",
+                    "SoKhung": "MMBSTA13APH005990",
+                    "SoMay": "3A92ULJ7800",
+                    "BienSo": "19A-532.76",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

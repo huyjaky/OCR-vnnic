@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332038149/TB-TT3",
+            "SoDon": "9332038149",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Phòng cảnh sát giao thông công an Thành Phố Hải Phòng",
+            "DiaChi": "Số 14 Phan Chu Trinh, phường Hồng Bàng, thành phố Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T09:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô con màu trắng, nhãn hiệu HYUNDAI có số khung: W13BKN009287; thông tin khác (số máy: G4NAJU189609, biển số: 15A-477.90)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Kiến An",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Số 129 Trần Thành Ngọ, Hải Phòng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HYUNDAI màu trắng",
+                    "SoKhung": "W13BKN009287",
+                    "SoMay": "G4NAJU189609",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

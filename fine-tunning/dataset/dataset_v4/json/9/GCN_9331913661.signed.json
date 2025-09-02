@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331913661/TB-TT3",
+            "SoDon": "9331913661",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông - Công an thành phố Hải Phòng",
+            "DiaChi": "Số 14 Phan Chu Trinh, phường Hồng Bàng, thành phố Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Nhãn hiệu: VINFAST; Màu sơn: vàng có số khung: RLNV5JSE1SH786981; thông tin khác (số máy: VFCAFB256250220, biển số: 15H-165.33)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": "000000000",
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Hải Phòng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Số 04/B1 Lô 26 BC đường Lê Hồng Phong, phường Gia Viên, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST màu vàng",
+                    "SoKhung": "RLNV5JSE1SH786981",
+                    "SoMay": "VFCAFB256250220",
+                    "BienSo": "15H-165.33",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

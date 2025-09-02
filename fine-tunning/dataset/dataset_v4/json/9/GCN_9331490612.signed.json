@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331490612/TB-TT3",
+            "SoDon": "9331490612",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Phương tiện nhãn hiệu HYUNDAI, số khung RLUPB812EPT003493, số máy G4FLPQ237337, biển số 36A-411.07",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Số 2 đường Lê Hữu Lập, phường Lam Sơn, , Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": null,
+                    "NhanHieuMauSon": "HYUNDAI",
+                    "SoKhung": "RLUPB812EPT003493",
+                    "SoMay": "G4FLPQ237337",
+                    "BienSo": "36A-411.07",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

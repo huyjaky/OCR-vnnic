@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331621207/TB-TT3",
+            "SoDon": "9331621207",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT Công an Tỉnh Ninh Bình",
+            "DiaChi": "Phố Trung Thành, Phường Hoa Lư, Tỉnh Ninh Bình",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Xe ô tô nhãn hiệu PEUGEOT, NEW PEUGEOT 5008 AL, 1.6L, AT có số khung: RN2PNJEP6SM164939; thông tin khác (số máy: 583266810UF205G02, biển số: 35A-556.19)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi nhánh Ninh Bình",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Số 91, Đường Lê Hồng Phong, Phường Hoa Lư, tỉnh Ninh Bình"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "PEUGEOT",
+                    "SoKhung": "RN2PNJEP6SM164939",
+                    "SoMay": "583266810UF205G02",
+                    "BienSo": "35A-556.19",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

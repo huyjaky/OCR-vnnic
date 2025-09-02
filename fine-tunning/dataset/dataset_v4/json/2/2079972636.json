@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0327",
+            "SoDon": "2079972636",
+            "SoDangKyLanDau": "1481223104",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T10:53:00",
+            "SoHopDong": "LN2211267576032",
+            "NgayCoHieuLucHopDong": "2022-11-29",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2022-11-29T17:00:00",
+            "NoiDungThayDoi": "THAY ĐỔI BÊN NHẬN BẢO ĐẢM TỪ Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Quảng Bình - Phòng Giao Dịch Ba Đồn, địa chỉ:187 Quang Trung, Phường Quảng Thọ, Thị xã Ba Đồn, Quảng Bình thành Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Quảng Bình Địa điểm kinh doanh Phòng giao dịch Ba Đồn, địa chỉ: Số 381 Quang Trung, Khu Phố 5, Phường Ba Đồn, Thị Xã Ba Đồn, tỉnh Quảng Trị",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ HOA",
+                        "CCCD": "044165000705",
+                        "DiaChi": "khu phố 5, phường Ba Đồn, tỉnh Quảng Trị, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Quảng Bình Địa điểm kinh doanh Phòng giao dịch Ba Đồn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "Số 381 Quang Trung, Khu Phố 5, Phường Ba Đồn, Thị Xã Ba Đồn, tỉnh Quảng Trị, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Xe ô tô nhãn hiệu HYUNDAI",
+                    "SoKhung": "RLULM41B",
+                    "SoMay": "BNT001179",
+                    "BienSo": "73A-276.36",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

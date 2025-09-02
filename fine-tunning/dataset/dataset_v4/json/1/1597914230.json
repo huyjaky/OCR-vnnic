@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1097",
+            "SoDon": "1597914230",
+            "SoDangKyLanDau": "1597914230",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:57:00",
+            "SoHopDong": "LN2506065748608",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:57:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu THACO, MOBIHOME S (TB120B22RB), 22 giường, 1 ghế, 4x2, ô tô khách có giường nằm",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN XUÂN THÀNH",
+                        "CCCD": "037074007816",
+                        "DiaChi": "THÔN ĐƯỜNG 10 TÂY, Xã Chất Bình, tỉnh Ninh Bình, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "PHẠM THỊ DUNG",
+                        "CCCD": "037176003203",
+                        "DiaChi": "THÔN ĐƯỜNG MƯỜI TÂY, Xã Chất Bình, tỉnh Ninh Bình, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi nhánh Ninh Bình - Địa điểm kinh doanh Phòng giao dịch Yên Khánh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Số 411-413, Đường Lê Thánh Tông, Phố 3, xã Yên Khánh, tỉnh Ninh Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô THACO, MOBIHOME S (TB120B22RB), 22 giường, 1 ghế, 4x2, ô tô khách có giường nằm",
+                    "NhanHieuMauSon": "THACO, MOBIHOME S (TB120B22RB)",
+                    "SoKhung": "RN5B24SFMSN010160",
+                    "SoMay": "WP12H400E50B924L002432",
+                    "BienSo": "35B-012.92",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

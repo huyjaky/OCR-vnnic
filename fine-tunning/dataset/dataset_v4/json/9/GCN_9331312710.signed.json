@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331312710/TB-TT3",
+            "SoDon": "9331312710",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH THANH HÓA",
+            "DiaChi": "QL1A, PHÍA BẮC ĐƯỜNG TRÁNH, PHƯỜNG HÀM RỒNG, TỈNH THANH HÓA.",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô VINFAST, VF5 - PLUS (xe điện), Động cơ điện, AT có số khung: RLNV5JSE8SH777307; số máy: VFCAFB256080055, biển số: 36H-156.18",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 05 + 06, đường Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô VINFAST VF5 - PLUS (xe điện)",
+                    "NhanHieuMauSon": "VINFAST VF5 - PLUS",
+                    "SoKhung": "RLNV5JSE8SH777307",
+                    "SoMay": "VFCAFB256080055",
+                    "BienSo": "36H-156.18",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

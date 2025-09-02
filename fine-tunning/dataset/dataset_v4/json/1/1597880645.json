@@ -1,0 +1,184 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0858",
+            "SoDon": "1597880645",
+            "SoDangKyLanDau": "1597880645",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:52:00",
+            "SoHopDong": "314984.25.810.328528.BD",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T15:52:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô đầu kéo",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công ty Cổ phần Vilaconic",
+                        "MaSoThue": "2901274715",
+                        "DiaChi": "Km700 (Quốc lộ 46), đường Nghệ An -Xiêng Khoảng, xã Nghi Phú, thành phố Vinh, tỉnh Nghệ An, Việt Nam (nay là: Km 700 (Quốc lộ 46), đường Nghệ An - Xiêng Khoảng, phường Vinh Phú, tỉnh Nghệ An), tỉnh Nghệ An, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Thương mại Cổ phần Quân đội (MB) - Chi nhánh Nghệ An",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 2 Nguyễn Thị Minh Khai, phường Hưng Bình, thành phố Vinh, tỉnh Nghệ An (nay là: Số 2 đường Nguyễn Thị Minh Khai, Phường Thành Vinh, tỉnh Nghệ An, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001236",
+                    "SoMay": "2TIS541220CA",
+                    "BienSo": "37C-358.99",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001630",
+                    "SoMay": "2TIS542310CA",
+                    "BienSo": "37C-359.49",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001629",
+                    "SoMay": "2TIS542249CA",
+                    "BienSo": "37C-359.42",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001632",
+                    "SoMay": "2TIS542970CA",
+                    "BienSo": "37C-359.36",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001558",
+                    "SoMay": "2TIS542293CA",
+                    "BienSo": "37C-359.30",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001181",
+                    "SoMay": "2TIS540583CA",
+                    "BienSo": "37C-359.17",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001628",
+                    "SoMay": "2TIS541134CA",
+                    "BienSo": "37C-359.78",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001315",
+                    "SoMay": "2TIS541569CA",
+                    "BienSo": "37C-359.96",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001174",
+                    "SoMay": "2TIS541066CA",
+                    "BienSo": "37C-359.24",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001513",
+                    "SoMay": "2TIS542426CA",
+                    "BienSo": "37C-359.61",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001377",
+                    "SoMay": "2TIS541778CA",
+                    "BienSo": "37C-359.63",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001511",
+                    "SoMay": "2TIS542424CA",
+                    "BienSo": "37C-359.31",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001127",
+                    "SoMay": "2TIS540767CA",
+                    "BienSo": "37C-359.00",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001235",
+                    "SoMay": "2TIS541242CA",
+                    "BienSo": "37C-359.35",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Daewoo",
+                    "SoKhung": "TEF1FK001631",
+                    "SoMay": "2TIS542231CA",
+                    "BienSo": "37C-359.05",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

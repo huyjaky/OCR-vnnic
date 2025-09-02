@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0976",
+            "SoDon": "4223476014",
+            "SoDangKyLanDau": "1432098463",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xoá đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2021-11-10T16:00:00",
+            "SoHopDong": "8510115.21",
+            "NgayCoHieuLucHopDong": "2021-11-08",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:40:00",
+            "ThoiDiemDKLanDau": "2021-11-10T16:00:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN NGỌC KIỀU DUYÊN",
+                        "CCCD": "083194001566",
+                        "DiaChi": "Ấp 2, Thạnh Phú, Vĩnh Cửu, Đồng Nai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP QUỐC TẾ VIỆT NAM - CHI NHÁNH ĐỒNG NAI – PHÒNG GIAO DỊCH TRẢNG BOM",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số B1-B2 đường 29/4, Khu phố 5, Thị trấn Trảng Bom, Trảng Bom, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

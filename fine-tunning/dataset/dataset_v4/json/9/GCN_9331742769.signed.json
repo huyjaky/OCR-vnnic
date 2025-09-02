@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331742769/TB-TT3",
+            "SoDon": "9331742769",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an tỉnh Đồng Nai",
+            "DiaChi": "Số 161, đường Phạm Văn Thuận, phường Tam Hiệp, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô hiệu HINO, màu Trắng có số khung: RNJFL8JT7NXX10988; thông tin khác (số máy: J08EWD14338, biển số: 60H-104.23)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN NGOẠI THƯƠNG VIỆT NAM – CHI NHÁNH NHƠN TRẠCH",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Đường Nguyễn Hữu Cảnh, ấp Xóm Hố, xã Nhơn Trạch, tỉnh Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HINO, màu Trắng",
+                    "SoKhung": "RNJFL8JT7NXX10988",
+                    "SoMay": "J08EWD14338",
+                    "BienSo": "60H-104.23",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332115406/TB-TT3",
+            "SoDon": "9332115406",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công an xã Bình Giã, thành phố Hồ Chí Minh",
+            "DiaChi": "Ấp Vĩnh Bình, xã Bình Giã, Thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo xử lý tài sản bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RLUZDX7KAKN005414; thông tin khác (số máy: K928054D4CB, biển số: 72C-170.42)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "",
+                        "CCCD": "",
+                        "DiaChi": ""
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Vũng Tàu Phòng Giao Dịch Bà Rịa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bà Rịa Vũng Tàu",
+                    "DiaChi": "Số 1264-1266 Bạch Đằng, Bà Rịa Vũng Tàu, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RLUZDX7KAKN005414",
+                    "SoMay": "K928054D4CB",
+                    "BienSo": "72C-170.42",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331500617/TB-TT3",
+            "SoDon": "9331500617",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TP HÀ NỘI",
+            "DiaChi": "Số 86 Lý Thường Kiệt, phường Cửa Nam, Thành phố Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô nhãn hiệu KIA, CARNIVAL 2.2D SIGNATURE có số khung: RNYNC5BA8NC275379; thông tin khác (số máy: D4HENH732784, biển số: 30M-896.62)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Sở Giao Dịch",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và tầng 3, tòa nhà số 34, phố Hai Bà Trưng, Phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "KIA, CARNIVAL 2.2D SIGNATURE",
+                    "SoKhung": "RNYNC5BA8NC275379",
+                    "SoMay": "D4HENH732784",
+                    "BienSo": "30M-89662",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

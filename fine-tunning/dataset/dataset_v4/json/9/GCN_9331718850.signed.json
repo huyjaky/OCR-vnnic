@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331718850/TB-TT3",
+            "SoDon": "9331718850",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Xã Thạnh Đức",
+            "DiaChi": "Quốc Lộ 22B, ấp Trà Võ, xã Thạnh Đức, tỉnh Tây Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con KIA màu Đen, số khung RNYHC54C0SC370212, số máy G4FLSV094625, biển số 70A-608.30",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Tây Ninh Phòng giao dịch Trảng Bàng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "Số 41-42 Quốc Lộ 22, phường Trảng Bàng, tỉnh Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con KIA",
+                    "NhanHieuMauSon": "KIA, màu Đen",
+                    "SoKhung": "RNYHC54C0SC370212",
+                    "SoMay": "G4FLSV094625",
+                    "BienSo": "70A-608.30",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

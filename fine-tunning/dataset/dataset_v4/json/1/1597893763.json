@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0940",
+            "SoDon": "1597893763",
+            "SoDangKyLanDau": "1597893763",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:24:00",
+            "SoHopDong": "TTC2025CFMG15667786/HDTC",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:24:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "- Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, Quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán số HA9-156/VHOCP2/HĐMBNO ngày 13/05/2022 giữa doanh nghiệp kinh doanh bất động sản là Công ty Cổ phần Vinhomes với ông/bà PHẠM THỊ GẤM; Văn bản chuyển nhượng Hợp Đồng Mua Bán số 940, quyển số 01/2024 TP/CC-SCC/HĐGD ký ngày 20/02/2024 tại văn phòng công chứng Vũ An giữa ông/bà PHẠM THỊ GẤM và ông/bà PHÙNG QUỐC NAM với ông/bà MAI THU THỦY; Văn bản chuyển nhượng Hợp Đồng Mua Bán số 6207, quyển số 02/2025 TP/CC-SCC/HĐGD ký ngày 14/05/2025 tại văn phòng công chứng Vũ An giữa ông/bà NGUYỄN VĂN DƯƠNG và ông/bà BÙI THỊ HUYỀN với ông/bà MAI THU THỦY về việc mua bán Nhà Ở số: HA9-156 thuộc Dự án Khu đô thị Sinh thái Dream City (Vinhomes Ocean Park 2 hoặc The Empire hoặc một tên gọi khác theo quyết định của Chủ Đầu Tư hoặc Cơ quan có thẩm quyền tùy từng thời điểm) tại Xã Long Hưng, Xã Nghĩa Trụ, Huyện Văn Giang, Tỉnh Hưng Yên được cơ quan có thẩm quyền phê duyệt. Ngày hiệu lực của hợp đồng: 14/05/2025\n- Thế chấp Quyền tài sản khác theo quy định của pháp luật phát sinh theo Hợp đồng mua bán trên (trừ Quyền sử dụng đất và tài sản gắn liền với đất thuộc thẩm quyền đăng ký của văn phòng đăng ký quyền sử dụng đất).\nTrừ các loại tài sản theo quy định tại khoản 2, điều 44, Nghị định số 99/2022/NĐ-CP\n- Các khoản lợi tức thu được từ việc khai thác, kinh doanh tài sản thế chấp phát sinh từ hợp đồng mua bán trên.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN VĂN DƯƠNG",
+                        "CCCD": "030084018668",
+                        "DiaChi": "Chcc Số 2004, Tòa Nhà B, Green Pearl, Dự Án Phát Triển Nhà Phong Phú - Daewon - Thủ Đức (Phần Nhà Ở Cao Tầng, Số 378 Minh Khai), Phường Vĩnh Tuy, thành phố Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "BÙI THỊ HUYỀN",
+                        "CCCD": "030190024724",
+                        "DiaChi": "Chcc Số 2004, Tòa Nhà B, Green Pearl, Dự Án Phát Triển Nhà Phong Phú - Daewon - Thủ Đức (Phần Nhà Ở Cao Tầng, Số 378 Minh Khai), Phường Vĩnh Tuy, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Kỹ Thương Việt Nam Chi Nhánh Đông Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và toàn bộ tầng 2 thuộc tòa tháp C của tổ hợp Starcity Center tại ô đất ký hiệu HH khu đô thị Đông Nam Trần Duy Hưng, phường Yên Hòa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, Quyền thụ hưởng bảo hiểm",
+                    "CanCuPhatSinhQuyen": "Hợp Đồng Mua Bán số HA9-156/VHOCP2/HĐMBNO ngày 13/05/2022 giữa doanh nghiệp kinh doanh bất động sản là Công ty Cổ phần Vinhomes với ông/bà PHẠM THỊ GẤM; Văn bản chuyển nhượng Hợp Đồng Mua Bán số 940, quyển số 01/2024 TP/CC-SCC/HĐGD ký ngày 20/02/2024 tại văn phòng công chứng Vũ An giữa ông/bà PHẠM THỊ GẤM và ông/bà PHÙNG QUỐC NAM với ông/bà MAI THU THỦY; Văn bản chuyển nhượng Hợp Đồng Mua Bán số 6207, quyển số 02/2025 TP/CC-SCC/HĐGD ký ngày 14/05/2025 tại văn phòng công chứng Vũ An giữa ông/bà NGUYỄN VĂN DƯƠNG và ông/bà BÙI THỊ HUYỀN với ông/bà MAI THU THỦY. Ngày hiệu lực của hợp đồng: 14/05/2025"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

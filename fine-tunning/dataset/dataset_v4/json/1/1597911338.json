@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1054",
+            "SoDon": "1597911338",
+            "SoDangKyLanDau": "1597911338",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10 17:28:00",
+            "SoHopDong": "TTC2025CFMG15950765/HDTC",
+            "NgayCoHieuLucHopDong": "2025-07-04",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10 17:28:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "- Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại,\nquyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán số U38A-24-20/HĐMB– Masteri\nLakeside ngày có hiệu lực hợp đồng là ngày 25/03/2025 giữa Doanh nghiệp kinh Doanh Bất động\nsản là Công ty TNHH Đầu tư KD và phát triển TM Việt An với ông/bà LÊ THỊ HUYỀN LINH;\nVăn bản chuyển nhượng Hợp đồng mua bán số công chứng: 13642, quyển số 02/2025 TP/CC-\nSCC/HĐGD ngày có hiệu lực hợp đồng là ngày 21/06/2025 giữa ông/bà: LÊ THỊ HUYỀN LINH\nvới ông/bà:LÊ THẾ HIẾU và vợ/chồng là bà ông TRẦN THỊ NGA về việc mua bán Căn Hộ số:\nU38A-24-20 thuộc Dự án Khu nhà ở cao tầng trên lô đất B6-CT01 và B6-CXDV01, có tên thương\nmại là Masteri Lakeside tại Thị trấn Trâu Quỳ, huyện Gia Lâm, thành phố Hà Nội được cơ quan\ncó thẩm quyền phê duyệt.\n- Thế chấp Quyền tài sản khác theo quy định của pháp luật phát sinh theo Hợp Đồng Mua Bán trên\n(trừ Quyền sử dụng đất và tài sản gắn liền với đất thuộc thẩm quyền đăng ký của văn phòng đăng\nký quyền sử dụng đất).\n- Các khoản lợi tức thu được từ việc khai thác, kinh doanh tài sản thế chấp phát sinh từ hợp đồng\nmua bán trên.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÊ THẾ HIẾU",
+                        "CCCD": "035076004902",
+                        "DiaChi": "132 Yên Bái 2, Phường Hai Bà Trưng, thành phố Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRẦN THỊ NGA",
+                        "CCCD": "035176004695",
+                        "DiaChi": "132 Yên Bái 2, Phường Hai Bà Trưng, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng thương mại Cổ phần Kỹ Thương Việt Nam- chi nhánh Đông Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 và toàn bộ tầng 2 thuộc tòa tháp C của tổ hợp Starcity Center tại ô đất ký hiệu HH khu đô thị Đông Nam Trần Duy Hưng,phường Yên Hòa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "tất cả các quyền tài sản",
+                    "CanCuPhatSinhQuyen": "Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán số U38A-24-20/HĐMB– Masteri Lakeside ngày có hiệu lực hợp đồng là ngày 25/03/2025 giữa Doanh nghiệp kinh Doanh Bất động sản là Công ty TNHH Đầu tư KD và phát triển TM Việt An với ông/bà LÊ THỊ HUYỀN LINH; Văn bản chuyển nhượng Hợp đồng mua bán số công chứng: 13642, quyển số 02/2025 TP/CC-SCC/HĐGD ngày có hiệu lực hợp đồng là ngày 21/06/2025 giữa ông/bà: LÊ THỊ HUYỀN LINH với ông/bà:LÊ THẾ HIẾU và vợ/chồng là bà ông TRẦN THỊ NGA"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

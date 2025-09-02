@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331769440/TB-TT3",
+            "SoDon": "9331769440",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông công an tỉnh Đồng Nai",
+            "DiaChi": "161 đường Phạm Văn Thuận, phường Tam Hiệp, tỉnh Đồng Nai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô HIỆU FORD, MÀU BẠC có số khung: RL3EPT7MMSAR24486; số máy: S6P54363DURATORQ4D23A5H, biển số: 60H-323.05",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam Chi nhánh Biên Hòa",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Tầng trệt, Tòa nhà Thanh Bình Plaza, Số 5 đường Cách Mạng Tháng Tám, phường Trấn Biên, tỉnh Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD, MÀU BẠC",
+                    "SoKhung": "RL3EPT7MMSAR24486",
+                    "SoMay": "S6P54363DURATORQ4D23A5H",
+                    "BienSo": "60H-323.05",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

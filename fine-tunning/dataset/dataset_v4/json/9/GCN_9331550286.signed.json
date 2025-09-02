@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331550286/TB-TT3",
+            "SoDon": "9331550286",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông, Công an Tỉnh Quảng Trị",
+            "DiaChi": "Tiểu khu 2, Hoàn Lão, Quảng Trị",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô TOYOTA có số khung: MR2KUAAG7N0048819; số máy: 2ZRY909209, biển số: 73A-271.86",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Quảng Bình Phòng Giao Dịch Bố Trạch",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "Số 366 Hùng Vương, Xã Hoàn Lão, tỉnh Quảng Trị"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Toyota",
+                    "SoKhung": "MR2KUAAG7N0048819",
+                    "SoMay": "2ZRY909209",
+                    "BienSo": "73A-271.86",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

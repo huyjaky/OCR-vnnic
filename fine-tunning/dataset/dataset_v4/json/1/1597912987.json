@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1085",
+            "SoDon": "1597912987",
+            "SoDangKyLanDau": "1597912987",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:46:00",
+            "SoHopDong": "319014.25.340.10614517.BD",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T17:46:00",
+            "ThoiDiemDKLanDau": "2025-07-10T17:46:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Toàn bộ hàng hóa luân chuyển trong quá trình sản xuất, kinh doanh là Nguyên liệu vật liệu phục vụ hoạt động sản xuất kinh doanh xây dựng cơ sở hạ tầng đã, đang và sẽ hình thành từ phương án được MB cấp tín dụng của Bên thế chấp; Quyền yêu cầu bên mua, bên trao đổi, bên nhận thanh toán tiền, số tiền thu được, tài sản hình thành từ số tiền thu được, tài sản được thay thế hoặc được trao đổi trong trường hợp hàng hóa nêu trên được bán, được thay thế, được trao đổi (Chi tiết tại Hợp đồng thế chấp) (Tài sản bảo đảm không bao gồm các quyền đối với tài sản quy định tại khoản 2 Điều 44 Nghị định số 99/2022/NĐ-CP).",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "Công ty Cổ phần Đầu tư Xây dựng Thương mại Dịch vụ HKT",
+                        "MaSoThue": "6001606355",
+                        "DiaChi": "Số 104 Nguyễn Xuân Nguyên, Phường Tân An, tỉnh Đắk Lắk, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quân Đội Chi Nhánh Đăk Lăk",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "37 Hai Bà Trưng, phường Buôn Ma Thuột, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "Nguyên liệu vật liệu phục vụ hoạt động sản xuất kinh doanh xây dựng cơ sở hạ tầng",
+                    "DiaChiKhoHang": null,
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

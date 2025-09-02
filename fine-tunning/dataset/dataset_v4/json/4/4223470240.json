@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0931",
+            "SoDon": "4223470240",
+            "SoDangKyLanDau": "1536576100",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:22:00",
+            "SoHopDong": "HDG2024CFMG13004090/HDTC",
+            "NgayCoHieuLucHopDong": "2024-04-26",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-04-27T10:42:00",
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGÔ THỊ HÀ",
+                        "CCCD": "030183005618",
+                        "DiaChi": "Cẩm Lý, An Lâm, Nam Sách, Hải Dương, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN HUY BÌNH",
+                        "CCCD": "030083005226",
+                        "DiaChi": "Cẩm Lý, An Lâm, Nam Sách, Hải Dương, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Kỹ Thương Việt Nam Chi Nhánh Hải Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Dương",
+                    "DiaChi": "82-84 Phạm Ngũ Lão, Thành phố Hải Dương, Hải Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

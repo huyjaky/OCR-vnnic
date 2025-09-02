@@ -1,0 +1,85 @@
+[
+	{
+		"output": {
+			"MaHoSo": "000.02.18.G15-250802-0121",
+			"SoDon": "2081007288",
+			"SoDangKyLanDau": "1572393307",
+			"LoaiDonID": 2,
+			"LoaiDonName": "Đăng ký thay đổi",
+			"LoaiDonCode": "ĐKTĐ",
+			"TenCongAn": null,
+			"DiaChi": null,
+			"LoaiHinhGDID": 1,
+			"LoaiHinhGDName": "Biện pháp bảo đảm",
+			"LoaiBienPhapID": 1,
+			"LoaiBienPhapName": "Thế chấp",
+			"LoaiHopDongID": null,
+			"LoaiHopDongName": null,
+			"ThoiDiemDangKy": "2025-08-02T10:08:00Z",
+			"SoHopDong": "241224-17308335-01-SME/TC",
+			"NgayCoHieuLucHopDong": "2025-01-06",
+			"GiaTriKhoanVay": null,
+			"SoPhuLuc": null,
+			"ThoiDiemKHDangKy": null,
+			"ThoiDiemDKLanDau": "2025-01-07T09:21:00Z",
+			"NoiDungThayDoi": "RÚT BỚT TÀI SẢN BẢO ĐẢM LÀ 04 XE SỐ KHUNG",
+			"MoTaChungTaiSan": null,
+			"BenGiao": [
+				{
+					"LoaiChuTheID": 2,
+					"ThongTinChuThe": {
+						"TenToChuc": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ Ô TÔ VIỆT PHÚ",
+						"MaSoThue": "0105689556",
+						"DiaChi": "Thôn Khê Hồi, Xã Hồng Vân, thành phố Hà Nội, Việt Nam"
+					}
+				}
+			],
+			"BenNhan": [
+				{
+					"Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Trung Hòa Nhân Chính",
+					"QuocGia": "Vietnam",
+					"Tinh": "Hà Nội",
+					"DiaChi": "Tầng 1, tòa nhà 29T1, khu chung cư N05 Đông Nam Trần Duy Hưng, phường Trung Hòa, thành phố Hà Nội, Việt Nam"
+				}
+			],
+			"TaiSan": [
+				{
+					"LoaiTaiSan": "TaiSan_CoSoKhung",
+					"PhuongTien": "Ô tô",
+					"NhanHieuMauSon": "VINFAST",
+					"SoKhung": "RLNV5JSE6SH772185",
+					"SoMay": null,
+					"BienSo": null,
+					"CanCuThayDoi": 2
+				},
+				{
+					"LoaiTaiSan": "TaiSan_CoSoKhung",
+					"PhuongTien": "Ô tô",
+					"NhanHieuMauSon": "VINFAST",
+					"SoKhung": "RLLV3F5D5SH793995",
+					"SoMay": null,
+					"BienSo": null,
+					"CanCuThayDoi": 2
+				},
+				{
+					"LoaiTaiSan": "TaiSan_CoSoKhung",
+					"PhuongTien": "Ô tô",
+					"NhanHieuMauSon": "VINFAST",
+					"SoKhung": "RLLVAG8C1SH784676",
+					"SoMay": null,
+					"BienSo": null,
+					"CanCuThayDoi": 2
+				},
+				{
+					"LoaiTaiSan": "TaiSan_CoSoKhung",
+					"PhuongTien": "Ô tô",
+					"NhanHieuMauSon": "VINFAST",
+					"SoKhung": "RLLVAGNDXSH770112",
+					"SoMay": null,
+					"BienSo": null,
+					"CanCuThayDoi": 2
+				}
+			]
+		}
+	}
+]

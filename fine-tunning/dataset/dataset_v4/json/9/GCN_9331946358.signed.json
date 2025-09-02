@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331946358/TB-TT3",
+            "SoDon": "9331946358",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công an thành phố Huế",
+            "DiaChi": "Đường Âu Lac, phường An Cựu, thành phố Huế",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu VINFAST có số khung: RLLV3FHC6SH792857; số máy: null, biển số: null",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam - Chi nhánh Bắc Sông Hương Huế - Phòng giao dịch Chợ Dinh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Thành phố Huế",
+                    "DiaChi": "74A Nguyễn Gia Thiều, phường Phú Xuân, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLLV3FHC6SH792857",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

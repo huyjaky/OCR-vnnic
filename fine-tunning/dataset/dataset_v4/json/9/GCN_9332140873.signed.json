@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332140873/TB-TT3",
+            "SoDon": "9332140873",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH THANH HÓA",
+            "DiaChi": "QL1A, PHÍA BẮC ĐƯỜNG TRÁNH, PHƯỜNG HÀM RỒNG, TỈNH THANH HÓA.",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô CHENGLONG ,LZ 4255H7DB, Đầu kéo, Tải trọng xe 9.5 tấn, tải trọng kéo theo 39.3 tấn, động cơ YC6MK-420-50, 6x4 có số khung: LNXDBL0GXSR306211; thông tin khác (số máy: YC6MK42050MX1L6S50564, biển số: 36H-159.36)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi Nhánh Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Lô 05 + 06, đường Phan Chu Trinh, Phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Đầu kéo",
+                    "NhanHieuMauSon": "CHENGLONG LZ 4255H7DB",
+                    "SoKhung": "LNXDBL0GXSR306211",
+                    "SoMay": "YC6MK42050MX1L6S50564",
+                    "BienSo": "36H-159.36",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0922",
+            "SoDon": "2080002030",
+            "SoDangKyLanDau": "1491343958",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T16:19:00",
+            "SoHopDong": "HDTC130202326",
+            "NgayCoHieuLucHopDong": "2023-03-13",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2023-03-13T16:33:00",
+            "NoiDungThayDoi": "Thay đổi tên Ngân hàng\nTừ: NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN BƯU ĐIỆN LIÊN VIỆT – CHI NHÁNH BẮC NINH\nThành: Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Bắc Ninh",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH 68 NGỌC KHÁNH",
+                        "MaSoThue": "2301206181",
+                        "DiaChi": "Số 333 Hàn Thuyên, Phường Vũ Ninh, tỉnh Bắc Ninh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Bắc Ninh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Tòa nhà Phoenix Tower, Số 25, Lý Thái Tổ, phường Võ Cường, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

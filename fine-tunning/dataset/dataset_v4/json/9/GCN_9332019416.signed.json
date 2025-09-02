@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332019416/TB-TT3",
+            "SoDon": "9332019416",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT Công an TP Hà Nội",
+            "DiaChi": "86 Lý Thường Kiệt, Phường Cửa Nam,TP Hà Nội",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu MAZDA có số khung 4AA6KM005076, biển số 30F-687.89 và 01 xe ô tô nhãn hiệu FORD có số khung SD7MKCR80457, biển số 30F-577.29",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - chi nhánh Trần Hưng Đạo",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Một phần diện tích tầng 1 và tầng 2 tại Tòa nhà Asahi - Hinode City, Số 201 Đường MinhKhai, Phường Bạch Mai, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MAZDA",
+                    "SoKhung": "4AA6KM005076",
+                    "SoMay": null,
+                    "BienSo": "30F-687.89",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD",
+                    "SoKhung": "SD7MKCR80457",
+                    "SoMay": null,
+                    "BienSo": "30F-577.29",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

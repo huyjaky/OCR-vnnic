@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331429578/TB-TT3",
+            "SoDon": "9331429578",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Phường Lái Thiêu",
+            "DiaChi": "Phường Lái Thiêu, Thành Phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 chiếc xe ô tô con mới 100%, nhãn hiệu: KIA, số loại: CARNIVAL KA4 2.2 AT FL8. Sản xuất tại Việt Nam năm 2021. Số chỗ ngồi: 7. Màu Trắng. Có số khung: RNYND5BA8MC228722; biển số: 61A-998.18",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "ĐẶNG DƯƠNG",
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP Kỹ THƯƠNG VIỆT NAM",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bình Dương",
+                    "DiaChi": "463 Trần Hưng Đạo, phường Dĩ An, Bình Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "KIA màu Trắng",
+                    "SoKhung": "RNYND5BA8MC228722",
+                    "SoMay": null,
+                    "BienSo": "61A-998.18",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

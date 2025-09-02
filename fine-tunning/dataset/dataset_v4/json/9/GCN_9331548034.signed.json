@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331548034/TB-TT3",
+            "SoDon": "9331548034",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông, Công an Thành phố Hải Phòng",
+            "DiaChi": "14 Phan Chu Chinh, Phường Hồng Bàng, TP Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu: SUZUKI có số khung: MHYANC32SRJ804366; thông tin khác (số máy: , biển số: 15K-338.18)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Hải Phòng Phòng Giao Dịch Quang Trung",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "184 Quang Trung, Phường Hồng Bàng, TP Hải Phòng"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "SUZUKI",
+                    "SoKhung": "MHYANC32SRJ804366",
+                    "SoMay": null,
+                    "BienSo": "15K-338.18",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

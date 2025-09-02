@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": null,
+            "SoDon": "6000163225",
+            "SoDangKyLanDau": "1530165219",
+            "LoaiDonID": 6,
+            "LoaiDonName": "XÓA ĐĂNG KÝ BỞI CƠ QUAN CÓ THẨM QUYỀN",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo việc kê biên tài sản thi hành án",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2024-08-06T15:22:00",
+            "SoHopDong": "617/TB-CCTHADS",
+            "NgayCoHieuLucHopDong": "2024-02-28",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-03-06T14:03:00",
+            "NoiDungThayDoi": "XÓA ĐĂNG KÝ BỞI CƠ QUAN CÓ THẨM QUYỀN",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VŨ QUANG NHẬT",
+                        "CCCD": "001092018779",
+                        "DiaChi": "218 Lương Yên, Phường Bạch Đằng, Hai Bà Trưng, Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "ĐỖ THU HẰNG",
+                        "CCCD": "001193012388",
+                        "DiaChi": "19 Ngõ 575 Kim Mã, Phường Ngọc Khánh, Ba Đình, Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Đinh Thị Quyên-Chi Cục Thi Hành Án Dân Sự Quận Hai Bà Trưng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "193H Bà Triệu, Phường Lê Đại Hành, Hai Bà Trưng, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

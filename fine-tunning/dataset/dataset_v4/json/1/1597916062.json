@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1112",
+            "SoDon": "1597916062",
+            "SoDangKyLanDau": "1597916062",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:14:00",
+            "SoHopDong": "9969696.25",
+            "NgayCoHieuLucHopDong": "2025-06-19",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T18:14:00",
+            "ThoiDiemDKLanDau": "2025-07-10T18:14:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "xe ô tô tải thùng kín hiệu ISUZU QKR",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ HANABI",
+                        "MaSoThue": "3702673146",
+                        "DiaChi": "70/51, Tổ 75, Kp 8 Bùi Văn Bình, phường Phú Lợi Lợi, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam Chi nhánh Bình Dương Phòng giao dịch Thuận An",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 59 Đường Nguyễn Văn Tiết, Phường Lái Thiêu,, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "ISUZU QKR, màu trắng",
+                    "SoKhung": "RLE1MR77HS5A02042",
+                    "SoMay": "294L55",
+                    "BienSo": "61H-211.45",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

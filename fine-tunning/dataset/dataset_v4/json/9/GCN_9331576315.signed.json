@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331576315/TB-TT3",
+            "SoDon": "9331576315",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Phường Lang Biang –Đà Lạt, tỉnh Lâm Đồng",
+            "DiaChi": "02 Phạm Hùng, Phường Lang Biang –Đà Lạt, tỉnh Lâm Đồng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô ô tô tải (pick up cabin kép) FORD RANGER có số khung: RL2AMFE60SAR23021; số máy: YN2SRSA23021, biển số: 49A-735.98",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": null,
+                    "ThongTinChuThe": null
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc tế Việt Nam Chi nhánh Biên Hòa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Tòa nhà Thanh Bình Plaza, Số 5 đường Cách Mạng Tháng Tám, phường Trấn Biên, tỉnh Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô ô tô tải (pick up cabin kép)",
+                    "NhanHieuMauSon": "FORD RANGER",
+                    "SoKhung": "RL2AMFE60SAR23021",
+                    "SoMay": "YN2SRSA23021",
+                    "BienSo": "49A-735.98",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

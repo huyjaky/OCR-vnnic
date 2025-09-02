@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0814",
+            "SoDon": "1597872317",
+            "SoDangKyLanDau": "1597872317",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:31:00",
+            "SoHopDong": "0044-2025-HĐTC2-BVB019",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T15:31:00",
+            "ThoiDiemDKLanDau": "2025-07-10T15:31:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô nhãn hiệu HYUNDAI, số loại: ACCENT BN7I 1.5 STANDARD, Số khung: RLUGT41DBST012203, Số máy: G4FLSQ481781, biển kiểm soát 37K-493.83",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VÕ NAM ANH",
+                        "CCCD": "040082009747",
+                        "DiaChi": "Xóm 4, xã Nghi Lộc, tỉnh Nghệ An, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÊ THỊ BÍCH NGỌC",
+                        "CCCD": "040190038399",
+                        "DiaChi": "Xóm 4, xã Nghi Lộc, tỉnh Nghệ An, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Bảo Việt Chi nhánh Nghệ An",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 02 Nguyễn Sỹ Sách, phường Thành Vinh, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HYUNDAI",
+                    "SoKhung": "RLUGT41DBST012203",
+                    "SoMay": "G4FLSQ481781",
+                    "BienSo": "37K-493.83",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

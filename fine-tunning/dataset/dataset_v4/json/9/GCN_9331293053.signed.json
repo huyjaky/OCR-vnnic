@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331293053/TB-TT3",
+            "SoDon": "9331293053",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công an phường Tân Ninh, Tỉnh Tây Ninh",
+            "DiaChi": "Số 2 Trần Quốc Toàn, khu phố 15, phường Tân Ninh, tỉnh Tây Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RLHGN2667MY002259; số máy: L15ZC1007948, biển số: 70A-346.34",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP QUỐC TẾ VIỆT NAM - CHI NHÁNH TÂY NINH - PHÒNG GIAO DỊCH HIỆP NINH",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "Số 797 đường Cách Mạng Tháng 8, Khu phố 2, Phường 3, Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "Xe ô tô",
+                    "SoKhung": "RLHGN2667MY002259",
+                    "SoMay": "L15ZC1007948",
+                    "BienSo": "70A-34634",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

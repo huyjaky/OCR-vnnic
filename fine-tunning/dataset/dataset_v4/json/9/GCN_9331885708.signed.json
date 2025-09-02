@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331885708/TB-TT3",
+            "SoDon": "9331885708",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH NGHỆ AN",
+            "DiaChi": "108 HOÀNG PHAN THÁI, PHƯỜNG VINH PHÚ, TỈNH NGHỆ AN",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST, số loại VF6, số khung: RLLVAGND6SH734823; số máy: VFCAJB253170075, biển số: 37K-711.29",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Nghệ An",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Nhà A, Khu Thương mại dịch vụ nhà ở C1, đường Quang Trung, Phường Thành Vinh, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST VF6",
+                    "SoKhung": "RLLVAGND6SH734823",
+                    "SoMay": "VFCAJB253170075",
+                    "BienSo": "37K-71129",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

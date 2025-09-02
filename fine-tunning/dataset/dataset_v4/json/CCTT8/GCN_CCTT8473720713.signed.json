@@ -1,0 +1,81 @@
+[
+  {
+    "output": {
+      "MaHoSo": "000.02.18.G15-250807-0333",
+      "SoDon": "CCTT8473720713",
+      "SoDangKyLanDau": null,
+      "LoaiDonID": 10,
+      "LoaiDonName": "Cung cấp thông tin",
+      "LoaiDonCode": "CCTT",
+      "TenCongAn": null,
+      "DiaChi": null,
+      "LoaiHinhGDID": 1,
+      "LoaiHinhGDName": "Biện pháp bảo đảm",
+      "LoaiBienPhapID": 1,
+      "LoaiBienPhapName": "Thế chấp",
+      "LoaiHopDongID": null,
+      "LoaiHopDongName": null,
+      "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+      "SoHopDong": null,
+      "NgayCoHieuLucHopDong": null,
+      "GiaTriKhoanVay": null,
+      "SoPhuLuc": null,
+      "ThoiDiemKHDangKy": "2025-08-07T10:28:00Z",
+      "ThoiDiemDKLanDau": null,
+      "NoiDungThayDoi": null,
+      "MoTaChungTaiSan": "01 xe tải tự đổ nhãn hiệu CNHTC, màu sơn xanh, số loại ZZ3317, số chỗ ngồi 02, dung tích 9726, biển số 43C-156.21, số khung XSAXGN127521. 01 xe ô tô con MAZDA CX-5, biển số 43A-324.41, số khung 5726HC076659, số máy PE21032958.",
+      "BenGiao": [
+        {
+          "LoaiChuTheID": 1,
+          "ThongTinChuThe": {
+            "HoTen": "NGUYỄN THÀNH PHONG",
+            "CCCD": "201486823",
+            "DiaChi": "Tổ 07A, P. Hòa An, Cẩm Lệ, Đà Nẵng, Việt Nam"
+          }
+        },
+        {
+          "LoaiChuTheID": 1,
+          "ThongTinChuThe": {
+            "HoTen": "ĐÀO THỊ THÚY VI",
+            "CCCD": "201628411",
+            "DiaChi": "Tổ 07A, P. Hòa An, Cẩm Lệ, Đà Nẵng, Việt Nam"
+          }
+        }
+      ],
+      "BenNhan": [
+        {
+          "Ten": "Ngân Hàng TMCP Đại Chúng Việt Nam Chi Nhánh Sông Hàn - PGD Hải Châu",
+          "QuocGia": "Vietnam",
+          "Tinh": "Đà Nẵng",
+          "DiaChi": "152 Lê Lợi, Phường Hải Châu 1, Hải Châu, Đà Nẵng, Việt Nam"
+        },
+        {
+          "Ten": "Ngân hàng TMCP Sài Gòn Chi nhánh Sông Hàn",
+          "QuocGia": "Vietnam",
+          "Tinh": "Đà Nẵng",
+          "DiaChi": "16 Trần Phú, Phường Thạch Thang, Hải Châu, Đà Nẵng, Việt Nam"
+        }
+      ],
+      "TaiSan": [
+        {
+          "LoaiTaiSan": "TaiSan_CoSoKhung",
+          "PhuongTien": "Tải tự đổ",
+          "NhanHieuMauSon": "CNHTC màu xanh",
+          "SoKhung": "XSAXGN127521",
+          "SoMay": null,
+          "BienSo": "43C-156.21",
+          "CanCuThayDoi": 1
+        },
+        {
+          "LoaiTaiSan": "TaiSan_CoSoKhung",
+          "PhuongTien": "Xe ô tô con",
+          "NhanHieuMauSon": "MAZDA CX-5",
+          "SoKhung": "5726HC076659",
+          "SoMay": "PE21032958",
+          "BienSo": "43A-324.41",
+          "CanCuThayDoi": 1
+        }
+      ]
+    }
+  }
+]

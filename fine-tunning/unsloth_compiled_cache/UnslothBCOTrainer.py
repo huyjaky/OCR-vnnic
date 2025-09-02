@@ -1,8 +1,8 @@
 """
-2025.7.10
-2025.7.8
+2025.8.5
+2025.8.6
 4.53.3
-0.19.1
+0.21.0
 __UNSLOTH_VERSIONING__
 """
 from torch import Tensor
@@ -904,8 +904,9 @@ class _UnslothBCOTrainer(Trainer):
             attention_mask=batch["embedding_attention_mask"],
         )
 
-        chosen_idx = [i for i in range(len(batch["label"])) if batch["label"][i] is True]
-        rejected_idx = [i for i in range(len(batch["label"])) if batch["label"][i] is False]
+        labels = torch.tensor(batch["label"], dtype=torch.bool, device=embeddings.device)
+        chosen_idx = torch.where(labels)[0]
+        rejected_idx = torch.where(~labels)[0]
 
         chosen_embeddings = embeddings[chosen_idx, ...]
         rejected_embeddings = embeddings[rejected_idx, ...]
@@ -1507,7 +1508,8 @@ class _UnslothBCOTrainer(Trainer):
             random_batch = self.data_collator(random_batch_dataset)
             random_batch = self._prepare_inputs(random_batch)
 
-            target_indicies = [i for i in range(len(random_batch["label"])) if random_batch["label"][i] is False]
+            target_labels = torch.tensor(random_batch["label"], dtype=torch.bool, device=self.accelerator.device)
+            target_indicies = torch.where(~target_labels)[0]
             target_batch = {
                 "prompt_input_ids": random_batch["prompt_input_ids"][target_indicies],
                 "prompt_attention_mask": random_batch["prompt_attention_mask"][target_indicies],
@@ -1634,7 +1636,7 @@ class _UnslothBCOTrainer(Trainer):
             hub_model_id=self.hub_model_id,
             dataset_name=dataset_name,
             tags=tags,
-            wandb_url=wandb.run.get_url() if is_wandb_available() and wandb.run is not None else None,
+            wandb_url=wandb.run.url if is_wandb_available() and wandb.run is not None else None,
             comet_url=get_comet_experiment_url(),
             trainer_name="BCO",
             trainer_citation=citation,
@@ -1661,7 +1663,7 @@ class UnslothBCOTrainer(_UnslothBCOTrainer):
             The dataset to use for training.
         eval_dataset (`datasets.Dataset`):
             The dataset to use for evaluation.
-        processing_class (`PreTrainedTokenizerBase` or `BaseImageProcessor` or `FeatureExtractionMixin` or `ProcessorMixin`, *optional*):
+        processing_class ([`~transformers.PreTrainedTokenizerBase`], [`~transformers.BaseImageProcessor`], [`~transformers.FeatureExtractionMixin`] or [`~transformers.ProcessorMixin`], *optional*, defaults to `None`):
             Processing class used to process the data. If provided, will be used to automatically process the inputs
             for the model, and it will be saved along the model to make it easier to rerun an interrupted training or
             reuse the fine-tuned model.
@@ -1826,6 +1828,14 @@ class UnslothBCOTrainer(_UnslothBCOTrainer):
             if hasattr(self, 'neftune_hook_handle'): del self.neftune_hook_handle
         if getattr(args, 'neftune_noise_alpha', None) is not None:
             model.get_input_embeddings().neftune_noise_alpha = self.neftune_noise_alpha
+        pass
+        if hasattr(self, 'accelerator'):
+            scaler = self.accelerator.scaler
+            current_model = model
+            while hasattr(current_model, 'model'):
+                current_model.accelerator_scaler = scaler
+                current_model = current_model.model
+            current_model.accelerator_scaler = scaler
         pass
         
 pass

@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0924",
+            "SoDon": "1597892641",
+            "SoDangKyLanDau": "1597892641",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:19:00",
+            "SoHopDong": "9977636.25",
+            "NgayCoHieuLucHopDong": "2025-07-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:19:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Nhãn hiệu KIA Dòng xe SONET Deluxe, 1.5L AT Loại xe Xe dưới 9 chỗ Màu sơn Trắng",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÊ VĂN SƠN",
+                        "CCCD": "040072032588",
+                        "DiaChi": "Khối 2 , Phường Cửa Lò, tỉnh Nghệ An, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LƯƠNG THỊ LÂN",
+                        "CCCD": "040176005884",
+                        "DiaChi": "Khối 2, Phường Cửa Lò, tỉnh Nghệ An, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quốc Tế Việt Nam Chi Nhánh Vinh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Tầng 1, nhà B, Khu TTTM Dịch vụ - Nhà ở C1, đường Quang Trung, phường Thành Vinh, tỉnh Nghệ An, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Nhãn hiệu KIA- Màu sơn Trắng",
+                    "SoKhung": "RNYXG54C0SC370690",
+                    "SoMay": "G4FLSV125926",
+                    "BienSo": "37K - 645.23",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

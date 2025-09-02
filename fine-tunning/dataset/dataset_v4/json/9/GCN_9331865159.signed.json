@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331865159/TB-TT3",
+            "SoDon": "9331865159",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công an xã Nghĩa Thành, thành phố Hồ Chí Minh",
+            "DiaChi": "Quốc lộ 56, Thôn Sông Cầu, xã Nghĩa Thành, Thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô HYUNDAI màu trắng, số khung: RLULN41GBRT005042, số máy: G4NLRU793929, biển số: 72A-830.87",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Vũng Tàu Phòng Giao Dịch Bà Rịa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bà Rịa Vũng Tàu",
+                    "DiaChi": "Số 1264-1266 Bạch Đằng, Bà Rịa Vũng Tàu, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "HYUNDAI màu trắng",
+                    "SoKhung": "RLULN41GBRT005042",
+                    "SoMay": "G4NLRU793929",
+                    "BienSo": "72A-830.87",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

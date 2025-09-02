@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0937",
+            "SoDon": "1597893327",
+            "SoDangKyLanDau": "1597893327",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:23:00",
+            "SoHopDong": "100725/19246421/VPB-KLS",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:23:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Số dư tiền và lợi ích vật chất khác phát sinh từ Chứng chỉ tiền gửi ghi danh thuộc sở hữu của Bên bảo đảm sau đây:",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH ĐẦU TƯ QUỐC TẾ KLS",
+                        "MaSoThue": "0110797035",
+                        "DiaChi": "Tầng 12, tòa nhà Diamond Flower, số 48 đường Lê Văn Lương, Khu đô thị mới N1, phường Yên Hòa, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Sở Giao Dịch Phòng Giao Dịch Đông Hà Nội",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Diện tích sàn thương mại tại Tầng 1 và tầng 2 thuộc SH-18, Tòa nhà Century Tower số 458 đường Minh Khai, Phường Vĩnh Tuy, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Số dư tiền và lợi ích vật chất khác phát sinh từ Chứng chỉ tiền gửi ghi danh thuộc sở hữu của Bên bảo đảm",
+                    "CanCuPhatSinhQuyen": "Hợp đồng tiền gửi có kỳ hạn VPBFC/TGCKH-4674/2025, do Công ty Tài chính TNHH Ngân hàng Việt Nam Thịnh Vượng SMBC (VPB SMBC FC) phát hành ngày 10/07/2025, có ngày đến hạn 10/07/2026"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

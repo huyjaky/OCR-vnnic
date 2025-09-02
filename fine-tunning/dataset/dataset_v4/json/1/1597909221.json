@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1039",
+            "SoDon": "1597909221",
+            "SoDangKyLanDau": "1597909221",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:16:00",
+            "SoHopDong": "01/2025/26428921/HĐBĐ",
+            "NgayCoHieuLucHopDong": "2025-07-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T17:16:00",
+            "ThoiDiemDKLanDau": "2025-07-10T17:16:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Tất cả quyền tài sản phát sinh từ: Hợp đồng mua bán nhà số 54LK17/VTC/2018 ngày 24/04/2018 được ký giữa Công ty cổ phần Phát triển đô thị Vĩnh Thái với ông Đào Văn Sơn. Thời điểm có hiệu lực ngày 24/04/2018. -Văn bản chuyển nhượng hợp đồng mua bán nhà (lần 1) ngày 07/05/2018 giữa ông Đào Văn Sơn (bà Nguyễn Thị Trâm Anh được ủy quyền ký kết) với ông Vũ Quang Dũng. Thời điểm có hiệu lực ngày 18/05/2018",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "VŨ QUANG DŨNG",
+                        "CCCD": "075089022947",
+                        "DiaChi": "Thôn Tân Khánh 2, xã Tây Ninh Hòa, tỉnh Khánh Hòa, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ TRÂM ANH",
+                        "CCCD": "056190010073",
+                        "DiaChi": "Thôn Tân Khánh 2, xã Tây Ninh Hòa, tỉnh Khánh Hòa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP ĐẦU TƯ VÀ PHÁT TRIỂN VIỆT NAM - CHI NHÁNH KHÁNH HÒA - PGD THỐNG NHẤT",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "45-47 đường Thống Nhất, phường Nha Trang, tỉnh Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Tất cả quyền tài sản",
+                    "CanCuPhatSinhQuyen": "Hợp đồng mua bán nhà số 54LK17/VTC/2018 ngày 24/04/2018 được ký giữa Công ty cổ phần Phát triển đô thị Vĩnh Thái với ông Đào Văn Sơn. Thời điểm có hiệu lực ngày 24/04/2018. -Văn bản chuyển nhượng hợp đồng mua bán nhà (lần 1) ngày 07/05/2018 giữa ông Đào Văn Sơn (bà Nguyễn Thị Trâm Anh được ủy quyền ký kết) với ông Vũ Quang Dũng. Thời điểm có hiệu lực ngày 18/05/2018"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

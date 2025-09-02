@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0982",
+            "SoDon": "2080004325",
+            "SoDangKyLanDau": "1426583237",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T16:42:00",
+            "SoHopDong": "CLN2021243316/HÐTC",
+            "NgayCoHieuLucHopDong": "2021-09-22",
+            "GiaTriKhoanVay": 1188000000,
+            "SoPhuLuc": "CLN2021243316/HĐTC/PL3327914",
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2021-09-22T10:00:00",
+            "NoiDungThayDoi": "Kê khai nội dung thay đổi khác: Bổ sung thêm tài sản bảo đảm là: Hạt nhựa: POLYAMIDE 6 AKULON F-X9190 NA99001 73112. Toàn bộ nguyên liệu, vật liệu (Hạt nhựa: POLYAMIDE 6 AKULON F-X9190 NA99001 73112) hiện tại hoặc tương lai (cho dù được hình thành từ nguồn vốn nào); Toàn bộ các sản phẩm thành phẩm (Hạt nhựa: POLYAMIDE 6 AKULON F-X9190 NA99001 73112); Toàn bộ các sản phẩm đang sản xuất dở, sơ chế (Hạt nhựa: POLYAMIDE 6 AKULON F-X9190 NA99001 73112); Toàn bộ các tài sản được hình thành, các phế liệu, phế phẩm do chế biến, gia công, sản xuất, lắp ráp v.v từ các tài sản trên; Toàn bộ các tài sản được hình thành, có được do việc chuyển đổi, mua bán các tài sản trên; Toàn bộ các khoản thu nhập thu được từ bán tài sản trên; Các quyền, lợi ích, các khoản giá trị gia tăng có trước, trong và sau thời điểm thế chấp mà chưa được ghi nhận trong Hợp Đồng Bảo Đảm do Tài Sản Bảo Đảm được đầu tư, nâng cấp, các khoản bồi thường, đền bù và các khoản thanh toán khác gắn liền với Tài Sản Bảo Đảm mà Bên Bảo Đảm được nhận; Các hợp đồng bảo hiểm và toàn bộ các quyền của Bên Bảo Đảm phát sinh từ các hợp đồng bảo hiểm trong trường hợp Tài Sản Bảo Đảm được mua bảo hiểm",
+            "MoTaChungTaiSan": "Hàng hóa luân chuyển trong quá trình sản xuất, kinh doanh, kho hàng không phải là phương tiện giao thông cơ giới đường bộ",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN NHỰA HỮU LỘC",
+                        "MaSoThue": "0314330619",
+                        "DiaChi": "25A Lê Trực, Phường 7, Quận Bình Thạnh, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM Chi nhánh: Chợ Lớn",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "thành phố Hồ Chí Minh",
+                    "DiaChi": "Số 78 - 80 - 82 Hậu Giang, Phường Bình Tây, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "Hạt nhựa: POLYAMIDE 6 AKULON F-X9190 NA99001 73112",
+                    "DiaChiKhoHang": "“Kho Tài Sản” theo quy định tại các Phụ lục v/v giám sát tài sản thế chấp của Hợp đồng bảo đảm.",
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

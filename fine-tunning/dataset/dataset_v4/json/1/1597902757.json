@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1000",
+            "SoDon": "1597902757",
+            "SoDangKyLanDau": "1597902757",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:51:00",
+            "SoHopDong": "25B2025429",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:51:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu MG ; Số loại: ZS 1.5L STD; Màu sơn: Trắng ; Số chỗ ngồi: 05; Xe đã qua sử dụng, sản xuất tại Thái Lan năm 2025",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Hoàng Tiến Dũng",
+                        "CCCD": "025099008884",
+                        "DiaChi": "KDC Phú Hà, phường Phong Châu, tỉnh Phú Thọ, tỉnh Phú Thọ, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Phú Thọ- PGD Thanh Ba",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Phú Thọ",
+                    "DiaChi": "Khu 6, xã Thanh Ba, tỉnh Phú Thọ, tỉnh Phú Thọ, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "nhãn hiệu MG ; Số loại: ZS 1.5L STD; Màu sơn: Trắng",
+                    "SoKhung": "MMLW74U49SG012903",
+                    "SoMay": "15S4CCTTS2240037",
+                    "BienSo": "19A-808.46",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

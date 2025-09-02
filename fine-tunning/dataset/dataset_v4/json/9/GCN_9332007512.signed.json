@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332007512/TB-TT3",
+            "SoDon": "9332007512",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông công an tỉnh Thanh Hóa",
+            "DiaChi": "Phường Hạc Thành, Tỉnh Thanh Hóa.",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu FORD màu Đen, số khung RL05DYD7MSBR14344, số máy S3G022507, biển số 36K-21111",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Thương Tín Chi Nhánh Thanh Hóa Phòng Giao Dịch Yên Định",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Khu 2, Xã Yên Định, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD màu Đen",
+                    "SoKhung": "RL05DYD7MSBR14344",
+                    "SoMay": "S3G022507",
+                    "BienSo": "36K-21111",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

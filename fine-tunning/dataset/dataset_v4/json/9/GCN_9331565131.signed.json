@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331565131/TB-TT3",
+            "SoDon": "9331565131",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "ĐỘI ĐĂNG KÝ XE - CÔNG AN XÃ ĐĂK PEK – TỈNH QUẢNG NGÃI",
+            "DiaChi": "502 Hùng Vương, xã Đăk Pek, tỉnh Quảng Ngãi",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Nhãn hiệu: CIMC; Màu sơn: Xanh có số khung: LJRH13387SN072217; số máy: null, biển số: null",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "CHUA_XAC_DINH",
+                        "CCCD": "000000000000",
+                        "DiaChi": "CHUA_XAC_DINH"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Sài Gòn Thương Tín Chi Nhánh Kon Tum",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Ngãi",
+                    "DiaChi": "353 Trần Phú, P Kon Tum, tỉnh Quảng Ngãi"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CIMC màu Xanh",
+                    "SoKhung": "LJRH13387SN072217",
+                    "SoMay": null,
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

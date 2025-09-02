@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331762659/TB-TT3",
+            "SoDon": "9331762659",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường LANGBIANG",
+            "DiaChi": "phường LANGBIANG, LÂM ĐỒNG",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe bán tải FORD Ranger, MÀU SƠN: TRẮNG KIM CƯƠNG có số khung: RL2UMFC30SRR19055; thông tin khác (số máy: P02SRSR19055, biển số: 49C-352.55)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quốc Tế Việt Nam Chi Nhánh Lâm Đồng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "56-58 Khu Hòa Bình, Phường Xuân Hương - Đà Lạt, tỉnh Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Xe bán tải",
+                    "NhanHieuMauSon": "FORD Ranger, MÀU SƠN: TRẮNG KIM CƯƠNG",
+                    "SoKhung": "RL2UMFC30SRR19055",
+                    "SoMay": "P02SRSR19055",
+                    "BienSo": "49C-352.55",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

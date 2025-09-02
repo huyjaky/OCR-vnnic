@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331292260/TB-TT3",
+            "SoDon": "9331292260",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ TRUNG HỘI",
+            "DiaChi": "XÃ TRUNG HỘI , THÁI NGUYÊN",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: HR65FX038428; thông tin khác (số máy: 21615K069880, biển số: 20C-103.13)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thái Nguyên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thái Nguyên",
+                    "DiaChi": "Số 631, đường Lương Ngọc Quyến, Thái Nguyên, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "HR65FX038428",
+                    "SoMay": "21615K069880",
+                    "BienSo": "20C-103.13",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

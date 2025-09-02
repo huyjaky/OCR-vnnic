@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332087210/TB-TT3",
+            "SoDon": "9332087210",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Cung cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Đức Trọng",
+            "DiaChi": "Xã Đức Trọng, Lâm Đồng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Xe ô tô, nhãn hiệu SUZUKI, Carry Pro, Tải trọng 550-750kg, thùng mui bạt, số khung: RLSHDC61CRV101827, số máy: K15BT1634492, biển số: 49C-380.01",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "",
+                        "CCCD": "",
+                        "DiaChi": ""
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng Chi nhánh Đà Lạt Địa điểm kinh doanh Phòng giao dịch Đức Trọng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "Số 1A và 3, Thống Nhất, Khu phố 2, Thị trấn Liên Nghĩa, Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Xe ô tô, Tải trọng 550-750kg, thùng mui bạt",
+                    "NhanHieuMauSon": "SUZUKI, Carry Pro",
+                    "SoKhung": "RLSHDC61CRV101827",
+                    "SoMay": "K15BT1634492",
+                    "BienSo": "49C-380.01",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

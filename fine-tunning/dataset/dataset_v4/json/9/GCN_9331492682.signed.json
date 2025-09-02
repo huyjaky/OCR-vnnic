@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331492682/TB-TT3",
+            "SoDon": "9331492682",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông - Công an tỉnh Hà Tĩnh",
+            "DiaChi": "Phường Trần Phú, Tỉnh Hà Tĩnh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe tải ISUZU màu trắng có số khung: RLEN1R75LA7100118; thông tin khác (số máy: 4HK1782257, biển số: 38N-4285)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Công Thương Việt Nam Chi Nhánh Hà Tĩnh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Tĩnh",
+                    "DiaChi": "Số 82, đường Phan Đình Phùng, Hà Tĩnh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe tải",
+                    "NhanHieuMauSon": "ISUZU màu trắng",
+                    "SoKhung": "RLEN1R75LA7100118",
+                    "SoMay": "4HK1782257",
+                    "BienSo": "38N-4285",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

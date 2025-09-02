@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331675340/TB-TT3",
+            "SoDon": "9331675340",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Phường Đăk Cấm",
+            "DiaChi": "số 33 Tạ Quang Bửu, phường Đăk Cấm, tỉnh Quảng Ngãi",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Nhãn hiệu: VinFast có số khung: RLLVAG8C4SH711303; số máy: VFBALB251070059, biển số: 82A-139.77",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quân Đội Chi Nhánh Gia Lai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "08 Lê Lai, Phường Pleiku, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VinFast",
+                    "SoKhung": "RLLVAG8C4SH711303",
+                    "SoMay": "VFBALB251070059",
+                    "BienSo": "82A-139.77",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

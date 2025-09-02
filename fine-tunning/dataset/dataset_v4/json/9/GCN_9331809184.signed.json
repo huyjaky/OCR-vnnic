@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331809184/TB-TT3",
+            "SoDon": "9331809184",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ NHO QUAN",
+            "DiaChi": "THÔN CẦU MƠ, XÃ NHO QUAN, TỈNH NINH BÌNH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô TOYOTA, số loại COROLLA có số khung: MR2BL3BEX01004330; thông tin khác (số máy: 2ZRZ025534, biển số: 35A-455.60)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng - Chi nhánh Ninh Bình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Ninh Bình",
+                    "DiaChi": "Số 91, Đường Lê Hồng Phong, Phường Đông Thành, Ninh Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "TOYOTA màu null",
+                    "SoKhung": "MR2BL3BEX01004330",
+                    "SoMay": "2ZRZ025534",
+                    "BienSo": "35A-45560",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

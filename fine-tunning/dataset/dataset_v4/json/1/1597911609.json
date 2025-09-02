@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1063",
+            "SoDon": "1597911609",
+            "SoDangKyLanDau": "1597911609",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:32:00",
+            "SoHopDong": "LN2506245892437",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:32:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Xe ô tô nhãn hiệu VINFAST, VF6 - PLUS, Động cơ điện, AT",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "TRỊNH THỊ XUÂN TƯƠI",
+                        "CCCD": "030191003541",
+                        "DiaChi": "34 ĐOÀN THỊ ĐIỂM, P. HẢI DƯƠNG, thành phố Hải Phòng, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "ĐOÀN QUỐC THẮNG",
+                        "CCCD": "030090004205",
+                        "DiaChi": "34 ĐOÀN THỊ ĐIỂM, P. HẢI DƯƠNG, thành phố Hải Phòng, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi Nhánh Hải Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "11 Trần Hưng Đạo, P Hải Dương, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST, VF6 - PLUS",
+                    "SoKhung": "RLLVAG8C0SH763687",
+                    "SoMay": "VFBALB255070097",
+                    "BienSo": "34A-983.81",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1115",
+            "SoDon": "1597916318",
+            "SoDangKyLanDau": "1597916318",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:15:00",
+            "SoHopDong": "07/2025/HĐBĐ/NHCT460-NLGQUANGTRI-QTSBS",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T18:15:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Tất cả các quyền tài sản của Công ty TNHH Nguyên liệu giấy Quảng Trị liên quan đến dự án “Nhà máy chế biến gỗ và lâm sản Quảng Trị” phát sinh từ quyết định số 1593/QĐ-UBND ngày 24/07/2023 của UBND tỉnh Quảng Trị về việc chấp thuận điều chỉnh chủ trương đầu tư đồng thời chấp thuận nhà đầu tư. Các tài sản bảo đảm này thuộc thẩm quyền của Trung tâm đăng ký giao dịch, tài sản.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH NGUYÊN LIỆU GIẤY QUẢNG TRỊ",
+                        "MaSoThue": "3200574857",
+                        "DiaChi": "Thôn Thượng Xá, xã Hải Lăng, tỉnh Quảng Trị, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Công thương Việt Nam Chi nhánh Huế",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": null,
+                    "DiaChi": "02 Lê Quý Đôn, phường Thuận Hóa, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Tất cả các quyền tài sản",
+                    "CanCuPhatSinhQuyen": "Quyết định số 1593/QĐ-UBND ngày 24/07/2023 của UBND tỉnh Quảng Trị về việc chấp thuận điều chỉnh chủ trương đầu tư đồng thời chấp thuận nhà đầu tư."
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331658348/TB-TT3",
+            "SoDon": "9331658348",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "CÔNG AN XÃ ĐỊNH HÒA",
+            "DiaChi": "XÃ ĐỊNH HÒA, TỈNH THANH HÓA",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô nhãn hiệu DONGFENG có số khung: LGDXWB1X8NH101820, số máy: ISB1805082409052, biển số: 36H-05809",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG - CHI NHÁNH KINH ĐÔ",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 đường Tây Sơn, Phường Trung Liệt, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "DONGFENG (không rõ màu)",
+                    "SoKhung": "LGDXWB1X8NH101820",
+                    "SoMay": "ISB1805082409052",
+                    "BienSo": "36H-05809",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

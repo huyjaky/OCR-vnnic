@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0472",
+            "SoDon": "2079979634",
+            "SoDangKyLanDau": "1580327158",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10 12:27:00",
+            "SoHopDong": "02.300144121/2025/HĐBĐ/NHCT680",
+            "NgayCoHieuLucHopDong": "2025-03-18",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-03-18 14:12:00",
+            "NoiDungThayDoi": "Thay đổi thông tin tài sản bảo đảm đã đăng ký:\n- Từ: Tài sản hình thành trong tương lai\nTài sản là lô hàng hóa gồm 12 xe ô tô nhãn hiệu Suzuki (tài sản hình thành trong tương lai), mới\n100%, sản xuất năm 2025, được mua bán theo Hợp đồng đại lý giữa Công ty TNHH Việt Nam\nSuzuki và Công ty TNHH Ô Tô Việt Nhật, cụ thể:\n1. Loại xe: PRO AC CKD ; Số lượng: 01; Đơn đặt hàng: Đơn đặt hàng tháng 03/2025 số\n20240314-32/VNLT ngày 13/03/2025.\n2. Loại xe: PRO CABIN CKD; Số lượng: 03; Đơn đặt hàng: Đơn đặt hàng tháng 03/2025 số\n20240314-32/VNLT ngày 13/03/2025\n3. Loại xe: PRO CABIN CKD; Số lượng: 05; Đơn đặt hàng: Đơn đặt hàng tháng 03/2025 số\n20240314-31/VNBH ngày 13/03/2025\n4. Loại xe: XL7-HYBRID- 2 MÀU; Số lượng: 01; Đơn đặt hàng: Đơn đặt hàng tháng 03/2025 số\n20240314-32/VNLT ngày 13/03/2025\n5. Loại xe: XL7-HYBRID- 2 MÀU; Số lượng: 01; Đơn đặt hàng: Đơn đặt hàng tháng 03/2025 số\n20240314-31/VNBH ngày 13/03/2025\n6. Loại xe: XL7-HYBRID- 1 MÀU; Số lượng: 01; Đơn đặt hàng: Đơn đặt hàng tháng 03/2025 số\n20240314-31/VNBH ngày 13/03/2025\nTổng cộng: Số lượng: 12\n- Thành: Tài sản là lô hàng hóa gồm 02 xe ô tô nhãn hiệu Suzuki đã hình thành mới 100%, sản\nxuất năm 2025, được mua bán theo Hợp đồng đại lý giữa Công ty TNHH Việt Nam Suzuki và\nCông ty TNHH Ô Tô Việt Nhật cụ thể:\n1 . Xe ô tô tải sát xi tải nhãn hiệu Suzuki CARRY; Số khung RLSHDC61CSV103073; Số máy\nK15BT1659609\n2 . Xe ô tô tải nhãn hiệu Suzuki CARRY; Số khung RLSHDC61TSV101601; Số máy\nK15BT1667415",
+            "MoTaChungTaiSan": "Tài sản là lô hàng hóa gồm 02 xe ô tô nhãn hiệu Suzuki đã hình thành mới 100%, sản xuất năm 2025, được mua bán theo Hợp đồng đại lý giữa Công ty TNHH Việt Nam Suzuki và Công ty TNHH Ô Tô Việt Nhật.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH Ô TÔ VIỆT NHẬT",
+                        "MaSoThue": "3600930637",
+                        "DiaChi": "Số 01 Xa Lộ Hà Nội, KP.5B, Phường Tam Hiệp, tỉnh Đồng Nai"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP CÔNG THƯƠNG VIỆT NAM - CHI NHÁNH ĐỒNG NAI",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "77D Hưng Đạo Vương, phường Trấn Biên, tỉnh Đồng Nai"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô tải sát xi tải",
+                    "NhanHieuMauSon": "Suzuki CARRY",
+                    "SoKhung": "RLSHDC61CSV103073",
+                    "SoMay": "K15BT1659609",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô tải",
+                    "NhanHieuMauSon": "Suzuki CARRY",
+                    "SoKhung": "RLSHDC61TSV101601",
+                    "SoMay": "K15BT1667415",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331719255/TB-TT3",
+            "SoDon": "9331719255",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBSA",
+            "TenCongAn": "Công an phường Bình Khê",
+            "DiaChi": "Trại Mới A, Phường Bình Khê, tỉnh Quảng Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quốc Tế Việt Nam Chi Nhánh Hải Phòng Phòng Giao Dịch Ngô Quyền",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "283-285 Đà Nẵng, P.Ngô Quyền, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Xe dưới 9 chỗ",
+                    "NhanHieuMauSon": "KIA - SONET , màu trắng",
+                    "SoKhung": "RNYXG54C0SC370684",
+                    "SoMay": null,
+                    "BienSo": "14K-02782",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

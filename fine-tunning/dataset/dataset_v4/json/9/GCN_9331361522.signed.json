@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331361522/TB-TT3",
+            "SoDon": "9331361522",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Phường Kon Tum Tỉnh Quãng Ngãi",
+            "DiaChi": "05 Nơ Trang Long, Phường Kon Tum, Tỉnh Quãng Ngãi",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Đen có số khung: MR0JB3DD801908267; số máy: 2GD5823096, biển số: 76A-452.73",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Bản Việt - Chi Nhánh Gia Lai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "69A-71A-71 Đinh Tiên Hoàng, Phường Diên Hồng, Tỉnh Gia Lai"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "màu Đen",
+                    "SoKhung": "MR0JB3DD801908267",
+                    "SoMay": "2GD5823096",
+                    "BienSo": "76A-45273",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

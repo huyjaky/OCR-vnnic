@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331538065/TB-TT3",
+            "SoDon": "9331538065",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Cẩm Mỹ, tỉnh Đồng Nai",
+            "DiaChi": "Khu phố Suối Cả, xã Cẩm Mỹ",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo xử lý tài sản bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Kia Carnival, màu Trắng có số khung: RNYNC5BA8RC339090; thông tin khác (số máy: D4HERH644724, biển số: 60K-562.46)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Đồng Nai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số 14K Võ Thị Sáu, phường Thống Nhất, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Kia Carnival màu Trắng",
+                    "SoKhung": "RNYNC5BA8RC339090",
+                    "SoMay": "D4HERH644724",
+                    "BienSo": "60K-562.46",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

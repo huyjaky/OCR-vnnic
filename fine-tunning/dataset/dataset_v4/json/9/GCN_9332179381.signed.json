@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332179381/TB-TT3",
+            "SoDon": "9332179381",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "CSCA",
+            "TenCongAn": "Phòng CSGT – Công an thành phố Hải Phòng",
+            "DiaChi": "106 Nguyễn Lương Bằng, P.Thành Đông, thành phố Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-09T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu TOYOTA có số khung: 3GS0J0580591; số máy: 2TRA508511, biển số: 34A-261.44",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG (VPBANK) CHI NHÁNH HẢI DƯƠNG PHÒNG GIAO DỊCH NGUYỄN LƯƠNG BẰNG",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Dương",
+                    "DiaChi": "205, Nguyễn Lương Bằng, phường Thanh Bình, Hải Dương, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "TOYOTA",
+                    "SoKhung": "3GS0J0580591",
+                    "SoMay": "2TRA508511",
+                    "BienSo": "34A-261.44",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

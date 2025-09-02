@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331937232/TB-TT3",
+            "SoDon": "9331937232",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an Xã Mỹ Thái",
+            "DiaChi": "Thôn Hồng Giang, xã Mỹ Thái, Tỉnh Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe Ô tô Sơ mi rơ moóc nhãn hiệu HUAJIN có số khung: LA996RTC5S4JYH007, biển số: 98RM-025.22",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Bắc Giang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Bắc Ninh",
+                    "DiaChi": "Số 303 đường Lê Lợi, phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Sơ mi rơ moóc",
+                    "NhanHieuMauSon": "HUAJIN",
+                    "SoKhung": "LA996RTC5S4JYH007",
+                    "SoMay": null,
+                    "BienSo": "98RM-025.22",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

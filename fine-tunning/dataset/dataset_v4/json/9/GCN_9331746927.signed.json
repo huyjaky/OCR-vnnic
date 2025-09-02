@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331746927/TB-TT3",
+            "SoDon": "9331746927",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TB",
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông Công An Thành Phố Đà Nẵng",
+            "DiaChi": "77 Võ An Ninh, Phường Hòa Xuân,Thành phố Đà Nẵng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe đầu kéo nhãn hiệu CNHTC màu xanh, số khung LZZ1CLVB8SD366677, số máy MC114450250417221777, biển số 43H-177.57",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Thương Tín Chi Nhánh Đà Nẵng Phòng Giao Dịch Sơn Trà",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "783 Ngô Quyền, phường An Hải, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Xe đầu kéo",
+                    "NhanHieuMauSon": "CNHTC màu xanh",
+                    "SoKhung": "LZZ1CLVB8SD366677",
+                    "SoMay": "MC114450250417221777",
+                    "BienSo": "43H-17757",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

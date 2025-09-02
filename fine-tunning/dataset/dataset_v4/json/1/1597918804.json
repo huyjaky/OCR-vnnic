@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1145",
+            "SoDon": "1597918804",
+            "SoDangKyLanDau": "1597918804",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:48:00",
+            "SoHopDong": "01-724253/VPB-MH",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T18:48:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Tài Sản Cầm Cố là chứng chỉ tiền gửi và toàn bộ tiền lãi, quyền và các lợi ích phát sinh từ tài sản, chi tiết như sau\nTên gọi (Chứng chỉ tiền gửi):Giấy chứng nhận quyền sở hữu chứng chỉ tiền gửi ghi danh\nKý hiệu, số sê-ri phát hành:VPBFC/CCTG-18695\nMệnh giá:11.800.000.000 VNĐ\nNgày phát hành:10/07/2025\nNgày đến hạn:10/01/2026\nTổ chức phát hành:Công ty tài chính TNHH ngân hàng Việt Nam Thịnh Vượng(VPB SMBC FC)\nTổng Mệnh giá:11.800.000.000 VNĐ\n- Toàn bộ số tiền lãi, quyền và các lợi ích phát sinh từ Chứng chỉ tiền gửi nêu trên\n* Trừ chứng khoán đã đăng ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam.\n* Trừ tàu bay, tàu biển và quyền sử dụng đất, tài sản gắn liền với đất thuộc thẩm quyền đăng ký của Văn phòng đăng ký quyền sử dụng đất",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN VLXD MINH HẠNH",
+                        "MaSoThue": "0104735672",
+                        "DiaChi": "Số 27, tổ 23, phường Lĩnh Nam, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Kinh Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 292 Tây Sơn, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Giấy chứng nhận quyền sở hữu chứng chỉ tiền gửi ghi danh",
+                    "CanCuPhatSinhQuyen": null
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

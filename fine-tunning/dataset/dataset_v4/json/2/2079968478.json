@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0259",
+            "SoDon": "2079968478",
+            "SoDangKyLanDau": "1574402516",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T10:13:00",
+            "SoHopDong": "01.300144121/2025/HĐBĐ/NHCT680",
+            "NgayCoHieuLucHopDong": "2025-01-20",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-01-20T14:11:00",
+            "NoiDungThayDoi": "* Xóa đăng ký đối với tài sản được rút bớt là hàng hóa là Xe ô tô, có thông tin sau:",
+            "MoTaChungTaiSan": "Xe ô tô con",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH Ô TÔ VIỆT NHẬT",
+                        "MaSoThue": "3600930637",
+                        "DiaChi": "Số 01 Xa Lộ Hà Nội, KP.5B, Phường Tam Hiệp, tỉnh Đồng Nai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP CÔNG THƯƠNG VIỆT NAM-CHI NHÁNH ĐỒNG NAI",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "77D Hưng Đạo Vương, phường Trấn Biên, tỉnh Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô con",
+                    "NhanHieuMauSon": "Subaru Forester 2.0i-L ES",
+                    "SoKhung": "MMRSK7LL5PT004705",
+                    "SoMay": "YY01333",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

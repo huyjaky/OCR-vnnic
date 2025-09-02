@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331785176/TB-TT3",
+            "SoDon": "9331785176",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBSCA",
+            "TenCongAn": "Phòng cảnh sát giao thông công an tỉnh Tuyên Quang",
+            "DiaChi": "Số 346, đường Nguyễn Trãi, tổ 10, phường Hà Giang 1, tỉnh Tuyên Quang.",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô FORD Màu Xanh, số khung: MNCDMFF80EW210533, số máy: P4AT1124262, biển số: 23C-076.56 đã được xóa đăng ký.",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam Chi Nhánh Hà Giang",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tuyên Quang",
+                    "DiaChi": "Số nhà 63, đường Nguyễn Trãi, Tổ 17, Phường Hà Giang 1, tỉnh Tuyên Quang, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "FORD; Màu Xanh",
+                    "SoKhung": "MNCDMFF80EW210533",
+                    "SoMay": "P4AT1124262",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1079",
+            "SoDon": "1597912453",
+            "SoDangKyLanDau": "1597912453",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:41:00",
+            "SoHopDong": "3520/125/HS/2025",
+            "NgayCoHieuLucHopDong": "2025-07-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:41:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô con, nhãn hiệu Kia; Màu sơn: Trắng đen;",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Lê Văn Hoàn",
+                        "CCCD": "038084018827",
+                        "DiaChi": "Thôn Cát Tiến, xã Như Xuân, tỉnh Thanh Hóa, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Trần Quỳnh Nga",
+                        "CCCD": "038191000781",
+                        "DiaChi": "Thôn Cát Tiến, xã Như Xuân, tỉnh Thanh Hóa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam Chi nhánh Như Xuân nam Thanh Hóa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thanh Hóa",
+                    "DiaChi": "Xã Như Xuân, tỉnh Thanh Hóa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Nhãn hiệu: Kia; Màu sơn: Trắng đen",
+                    "SoKhung": "RNYED51D7NC270113",
+                    "SoMay": "G4LDND074291",
+                    "BienSo": "36A-824.94",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

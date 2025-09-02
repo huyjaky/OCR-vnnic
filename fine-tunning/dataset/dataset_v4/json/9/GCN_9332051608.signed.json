@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332051608/TB-TT3",
+            "SoDon": "9332051608",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh Sát Giao Thông - Công an tỉnh Gia Lai",
+            "DiaChi": "Km2+285 Quốc lộ 1D, Tổ 1, Khu vực 7, phường Quy Nhơn Bắc, tỉnh Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM – CHI NHÁNH QUY NHƠN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "433 Lạc Long Quân, phường Quy Nhơn Bắc, tỉnh Gia Lai"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô 07 chỗ ngồi",
+                    "NhanHieuMauSon": "HONDA CR-V L, màu trắng",
+                    "SoKhung": "RLHRS3842SY100583",
+                    "SoMay": "L15C21340590",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

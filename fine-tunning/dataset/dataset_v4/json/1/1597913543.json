@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1092",
+            "SoDon": "1597913543",
+            "SoDangKyLanDau": "1597913543",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:50:00",
+            "SoHopDong": "TTC2025CFMG16368324/HDTC",
+            "NgayCoHieuLucHopDong": "2025-07-09",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:50:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "- Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán số U38A-32-06/HĐMB– Masteri Lakeside ngày có hiệu lực hợp đồng là ngày 03/04/2025 giữa Doanh nghiệp kinh Doanh Bất động sản là Công ty TNHH Đầu tư KD và phát triển TM Việt An với ông/bà LÊ THỊ HUYỀN LINH; Văn bản chuyển nhượng Hợp đồng mua bán số công chứng: 13639, quyển số 02/2025 TP/CC-SCC/HĐGD ngày có hiệu lực hợp đồng là ngày 21/06/2025 giữa ông/bà: LÊ THỊ HUYỀN LINH với ông/bà: ĐINH THỊ MINH LỆ và vợ/chồng là bà ông NGUYỄN MẠNH TUẤN về việc mua bán Căn Hộ số: U38A-32-06 thuộc Dự án Khu nhà ở cao tầng trên lô đất B6-CT01 và B6-CXDV01, có tên thương mại là Masteri Lakeside tại Thị trấn Trâu Quỳ, huyện Gia Lâm, thành phố Hà Nội được cơ quan có thẩm quyền phê duyệt.\n- Thế chấp Quyền tài sản khác theo quy định của pháp luật phát sinh theo Hợp Đồng Mua Bán trên (trừ Quyền sử dụng đất và tài sản gắn liền với đất thuộc thẩm quyền đăng ký của văn phòng đăng ký quyền sử dụng đất).\n- Các khoản lợi tức thu được từ việc khai thác, kinh doanh tài sản thế chấp phát sinh từ hợp đồng mua bán trên.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "ĐINH THỊ MINH LỆ",
+                        "CCCD": "019175000339",
+                        "DiaChi": "Căn Hộ Số 3015 Tòa S2.02 Tổ Dân Phố Số 10, Phường Tây Mỗ, , thành phố Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN MẠNH TUẤN",
+                        "CCCD": "019072000236",
+                        "DiaChi": "Căn Hộ Số 3015 Tòa S2.02 Tổ Dân Phố Số 10, Phường Tây Mỗ, , thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM - Chi nhánh Đông Đô",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "thành phố Hà Nội",
+                    "DiaChi": "Tầng 1 và toàn bộ tầng 2 thuộc tòa tháp C của tổ hợp Starcity Center tại ô đất ký hiệu HH khu đô thị Đông Nam Trần Duy Hưng, phường Yên Hòa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "tất cả các quyền tài sản",
+                    "CanCuPhatSinhQuyen": "Quyền tài sản là Quyền đòi nợ, Quyền yêu cầu thanh toán, Quyền được bồi thường thiệt hại, quyền thụ hưởng bảo hiểm phát sinh từ Hợp Đồng Mua Bán số U38A-32-06/HĐMB– Masteri Lakeside ngày có hiệu lực hợp đồng là ngày 03/04/2025 giữa Doanh nghiệp kinh Doanh Bất động sản là Công ty TNHH Đầu tư KD và phát triển TM Việt An với ông/bà LÊ THỊ HUYỀN LINH; Văn bản chuyển nhượng Hợp đồng mua bán số công chứng: 13639, quyển số 02/2025 TP/CC-SCC/HĐGD ngày có hiệu lực hợp đồng là ngày 21/06/2025 giữa ông/bà: LÊ THỊ HUYỀN LINH với ông/bà: ĐINH THỊ MINH LỆ và vợ/chồng là bà ông NGUYỄN MẠNH TUẤN"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

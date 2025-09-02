@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331625267/TB-TT3",
+            "SoDon": "9331625267",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông CA Thành phố Huế",
+            "DiaChi": "50 Trần Cao Vân, phường Thuận Hóa, Thành phố Huế",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu VINFAST, màu sơn trắng, có số khung RLLVAG8C9SH785929, biển số 75A-459.29",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tháp BIDV, 194 Trần Quang Khải, Phường Hoàn Kiếm, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST màu trắng",
+                    "SoKhung": "RLLVAG8C9SH785929",
+                    "SoMay": null,
+                    "BienSo": "75A-459.29",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

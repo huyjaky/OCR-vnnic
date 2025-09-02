@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331380879/TB-TT3",
+            "SoDon": "9331380879",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Trắng có số khung: RLNVBL9K1RH785968; thông tin khác (số máy: TZ160X30G24111500708, biển số: 37K-538.40)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Xuất Nhập Khẩu Việt Nam Chi Nhánh Vinh Phòng Giao Dịch Diễn Châu",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Ki ốt 02 TTTM Diễn Châu, Diễn Châu, Nghệ An"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Trắng",
+                    "SoKhung": "RLNVBL9K1RH785968",
+                    "SoMay": "TZ160X30G24111500708",
+                    "BienSo": "37K-538.40",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

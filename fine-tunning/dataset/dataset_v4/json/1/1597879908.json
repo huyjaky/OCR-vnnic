@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0855",
+            "SoDon": "1597879908",
+            "SoDangKyLanDau": "1597879908",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T15:49:00",
+            "SoHopDong": "BCLC-8529-HDTC-01",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T15:49:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Quyền đòi nợ, khoản phải thu, các quyền yêu cầu thanh khoán được hiểu là tất cả các quyền và lợi ích hợp pháp (nhưng không bao gồm các nghĩa vụ) mà Bên bảo đảm có được bao gồm: a) Các quyền đòi nợ, quyền yêu cầu thanh toán khác, quyền nhận, hưởng các khoản tiền hoàn trả, phạt, bồi thường thiệt hại, các khoản tiền bảo lãnh (khoản tiền do Bên nhận bảo lãnh thực hiện nghĩa vụ bảo lãnh trong trường hợp Bên Có Nghĩa Vụ Thanh Toán vi phạm với Bên bảo đảm theo Hợp Đồng Đầu Ra); b) Quyền nhận/thụ hưởng các khoản bồi thường, đền bù bảo hiểm bao gồm nhưng không giới hạn các khoản tiền bảo hiểm, tài sản, hiện vật thay thế hoặc bất kỳ hình thức đền bù bảo hiểm khác mà Bên bảo đảm nhận được (“Khoản Đền Bù Bảo Hiểm”); c) Các khoản tiền thu được từ việc thực hiện các quyền nêu tại điểm a) Khoản này, các khoản phí, các khoản lợi thu được mà Bên Có Nghĩa Vụ Thanh Toán đã/sẽ thanh toán cho Bên bảo đảm. d) Các quyền tài sản và lợi ích khác mà Bên bảo đảm được thụ hưởng phát sinh từ/ liên quan đến các Hợp Đồng Đầu Ra i) Quyền tài sản phát sinh từ Hóa đơn giá trị gia tăng số 576 ngày hiệu lực 08/07/2025 và Hóa đơn giá trị gia tăng số 580 ngày hiệu lực 09/07/2025 của Hợp đồng (đầu ra) số SL002-FGN-2025 và phụ lục (nếu có) ngày hiệu lực 01/01/2025 ngày hiệu lực 01/01/2025 và các phụ lục sửa đổi bổ sung kèm theo (nếu có) ký giữa Bên bảo đảm và Bên Có Nghĩa Vụ Thanh Toán là Công ty TNHH Thép đặc biệt Shengli Việt Nam (Mã số thuế: 1000440676; Địa chỉ: Khu Công nghiệp Cầu Nghìn - An Bài - Quỳnh Phụ - Thái Bình) (“Hợp Đồng Đầu Ra”). Số dư có trong tài khoản thanh toán số 290158923 (“Tài Khoản Chuyên Thu”), cùng các quyền lợi và lợi ích phát sinh từ Tài Khoản Chuyên Thu, các khoản tiền gửi được tạo lập từ một phần hoặc toàn bộ số dư có trên Tài Khoản Chuyên Thu cùng các quyền lợi, lợi ích phát sinh từ các khoản tiền gửi",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CỒNG TY TNHH TẬP ĐOÀN NGUYỄN QUỐC",
+                        "MaSoThue": "4601568940",
+                        "DiaChi": "Tổ 10,Phường Tích Lương, tỉnh Thái Nguyên, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 89 Láng Hạ, phường Đống Đa, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Quyền tài sản",
+                    "CanCuPhatSinhQuyen": "Hóa đơn giá trị gia tăng số 576 ngày hiệu lực 08/07/2025 và Hóa đơn giá trị gia tăng số 580 ngày hiệu lực 09/07/2025 của Hợp đồng (đầu ra) số SL002-FGN-2025 và phụ lục (nếu có) ngày hiệu lực 01/01/2025 ngày hiệu lực 01/01/2025 và các phụ lục sửa đổi bổ sung kèm theo (nếu có) ký giữa Bên bảo đảm và Bên Có Nghĩa Vụ Thanh Toán là Công ty TNHH Thép đặc biệt Shengli Việt Nam (Mã số thuế: 1000440676; Địa chỉ: Khu Công nghiệp Cầu Nghìn - An Bài - Quỳnh Phụ - Thái Bình) (“Hợp Đồng Đầu Ra”)."
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331661837/TB-TT3",
+            "SoDon": "9331661837",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "CÔNG AN XÃ GIAO THỦY, TỈNH NINH BÌNH",
+            "DiaChi": "78 TRẦN NHÂN TÔNG, XÃ GIAO THỦY, TỈNH NINH BÌNH",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô, nhãn hiệu TOYOTA Biển số:18A-249.60 Số khung:RL4ZR69G5G4027392 Số máy:2KDU881673",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng Chi nhánh Nam Định Phòng giao dịch Thành Nam",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nam Định",
+                    "DiaChi": "Số 350 đường Trần Hưng Đạo, phường Bà Triệu, Nam Định, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": "TOYOTA",
+                    "SoKhung": "RL4ZR69G5G4027392",
+                    "SoMay": "2KDU881673",
+                    "BienSo": "18A-249.60",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

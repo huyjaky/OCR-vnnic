@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332154739/TB-TT3",
+            "SoDon": "9332154739",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo về việc đăng ký",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an tỉnh Lâm Đồng – Công an phường La Gi",
+            "DiaChi": "02 Ngô Gia Tự, phường La Gi, tỉnh Lâm Đồng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô MAZDA, vàng có số khung: RN2KG2WLASM168156; thông tin khác (số máy: PY22599722, biển số: 86C-180.28)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM - CHI NHÁNH BÌNH THUẬN",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Lâm Đồng",
+                    "DiaChi": "50 Nguyễn Tất Thành, Phường Phan Thiết, tỉnh Lâm Đồng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "MAZDA, vàng",
+                    "SoKhung": "RN2KG2WLASM168156",
+                    "SoMay": "PY22599722",
+                    "BienSo": "86C-180.28",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

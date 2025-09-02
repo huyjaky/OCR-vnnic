@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1020",
+            "SoDon": "1597905960",
+            "SoDangKyLanDau": "1597905960",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T17:02:00",
+            "SoHopDong": "HĐTC50D2025133",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T17:02:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô con nhãn hiệu VINFAST, màu trắng, số khung RLNV5JSE1SH769212, số máy VFCAFB255250002, biển số 74E-003.82. Sản xuất tại Việt Nam năm 2025. Có 5 chỗ ngồi, khối lượng toàn bộ 1696 kg. Chủ xe BÙI CÔNG TÌNH, đăng ký tại Thôn Vĩnh Tân, Xã Cồn Tiên, Tỉnh Quảng Trị theo giấy chứng nhận đăng ký số 74 00002306 do Bộ Công an - Công an tỉnh Quảng Trị cấp ngày 08/07/2025.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Bùi Công Tình",
+                        "CCCD": "045098001851",
+                        "DiaChi": "Thôn Vĩnh Tân, Xã Cồn Tiên, tỉnh Quảng Trị, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam – Chi nhánh Quảng Trị - PGD Gio Linh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "280 Lê Duẩn, xã Gio Linh, tỉnh Quảng Trị, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "VINFAST - Trắng",
+                    "SoKhung": "RLNV5JSE1SH769212",
+                    "SoMay": "VFCAFB255250002",
+                    "BienSo": "74E-003.82",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

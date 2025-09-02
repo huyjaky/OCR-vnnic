@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331799200/TB-TT3",
+            "SoDon": "9331799200",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông Công an tỉnh Quảng Ninh",
+            "DiaChi": "Cột 8, phường Hạ Long, tỉnh Quảng Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô có số khung: NC1WKN008607; thông tin khác (số máy: , biển số: 14A-412.27)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "LÊ VĂN BẰNG",
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Ninh",
+                    "DiaChi": "Ô số 1, Lô A1, Dự án khu dân cư cột 5, tổ 8, khu 8, phường Hồng Hải, Quảng Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "NC1WKN008607",
+                    "SoMay": null,
+                    "BienSo": "14A-412.27",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

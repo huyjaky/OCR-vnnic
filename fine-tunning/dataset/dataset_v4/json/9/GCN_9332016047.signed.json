@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332016047/TB-TT3",
+            "SoDon": "9332016047",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "CÔNG AN XÃ ĐẠI LAI",
+            "DiaChi": "Thôn Chi Nhị,XÃ ĐẠI LAI, Bắc Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu MG (MORRIS GARAGES), NEW MG ZS STANDARD, 1.5L, 2WD, AT có số khung: MMLW74U46RG014327; thông tin khác (số máy: 15S4CCTTR4230006, biển số: 99A-767.82)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Thăng Long Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, số 292 Hồ Tùng Mậu, tổ dân phố số 12 Phường Phú Diễn, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MG (MORRIS GARAGES) NEW MG ZS STANDARD, 1.5L, 2WD, AT",
+                    "SoKhung": "MMLW74U46RG014327",
+                    "SoMay": "15S4CCTTR4230006",
+                    "BienSo": null,
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331707087/TB-TT3",
+            "SoDon": "9331707087",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Vĩnh Linh",
+            "DiaChi": "đường Lê Duẩn, xã Vĩnh Linh, tỉnh Quảng Trị",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Nhãn hiệu CNHTC Màu xám, bạc, số khung LZZ1CLVC2SD366148, số máy MC114450250417216297, biển số 74H-019.35 và 01 xe ô tô JUNTON, số khung LA9BC40Z4S0JTC152, biển số 74RM-011.09",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Thương Tín Chi Nhánh Quảng Trị Phòng Giao Dịch Vĩnh Linh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Trị",
+                    "DiaChi": "52 Lê Duẩn, xã Vĩnh Linh, tỉnh Quảng Trị"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "CNHTC Màu xám, bạc",
+                    "SoKhung": "LZZ1CLVC2SD366148",
+                    "SoMay": "MC114450250417216297",
+                    "BienSo": "74H-019.35",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "JUNTON",
+                    "SoKhung": "LA9BC40Z4S0JTC152",
+                    "SoMay": null,
+                    "BienSo": "74RM-011.09",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

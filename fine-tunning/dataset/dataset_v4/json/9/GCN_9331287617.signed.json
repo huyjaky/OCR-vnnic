@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331287617/TB-TT3",
+            "SoDon": "9331287617",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát giao thông, Công an Tp Hồ Chí Minh",
+            "DiaChi": "Số 341 Trần Hưng Đạo, phường Cầu Ông Lãnh, TP.HCM",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô con nhãn hiệu KIA, số loại CARNIVAL KA4, có số khung RNYND5BA8NC245890, số máy D4HEMH700403, biển số 51K-148.71",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBANK)",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 89 Láng Hạ, Phường Láng Hạ, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "KIA",
+                    "SoKhung": "RNYND5BA8NC245890",
+                    "SoMay": "D4HEMH700403",
+                    "BienSo": "51K-148.71",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

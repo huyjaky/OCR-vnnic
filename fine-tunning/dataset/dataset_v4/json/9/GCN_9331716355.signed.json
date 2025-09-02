@@ -1,0 +1,67 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331716355/TB-TT3",
+            "SoDon": "9331716355",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Triệu Phong",
+            "DiaChi": "23 Nguyễn Huệ, Triệu Phong, Quảng Trị",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "03 xe ô tô con nhãn hiệu Huyndai: 01 xe Grand I10 màu đỏ biển số 74A-160.73, 01 xe Accent màu trắng biển số 74A-253.29, 01 xe IONIQ 5 SPECIAL màu trắng biển số 74A-239.13.",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Công thương Việt Nam Chi nhánh Huế",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Huế",
+                    "DiaChi": "02 Lê Quý Đôn, phường Thuận Hóa, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Huyndai màu đỏ",
+                    "SoKhung": "RLUB751CBRN000435",
+                    "SoMay": null,
+                    "BienSo": "74A-160.73",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Huyndai màu trắng",
+                    "SoKhung": "RLUGV41DBRT001153",
+                    "SoMay": null,
+                    "BienSo": "74A-253.29",
+                    "CanCuThayDoi": 1
+                },
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Huyndai màu trắng",
+                    "SoKhung": "RLUKS81AFRN000069",
+                    "SoMay": null,
+                    "BienSo": "74A-239.13",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

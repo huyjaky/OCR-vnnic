@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331837008/TB-TT3",
+            "SoDon": "9331837008",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "phòng cảnh sát giao thông công an tỉnh Hà Tĩnh",
+            "DiaChi": "phường Trần Phú, tỉnh Hà Tĩnh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: RPXCA2FACMV006807; thông tin khác (số máy: LV7210680141, biển số: 38A-369.44)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": "000000000",
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Hà Tĩnh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Tĩnh",
+                    "DiaChi": "Số 2 Nguyễn Thị Minh Khai, Hà Tĩnh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "RPXCA2FACMV006807",
+                    "SoMay": "LV7210680141",
+                    "BienSo": "38A-369.44",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

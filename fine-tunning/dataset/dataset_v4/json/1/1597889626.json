@@ -1,0 +1,66 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0907",
+            "SoDon": "1597889626",
+            "SoDangKyLanDau": "1597889626",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:14:00",
+            "SoHopDong": "251190342/2025/HĐBD/NHCT640",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2025-07-10T16:14:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "ô tô con",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THỊ MÂY",
+                        "CCCD": "034178007280",
+                        "DiaChi": "0106 khối A6, nhà ở ASXH Becamex, khu 1, Phường Bình Dương, TP. HCM, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN THANG QUANG",
+                        "CCCD": "034078002840",
+                        "DiaChi": "0106 khối A6, nhà ở ASXH Becamex, khu 1, Phường Bình Dương, TP. HCM, thành phố Hồ Chí Minh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Công thương Việt Nam - Chi nhánh Bình Dương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hồ Chí Minh",
+                    "DiaChi": "330 Đại lộ Bình Dương, phường Phú Hòa, TP. Thủ Dầu Một, tỉnh Bình Dương (nay là số 330 Đại lộ Bình Dương - Phường Phú Lợi – TP. HCM), thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "ô tô con",
+                    "NhanHieuMauSon": "HONDA ,đỏ",
+                    "SoKhung": "RLHGN2685NY104825",
+                    "SoMay": "L15ZC2005479",
+                    "BienSo": "61K-710.54",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

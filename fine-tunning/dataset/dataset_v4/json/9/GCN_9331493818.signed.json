@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331493818/TB-TT3",
+            "SoDon": "9331493818",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng cảnh sát giao thông- công an TP Hải Phòng",
+            "DiaChi": "14 Phan Chu Trinh, phường Hồng Bàng, TP Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô HYUNDAI, đỏ có số khung: RLUJC81DBMN001021; thông tin khác (số máy: G4NLMU953418, biển số: 15K-650.10)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam - Chi nhánh Hải Phòng",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "Số 04/B1 Lô 26 BC đường Lê Hồng Phong, phường Gia Viên, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HYUNDAI, đỏ",
+                    "SoKhung": "RLUJC81DBMN001021",
+                    "SoMay": "G4NLMU953418",
+                    "BienSo": "15K-650.10",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

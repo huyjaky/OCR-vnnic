@@ -1,0 +1,39 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332164222/TB-TT3",
+            "SoDon": "9332164222",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công An Xã Phú Hòa 2",
+            "DiaChi": "Xã Phú Hòa 2 , Tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "MoTaChungTaiSan": "Ô tô Sơ Mi Rơ Mooc nhãn Hiệu YONGCHAO có số khung: LA996RCC6S5YXY104; thông tin khác (số máy: , biển số: 78RM-005.46)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Bình Định Phòng Giao Dịch Nguyễn Thái Học",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "278 đường Nguyễn Thái Học, Phường Quy Nhơn Nam, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Sơ Mi Rơ Mooc",
+                    "NhanHieuMauSon": "YONGCHAO",
+                    "SoKhung": "LA996RCC6S5YXY104",
+                    "SoMay": null,
+                    "BienSo": "78RM-005.46",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

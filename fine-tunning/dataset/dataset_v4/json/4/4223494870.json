@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1110",
+            "SoDon": "4223494870",
+            "SoDangKyLanDau": "1538043326",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:11:00",
+            "SoHopDong": "LN2405062521164",
+            "NgayCoHieuLucHopDong": "2024-05-14",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-05-14T11:36:00",
+            "NoiDungThayDoi": "Xóa đơn đăng ký",
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN HỮU XUÂN",
+                        "CCCD": "026089014755",
+                        "DiaChi": "Thôn Lạc Trung, Xã Trung Nguyên, Yên Lạc, Vĩnh Phúc, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Vĩnh Phúc Phòng Giao Dịch Phúc Yên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Vĩnh Phúc",
+                    "DiaChi": "Số 104 Hai Bà Trưng, Phúc Yên, Vĩnh Phúc, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332041616/TB-TT3",
+            "SoDon": "9332041616",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT-Điểm ĐK P.Ngô Quyền",
+            "DiaChi": "119 đường Đà Nẵng, phường Ngô Quyền, thành phố Hải Phòng",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "MoTaChungTaiSan": "Ô tô Xe dưới 9 chỗ - HYUNDAI - Accent , màu trắng có số khung: RLUGT41DBST010553; thông tin khác (số máy: , biển số: 15K-659.31)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quốc Tế Việt Nam Chi Nhánh Hải Phòng Phòng Giao Dịch Ngô Quyền",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hải Phòng",
+                    "DiaChi": "283-285 Đà Nẵng, P.Ngô Quyền, thành phố Hải Phòng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Xe dưới 9 chỗ",
+                    "NhanHieuMauSon": "HYUNDAI - Accent , màu trắng",
+                    "SoKhung": "RLUGT41DBST010553",
+                    "SoMay": null,
+                    "BienSo": "15K-659.31",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

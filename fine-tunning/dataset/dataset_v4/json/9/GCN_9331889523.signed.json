@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331889523/TB-TT3",
+            "SoDon": "9331889523",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT - Công An phường Thành Vinh",
+            "DiaChi": "số 77-79 đường Lý Thường Kiệt, phường Thành Vinh, Nghệ An",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô HYUNDAI , Đen có số khung: RLUP381JBSN004641; thông tin khác (số máy: G4KNSA125560, biển số: 37K-709.73)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quốc Tế Việt Nam Chi Nhánh Vinh",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Tầng 1, nhà B, Khu TTTM Dịch vụ - Nhà ở C1, đường Quang Trung, phường Thành Vinh, tỉnh Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HYUNDAI , Đen",
+                    "SoKhung": "RLUP381JBSN004641",
+                    "SoMay": "G4KNSA125560",
+                    "BienSo": "37K-709.73",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331736804/TB-TT3",
+            "SoDon": "9331736804",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Phòng Cảnh sát giao thông Công an Tỉnh Gia Lai",
+            "DiaChi": "267A Trần Phú, Phường Diên Hồng, Tỉnh Gia Lai",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-06T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô nhãn hiệu Mitsubishi, màu sơn Xám, số khung MMBSTA13ANH007556, số máy 3A92UKM5872, biển số 81A-265.98",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Quân Đội Chi Nhánh Gia Lai",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "Số 8 Lê Lai, phường Tây Sơn, Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "Mitsubishi, Màu sơn: Xám",
+                    "SoKhung": "MMBSTA13ANH007556",
+                    "SoMay": "3A92UKM5872",
+                    "BienSo": "81A-265.98",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

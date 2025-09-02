@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250122-0937",
+            "SoDon": "3013784252",
+            "SoDangKyLanDau": "CF11000555BD",
+            "LoaiDonID": 3,
+            "LoaiDonName": "Sửa chữa sai sót",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-01-22T14:28:00",
+            "SoHopDong": "004/HĐTC",
+            "NgayCoHieuLucHopDong": "2011-01-11",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2011-01-14T10:15:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô đông lạnh nhãn hiệu MITSUBISHI; số khung: RLAFE659F71000467; số máy: 4D34L59103.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Nguyễn Lê Thị Thu Hiền",
+                        "CCCD": "220817546",
+                        "DiaChi": "Hội Khánh, Vạn Khánh, huyện Vạn Ninh, tỉnh Khánh Hòa, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng No&PTNT Huyện Vạn Ninh - Phòng Giao Dịch Tu Bông",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Khánh Hòa",
+                    "DiaChi": "Thôn Long Hòa, Vạn Long, Vạn Ninh, Khánh Hòa, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "MITSUBISHI",
+                    "SoKhung": "RLAFE659F71000467",
+                    "SoMay": "4D34L59103",
+                    "BienSo": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

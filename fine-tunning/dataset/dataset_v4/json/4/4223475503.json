@@ -1,0 +1,62 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0973",
+            "SoDon": "4223475503",
+            "SoDangKyLanDau": "1527236322",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:39:00",
+            "SoHopDong": "0020/2024/HĐTC-CN/SHB.120208",
+            "NgayCoHieuLucHopDong": "2024-01-30",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2024-01-30T16:16:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Ngô Đức Đạt",
+                        "CCCD": "040097025056",
+                        "DiaChi": "Xóm 5, xã Nghi Kiều, Nghi Lộc, Nghệ An, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "Ngô Thị Giang",
+                        "CCCD": "040197019305",
+                        "DiaChi": "Xóm 5, xã Nghi Kiều, Nghi Lộc, Nghệ An, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN SÀI GÒN - HÀ NỘI",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 77, phố Trần Hưng Đạo, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội, Việt Nam"
+                },
+                {
+                    "Ten": "Ngân Hàng TMCP Sài Gòn Hà Nội Chi Nhánh Nghệ An Phòng Giao Dịch Nghi Lộc",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Khối 4, thị trấn Quán Hành, Nghi Lộc, Nghệ An, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

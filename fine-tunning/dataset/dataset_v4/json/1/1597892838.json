@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0926",
+            "SoDon": "1597892838",
+            "SoDangKyLanDau": "1597892838",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:20:00",
+            "SoHopDong": "13762/25/TC2/KA",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:20:00",
+            "ThoiDiemDKLanDau": "2025-07-10T16:20:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 Ô tô con nhãn hiệu VINFAST, số loại VF 3 94KL03",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "HỒ THỊ HOÀI THƯ",
+                        "CCCD": "042305002085",
+                        "DiaChi": "TDP 3, phường Sông Trí, tỉnh Hà Tĩnh, tỉnh Hà Tĩnh, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Ngoại Thương Việt Nam Chi Nhánh Hà Tĩnh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Tĩnh",
+                    "DiaChi": "Số 02 Nguyễn Thị Minh Khai, phường Thành Sen, tỉnh Hà Tĩnh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST, màu hồng phấn",
+                    "SoKhung": "RLNVBL9K0SH762218",
+                    "SoMay": "TZ160X30G25022200313",
+                    "BienSo": "38A - 826.12",
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

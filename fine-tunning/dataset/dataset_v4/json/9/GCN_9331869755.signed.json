@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331869755/TB-TT3",
+            "SoDon": "9331869755",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT CÔNG AN TỈNH TUYÊN QUANG",
+            "DiaChi": "364 Đường Nguyễn Trãi, Phường Hà Giang 1, Tỉnh Tuyên Quang",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô nhãn hiệu DONGFENG , EQ1181LJ8B DE/VTL-MB , Tải trọng: 9 Tấn, 4x2, thùng mui bạt có số khung: LGDXWA1V0SH001621; thông tin khác (số máy: YC4S17050SCFD2S70064, biển số: 23A-236.82)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN VIỆT NAM THỊNH VƯỢNG - Chi Nhánh Thăng Long - Phòng Giao Dịch Nam Từ Liêm",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Từ tầng 1 đến tầng 5, Số 292 Hồ Tùng Mậu, tổ dân phố số 12, phường Phú Diễn, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe tải",
+                    "NhanHieuMauSon": "DONGFENG EQ1181LJ8B DE/VTL-MB",
+                    "SoKhung": "LGDXWA1V0SH001621",
+                    "SoMay": "YC4S17050SCFD2S70064",
+                    "BienSo": "23A-236.82",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

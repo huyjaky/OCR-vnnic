@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331808131/TB-TT3",
+            "SoDon": "9331808131",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng Cảnh sát Giao thông - Công an tỉnh Nghệ An",
+            "DiaChi": "108, Hoàng Phan Thái, phường Vinh Phú, tỉnh Nghệ An",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô Xe tải thùng kín, nhãn hiệu ISUZU, số loại QKR, màu sơn Vàng, số khung RLE1MR77HS5103752, số máy 305L91, biển số 37H-154.56",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Công Thương Việt Nam Chi nhánh Cửa Lò",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Số 5 Đường Nguyễn Sinh Cung, phường Nghi Hương, thành phố Vinh, tỉnh Nghệ An"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô Xe tải thùng kín",
+                    "NhanHieuMauSon": "ISUZU màu Vàng",
+                    "SoKhung": "RLE1MR77HS5103752",
+                    "SoMay": "305L91",
+                    "BienSo": "37H-154.56",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

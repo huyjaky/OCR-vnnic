@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331805327/TB-TT3",
+            "SoDon": "9331805327",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "TBCA",
+            "TenCongAn": "ĐỘI CSGT-CÔNG AN PHƯỜNG THUẬN HÓA",
+            "DiaChi": "138 TRẦN PHÚ, PHƯỜNG THUẬN HÓA,THÀNH PHỐ HUẾ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô VINFAST có số khung: RLNVBL9K9SH753761; số máy: TZ160X30G25030500231, biển số: 75A-501.41",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Đà Nẵng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đà Nẵng",
+                    "DiaChi": "Số 112 Phan Châu Trinh, Phường Hải Châu, thành phố Đà Nẵng, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "VINFAST",
+                    "SoKhung": "RLNVBL9K9SH753761",
+                    "SoMay": "TZ160X30G25030500231",
+                    "BienSo": "75A-50141",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1055",
+            "SoDon": "4223485769",
+            "SoDangKyLanDau": "1419085227",
+            "LoaiDonID": 4,
+            "LoaiDonName": "XÓA ĐƠN ĐĂNG KÝ",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2021-06-15T14:24:00",
+            "SoHopDong": "TTC202182902854/HDTC",
+            "NgayCoHieuLucHopDong": "2021-06-14",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "ĐÀO HẢI ĐẶNG",
+                        "CCCD": "079089002026",
+                        "DiaChi": "28/16A, Tổ 5, Khu phố 1, phường Tân Thuận Đông,, Quận 7, Hồ Chí Minh, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN ĐÀM KHÁNH LINH",
+                        "CCCD": "013043521",
+                        "DiaChi": "218c Đội Cấn, phường Liễu Giai, Ba Đình, Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Kỹ Thương Việt Nam Chi Nhánh Hai Bà Trưng",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Số 9 Tô Hiến Thành, phường Bùi Thị Xuân, Hai Bà Trưng, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

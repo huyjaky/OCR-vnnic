@@ -1,0 +1,57 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0760",
+            "SoDon": "2079994955",
+            "SoDangKyLanDau": "1273047993",
+            "LoaiDonID": 2,
+            "LoaiDonName": "Đăng ký thay đổi",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 2,
+            "LoaiHinhGDName": "Hợp đồng",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": "Giao dịch bảo đảm",
+            "ThoiDiemDangKy": "2025-07-10T15:16:00",
+            "SoHopDong": "16845/17MN/HĐBĐ",
+            "NgayCoHieuLucHopDong": "2017-12-20",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": "16845/17MN/HĐBĐ/PL02, 16845/17MN/HĐBĐ/PL03, 16845/17MN/HĐBĐ/PL04",
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": "2017-12-21T15:06:00",
+            "NoiDungThayDoi": "Sửa đổi mô tả tài sản bảo đảm đã đăng ký Từ: “Toàn bộ hàng tồn kho Vinamilk hiện hữu hình thành trong tương lai, đã hình thành, hàng đang đi đường và/hoặc được lưu giữ tại kho của Bên bảo đảm tọa lạc tại 48-50 Vũ Thị Đức, phường Đập Đá, thị xã An Nhơn, tỉnh Bình Định và/hoặc các kho khác được Vinamilk chấp thuận” Thành: “Toàn bộ hàng tồn kho Vinamilk hiện hữu hình thành trong tương lai, đã hình thành, hàng đang đi đường và/hoặc được lưu giữ tại kho của Bên thế chấp tọa lạc tại: - 48-50 Vũ Thị Đức, Phường Đập Đá, Thị Xã An Nhơn, Tỉnh Bình Định (nay là 48-50 Vũ Thị Đức, Phường An Nhơn, Tỉnh Gia Lai) - 31-33 Nguyễn Thị Dung, Phường Đập Đá, Thị Xã An Nhơn, Tỉnh Bình Định (nay là : 31-33 Nguyễn Thị Dung, Phường An Nhơn, Tỉnh Gia Lai) - và/hoặc các kho khác được Vinamilk chấp thuận”",
+            "MoTaChungTaiSan": "Toàn bộ hàng tồn kho Vinamilk hiện hữu hình thành trong tương lai, đã hình thành, hàng đang đi đường và/hoặc được lưu giữ tại kho của Bên bảo đảm/Bên thế chấp.",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ KHẢI TÚ",
+                        "MaSoThue": "4101393121",
+                        "DiaChi": "32 Vũ Thị Đức, Phường An Nhơn, tỉnh Gia Lai, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP PHÁT TRIỂN T.P HỒ CHÍ MINH CHI NHÁNH BÌNH ĐỊNH",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Gia Lai",
+                    "DiaChi": "89-91 Mai Xuân Thưởng, Phường Quy Nhơn, tỉnh Gia Lai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_HangHoaLuanChuyen",
+                    "LoaiKhoHang": 0,
+                    "GiaTri_TenLoai_HangHoa": "Toàn bộ hàng tồn kho Vinamilk hiện hữu hình thành trong tương lai, đã hình thành, hàng đang đi đường và/hoặc được lưu giữ tại kho của Bên bảo đảm.",
+                    "DiaChiKhoHang": "- 48-50 Vũ Thị Đức, Phường Đập Đá, Thị Xã An Nhơn, Tỉnh Bình Định (nay là 48-50 Vũ Thị Đức, Phường An Nhơn, Tỉnh Gia Lai)\n- 31-33 Nguyễn Thị Dung, Phường Đập Đá, Thị Xã An Nhơn, Tỉnh Bình Định (nay là : 31-33 Nguyễn Thị Dung, Phường An Nhơn, Tỉnh Gia Lai)\n- và/hoặc các kho khác được Vinamilk chấp thuận",
+                    "SoHieuKhoHang": null,
+                    "CanCuThayDoi": 1
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

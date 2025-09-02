@@ -1,0 +1,46 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331453528/TB-TT3",
+            "SoDon": "9331453528",
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "YCCBS",
+            "TenCongAn": "CÔNG AN XÃ ĐẮK PEK",
+            "DiaChi": "THÔN 16/5, XÃ ĐẮK PÉK , TỈNH QUẢNG NGÃI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Đen có số khung: RPXAB2RSGMV006471, số máy: 211580036VF20SED, biển số: 82A-156.62",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam Chi nhánh Kon Tum Phòng giao dịch Đăk Glei",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ngãi",
+                    "DiaChi": "Số 455 Hùng Vương, thôn 16/5, xã Đắk Pek, tỉnh Quảng Ngãi, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "màu Đen",
+                    "SoKhung": "RPXAB2RSGMV006471",
+                    "SoMay": "211580036VF20SED",
+                    "BienSo": "82A-15662",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

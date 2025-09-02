@@ -1,0 +1,54 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-0879",
+            "SoDon": "1597883785",
+            "SoDangKyLanDau": "1597883785",
+            "LoaiDonID": 1,
+            "LoaiDonName": "Đăng ký lần đầu",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T16:02:00",
+            "SoHopDong": "11669/25MB/HĐBĐ",
+            "NgayCoHieuLucHopDong": "2025-07-10",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T16:02:00",
+            "ThoiDiemDKLanDau": "2025-07-10T16:02:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Toàn bộ quyền tài sản phát sinh từ Hợp đồng hợp tác kinh doanh số: 1007/2025/HTKD/DH-SR ký ngày 10/7/2025 và các phụ lục/hợp đồng sửa đổi kèm theo (nếu có) giữa Công ty Cổ phần Thương mại Đầu tư Duy Hưng và Công ty TNHH Thương mại và Đầu tư Sunrise Pacific (Tất cả tài sản nêu trên là động sản không bao gồm tàu bay, tàu biển, chứng khoán đã đăng ký tập trung tại Tổng công ty lưu ký và bù trứ chứng khoán Việt nam, các quyền đối với tài sản quy định tại khoản 2 Điều 44 Nghị định số 99/2022/NĐ-CP)",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 2,
+                    "ThongTinChuThe": {
+                        "TenToChuc": "CÔNG TY CỔ PHẦN THƯƠNG MẠI ĐẦU TƯ DUY HƯNG",
+                        "MaSoThue": "0110197863",
+                        "DiaChi": "A15, tầng 1, tòa nhà Home City, số 177 phố Trung Kính, phường Yên Hòa, thành phố Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Phát Triển Thành Phố Hồ Chí Minh Chi Nhánh Hà Nội",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thành phố Hà Nội",
+                    "DiaChi": "Đơn Nguyên I, nhà 2C, Khu Đoàn Ngoại giao Vạn Phúc, Phường Ngọc Hà, Thành phố Hà Nội, thành phố Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_QuyenTaiSan",
+                    "TenQuyen": "Quyền tài sản",
+                    "CanCuPhatSinhQuyen": "Hợp đồng hợp tác kinh doanh số: 1007/2025/HTKD/DH-SR ký ngày 10/7/2025"
+                }
+            ],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

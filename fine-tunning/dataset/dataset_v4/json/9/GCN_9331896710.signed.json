@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331896710/TB-TT3",
+            "SoDon": "9331896710",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "ĐỘI CSGT-CÔNG AN PHƯỜNG PHÚ XUÂN",
+            "DiaChi": "PHÚ XUÂN, THÀNH PHỐ HUẾ",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô HONDA có số khung: MRHRV3860ST080737; số máy: L15ZB1602852, biển số: 75A-082.06",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng TMCP Việt Nam Thịnh Vượng Chi Nhánh Huế Phòng Giao Dịch Mai Thúc Loan",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Huế",
+                    "DiaChi": "Số 45 Đường Mai Thúc Loan, phường Phú Xuân, thành phố Huế, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": "HONDA",
+                    "SoKhung": "MRHRV3860ST080737",
+                    "SoMay": "L15ZB1602852",
+                    "BienSo": "75A-082.06",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

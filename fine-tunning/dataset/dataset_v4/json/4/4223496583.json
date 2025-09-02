@@ -1,0 +1,56 @@
+[
+    {
+        "output": {
+            "MaHoSo": "000.02.18.G15-250710-1129",
+            "SoDon": "4223496583",
+            "SoDangKyLanDau": "1531889374",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-07-10T18:28:00",
+            "SoHopDong": "LN2403021939439",
+            "NgayCoHieuLucHopDong": "2024-03-21",
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": "2025-07-10T18:28:00",
+            "ThoiDiemDKLanDau": "2024-03-21T18:26:00",
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": null,
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "NGUYỄN VĂN QUÂN",
+                        "CCCD": "001087028458",
+                        "DiaChi": "THÔN KIM CHÂU, Xã Kim Thư, Thanh Oai, Hà Nội, Việt Nam"
+                    }
+                },
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": "BÙI THÚY HUYỀN",
+                        "CCCD": "017304007677",
+                        "DiaChi": "THÔN KIM CHÂU, Xã Kim Thư, Thanh Oai, Hà Nội, Việt Nam"
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank) - Chi Nhánh Hà Nội - Phòng Giao Dịch Ba Đình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Hà Nội",
+                    "DiaChi": "Tầng 1 Tòa nhà Việt Hải, Lô C2-H Cụm Tiểu thủ công nghiệp và công nghiệp nhỏ Cầu Giấy, PhườngDịch Vọng Hậu, Cầu Giấy, Hà Nội, Việt Nam"
+                }
+            ],
+            "TaiSan": [],
+            "TenCongAn": null,
+            "DiaChi": null
+        }
+    }
+]

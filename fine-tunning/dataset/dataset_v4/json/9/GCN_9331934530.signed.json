@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331934530/TB-TT3",
+            "SoDon": "9331934530",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an phường Rạch Dừa, thành phố Hồ Chí Minh",
+            "DiaChi": "136 Thanh Tịnh, phường Rạch Dừa, Thành phố Hồ Chí Minh",
+            "LoaiHinhGDID": 3,
+            "LoaiHinhGDName": "Thông báo xử lý tài sản bảo đảm",
+            "LoaiBienPhapID": null,
+            "LoaiBienPhapName": null,
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-07T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "xe ô tô HONDA CITY có số khung: MHYANC22SLJ909803; thông tin khác (số máy: K15BT1220974, biển số: 72A-496.43)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Quốc Tế Việt Nam Chi nhánh Vũng Tàu Phòng giao dịch Nam Kỳ Khởi Nghĩa",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "TP.HCM",
+                    "DiaChi": "190 Nam Kỳ Khởi Nghĩa, phường Vũng Tàu, Tp.Hồ Chí Minh, thành phố Hồ Chí Minh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "xe ô tô",
+                    "NhanHieuMauSon": "HONDA CITY",
+                    "SoKhung": "MHYANC22SLJ909803",
+                    "SoMay": "K15BT1220974",
+                    "BienSo": "72A-496.43",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

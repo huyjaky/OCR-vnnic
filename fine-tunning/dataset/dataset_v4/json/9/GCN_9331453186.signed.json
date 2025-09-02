@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331453186/TB-TT3",
+            "SoDon": "9331453186",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Phòng CSGT – Công an tỉnh Đắk Lắk",
+            "DiaChi": "Thôn Ân Niên, Phường Tuy Hòa, tỉnh Đắk Lắk",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô Xe ô tô tải (có mui), nhãn hiệu: ChengLong, Màu sơn: Đỏ có số khung: LNXAEN0C8RL816167; thông tin khác (số máy: , biển số: 47H-090.61)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam - Chi nhánh Tuy Hòa Phú Yên",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đắk Lắk",
+                    "DiaChi": "255 Trần Hưng Đạo, Phường Tuy Hòa, tỉnh Đắk Lắk, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô tải (có mui)",
+                    "NhanHieuMauSon": "ChengLong, Màu sơn: Đỏ",
+                    "SoKhung": "LNXAEN0C8RL816167",
+                    "SoMay": null,
+                    "BienSo": "47H-090.61",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331577424/TB-TT3",
+            "SoDon": "9331577424",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Đại Đồng",
+            "DiaChi": "Xã Đại Đồng, tỉnh Nghệ An",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô vàng có số khung: RL2AMFE60RRR67434, số máy: YN2SRRR67434, biển số: 37C-503.75",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Lộc Phát Việt Nam Chi nhánh Nghệ An Phòng giao dịch Thanh Chương",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Nghệ An",
+                    "DiaChi": "Khối 3A, xã Đại Đồng, Tỉnh Nghệ An"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "Ô tô vàng",
+                    "SoKhung": "RL2AMFE60RRR67434",
+                    "SoMay": "YN2SRRR67434",
+                    "BienSo": "37C-503.75",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

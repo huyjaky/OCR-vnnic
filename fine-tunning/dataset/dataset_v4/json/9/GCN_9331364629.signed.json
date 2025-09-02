@@ -1,0 +1,58 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331364629/TB-TT3",
+            "SoDon": "9331364629",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": "Công an Xã Thái Ninh, Tỉnh Hưng Yên",
+            "DiaChi": "Xã Thái Ninh, Tỉnh Hưng Yên",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô có số khung: LZZ5CLSB6FA039868, số máy: WD61596E150217036807, biển số: 17C-111.37",
+            "BenGiao": [
+                {
+                    "LoaiChuTheID": 1,
+                    "ThongTinChuThe": {
+                        "HoTen": null,
+                        "CCCD": null,
+                        "DiaChi": null
+                    }
+                }
+            ],
+            "BenNhan": [
+                {
+                    "Ten": "NGÂN HÀNG TMCP VIỆT NAM THỊNH VƯỢNG (VPBANK) - CHI NHÁNH THÁI BÌNH",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thái Bình",
+                    "DiaChi": "259M Lê Quý Đôn, Thành phố Thái Bình, Thái Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "LZZ5CLSB6FA039868",
+                    "SoMay": "WD61596E150217036807",
+                    "BienSo": "17C-111.37",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

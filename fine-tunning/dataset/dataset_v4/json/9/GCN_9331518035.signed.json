@@ -1,0 +1,48 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331518035/TB-TT3",
+            "SoDon": "9331518035",
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MMBJLKK10MH012221; thông tin khác (số máy: 4N15UGX6474, biển số: 14C-31726)",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Quốc Tế Việt Nam Chi Nhánh Quảng Ninh Phòng Giao Dịch Bãi Cháy",
+                    "QuocGia": "Vietnam",
+                    "Tinh": "Quảng Ninh",
+                    "DiaChi": "2628, tổ 1, khu 9, đường Hạ Long, Quảng Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MMBJLKK10MH012221",
+                    "SoMay": "4N15UGX6474",
+                    "BienSo": "14C-31726",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

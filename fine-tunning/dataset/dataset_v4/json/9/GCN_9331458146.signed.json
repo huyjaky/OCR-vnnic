@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331458146/TB-TT3",
+            "SoDon": "9331458146",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 4,
+            "LoaiDonName": "Xóa đơn đăng ký",
+            "LoaiDonCode": "XDD",
+            "TenCongAn": null,
+            "DiaChi": null,
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-05T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô THACO CRUIZER màu trắng đen, số khung RN5B47SPMSN008966, số máy WP9H336E503624J005257, biển số 60H-212.24",
+            "BenGiao": null,
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Quốc Tế Việt Nam Chi nhánh Đồng Nai Phòng giao dịch Đồng Khởi",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Đồng Nai",
+                    "DiaChi": "Số 97-99-101 đường Đồng Khởi, Phường Tam Hiệp, Đồng Nai, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô THACO CRUIZER",
+                    "NhanHieuMauSon": "THACO CRUIZER, MÀU TRẮNG ĐEN",
+                    "SoKhung": "RN5B47SPMSN008966",
+                    "SoMay": "WP9H336E503624J005257",
+                    "BienSo": "60H-212.24",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

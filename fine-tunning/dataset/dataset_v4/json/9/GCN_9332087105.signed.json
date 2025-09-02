@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9332087105/TB-TT3",
+            "SoDon": "9332087105",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": "CSCA",
+            "TenCongAn": "Công an Phường Vũ Phúc",
+            "DiaChi": "Phường Vũ Phúc, TỈnh hưng yên",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-08T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Xe ô tô có số khung: MHFAB1BY6N3037006; thông tin khác (số máy: 2NRX966269, biển số: 17A-344.29)",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân Hàng Tmcp Việt Nam Thịnh Vượng Chi Nhánh Thái Bình",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Thái Bình",
+                    "DiaChi": "259M, Phố Lê Quý Đôn, Phường Bồ Xuyên, Thái Bình, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Xe ô tô",
+                    "NhanHieuMauSon": null,
+                    "SoKhung": "MHFAB1BY6N3037006",
+                    "SoMay": "2NRX966269",
+                    "BienSo": "17A-34429",
+                    "CanCuThayDoi": 2
+                }
+            ]
+        }
+    }
+]

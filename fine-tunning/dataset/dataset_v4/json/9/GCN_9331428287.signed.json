@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331428287/TB-TT3",
+            "SoDon": "9331428287",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "PHÒNG CSGT-CÔNG AN TỈNH QUẢNG NGÃI",
+            "DiaChi": "200 TRƯỜNG CHINH, PHƯỜNG CẨM THÀNH-TỈNH QUẢNG NGÃI",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "Ô tô KIA có số khung RNYHC54C0SC371878, số máy G4FLSV127627, biển số 76A-480.04",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng Tmcp Việt Nam Thịnh Vượng Chi nhánh Quảng Ngãi",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Quảng Ngãi",
+                    "DiaChi": "444-446 Đường Quang Trung, Phường Cẩm Thành, tỉnh Quảng Ngãi, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô con",
+                    "NhanHieuMauSon": "KIA",
+                    "SoKhung": "RNYHC54C0SC371878",
+                    "SoMay": "G4FLSV127627",
+                    "BienSo": "76A-480.04",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]

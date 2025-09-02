@@ -1,0 +1,49 @@
+[
+    {
+        "output": {
+            "MaHoSo": "9331398857/TB-TT3",
+            "SoDon": "9331398857",
+            "SoDangKyLanDau": null,
+            "LoaiDonID": 9,
+            "LoaiDonName": "Yêu cầu cấp bản sao kèm thông báo CA",
+            "LoaiDonCode": null,
+            "TenCongAn": "Công an xã Tân Lập, tỉnh Tây Ninh",
+            "DiaChi": "Tổ 3, Ấp Tân Tiến, Xã Tân Lập, Tỉnh Tây Ninh",
+            "LoaiHinhGDID": 1,
+            "LoaiHinhGDName": "Biện pháp bảo đảm",
+            "LoaiBienPhapID": 1,
+            "LoaiBienPhapName": "Thế chấp",
+            "LoaiHopDongID": null,
+            "LoaiHopDongName": null,
+            "ThoiDiemDangKy": "2025-08-04T00:00:00Z",
+            "SoHopDong": null,
+            "NgayCoHieuLucHopDong": null,
+            "GiaTriKhoanVay": null,
+            "SoPhuLuc": null,
+            "ThoiDiemKHDangKy": null,
+            "ThoiDiemDKLanDau": null,
+            "NoiDungThayDoi": null,
+            "MoTaChungTaiSan": "01 xe ô tô VinFast có số khung: RLNVBL9K7SH747084; số máy: TZ160X30G25021900146, biển số: 70A-56876",
+            "BenGiao": [],
+            "BenNhan": [
+                {
+                    "Ten": "Ngân hàng TMCP Quân đội - Chi nhánh Tây Ninh",
+                    "QuocGia": "Việt Nam",
+                    "Tinh": "Tây Ninh",
+                    "DiaChi": "225 Đường 30/4, khu phố 22, phường Tân Ninh, tỉnh Tây Ninh, Việt Nam"
+                }
+            ],
+            "TaiSan": [
+                {
+                    "LoaiTaiSan": "TaiSan_CoSoKhung",
+                    "PhuongTien": "Ô tô VinFast",
+                    "NhanHieuMauSon": "VinFast",
+                    "SoKhung": "RLNVBL9K7SH747084",
+                    "SoMay": "TZ160X30G25021900146",
+                    "BienSo": "70A-56876",
+                    "CanCuThayDoi": 1
+                }
+            ]
+        }
+    }
+]
