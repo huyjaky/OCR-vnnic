@@ -1,5 +1,5 @@
-pip install uv 
-uv pip install unsloth unsloth_zoo bitsandbytes "fastapi[standard]"
+pip install uv "fastapi[standard]"
+uv pip install unsloth unsloth_zoo bitsandbytes 
 uv pip install -r requirements.txt
 
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -

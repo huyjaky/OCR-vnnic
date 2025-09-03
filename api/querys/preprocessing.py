@@ -53,12 +53,6 @@ def preprocessing_ben_giao(ben_giao: list[dict], ho_so_id: str) -> list[dict]:
             "QuocGia": quoc_gia,
             "Tinh": tinh,
             "DiaChi": str(item["ThongTinChuThe"]["DiaChi"]),
-            # .replace(f"{quoc_gia}", "")
-            # .replace(f"{tinh},", "")
-            # .replace("tỉnh", "")
-            # .replace("thành phố", "")
-            # .replace("quốc gia", "")
-            # .strip(),
             # WARNING: Not clarified fields
             "isCheck": False,
             "NgayTao": datetime.now(),
@@ -89,12 +83,6 @@ def preprocessing_ben_nhan(ben_nhan: list[dict], ho_so_id: str) -> list[dict]:
             "QuocGia": item.get("QuocGia", None),
             "Tinh": item.get("Tinh", None),
             "DiaChi": str(item.get("DiaChi")),
-            # .replace(f"{item.get('QuocGia')}", "")
-            # .replace(f"{item.get('Tinh')},", "")
-            # .replace("tỉnh", "")
-            # .replace("thành phố", "")
-            # .replace("quốc gia", "")
-            # .strip(),
             "HoSoTempId": ho_so_id,
             # WARNING: Not clarified fields
             "isCheck": False,
@@ -152,13 +140,20 @@ def preprocessing_ho_so(ho_so: dict, ho_so_id, file_name: str) -> dict:
         LoaiDonName = None
         LoaiDonCode = None
 
+    if ho_so.get("SoDangKyLanDau", None) != None:
+        so_dang_ky_lan_dau = str(ho_so.get("SoDangKyLanDau", None)).replace("/HDTC", "")
+    else:
+        so_dang_ky_lan_dau = None
+
     return {
         "MaHoSo": ho_so.get("MaHoSo", None),
         "SoDon": ho_so.get("SoDon", None),
-        "SoDangKyLanDau": str(ho_so.get("SoDangKyLanDau", None)).replace("/HDTC", ""),
+        "SoDangKyLanDau": so_dang_ky_lan_dau,
         "LoaiDonID": LoaiDonID,
         "LoaiDonName": LoaiDonName,
         "LoaiDonCode": LoaiDonCode,
+        "TenCongAn": ho_so.get("TenCongAn", None),
+        "DiaChiCongAn": ho_so.get("DiaChi", None),
         "LoaiHinhGDID": ho_so.get("LoaiHinhGDID", None),
         "LoaiHinhGDName": ho_so.get("LoaiHinhGDName", None),
         "LoaiBienPhapID": ho_so.get("LoaiBienPhapID", None),

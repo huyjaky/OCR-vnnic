@@ -77,7 +77,6 @@ def gen_json(
 
     generated_output = tokenizer.batch_decode(outputs)[0]
 
-    # Tách phần content từ assistant
     raw_text = (
         generated_output.strip()
         .split("<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n")[-1]
@@ -89,7 +88,7 @@ def gen_json(
         raw_text, ensure_ascii=False, return_objects=True
     )
 
-    if "mô tả" and "tài sản" in markdown_text.lower():
-        json_output["MoTaChungTaiSan"] = None  # pyright: ignore
+    # if "mô tả" and "tài sản" in markdown_text.lower():
+    #     json_output["MoTaChungTaiSan"] = None  # pyright: ignore
 
     return json_output  # pyright: ignore
