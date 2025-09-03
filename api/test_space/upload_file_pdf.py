@@ -17,7 +17,7 @@ password = str(
 
 file_path = "./cache/pdf_cached.pdf"
 rm_path = "C:/Nga/PHAN-MEM/DKBaoDam/"
-lc_path = "/home/duckq1u/Documents/pdf_ocr_for_testing/filtered_data/temp_cache/1/"
+lc_path = "/home/duckq1u/Documents/pdf_ocr_for_testing/filtered_data/temp_cache/4/"
 
 remote_path = (
     rm_path + file_path.split("/")[-1]
