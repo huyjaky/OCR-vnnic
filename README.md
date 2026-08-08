@@ -109,13 +109,3 @@ python /home/runner/work/OCR-vnnic/OCR-vnnic/web_deploy/api/start_server_model.p
 streamlit run /home/runner/work/OCR-vnnic/OCR-vnnic/web_deploy/client/main.py
 ```
 
-## 9) Gợi ý trước khi public repo
-
-- Loại bỏ token/API key/credential nếu còn sót trong code hoặc notebook.
-- Thêm `.env.example` để mô tả biến môi trường.
-- Tách bớt checkpoint/dataset lớn sang storage ngoài (Drive/HF/S3) để repo gọn hơn.
-- Bổ sung sơ đồ kiến trúc và sample input/output trong README.
-
----
-
-Nếu bạn là HR/reviewer: chỉ cần xem 3 thư mục `fine-tunning`, `web_deploy/api`, `web_deploy/client` là sẽ nắm được đầy đủ hành trình từ dữ liệu đầu vào đến kết quả đầu ra của hệ thống.
